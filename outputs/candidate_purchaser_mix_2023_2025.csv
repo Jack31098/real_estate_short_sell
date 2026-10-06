@@ -1,0 +1,30 @@
+region,lei,purchaser_type,core_loan_count,core_originated_amount,purchaser_label,ticker,institution
+Bay Area,IFQSIUC9AGQV2NE8CN25,0,6,6440000.0,Not applicable / not reported sold in calendar year,COLB,Umpqua Bank
+Bay Area,IFQSIUC9AGQV2NE8CN25,1,1,1245000.0,Fannie Mae,COLB,Umpqua Bank
+Bay Area,IFQSIUC9AGQV2NE8CN25,3,1,785000.0,Freddie Mac,COLB,Umpqua Bank
+Bay Area,F28JOQ8OBWCFUYM0UX93,0,109,91855000.0,Not applicable / not reported sold in calendar year,EWBC,East West Bank
+Bay Area,01KWVG908KE7RKPTNP46,71,1,1045000.0,"Credit union, mortgage company, or finance company",HMST,HomeStreet Bank
+Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,0,91,111835000.0,Not applicable / not reported sold in calendar year,COLB,Umpqua Bank
+Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,1,36,17870000.0,Fannie Mae,COLB,Umpqua Bank
+Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,2,2,1110000.0,Ginnie Mae,COLB,Umpqua Bank
+Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,3,55,30465000.0,Freddie Mac,COLB,Umpqua Bank
+Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,6,5,8245000.0,"Commercial bank, savings bank, or savings association",COLB,Umpqua Bank
+Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,9,2,630000.0,Other purchaser,COLB,Umpqua Bank
+Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,71,2,2710000.0,"Credit union, mortgage company, or finance company",COLB,Umpqua Bank
+Seattle/Puget Sound,F28JOQ8OBWCFUYM0UX93,0,59,51205000.0,Not applicable / not reported sold in calendar year,EWBC,East West Bank
+Seattle/Puget Sound,5493003T5D4N1CM46J77,0,86,89890000.0,Not applicable / not reported sold in calendar year,FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,5493003T5D4N1CM46J77,1,54,27660000.0,Fannie Mae,FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,5493003T5D4N1CM46J77,2,1,555000.0,Ginnie Mae,FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,5493003T5D4N1CM46J77,3,88,49440000.0,Freddie Mac,FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,5493003T5D4N1CM46J77,5,9,10255000.0,Private securitizer,FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,5493003T5D4N1CM46J77,6,47,44725000.0,"Commercial bank, savings bank, or savings association",FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,5493003T5D4N1CM46J77,9,1,245000.0,Other purchaser,FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,5493003T5D4N1CM46J77,71,77,52345000.0,"Credit union, mortgage company, or finance company",FSBW,1st Security Bank of Washington
+Seattle/Puget Sound,01KWVG908KE7RKPTNP46,0,107,77015000.0,Not applicable / not reported sold in calendar year,HMST,HomeStreet Bank
+Seattle/Puget Sound,01KWVG908KE7RKPTNP46,1,72,37820000.0,Fannie Mae,HMST,HomeStreet Bank
+Seattle/Puget Sound,01KWVG908KE7RKPTNP46,2,4,1900000.0,Ginnie Mae,HMST,HomeStreet Bank
+Seattle/Puget Sound,01KWVG908KE7RKPTNP46,3,53,31155000.0,Freddie Mac,HMST,HomeStreet Bank
+Seattle/Puget Sound,01KWVG908KE7RKPTNP46,6,7,8905000.0,"Commercial bank, savings bank, or savings association",HMST,HomeStreet Bank
+Seattle/Puget Sound,01KWVG908KE7RKPTNP46,9,16,9730000.0,Other purchaser,HMST,HomeStreet Bank
+Seattle/Puget Sound,01KWVG908KE7RKPTNP46,71,27,28455000.0,"Credit union, mortgage company, or finance company",HMST,HomeStreet Bank
+Seattle/Puget Sound,D38AC76TAMYI50NBPX33,0,130,157830000.0,Not applicable / not reported sold in calendar year,WAFD,WASHINGTON FEDERAL BANK

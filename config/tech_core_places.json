@@ -1,0 +1,40 @@
+{
+  "regions": {
+    "Seattle/Puget Sound": {
+      "state_fips": "53",
+      "counties": ["033", "035", "053", "061", "067"],
+      "places": {
+        "Bellevue": 1.0,
+        "Redmond": 1.0,
+        "Seattle": 0.8,
+        "Kirkland": 0.8,
+        "Bothell": 0.4,
+        "Sammamish": 0.4,
+        "Everett": 0.1,
+        "Tacoma": -0.2
+      }
+    },
+    "Bay Area": {
+      "state_fips": "06",
+      "counties": ["001", "013", "041", "055", "075", "081", "085", "095", "097"],
+      "places": {
+        "Palo Alto": 1.0,
+        "Mountain View": 1.0,
+        "Sunnyvale": 1.0,
+        "Cupertino": 1.0,
+        "Menlo Park": 0.9,
+        "Redwood City": 0.9,
+        "San Francisco": 0.7,
+        "Oakland": 0.3,
+        "Berkeley": 0.3,
+        "Walnut Creek": 0.1
+      }
+    }
+  },
+  "notes": {
+    "tract_assignment": "A tract is assigned to a place when its Census interior point falls inside that incorporated-place polygon.",
+    "score_interpretation": "Weights are hypothesis inputs from the imported conversation, not estimated causal coefficients.",
+    "unassigned_tracts": "Selected-county tracts outside named places receive score 0."
+  }
+}
+

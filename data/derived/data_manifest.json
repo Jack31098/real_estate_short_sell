@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "year": 2023,
+      "region": "Seattle/Puget Sound",
+      "path": "data\\raw\\hmda_2023_seattle-puget-sound_originated.csv.gz",
+      "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?counties=53033%2C53035%2C53053%2C53061%2C53067&years=2023&actions_taken=1",
+      "compressed_bytes": 4523981,
+      "csv_rows": 78898,
+      "sha256": "79f85d2cbbff4cd4617d8024860b14cff26f211f20f695e513e3a5695d84fcef"
+    },
+    {
+      "year": 2023,
+      "region": "Bay Area",
+      "path": "data\\raw\\hmda_2023_bay-area_originated.csv.gz",
+      "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?counties=06001%2C06013%2C06041%2C06055%2C06075%2C06081%2C06085%2C06095%2C06097&years=2023&actions_taken=1",
+      "compressed_bytes": 4516881,
+      "csv_rows": 77597,
+      "sha256": "27d76494ec4d93486e5e08ff09a6c11744d489e59c9b240c9e3f73ede49cd4ed"
+    },
+    {
+      "year": 2024,
+      "region": "Seattle/Puget Sound",
+      "path": "data\\raw\\hmda_2024_seattle-puget-sound_originated.csv.gz",
+      "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?counties=53033%2C53035%2C53053%2C53061%2C53067&years=2024&actions_taken=1",
+      "compressed_bytes": 5166344,
+      "csv_rows": 88919,
+      "sha256": "fe1958344ed9a584a5be044d0c9da408336d8a700ed00229238ed39d69099da1"
+    },
+    {
+      "year": 2024,
+      "region": "Bay Area",
+      "path": "data\\raw\\hmda_2024_bay-area_originated.csv.gz",
+      "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?counties=06001%2C06013%2C06041%2C06055%2C06075%2C06081%2C06085%2C06095%2C06097&years=2024&actions_taken=1",
+      "compressed_bytes": 5211473,
+      "csv_rows": 91776,
+      "sha256": "eb12c5c4ea99357c27a74de94d254d6353a85941c022a79e3b3cc720624a4519"
+    },
+    {
+      "year": 2025,
+      "region": "Seattle/Puget Sound",
+      "path": "data\\raw\\hmda_2025_seattle-puget-sound_originated.csv.gz",
+      "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?counties=53033%2C53035%2C53053%2C53061%2C53067&years=2025&actions_taken=1",
+      "compressed_bytes": 5863067,
+      "csv_rows": 101048,
+      "sha256": "2b652aea8b00f55c7d90b227a993531549aa95106163f818f419271e7ef794de"
+    },
+    {
+      "year": 2025,
+      "region": "Bay Area",
+      "path": "data\\raw\\hmda_2025_bay-area_originated.csv.gz",
+      "url": "https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?counties=06001%2C06013%2C06041%2C06055%2C06075%2C06081%2C06085%2C06095%2C06097&years=2025&actions_taken=1",
+      "compressed_bytes": 6418486,
+      "csv_rows": 107617,
+      "sha256": "0a01e53b98d3b763887190824d2383b88482a14632eed7d4e202f21888fc8f71"
+    }
+  ]
+}

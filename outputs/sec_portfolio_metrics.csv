@@ -1,0 +1,12 @@
+ticker,form,report_date,metric,balance_usd_m,denominator_usd_m,denominator_name,portfolio_pct,document_url
+FSBW,10-Q,2026-06-30,CRE incl. multifamily/construction,1004.99,2660.157,total gross loans,37.779349113604944,https://www.sec.gov/Archives/edgar/data/1530249/000143774926026740/fsbw20260630_10q.htm
+FSBW,10-Q,2026-06-30,Residential real estate,793.497,2660.157,total gross loans,29.828953704612168,https://www.sec.gov/Archives/edgar/data/1530249/000143774926026740/fsbw20260630_10q.htm
+FSBW,10-Q,2026-06-30,Construction & development,370.459,2660.157,total gross loans,13.926208114784203,https://www.sec.gov/Archives/edgar/data/1530249/000143774926026740/fsbw20260630_10q.htm
+WAFD,10-Q,2026-06-30,CRE + multifamily + construction + land A&D,10727.588,21633.392,total gross loans,49.58809973026884,https://www.sec.gov/Archives/edgar/data/936528/000093652826000061/wfsl-20260630.htm
+WAFD,10-Q,2026-06-30,Single-family residential,7389.117,21633.392,total gross loans,34.15607224239269,https://www.sec.gov/Archives/edgar/data/936528/000093652826000061/wfsl-20260630.htm
+BMRC,10-Q,2026-06-30,CRE incl. construction,1679.051,2100.976,total loans,79.91766683674635,https://www.sec.gov/Archives/edgar/data/1403475/000140347526000037/bmrc-20260630.htm
+BCML,10-Q,2026-06-30,CRE incl. multifamily/construction,1734.906,2074.704,total loans,83.62185641903616,https://www.sec.gov/Archives/edgar/data/1730984/000173098426000072/bcml-20260630x10q.htm
+CVBF,10-Q,2026-06-30,Commercial real estate,8983.934,12017.055,total loans,74.75986420965867,https://www.sec.gov/Archives/edgar/data/354647/000119312526340248/cvbf-20260630.htm
+CVBF,10-Q,2026-06-30,Office,1457.979,8983.934,commercial real estate loans,16.22873676498514,https://www.sec.gov/Archives/edgar/data/354647/000119312526340248/cvbf-20260630.htm
+COLB,10-Q,2026-06-30,Office,3559.0,27009.0,commercial real estate loans,13.177089118442002,https://www.sec.gov/Archives/edgar/data/887343/000088734326000170/colb-20260630.htm
+EWBC,10-Q,2026-06-30,Office,2296.0,21668.988,commercial real estate loans,10.595787860512914,https://www.sec.gov/Archives/edgar/data/1069157/000106915726000044/ewbc-20260630.htm

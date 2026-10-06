@@ -1,0 +1,827 @@
+ChatGPT 共享聊天记录
+
+来源：https://chatgpt.com/share/6a97ae34-8988-83e8-a9d6-9ada830aefd2
+页面标题：付费模式与码农减速剂
+导入日期：2026-09-01（America/Los_Angeles）
+
+说明：共享页面共识别到 8 个消息片段。页面开头直接从 assistant 回复开始；其中有两段连续的 assistant 内容，按页面原始顺序保留。正文中的表格已转为制表符分隔的纯文本，数学公式按浏览器可见文本导出。
+
+============================================================
+
+[1] assistant
+
+如果你的意思是做空/买 put，押“AI 对高薪科技就业的冲击 → 湾区/西雅图住房与 CRE 价格下行 → 区域银行信用损失上升”，那我不会一股脑买 KRE。这个 thesis 最重要的是找 地理纯度 × 房地产贷款占比 × 资产负债表脆弱度 都高的标的。银行这玩意儿尤其烦，名字在当地不代表风险真在当地，人类已经发明了证券化来专门破坏这种直觉。
+
+我刚查了最新到 2026 Q2 的 filings，初筛下来我会这样排：
+
+优先级	银行	Ticker	为什么值得盯	缺点
+A	FS Bancorp	FSBW	Seattle/Puget Sound 小银行，住宅地产约 29.8%、CRE 37.8%，合计接近 68% loan book	体量小、期权流动性可能差
+A	WaFd	WAFD	Seattle 总部，单户住宅本身就约 $7.27B；Washington 单户住宅约 $3.0B	地理已扩散到西部多州，不是纯 Seattle
+A-/B+	Bank of Marin	BMRC	极高 Northern Bay Area 地理纯度，房地产尤其 CRE 极重	Marin/Sonoma ≠ South Bay tech housing，住宅按揭不是主要风险
+B+	CVB Financial	CVBF	今年刚吞掉 San Jose 的 Heritage Commerce，继承不少 Bay Area CRE exposure	整体资产约 $20B+，Southern California 稀释 thesis
+B	BayCom	BCML	约 $1.90B / $2.07B loans 都是房地产相关，比例极端高；Bay Area 有明确 footprint	地理混了 LA、Seattle、Denver、Vegas 等
+B	Columbia Banking System	COLB	Puget Sound office CRE 本身约 $542M，地产风险大	太分散，南加州、俄勒冈等 exposure 很大
+观察	East West	EWBC	住宅 mortgage book 巨大，2025 年约 $16.9B	Northern CA 住宅仅约 $2.42B，Bay Area thesis 被稀释
+
+西雅图最干净的两个：FSBW、WAFD
+
+FSBW 我反而觉得特别有意思。
+
+截至 2026 年 6 月 30 日，它的 loan book：
+
+CRE：37.8%
+residential real estate：29.8%
+consumer：21.5%
+commercial：10.9%
+
+也就是大约 67.6% 是 CRE + residential real estate。
+
+而它总部就在 Mountlake Terrace，本质上就是 Puget Sound 本土金融机构。这种小银行，如果你的 thesis 真的是：
+
+Amazon/Microsoft/Meta 等高薪岗位减少
+→ Bellevue/Seattle housing demand structurally lower
+→ 房价下跌 + transaction volume 冰冻
+→ builders/CRE/住宅 collateral 一起受压
+
+它的 geographic beta 会比 JPM、BAC 这种东西纯太多。
+
+但有一个现实问题：FSBW 市值和期权流动性。方向猜对了，买了个 spread 大得像高速公路的 put，也能把自己恶心死。
+
+WAFD 是更大的、可交易性更好的 Seattle mortgage proxy
+
+WAFD 的数据非常直接。
+
+截至 2026 年 6 月：
+
+single-family residential：约 $7.27B
+multifamily：约 $4.65B
+CRE：约 $3.63B
+
+其中单单 Washington：
+
+single-family residential：$3.005B
+multifamily：$505M
+CRE：$505M
+construction：$272M
+
+Washington 总贷款约 $5.54B。
+
+所以如果你要一个：
+
+“Seattle housing decline”的相对干净 public-market vehicle
+
+我第一反应会是 WAFD，而不是 COLB。
+
+更有意思的是，WAFD 2025 年已经停止新做 consumer single-family mortgages 和 HELOC，但旧住宅贷款仍占资产组合很大比例。
+
+这说明管理层自己也不是完全没闻到空气里的味道。
+
+不过要小心：这批旧 mortgage 很多可能有相当厚的 homeowner equity。房价跌 15% 不等于银行立刻亏 15%。真正需要的是失业把 delinquency/default 推上去，同时房价下跌把 recovery value 吃掉。
+
+也就是说，你的 AI thesis 必须经过：
+
+AI layoffs → unemployment → forced selling/default → collateral impairment
+
+才传导到银行损失。
+
+仅仅“Bellevue 房价跌”是不够的。
+
+湾区最有意思的其实不是 residential mortgage bank
+
+这是我查完以后稍微改变的地方。
+
+如果你的核心判断是科技就业永久下降导致 Bay Area housing 结构性 oversupply，第一反应容易去找 residential mortgage lender。
+
+但湾区真正更脆的可能反而是：
+
+Tech employment ↓ → population/office demand ↓ → office + multifamily + local business CRE ↓
+
+这条链。
+
+BMRC：我会重点研究
+
+Bank of Marin 截至 2026 Q2：
+
+总 loans 只有约 $2.10B，是非常小的社区银行。
+
+2025 年底其 CRE 已经约 $1.676B，而且地域集中得令人赏心悦目，或者令人毛骨悚然，看你站哪边：
+
+Marin：18%
+Sonoma：16%
+Alameda：12%
+San Francisco：11%
+Napa：10%
+Contra Costa：5%
+San Mateo：2%
+Santa Clara：2%
+
+并且 81% CRE 是 non-owner occupied。
+
+这个才叫 local real-estate beta。
+
+问题是它并不是你设想中的：
+
+Palo Alto 工程师失业 → 豪宅 mortgage default → BMRC 爆雷。
+
+它更接近：
+
+湾区经济活动下降
+→ rents/occupancy/NOI 下滑
+→ commercial property valuations 下跌
+→ CRE refinancing 出问题
+→ BMRC provision 上升。
+
+如果你认为 AI 带来的不是普通 recession，而是科技中心的结构性去城市化，那 BMRC 反而可能比传统 residential mortgage lender 更贴 thesis。
+
+一个本来绝佳的标的已经没了：HTBK
+
+我本来看到 Heritage Commerce / HTBK 时眼睛都亮了一下。
+
+它总部 San Jose，branch 直接铺在：
+
+San Jose、Palo Alto、Los Altos、Redwood City、San Mateo、SF、Oakland、Fremont……
+
+基本就是拿地图把你的 thesis 描了一遍。
+
+而它 2025 年中 office CRE exposure 就有约 $432M，包括：
+
+San Jose $73M
+San Francisco $26M
+Oakland $15M
+
+non-owner occupied office CRE 约 $333M。
+
+可惜资本市场提前把这个实验样本毁了：2026 年 4 月 17 日 HTBK 被 CVB Financial 收购，HTBK 已经退市。
+
+现在只能通过 CVBF 间接做，但 CVBF 合并后贷款约 $12B，Heritage 的 Bay Area exposure 被整个 Citizens Business Bank 稀释了很多。
+
+所以 CVBF 可以观察，不够纯。
+
+BCML 是另一个很奇怪的小东西
+
+BayCom 2026 Q2 总贷款约 $2.075B，其中房地产贷款约 $1.905B。
+
+也就是：1.905 / 2.075 ≈ 91.8%
+
+约 92% loan book 和房地产有关。
+
+其中：
+
+residential $170M
+multifamily $345M
+owner-occupied CRE $478M
+non-owner CRE $901M
+
+这结构已经不能叫“有房地产 exposure”，基本可以叫房地产贷款公司顺便挂了块银行牌子。
+
+不过它最大的缺陷也很明显：虽然总部 Walnut Creek，业务已经扩到了 LA、Seattle、Denver、Vegas、Albuquerque 等市场，因此房地产纯度极高，Bay Area 纯度没那么高。
+
+所以我会把它作为“美国西部地产下行”标的，而不是专门的 Silicon Valley short。
+
+我现在会怎么构造这个篮子
+
+如果目标就是表达我们刚才讨论的：
+
+AI outcome pricing → programmer headcount contraction → West Coast tech-city housing/CRE structural repricing
+
+我不会平均下注。
+
+我初步会把研究顺序排成：
+
+Seattle：FSBW > WAFD ≫ COLB
+Bay Area：BMRC > BCML > CVBF > EWBC
+
+但如果考虑实际期权流动性和可操作性，排名很可能反过来一点，WAFD 这种中型银行可能比 FSBW/BMRC 更好操作。
+
+而且这里还有一个很重要的区别：
+
+Seattle thesis 更适合 residential mortgage + construction；Bay Area thesis 我反而更愿意押 CRE/multifamily。
+
+因为湾区大量老 homeowner mortgage 利率极低、equity cushion 巨厚。程序员失业之后，银行未必第一个受伤。反而是：
+
+office vacancy + multifamily rent + small-business demand + refinancing
+
+会更快反映“城市不再需要聚集这么多高收入脑力劳动者”这个结构变化。
+
+所以 BMRC/FSBW/WAFD 这三个，我认为最值得继续往下扒开。
+
+下一步真正有价值的不是再列银行名单，而是给这三家做一张 “AI-tech-city crash sensitivity table”：把每家的 Seattle/Bay Area loan dollars、住宅/office/multifamily/construction、LTV、浮息比例、maturity wall、ACL、CET1、deposit beta 全拉出来，然后模拟 房价 -10%/-20%/-30% + unemployment shock。那样才能知道谁是真炸药桶，谁只是看起来像。
+
+可见来源链接：
+https://financialfilings.com/filings/fs-bancorp-inc/interim-quarterly-report/2026/55473208/?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/936528/000093652826000055/exhibit992_jun2026factsheet.htm?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/936528/000093652826000061/R11.htm?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/1403475/000140347526000037/bmrc-20260630.htm?utm_source=chatgpt.com
+https://www.publicnow.com/view/301C21BC42E9238C7B04E4DCECB8EB7469C7FDF3?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/1053352/000162828026016050/htbk-20251231.htm?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/1053352/000105335225000008/htbk-20250630.htm?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/1053352/000119312526167257/d143924d8k.htm?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/354647/000119312526167264/d123515dex991.htm?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/1730984/000173098426000072/bcml-20260630x10q.htm?utm_source=chatgpt.com
+
+============================================================
+
+[2] user
+
+那该用什么工具空呢？直接short sell似乎风险最小？另外这几家是不是已经price in跌过一波了？
+
+============================================================
+
+[3] assistant
+
+对你这个 thesis，我反而更偏向直接 short stock，而不是买 put，但“风险最小”要加一句限定：它的路径风险通常比小银行的长期 put 小，但尾部风险不是有限的。小型区域银行的 options 经常流动性稀烂，spread 宽、期限短、IV 还会在大家突然意识到问题时暴涨。你方向对了，时间错半年，期权照样能死得很有尊严，人类金融工程的传统艺能。
+
+页面中的 WAFD 行情卡片：
+
+WaFd Inc (WAFD)
+US$35.38
+-US$0.38 (1.06%)
+9月1日，17:35:00 EDT
+打开：35.69
+交易量：431K
+市值：2.62B
+当日最低价：35.22
+年度最低价：26.31
+每股收益（滚动 12 个月）：3.16
+当日最高价：35.88
+年度最高价：39.49
+市盈率：11.2
+
+为什么 direct short 更适合这个故事
+
+你的判断本质上不是“下季度财报爆雷”，而是一个可能需要 12–36 个月才逐渐显性的结构变化：
+
+AI job compression → tech city housing/CRE → delinquencies → credit losses → bank valuation
+
+这种 thesis 最怕 expiry。
+
+所以几个工具我会这样排序：
+
+工具	对这个 thesis	主要问题
+直接 short stock	最匹配	upside 无限、borrow 可变化、要付 dividend
+Long-dated put	理论漂亮	小银行期权流动性差、theta/IV
+Put spread	风险限定，成本较低	把真正的大跌收益封顶
+KRE put	流动性好	地理 exposure 太稀，Fed/rates 因素太大
+Short KRE	容易操作	你真正想空的是 Seattle/Bay Area，不是美国所有小银行
+
+如果仓位控制得住，我会用 stock short 做核心。
+
+原因很简单：假设 BMRC 未来一年先因为 Fed 降息和 NIM 改善涨 30%，然后房地产 thesis 才开始兑现。Put 很可能已经被时间价值狠狠干掉；stock short 虽然难受，但 thesis 还活着。
+
+不过不能把 short 当成“低风险 put”。例如 $100k short：
+
+股票 +30%：亏 $30k
+股票 +100%：亏 $100k
+被收购 +50%：同样挨打
+
+而 regional bank 最大的特殊风险就是并购。一家你认为资产质量迟早恶化的小银行，可能在真正爆之前被别人溢价收走。这一点 long put 也躲不过，但 naked short 会很直观地迎接那个早晨。
+
+所以我会更喜欢分散 short basket，而不是押一家。
+
+至于“是不是已经跌过一波”：令人意外的是，并没有充分 price in
+
+这反而是我查完价格后最值得注意的地方。
+
+WAFD：几乎不能叫已经 price in
+
+截至今天 2026 年 8 月 31 日，WAFD 收在约 $35.76。
+
+它：
+
+过去 1 个月约 -2.8%
+3 个月约 +0.6%
+YTD +11.7%
+1 年 +13.7%
+
+所以如果问题是：
+
+市场是否已经 price in “AI 将永久削弱 Seattle 高薪技术就业 → 房地产结构性下跌”？
+
+我的答案基本是：No
+
+WAFD 目前 PE 也大约 11.3x。市场更像是在交易“普通区域银行，利率环境改善、NIM recovery”，而不是你说的长期 Seattle employment shock。
+
+这其实挺关键。
+
+FSBW：也没跌多少
+
+FSBW 今天约 $42–43，整个 8 月基本就在 $42–44 里面晃。7 月底也差不多是这个价格。
+
+也就是说：
+
+市场根本没有出现“Puget Sound mortgage panic”。
+
+而且它每天成交往往只有一两万到三万股。
+
+所以 FSBW 有一个尴尬：
+
+thesis purity 很高，交易工具却很烂。
+
+如果 short 数量稍微大一点，你自己都可能成为盘口的一部分。这种东西不能拿 AMD 那种方式打。
+
+BMRC：最近确实已经跌了一小波
+
+这个比较不同。
+
+BMRC：
+
+7 月 31 日约 $29.16
+8 月 31 日约 $26.58
+大约：-8.8%
+
+一个月里确实明显弱于其他几个。
+
+而且 8 月中旬从 ~$29 又快速掉到了 ~$26.5。
+
+所以 BMRC 最近有部分 bearish repricing。
+
+但这仍然不能简单解释成“市场已经 price in AI 去城市化”。银行股跌有大量普通原因：
+
+CRE concerns
+credit normalization
+rate expectations
+NIM
+deposit costs
+bank-specific loan issues
+
+我们需要进一步扒开它近期 selloff 的 catalyst 才能知道。
+
+而且即便跌 9%，如果你的终局 thesis 是 CRE collateral structural impairment，9% 根本算不上充分定价。
+
+BCML：也只是普通震荡
+
+BCML 7 月底 ~$30.2，现在还是 ~$30 左右；8 月中一度 ~$31。
+
+所以基本上没有发生显著结构性 derating。
+
+因此我现在反而觉得 trade 比刚才更有意思
+
+目前市场状态大概是：
+
+Regional banks ≈ rates + NIM + conventional CRE cycle
+
+而你的 thesis 是：
+
+Regional banks + market may not model permanent tech labor demand destruction
+
+关键不是市场不知道 AI。
+
+市场当然知道 AI。
+
+关键是市场目前仍然主要在做：
+
+AI → NVDA/AMD/data center revenue
+
+很少有人继续把链条写成：
+
+AI → programmer headcount → Seattle/Bay Area household formation → housing demand → local CRE → regional bank collateral.
+
+这就是潜在的 second-order trade。
+
+如果让我现在设计，可能会是这种结构
+
+而不是单押：
+
+Short WAFD + BMRC + small FSBW
+
+其中：
+
+WAFD 做核心仓位：流动性最好，而且 Seattle residential exposure 和 thesis 最贴。
+
+BMRC 做 Bay Area CRE leg：更像押“科技城市经济密度下降”，而不是押 homeowner default。
+
+FSBW 做小仓高纯度 satellite：但严格受成交量约束。
+
+BCML 我会暂时放次一级，因为地域污染明显。
+
+甚至可以搭一个 pair：
+
+Long broad/AI assets + Short tech-city regional banks
+
+这样你真正押的是：
+
+AI productivity gains 的赢家 vs 人力资本地理聚集贬值的输家
+
+而不是单纯押 recession。
+
+这和单独 short KRE 有本质区别。普通 recession 来了，AI 股和银行可能一起跌；但你的 thesis 真正成立时，AMD/AI infrastructure 可以继续繁荣，而 Seattle/Bay Area local-real-estate banking beta 反而恶化。这才是更干净的表达。
+
+可见来源链接：
+https://www.marketbeat.com/stocks/NASDAQ/WAFD/chart/?utm_source=chatgpt.com
+https://stockanalysis.com/stocks/fsbw/history/?utm_source=chatgpt.com
+https://ca.investing.com/equities/bank-of-marin-ban-historical-data?utm_source=chatgpt.com
+https://ca.investing.com/equities/baycom-corp-historical-data?utm_source=chatgpt.com
+
+============================================================
+
+[4] assistant（连续片段）
+
+如果你的投资 thesis 是“AI 让湾区/西雅图高薪白领岗位永久减少，从而压低当地 housing/CRE 的 location premium”，那 Amodei 正在推动的政策，很多确实更像是缓冲居民收入冲击，而不是托住这些地区的高端 mortgage collateral。甚至某些措施会让这个 thesis 更干净。
+
+Anthropic 6 月的正式经济政策框架明确提出 universal capital accounts、wage insurance、retention incentives，以及如果劳动需求永久下降时更广泛的 income support。它自己还特别承认，capital accounts “cannot alone compensate for permanent job loss”，所以政策设计的出发点本身就是接受“有些劳动需求可能不会回来”。
+
+关键区别在这里：
+
+救人 ≠ 救房价
+
+假设一个 Bellevue 工程师以前收入 $400k，AI 后岗位消失，政府最终通过 UBI、capital account、wage insurance 等让他还能维持 $50k–100k 的消费能力。
+
+这能避免：
+
+食品消费崩掉
+基础租金付不起
+大规模社会失序
+consumer credit 全面恶化
+
+但它完全无法证明一套原来靠 $400k 工资资本化出来的 $2M Bellevue 房子还值 $2M。
+
+房价长期更接近：
+
+P_house ∼ PV(local household income + scarcity + amenities)
+
+UBI 能托住 income floor，却托不住原来的 tech wage premium。
+
+所以你甚至可能得到一个很反直觉的组合：
+
+GDP ↑, AI profits ↑, consumption stable
+
+与此同时：
+
+Bay Area/Seattle professional wage premium ↓ ⇒ housing location premium ↓
+
+这对我们前面那个区域银行 trade 反而比“全面经济危机”更漂亮。
+
+更重要的是 relocation
+
+Anthropic 的政策文件甚至明确提出 capital accounts 可以用于 retraining、relocation、credentialing 等 transition expenses。
+
+这个细节对房地产 thesis 很有意思。
+
+传统失业保险可能把人暂时困在原来的城市等工作。
+
+但如果政策明确帮助：
+
+“你的旧职业没了，给你钱重新训练或者搬家。”
+
+那么对于 Bellevue、San Francisco、Palo Alto 这种原本由就业机会创造巨大地租的城市，政策实际上是在降低离开的摩擦成本。
+
+假设 AI 让 engineer 不再需要住 Seattle：
+
+以前：Seattle salary premium > Seattle housing premium，所以留下。
+
+以后：Seattle salary premium ≈ 0，而 Seattle housing premium > 0。
+
+理性的 household 就开始问一个很不礼貌的问题：
+
+我为什么还要花 $1.5M 住 Bellevue？
+
+如果政府还支付 relocation transition cost，这个问题就更尖锐了。
+
+retention subsidy 反而值得特别警惕
+
+Amodei 同时提出 retention tax incentives，鼓励公司暂时不裁人。
+
+这个短期确实利空我们的 short thesis。
+
+比如政府给公司税收优惠，让企业：
+
+AI productivity ↑，但暂时 Headcount ≠ ↓
+
+那么 Seattle/Bay Area household income 可以比自由市场状态多撑一段时间。
+
+Mortgage delinquency 也会延后。
+
+所以它改变的是 timing，而不一定改变 terminal value。
+
+如果一个工程师的边际产出已经低于他的 fully loaded cost，只因为政府 subsidy 才留下：
+
+V_human < Wage − Subsidy
+
+那其实只是政府花钱买时间。
+
+而且 subsidy 越明显，越说明政策制定者承认：
+
+正常市场价格下，这个岗位已经没有经济理由存在。
+
+从投资信号角度反而很有趣。
+
+UBI 还有个更深的效果：把“人口在哪里”与“工作在哪里”解绑
+
+这是我觉得对你这个 thesis 最重要的一层。
+
+以前福利制度主要是在：Worker → Job → City
+
+这个框架里运行。
+
+而一个真正成熟的 UBI / universal capital distribution 世界是：Citizen → Income
+
+不需要中间那个 job。
+
+于是人口选址函数从：Location = f(Job, Income, Amenities)
+
+逐渐变成：Location = f(Cost, Amenities, Preference)
+
+这会把 employment agglomeration premium 从房价里面剥出去。
+
+湾区和西雅图当然还有：
+
+气候
+自然环境
+好学校
+network
+富裕人口存量
+
+所以房价不会变成底特律废墟价。
+
+但是“必须住这里才能挣 $500k”这一部分 capitalization 可以消失。
+
+而恰恰是这一部分，过去二十年给 Palo Alto、SF、Bellevue、Redmond 的房价提供了非常离谱的 marginal bid。
+
+所以我会把 Amodei 的政策动作拆成三档
+
+短期：略微削弱 short thesis。
+
+Retention incentives、wage insurance 会延迟 foreclosure、forced selling 和 unemployment shock。
+
+中期：强化 structural thesis。
+
+因为政策讨论本身开始把 permanent labor-demand destruction 当作需要认真准备的状态，而非普通 recession。
+
+Amodei 甚至公开说，这种就业减少可能是 AI intrinsic 的结果，而不是暂时调整失败。
+
+长期：UBI 对高工资 tech-city housing 基本不是 bailout。
+
+它救的是人的 consumption floor，不是过去由稀缺高薪岗位创造的地租。
+
+所以如果极端一点概括：
+
+Amodei 想避免的是“失业工程师饿死”。他没有任何政策能保证“失业工程师买得起原来那套 $2M Bellevue 房子”。
+
+而 mortgage collateral 关心的偏偏是后一件事。
+
+所以我同意你这个方向，但会做一个修正：他的政策不是单纯强化 short，它更可能把 trade 从“突然信用危机”改造成“缓慢但持续的地区资产重估”。
+
+这反而进一步说明 direct short / 长久期表达为什么可能比赌某一个季度出现 mortgage blow-up 更合适。资本市场通常很擅长给末日定价，却不太擅长给一个城市十年慢慢失去存在理由定价。
+
+可见来源链接：
+https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf?utm_source=chatgpt.com
+https://news.bloomberglaw.com/crypto/anthropic-ceo-floats-tax-on-ai-firms-to-fund-universal-income?utm_source=chatgpt.com
+https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-related-job-displacement-policy-plan-2026-6?utm_source=chatgpt.com
+
+============================================================
+
+[5] user
+
+那我也该尽早去idaho把地买了
+
+============================================================
+
+[6] assistant
+
+如果你的目标不是单纯押 Idaho 房价，而是提前把一部分财富从“高薪就业中心地租”转换成“低密度、可自用、长期稀缺的土地”，那我觉得这个动作比追涨 Boise 普通住宅更有逻辑。
+
+但我不会理解成“Idaho 随便买块地就行”。真正值得买的是具备几项硬属性的地：
+
+有可靠水权 / well 条件。Idaho 不是“买了地就天然拥有地下水”。州里采用 appropriation 制度，水权有优先级，甚至可能因长期不用而丧失；买地时必须把 water right 本身查清楚。
+
+能合法建房，并且 access、power、septic 不离谱。便宜到荒无人烟的 acreage 很容易只是把未来所有基础设施成本预付给你。
+
+距离一个仍有医疗、机场和基本商业服务的小城市不太远，但又不用支付城市就业 premium。
+
+自然条件本身有价值，而不是靠“未来人口继续涌入”才能成立。
+
+最好没有 HOA、奇怪 covenant 或严重 wildfire / flood exposure。
+
+尤其是水，今年 Idaho 的规则还刚改过。2026 年 2 月生效的新法再次调整了 domestic groundwater/well exemption，所以不能拿几年前 realtor 的一句“打井没问题”当事实，那基本和听二手车销售解释发动机寿命差不多。
+
+我会更偏向 Idaho 北部，而不是 Boise 郊区
+
+如果你的宏观判断是：AI → employment geography matters less
+
+那么你买的应该是：intrinsic land value > commuting/job-access value
+
+所以 Boise/Meridian commuter belt 反而没那么纯。那里过去十几年上涨的一部分本来就是人口迁入和就业城市化。
+
+我会优先研究类似：
+
+Coeur d'Alene 周边更远一圈、Sandpoint 周边、Bonner/Kootenai County 的低密度地块，以及条件合适的 Idaho 中北部 acreage。
+
+但不是 lakefront trophy property。那东西已经资本化了大量富豪需求，不叫提前布局，叫替上一位聪明人结账。
+
+你真正想找的可能是：
+
+20–100 acres，景观好，有水、有 road access、有电或容易 off-grid，离医院/机场 30–60 分钟，目前却因为“不适合每天通勤”而有明显折价。
+
+如果未来工作地点的重要性下降，“通勤折价”就是你希望消失的那部分折价。
+
+这跟你做空 Seattle/Bay Area 房地产其实是一笔 pair trade
+
+你实际上是在押：employment location premium ↓
+
+同时：amenity + autonomy + land scarcity premium ↑
+
+所以一边是：short 高度依赖高薪就业密度的城市 collateral
+
+另一边是：long 不依赖就业但具有居住/资源价值的土地
+
+从逻辑一致性上，比“卖 Bellevue 房子然后买 Boise 市中心 condo”强多了。后者只是从一个城市化资产换到了另一个城市化资产，绕了一圈又回到原点。
+
+不过土地有一个你不能忽视的缺点：它不是股票。
+
+你判断早五年，持有成本可能很低，但 liquidity 也非常低；买错 parcel，比股票止损困难十倍。因此如果真准备做，我不会急着先买，而会先把 Idaho 分成几类区域，按水权、wildfire、property tax、建设限制、医疗距离、机场距离、互联网、电力、土地价格/acre 做筛选，然后去现场只看排名前 5–10 个区域。
+
+这个 thesis 值得提前布局，但“提前”真正给你的优势应该是挑地，而不是抢时间。
+
+可见来源链接：
+https://idwr.idaho.gov/water-rights/?utm_source=chatgpt.com
+https://idwr.idaho.gov/water-rights/domestic-exemption/?utm_source=chatgpt.com
+
+============================================================
+
+[7] user
+
+有个问题是我该如何知道，这些银行，哪个在科技中心附件的房产放贷更多？
+科技行业劳动报酬率下降可能导致均值回归让周边地区房地产上涨，所以只有空科技中心附件暴露高的才有胜算
+
+============================================================
+
+[8] assistant
+
+对，这个修正很重要。你不是在做“西海岸房地产空头”，而是在做“科技就业地租 premium 均值回归”的空头。那就必须把银行 exposure 从州级、市级继续下钻到 county / ZIP / property address，否则很容易空错。比如 Tacoma、Olympia 甚至 Idaho 可能恰恰是承接迁移的赢家。
+
+公开资料能做到的精度分三层。
+
+第一层是 10-K/10-Q 的 geographic loan concentration。这个最容易，但经常只到 county/MSA。比如 BCML 很干脆地披露：2025 年底约 19.5% 的贷款位于 San Francisco Bay Area，定义包括 Alameda、Contra Costa、Marin、San Francisco、San Mateo、Santa Clara 等县；Washington 只有约 4.4%。所以它实际上远没有“92% 房地产贷款”这个数字看起来那么适合你的 thesis，因为绝大部分地产 exposure 并不在科技核心区。
+
+FSBW 则相反。它自己把 Seattle-Tacoma-Bellevue MSA 称为 primary market，核心又是 King、Pierce、Snohomish、Kitsap；2025 年 Washington branches 和 loan-production offices 很大比例就在这些县。但这里恰恰暴露了你指出的问题：
+
+King County 和 Pierce County 不能视为同一种 exposure。
+
+King County 里面 Seattle、Bellevue、Redmond 是你想空的核心；Pierce/Tacoma 在你的模型里甚至可能由于 housing affordability migration 得益。因此只知道“Puget Sound exposure 很高”还不够。
+
+第二层，我认为才真正有投资价值：银行的 regulatory call reports + HMDA mortgage-level data。
+
+住宅贷款有一个巨大的便利：美国的 HMDA 数据会披露相当细的 origination 信息，包括 lender、loan amount、occupancy、property census tract 等。也就是说，对于住宅 mortgage，我们实际上可以构造：
+
+Exposure_tech = Σ_i Balance_i × TechLocationScore_i
+
+把每笔 mortgage 所在 census tract 映射到：
+
+Bellevue
+Redmond
+Kirkland
+Seattle 核心高薪 ZIP
+Palo Alto
+Mountain View
+Sunnyvale
+Cupertino
+Menlo Park
+San Francisco tech-heavy neighborhoods
+
+然后明确排除或降低：
+
+Tacoma
+Olympia
+Sacramento
+Central Valley
+outer exurbs
+
+这才是你要的 exposure。
+
+HMDA 有一个缺点：它主要告诉你 origination，而不是当前存量 loan book。所以需要按 vintage 做 amortization/prepayment 模型，估算今天还剩多少余额。但这完全可以做，而且比拿银行 branch 地图猜强两个数量级。
+
+第三层则是 CRE。这个比较讨厌，因为没有一个公开 HMDA 等价物把银行所有 CRE loan 地址直接喂给你。但可以从几处拼：
+
+SEC filings、call reports、CMBS/property records、county recorder、UCC filings、银行 investor decks。
+
+尤其是银行一旦 CRE portfolio 出现 stress，通常会开始主动披露类似：
+
+office CRE by metropolitan area
+multifamily by county
+average LTV
+criticized/classified loans
+
+这时候就可以进一步把 exposure 精确到城市。
+
+例如 BMRC 目前公开数据已经让我觉得它没有我们先前想象得那么纯。它的主要 market area 是 Marin、Napa、Sonoma、Alameda、SF、Contra Costa、Sacramento 等，而不是主要压在 Santa Clara + San Mateo。
+
+所以如果你的 thesis 明确是：
+
+AI destroys Silicon Valley employment rent
+
+那么 Marin mortgage/CRE 未必是最好的 short。Marin 本来就有大量 wealth-driven demand，甚至可能因为富裕人口不再需要通勤 SF/Silicon Valley 而变得相对更有吸引力。
+
+这一下 BMRC 的 ranking 就应该往下调。
+
+真正应该定义一个 “Tech-Core Exposure Score”
+
+我会把 Bay Area 和 Seattle 分开，甚至给 county 内部不同 ZIP 不同权重。
+
+例如 Seattle：
+
+S = 1.0 × Bellevue/Redmond + 0.8 × Seattle/Kirkland + 0.4 × Bothell/Sammamish + 0.1 × Everett − 0.2 × Tacoma
+
+这里数字只是示意，不是最终权重。
+
+Bay Area：
+
+S = 1.0 × Palo Alto/Mountain View/Sunnyvale/Cupertino + 0.9 × Menlo Park/Redwood City + 0.7 × SF + 0.3 × Oakland/Berkeley + 0.1 × Walnut Creek
+
+甚至 Marin / Napa 可以接近零或轻微负权重，因为它们更可能受益于 remote/AI-induced decentralization，而不是受害。
+
+然后银行真正值得空的量是：
+
+Loans secured by tech-core property / Tangible Common Equity
+
+而不是：
+
+Real Estate Loans / Total Loans
+
+后者会严重误导。
+
+举个极端例子：
+
+银行 A：
+
+$10B mortgage
+70% 在 Tacoma、Spokane、Idaho
+
+银行 B：
+
+只有 $3B mortgage
+$2B 在 Bellevue/Redmond
+
+如果 tech-core 房价跌 30%，外围涨 10%，显然 B 才是你要空的。
+
+更进一步，还应该除以资本：
+
+TechCoreExposure/TCE
+
+因为 $2B tech mortgage 对 JPM 是蚊子，对一家 $400M tangible equity 的 community bank 就是人生体验。
+
+而且你说的“外围上涨”会产生一个非常漂亮的相对交易
+
+你的假设不是全国 housing crash，而是：
+
+labor-location premium compression
+
+因此可能同时发生：
+
+P_Bellevue ↓
+
+而：
+
+P_Coeur d’Alene/Tacoma/Spokane ↑
+
+原因是原来：
+
+Income_tech → employment location
+
+现在变成：
+
+Capital/AI Income → preferred living location
+
+这意味着我们甚至不应该把“Washington loan exposure”当风险指标。
+
+Washington 内部都可能发生 massive dispersion。
+
+所以 WAFD 虽然有 $3B+ Washington single-family loans，光这个数字也还不能让我下结论。我们必须知道它到底压在：
+
+Bellevue / Redmond / Seattle
+
+还是：
+
+Tacoma / Vancouver / Spokane / Kitsap
+
+如果后一类很多，它反而可能有天然 hedge。
+
+所以我现在会把之前那几个名字重新评价：
+
+BCML：明显降级。Bay Area loan 只占约五分之一，而且定义还很宽。
+
+BMRC：降级。Northern Bay Area 很纯，但不够 Silicon Valley core。
+
+FSBW：仍值得深挖。它明确高度依赖 Puget Sound，但必须拆 King/Snohomish 和 Pierce/Kitsap。
+
+WAFD：也必须做 loan-level geographic archaeology。仅凭 Washington mortgage balance 已经不够。
+
+而且这其实给我们一个更好的筛选方法：不要从银行名单出发找 exposure，而应该反过来，从 Bellevue/Redmond/Palo Alto/Sunnyvale 等目标 ZIP 出发，找谁是这些地方最大的非巨型银行 mortgage originator/holder。
+
+也就是：
+
+ZIP codes → lenders → balance sheets
+
+而不是：
+
+banks → guess where their loans are
+
+这条路径靠谱得多。
+
+如果把这笔交易认真做到可以下真钱的程度，我下一步会直接用 HMDA 2023–2025 lender-level data，先算出 Bellevue/Redmond/Kirkland 和 Palo Alto/Mountain View/Sunnyvale/Cupertino 各家银行的 origination share，再结合银行存量住宅贷款和 TCE，做出一个 Tech-Core Mortgage Exposure / TCE 排行榜。那张表才真正能告诉我们该空谁，而不是凭总部地址猜银行。
+
+可见来源链接：
+https://www.sec.gov/Archives/edgar/data/1730984/000173098426000016/bcml-20251231x10k.htm?utm_source=chatgpt.com
+https://investorrelations.fsbwa.com/static-files/18513cf7-7bf4-4b43-b2b6-67bd941b61f4?utm_source=chatgpt.com
+https://www.sec.gov/Archives/edgar/data/1403475/000140347526000018/bmrc-20251231.htm?utm_source=chatgpt.com
+
+============================================================
