@@ -25,7 +25,7 @@ For the Bay Area candidates, residential HMDA is mostly non-diagnostic. EWBC has
 
 ### Bay Area
 
-| Ticker | HMDA filer | Loans | Core loans | Core amount | Weighted score | Core market share | Coverage |
+| Ticker | HMDA filer | Loans | Core loans | Core amount | Weighted score | Weighted market share | Coverage |
 |---|---|---:|---:|---:|---:|---:|---|
 | EWBC | East West Bank | 617 | 109 | $91.9M | 17.2% | 0.3% | Observed qualifying HMDA originations |
 | COLB | Umpqua Bank | 164 | 8 | $8.5M | 6.0% | 0.0% | Observed qualifying HMDA originations |
@@ -38,7 +38,7 @@ For the Bay Area candidates, residential HMDA is mostly non-diagnostic. EWBC has
 
 ### Seattle/Puget Sound
 
-| Ticker | HMDA filer | Loans | Core loans | Core amount | Weighted score | Core market share | Coverage |
+| Ticker | HMDA filer | Loans | Core loans | Core amount | Weighted score | Weighted market share | Coverage |
 |---|---|---:|---:|---:|---:|---:|---|
 | FSBW | 1st Security Bank of Washington | 1,519 | 363 | $275.1M | 24.8% | 1.0% | Observed qualifying HMDA originations |
 | HMST | HomeStreet Bank | 1,083 | 286 | $195.0M | 26.0% | 0.7% | Observed qualifying HMDA originations |
@@ -92,6 +92,7 @@ For the Bay Area candidates, residential HMDA is mostly non-diagnostic. EWBC has
 3. CRE is not covered by this residential screen. BMRC, CVBF, and BCML cannot be ranked safely from these results.
 4. Tech scores are explicit scenario weights from the imported hypothesis, not fitted causal coefficients.
 5. Tracts are assigned by Census interior point; boundary tracts can be misclassified when a tract spans city limits.
+6. Candidate rankings depend on the named-city list and threshold; see residential_geography_sensitivity.csv for alternative definitions.
 
 ## Next quantitative step
 

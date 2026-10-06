@@ -1,0 +1,81 @@
+scenario,region,lei,core_loan_count,core_origination_amount,ticker,institution,origination_rank
+baseline_t0.7,Bay Area,F28JOQ8OBWCFUYM0UX93,109.0,91855000.0,EWBC,East West Bank,1.0
+baseline_t0.7,Bay Area,IFQSIUC9AGQV2NE8CN25,8.0,8470000.0,COLB,Umpqua Bank,2.0
+baseline_t0.7,Bay Area,01KWVG908KE7RKPTNP46,1.0,1045000.0,HMST,HomeStreet Bank,3.0
+baseline_t0.7,Bay Area,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+baseline_t0.7,Bay Area,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+baseline_t0.7,Bay Area,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+baseline_t0.7,Bay Area,5493003T5D4N1CM46J77,0.0,0.0,FSBW,1st Security Bank of Washington,
+baseline_t0.7,Bay Area,D38AC76TAMYI50NBPX33,0.0,0.0,WAFD,WASHINGTON FEDERAL BANK,
+baseline_t0.7,Seattle/Puget Sound,5493003T5D4N1CM46J77,363.0,275115000.0,FSBW,1st Security Bank of Washington,1.0
+baseline_t0.7,Seattle/Puget Sound,01KWVG908KE7RKPTNP46,286.0,194980000.0,HMST,HomeStreet Bank,2.0
+baseline_t0.7,Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,193.0,172865000.0,COLB,Umpqua Bank,3.0
+baseline_t0.7,Seattle/Puget Sound,D38AC76TAMYI50NBPX33,130.0,157830000.0,WAFD,WASHINGTON FEDERAL BANK,4.0
+baseline_t0.7,Seattle/Puget Sound,F28JOQ8OBWCFUYM0UX93,59.0,51205000.0,EWBC,East West Bank,5.0
+baseline_t0.7,Seattle/Puget Sound,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+baseline_t0.7,Seattle/Puget Sound,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+baseline_t0.7,Seattle/Puget Sound,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+exclude_San_Francisco,Bay Area,F28JOQ8OBWCFUYM0UX93,33.0,40795000.0,EWBC,East West Bank,1.0
+exclude_San_Francisco,Bay Area,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+exclude_San_Francisco,Bay Area,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+exclude_San_Francisco,Bay Area,IFQSIUC9AGQV2NE8CN25,0.0,0.0,COLB,Umpqua Bank,
+exclude_San_Francisco,Bay Area,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+exclude_San_Francisco,Bay Area,5493003T5D4N1CM46J77,0.0,0.0,FSBW,1st Security Bank of Washington,
+exclude_San_Francisco,Bay Area,01KWVG908KE7RKPTNP46,0.0,0.0,HMST,HomeStreet Bank,
+exclude_San_Francisco,Bay Area,D38AC76TAMYI50NBPX33,0.0,0.0,WAFD,WASHINGTON FEDERAL BANK,
+exclude_San_Francisco,Seattle/Puget Sound,5493003T5D4N1CM46J77,363.0,275115000.0,FSBW,1st Security Bank of Washington,1.0
+exclude_San_Francisco,Seattle/Puget Sound,01KWVG908KE7RKPTNP46,286.0,194980000.0,HMST,HomeStreet Bank,2.0
+exclude_San_Francisco,Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,193.0,172865000.0,COLB,Umpqua Bank,3.0
+exclude_San_Francisco,Seattle/Puget Sound,D38AC76TAMYI50NBPX33,130.0,157830000.0,WAFD,WASHINGTON FEDERAL BANK,4.0
+exclude_San_Francisco,Seattle/Puget Sound,F28JOQ8OBWCFUYM0UX93,59.0,51205000.0,EWBC,East West Bank,5.0
+exclude_San_Francisco,Seattle/Puget Sound,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+exclude_San_Francisco,Seattle/Puget Sound,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+exclude_San_Francisco,Seattle/Puget Sound,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+exclude_Seattle,Bay Area,F28JOQ8OBWCFUYM0UX93,109.0,91855000.0,EWBC,East West Bank,1.0
+exclude_Seattle,Bay Area,IFQSIUC9AGQV2NE8CN25,8.0,8470000.0,COLB,Umpqua Bank,2.0
+exclude_Seattle,Bay Area,01KWVG908KE7RKPTNP46,1.0,1045000.0,HMST,HomeStreet Bank,3.0
+exclude_Seattle,Bay Area,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+exclude_Seattle,Bay Area,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+exclude_Seattle,Bay Area,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+exclude_Seattle,Bay Area,5493003T5D4N1CM46J77,0.0,0.0,FSBW,1st Security Bank of Washington,
+exclude_Seattle,Bay Area,D38AC76TAMYI50NBPX33,0.0,0.0,WAFD,WASHINGTON FEDERAL BANK,
+exclude_Seattle,Seattle/Puget Sound,D38AC76TAMYI50NBPX33,50.0,81180000.0,WAFD,WASHINGTON FEDERAL BANK,1.0
+exclude_Seattle,Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,48.0,59290000.0,COLB,Umpqua Bank,2.0
+exclude_Seattle,Seattle/Puget Sound,5493003T5D4N1CM46J77,44.0,45350000.0,FSBW,1st Security Bank of Washington,3.0
+exclude_Seattle,Seattle/Puget Sound,F28JOQ8OBWCFUYM0UX93,45.0,41105000.0,EWBC,East West Bank,4.0
+exclude_Seattle,Seattle/Puget Sound,01KWVG908KE7RKPTNP46,19.0,16485000.0,HMST,HomeStreet Bank,5.0
+exclude_Seattle,Seattle/Puget Sound,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+exclude_Seattle,Seattle/Puget Sound,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+exclude_Seattle,Seattle/Puget Sound,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+inclusive_t0.4,Bay Area,F28JOQ8OBWCFUYM0UX93,109.0,91855000.0,EWBC,East West Bank,1.0
+inclusive_t0.4,Bay Area,IFQSIUC9AGQV2NE8CN25,8.0,8470000.0,COLB,Umpqua Bank,2.0
+inclusive_t0.4,Bay Area,01KWVG908KE7RKPTNP46,1.0,1045000.0,HMST,HomeStreet Bank,3.0
+inclusive_t0.4,Bay Area,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+inclusive_t0.4,Bay Area,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+inclusive_t0.4,Bay Area,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+inclusive_t0.4,Bay Area,5493003T5D4N1CM46J77,0.0,0.0,FSBW,1st Security Bank of Washington,
+inclusive_t0.4,Bay Area,D38AC76TAMYI50NBPX33,0.0,0.0,WAFD,WASHINGTON FEDERAL BANK,
+inclusive_t0.4,Seattle/Puget Sound,5493003T5D4N1CM46J77,392.0,300210000.0,FSBW,1st Security Bank of Washington,1.0
+inclusive_t0.4,Seattle/Puget Sound,01KWVG908KE7RKPTNP46,298.0,205430000.0,HMST,HomeStreet Bank,2.0
+inclusive_t0.4,Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,202.0,185470000.0,COLB,Umpqua Bank,3.0
+inclusive_t0.4,Seattle/Puget Sound,D38AC76TAMYI50NBPX33,143.0,175355000.0,WAFD,WASHINGTON FEDERAL BANK,4.0
+inclusive_t0.4,Seattle/Puget Sound,F28JOQ8OBWCFUYM0UX93,70.0,57250000.0,EWBC,East West Bank,5.0
+inclusive_t0.4,Seattle/Puget Sound,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+inclusive_t0.4,Seattle/Puget Sound,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+inclusive_t0.4,Seattle/Puget Sound,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+narrow_t0.9,Bay Area,F28JOQ8OBWCFUYM0UX93,33.0,40795000.0,EWBC,East West Bank,1.0
+narrow_t0.9,Bay Area,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+narrow_t0.9,Bay Area,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+narrow_t0.9,Bay Area,IFQSIUC9AGQV2NE8CN25,0.0,0.0,COLB,Umpqua Bank,
+narrow_t0.9,Bay Area,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,
+narrow_t0.9,Bay Area,5493003T5D4N1CM46J77,0.0,0.0,FSBW,1st Security Bank of Washington,
+narrow_t0.9,Bay Area,01KWVG908KE7RKPTNP46,0.0,0.0,HMST,HomeStreet Bank,
+narrow_t0.9,Bay Area,D38AC76TAMYI50NBPX33,0.0,0.0,WAFD,WASHINGTON FEDERAL BANK,
+narrow_t0.9,Seattle/Puget Sound,D38AC76TAMYI50NBPX33,37.0,57575000.0,WAFD,WASHINGTON FEDERAL BANK,1.0
+narrow_t0.9,Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,30.0,41300000.0,COLB,Umpqua Bank,2.0
+narrow_t0.9,Seattle/Puget Sound,F28JOQ8OBWCFUYM0UX93,37.0,34965000.0,EWBC,East West Bank,3.0
+narrow_t0.9,Seattle/Puget Sound,5493003T5D4N1CM46J77,20.0,19440000.0,FSBW,1st Security Bank of Washington,4.0
+narrow_t0.9,Seattle/Puget Sound,01KWVG908KE7RKPTNP46,12.0,10160000.0,HMST,HomeStreet Bank,5.0
+narrow_t0.9,Seattle/Puget Sound,,0.0,0.0,BCML,United Business Bank / BayCom Corp.,
+narrow_t0.9,Seattle/Puget Sound,549300EGL1VV7LY0QU69,0.0,0.0,BMRC,Bank of Marin,
+narrow_t0.9,Seattle/Puget Sound,549300L36QZWPHM6FP31,0.0,0.0,CVBF,Citizens Business Bank,

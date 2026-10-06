@@ -26,7 +26,7 @@ the originating lender retained the loan, sold it, or still holds it today.
 The first-stage ranking is therefore an origination-footprint screen, not a
 balance-sheet credit-exposure estimate. CRE also requires a separate data path.
 
-## Second-stage retained-balance proxy
+## Second-stage origination-cohort balance proxy
 
 `scripts/retained_exposure.py` narrows the first-stage tech-core originations to
 two HMDA purchaser-type proxies: purchaser type 0 (not reported sold during the
@@ -38,23 +38,42 @@ bank-level tangible common equity proxy from FDIC BankFind data.
 This is still a sensitivity model rather than a current-loan tape. Subsequent
 sales, refinancings, participations, repurchases, and commercial real estate are
 not observed in this stage.
+It is not a conservative lower bound: older surviving cohorts, purchased loans,
+and acquired portfolios are omitted, while repeat refinancing originations may
+inflate the cohort proxy. Affiliate sales do not establish bank-subsidiary
+consolidation. A balance/TCE ratio is not a loss/TCE ratio.
+
+The residential `core_share_of_regional` field is core-place originations divided
+by the same lender's qualifying originations in the **selected counties**; it is
+not a share of the lender's entire loan book. The place scores are scenario inputs
+for residential locations, not measured worker-income or office-tenant exposure.
 
 ## Run
 
-Use the bundled Python environment supplied by Codex, or any Python environment
-with pandas installed:
+Use the bundled Python environment supplied by Codex, or install
+`requirements.txt` in a Python environment:
 
 ```powershell
 python scripts/pipeline.py
+python scripts/geography_sensitivity.py
 python scripts/retained_exposure.py
 python scripts/cre_capital_screen.py
 python scripts/sec_filing_screen.py
 python scripts/sec_disclosure_analysis.py
+python scripts/office_intersection_bounds.py
 ```
 
 Raw downloads are cached under `data/raw/`. Derived tract mappings are written
 under `data/derived/`. Reviewable analytical tables and `summary.json` are
 written under `outputs/`.
+`hmda_geography_coverage_by_lender.csv` and
+`hmda_geography_coverage_summary.csv` audit qualifying originations with invalid
+or unmatched census tracts before geographic aggregation.
+Run `python scripts/geography_sensitivity.py` after the first stage to compare
+candidate residential origination rankings at alternative thresholds and with
+Seattle or San Francisco city removed. The current scenarios cannot assess
+San Jose, Santa Clara city, or other omitted places without expanding the
+geographic configuration and rebuilding tract scores.
 
 The main stage-2 interpretation is in `outputs/second_stage_findings.md`.
 
@@ -67,12 +86,22 @@ geographic purity. Its interpretation is in
 `outputs/third_stage_cre_findings.md`.
 
 `scripts/sec_filing_screen.py` downloads and hashes the latest 10-K and 10-Q
-for the seven public-bank candidates, and indexes geographic/property keywords.
+for the seven public-bank candidates, and indexes geographic/property keywords
+in `sec_latest_filings_manifest.csv` and `sec_latest_keyword_hits.csv`. These
+fresh discovery files do not overwrite the reviewed 2026 Q2 snapshot.
 `scripts/sec_disclosure_analysis.py` converts reviewed filing tables into
 explicit geographic, portfolio, and credit metrics. Geographic disclosure
 precision is preserved (county, issuer-defined region, state, or qualitative
 footprint) rather than forcing unlike measures into a single ranking. The
 Chinese interpretation is in `outputs/fourth_stage_sec_findings_zh.md`.
+The hand-reviewed figures are bound to the exact accession, report date, URL,
+and SHA-256 in `config/sec_review_sources.csv`. A newly downloaded filing will
+cause stage 4 to stop until the tables and reviewed source lock are updated.
+
+`python scripts/office_intersection_bounds.py` uses the reviewed regional CRE
+and bank-wide office CRE margins to report mathematical lower/upper bounds and
+an explicitly assumed independence scenario. Its intersection column remains
+unobserved. It does not estimate tenant or lease exposure.
 
 ## Official sources
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Estimate a conservative retained-residential-mortgage exposure proxy.
+"""Estimate an originated-cohort residential balance proxy.
 
 This second-stage model starts with the first-stage HMDA residential screen and
 adds two deliberately limited retention proxies:
@@ -352,12 +352,13 @@ def attach_capital(exposure: pd.DataFrame, capital: pd.DataFrame) -> pd.DataFram
 
 def write_report(by_region: pd.DataFrame, totals: pd.DataFrame, mix: pd.DataFrame) -> None:
     ranked = totals.sort_values("expanded_balance_base_8pct_to_tce", ascending=False)
+    type8_count = int(mix.loc[mix["purchaser_type"].eq(8), "core_loan_count"].sum())
     lines = [
-        "# Second-stage retained residential exposure proxy",
+        "# Second-stage residential origination-cohort balance proxy",
         "",
         "## Headline result",
         "",
-        "The retention adjustment materially reduces the first-stage origination footprint. "
+        "The purchaser-type screen materially reduces the first-stage origination footprint. "
         "The table below compares modeled 2025-12-31 balances in named tech-core places "
         "with bank-level tangible common equity (TCE) proxies.",
         "",
@@ -376,8 +377,9 @@ def write_report(by_region: pd.DataFrame, totals: pd.DataFrame, mix: pd.DataFram
         "",
         "Strict means HMDA purchaser type 0: an originated loan was not reported as sold "
         "during that reporting calendar year. Expanded adds purchaser type 8, sale to an "
-        "affiliate. Neither field proves that the loan remained on the public parent’s "
-        "consolidated balance sheet at 2025 year-end.",
+        "affiliate. Type 8 does not establish that the bank subsidiary in the TCE denominator "
+        "holds the loan. Neither field proves that the loan remained on a consolidated balance "
+        f"sheet at 2025 year-end. The observed candidate sample contains {type8_count} type 8 loans.",
         "",
         "## Model assumptions",
         "",
@@ -401,6 +403,11 @@ def write_report(by_region: pd.DataFrame, totals: pd.DataFrame, mix: pd.DataFram
         "refinancings, subsequent sales, repurchases, participations, charge-offs, and exact "
         "origination dates are unobserved. Most importantly, CRE and construction lending are "
         "outside this residential model and require Call Report/SEC portfolio data.",
+        "",
+        "The proxy can overstate exposure through later sales and repeat refinancing originations, "
+        "or understate it by excluding pre-2023 cohorts, purchased loans and acquired portfolios. "
+        "It is not a conservative bound. Balance / TCE is not loss / TCE: losses also depend on "
+        "defaults, collateral recoveries, reserves, earnings and taxes.",
         "",
         "## Reproducible outputs",
         "",

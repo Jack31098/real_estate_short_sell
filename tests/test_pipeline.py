@@ -2,7 +2,10 @@ from __future__ import annotations
 
 import sys
 import unittest
+from io import BytesIO
+import json
 from pathlib import Path
+from unittest.mock import patch
 
 import pandas as pd
 
@@ -20,6 +23,26 @@ class GeometryTests(unittest.TestCase):
         self.assertTrue(pipeline.point_in_polygon(1, 1, [outer, hole]))
         self.assertFalse(pipeline.point_in_polygon(5, 5, [outer, hole]))
         self.assertFalse(pipeline.point_in_polygon(12, 5, [outer, hole]))
+
+    def test_arcgis_query_paginates_and_checks_count(self) -> None:
+        payloads = [
+            {"count": 2},
+            {"features": [{"attributes": {"GEOID": "a"}}], "exceededTransferLimit": True},
+            {"features": [{"attributes": {"GEOID": "b"}}], "exceededTransferLimit": False},
+        ]
+        with patch.object(pipeline.urllib.request, "urlopen", side_effect=[BytesIO(json.dumps(x).encode()) for x in payloads]):
+            result = pipeline.arcgis_query("https://example.com/query", {"where": "1=1"})
+        self.assertEqual([x["attributes"]["GEOID"] for x in result], ["a", "b"])
+
+    def test_arcgis_query_rejects_incomplete_response(self) -> None:
+        payloads = [
+            {"count": 2},
+            {"features": [{"attributes": {"GEOID": "a"}}], "exceededTransferLimit": False},
+            {"features": [], "exceededTransferLimit": False},
+        ]
+        with patch.object(pipeline.urllib.request, "urlopen", side_effect=[BytesIO(json.dumps(x).encode()) for x in payloads]):
+            with self.assertRaisesRegex(RuntimeError, "incomplete"):
+                pipeline.arcgis_query("https://example.com/query", {"where": "1=1"})
 
 
 class OutputInvariantTests(unittest.TestCase):
@@ -84,6 +107,15 @@ class OutputInvariantTests(unittest.TestCase):
     def test_nonnegative_analytical_amounts(self) -> None:
         columns = ["regional_amount", "core_amount", "weighted_amount"]
         self.assertTrue((self.combined[columns] >= 0).all().all())
+
+    def test_candidate_report_labels_weighted_market_share(self) -> None:
+        report = (PROJECT_ROOT / "outputs" / "first_stage_findings.md").read_text(encoding="utf-8")
+        self.assertIn("| Weighted market share | Coverage |", report)
+
+    def test_geography_coverage_reconciles(self) -> None:
+        coverage = pd.read_csv(PROJECT_ROOT / "outputs" / "hmda_geography_coverage_summary.csv")
+        self.assertTrue((coverage.selected_count == coverage.invalid_tract_count + coverage.unmapped_tract_count + coverage.mapped_count).all())
+        self.assertTrue(coverage.unmapped_pct.between(0, 100).all())
 
 
 if __name__ == "__main__":

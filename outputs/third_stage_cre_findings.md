@@ -4,18 +4,19 @@
 
 This stage uses FDIC bank-level portfolio categories. It measures balance-sheet sensitivity, not tech-core geographic purity.
 
-| Ticker | CRE proxy | CRE / TCE | Investor CRE / TCE | RE noncurrent | Severe gross loss / TCE | Report date |
-|---|---:|---:|---:|---:|---:|---:|
-| HMST | $3.96B | 750.1% | 700.6% | 0.75% | 43.4% | 20250630 |
-| BCML | $1.77B | 620.2% | 444.6% | 0.66% | 37.6% | 20251231 |
-| BMRC | $1.64B | 497.3% | 410.0% | 1.37% | 33.4% | 20251231 |
-| COLB | $27.26B | 466.5% | 349.6% | 0.35% | 26.9% | 20251231 |
-| CVBF | $6.46B | 430.6% | 285.9% | 0.06% | 25.6% | 20251231 |
-| WAFD | $10.06B | 385.1% | 345.9% | 0.73% | 24.6% | 20251231 |
-| FSBW | $1.03B | 314.4% | 262.0% | 0.73% | 22.5% | 20251231 |
-| EWBC | $21.26B | 276.7% | 232.2% | 0.32% | 18.3% | 20251231 |
+| Ticker | CRE proxy | CRE / TCE | Investor CRE / TCE | RE noncurrent | Severe gross loss / TCE | Missing FDIC fields | Report date |
+|---|---:|---:|---:|---:|---:|---|---:|
+| HMST | $3.96B | 750.1% | 700.6% | 0.75% | 43.4% | none | 20250630 |
+| BCML | $1.77B | 620.2% | 444.6% | 0.66% | 37.6% | none | 20251231 |
+| BMRC | $1.64B | 497.3% | 410.0% | 1.37% | 33.4% | none | 20251231 |
+| COLB | $27.26B | 466.5% | 349.6% | 0.35% | 26.9% | none | 20251231 |
+| CVBF | $6.46B | 430.6% | 285.9% | 0.06% | 25.6% | none | 20251231 |
+| WAFD | $10.06B | 385.1% | 345.9% | 0.73% | 24.6% | none | 20251231 |
+| FSBW | $1.03B | 314.4% | 262.0% | 0.73% | 22.5% | none | 20251231 |
+| EWBC | $21.26B | 276.7% | 232.2% | 0.32% | 18.3% | none | 20251231 |
 
 CRE proxy = construction and land development + multifamily + owner-occupied nonfarm nonresidential + other nonfarm nonresidential. Investor CRE excludes the owner-occupied category. TCE is the same bank-level proxy used in stage 2.
+Missing FDIC source fields remain unknown rather than being treated as zero; affected ratios and stress results are also unknown.
 
 ## Standardized stress scenarios
 

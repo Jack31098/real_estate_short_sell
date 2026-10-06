@@ -216,19 +216,44 @@ def download_hmda_file(
 
 
 def arcgis_query(url: str, params: dict[str, str]) -> list[dict[str, Any]]:
-    query = dict(params)
-    query.setdefault("f", "json")
-    query.setdefault("resultRecordCount", "100000")
-    request_url = url + "?" + urllib.parse.urlencode(query)
-    request = urllib.request.Request(
-        request_url,
-        headers={"User-Agent": HMDA_HEADERS["User-Agent"], "Accept": "application/json"},
-    )
-    with urllib.request.urlopen(request, timeout=180) as response:
-        payload = json.load(response)
-    if "error" in payload:
-        raise RuntimeError(f"ArcGIS error: {payload['error']}")
-    return payload.get("features", [])
+    def fetch(query: dict[str, str]) -> dict[str, Any]:
+        request_url = url + "?" + urllib.parse.urlencode({**query, "f": "json"})
+        request = urllib.request.Request(
+            request_url,
+            headers={"User-Agent": HMDA_HEADERS["User-Agent"], "Accept": "application/json"},
+        )
+        with urllib.request.urlopen(request, timeout=180) as response:
+            payload = json.load(response)
+        if "error" in payload:
+            raise RuntimeError(f"ArcGIS error: {payload['error']}")
+        return payload
+
+    count_payload = fetch({**params, "returnCountOnly": "true"})
+    if "count" not in count_payload:
+        raise RuntimeError("ArcGIS count query returned no count")
+    expected = int(count_payload["count"])
+    features: list[dict[str, Any]] = []
+    page_size = 1000
+    offset = 0
+    while len(features) < expected:
+        payload = fetch({**params, "resultOffset": str(offset), "resultRecordCount": str(page_size)})
+        page = payload.get("features")
+        if not isinstance(page, list):
+            raise RuntimeError("ArcGIS query returned no feature list")
+        features.extend(page)
+        if len(features) >= expected and payload.get("exceededTransferLimit", False):
+            raise RuntimeError("ArcGIS count and pagination disagree")
+        if not page and not payload.get("exceededTransferLimit", False):
+            break
+        offset += len(page) if page else page_size
+        if offset > expected + page_size:
+            raise RuntimeError("ArcGIS pagination did not converge")
+    if len(features) != expected:
+        raise RuntimeError(f"ArcGIS query incomplete: expected {expected}, got {len(features)}")
+    geoids = [feature.get("attributes", {}).get("GEOID") for feature in features]
+    if None in geoids or len(geoids) != len(set(geoids)):
+        raise RuntimeError("ArcGIS query returned missing or duplicate GEOIDs")
+    return features
 
 
 def point_in_ring(x: float, y: float, ring: list[list[float]]) -> bool:
@@ -326,7 +351,7 @@ def build_tract_scores(config: dict[str, Any]) -> pd.DataFrame:
     return result
 
 
-def clean_chunk(chunk: pd.DataFrame) -> pd.DataFrame:
+def clean_chunk(chunk: pd.DataFrame, require_tract: bool = True) -> pd.DataFrame:
     numeric_cols = [
         "activity_year",
         "action_taken",
@@ -354,8 +379,9 @@ def clean_chunk(chunk: pd.DataFrame) -> pd.DataFrame:
         & chunk["occupancy_type"].eq(1)
         & dwelling.str.startswith("Single Family (1-4 Units)", na=False)
         & chunk["loan_amount"].gt(0)
-        & chunk["census_tract"].str.fullmatch(r"\d{11}", na=False)
     )
+    if require_tract:
+        keep = keep & chunk["census_tract"].str.fullmatch(r"\d{11}", na=False)
     return chunk.loc[keep].copy()
 
 
@@ -364,8 +390,10 @@ def aggregate_hmda(
 ) -> pd.DataFrame:
     score_columns = tract_scores[["census_tract", "region", "place", "tech_score"]]
     parts: list[pd.DataFrame] = []
+    coverage_parts: list[pd.DataFrame] = []
     for year, region_name, path in files:
         print(f"analyze: {path.name}")
+        region_tracts = set(score_columns.loc[score_columns["region"].eq(region_name), "census_tract"])
         for chunk in pd.read_csv(
             path,
             compression="gzip",
@@ -374,7 +402,31 @@ def aggregate_hmda(
             chunksize=100_000,
             low_memory=False,
         ):
-            clean = clean_chunk(chunk)
+            eligible = clean_chunk(chunk, require_tract=False)
+            if eligible.empty:
+                continue
+            valid_tract = eligible["census_tract"].str.fullmatch(r"\d{11}", na=False)
+            mapped = valid_tract & eligible["census_tract"].isin(region_tracts)
+            eligible["invalid_tract_count"] = (~valid_tract).astype(int)
+            eligible["unmapped_tract_count"] = (valid_tract & ~mapped).astype(int)
+            eligible["mapped_count"] = mapped.astype(int)
+            for status in ("invalid_tract", "unmapped_tract", "mapped"):
+                eligible[f"{status}_amount"] = eligible["loan_amount"].where(
+                    eligible[f"{status}_count"].eq(1), 0.0
+                )
+            coverage = eligible.groupby(["activity_year", "lei"], dropna=False).agg(
+                selected_count=("loan_amount", "size"),
+                selected_amount=("loan_amount", "sum"),
+                invalid_tract_count=("invalid_tract_count", "sum"),
+                invalid_tract_amount=("invalid_tract_amount", "sum"),
+                unmapped_tract_count=("unmapped_tract_count", "sum"),
+                unmapped_tract_amount=("unmapped_tract_amount", "sum"),
+                mapped_count=("mapped_count", "sum"),
+                mapped_amount=("mapped_amount", "sum"),
+            ).reset_index()
+            coverage["region"] = region_name
+            coverage_parts.append(coverage)
+            clean = eligible.loc[mapped, chunk.columns].copy()
             if clean.empty:
                 continue
             clean = clean.merge(score_columns, on="census_tract", how="inner")
@@ -409,6 +461,22 @@ def aggregate_hmda(
 
     if not parts:
         raise RuntimeError("No HMDA records survived the analytical filters")
+    coverage = pd.concat(coverage_parts).groupby(
+        ["activity_year", "region", "lei"], as_index=False, dropna=False
+    ).sum(numeric_only=True)
+    coverage["unmapped_pct"] = (
+        100.0 * (coverage["invalid_tract_count"] + coverage["unmapped_tract_count"])
+        / coverage["selected_count"]
+    )
+    coverage.sort_values(["activity_year", "region", "lei"]).to_csv(
+        OUTPUT_DIR / "hmda_geography_coverage_by_lender.csv", index=False
+    )
+    regional_coverage = coverage.groupby(["activity_year", "region"], as_index=False).sum(numeric_only=True)
+    regional_coverage["unmapped_pct"] = (
+        100.0 * (regional_coverage["invalid_tract_count"] + regional_coverage["unmapped_tract_count"])
+        / regional_coverage["selected_count"]
+    )
+    regional_coverage.to_csv(OUTPUT_DIR / "hmda_geography_coverage_summary.csv", index=False)
     result = (
         pd.concat(parts, ignore_index=True)
         .groupby(["activity_year", "region", "lei"], as_index=False)
@@ -644,7 +712,7 @@ def write_markdown_report(
             [
                 f"### {region}",
                 "",
-                "| Ticker | HMDA filer | Loans | Core loans | Core amount | Weighted score | Core market share | Coverage |",
+                "| Ticker | HMDA filer | Loans | Core loans | Core amount | Weighted score | Weighted market share | Coverage |",
                 "|---|---|---:|---:|---:|---:|---:|---|",
             ]
         )
@@ -689,6 +757,7 @@ def write_markdown_report(
             "3. CRE is not covered by this residential screen. BMRC, CVBF, and BCML cannot be ranked safely from these results.",
             "4. Tech scores are explicit scenario weights from the imported hypothesis, not fitted causal coefficients.",
             "5. Tracts are assigned by Census interior point; boundary tracts can be misclassified when a tract spans city limits.",
+            "6. Candidate rankings depend on the named-city list and threshold; see residential_geography_sensitivity.csv for alternative definitions.",
             "",
             "## Next quantitative step",
             "",

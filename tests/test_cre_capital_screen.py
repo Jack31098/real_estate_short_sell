@@ -3,10 +3,13 @@ import unittest
 from pathlib import Path
 
 import pandas as pd
+import numpy as np
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
+
+import cre_capital_screen as model  # noqa: E402
 
 
 class CreCapitalOutputTests(unittest.TestCase):
@@ -49,6 +52,15 @@ class CreCapitalOutputTests(unittest.TestCase):
             "allowance_to_loans",
         ]:
             self.assertTrue(((self.latest[column] >= 0) & (self.latest[column] <= 1)).all())
+
+    def test_missing_source_value_stays_unknown(self):
+        row = {column: 1.0 for column in model.FDIC_FIELDS if column not in {"REPDTE", "NAME"}}
+        row.update({"REPDTE": "20251231", "NAME": "Test Bank", "LNRECONS": np.nan})
+        metrics = model.add_metrics(pd.DataFrame([row]))
+        self.assertFalse(bool(metrics.loc[0, "data_complete"]))
+        self.assertIn("LNRECONS", metrics.loc[0, "missing_fdic_fields"])
+        self.assertTrue(pd.isna(metrics.loc[0, "cre_proxy"]))
+        self.assertTrue(pd.isna(metrics.loc[0, "severe_gross_loss_to_tce"]))
 
 
 if __name__ == "__main__":

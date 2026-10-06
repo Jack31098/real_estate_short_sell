@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and index the latest SEC 10-K and 10-Q for candidate banks."""
+"""Download and index latest SEC filings without overwriting reviewed snapshots."""
 
 from __future__ import annotations
 
@@ -184,10 +184,10 @@ def run(refresh: bool = False) -> None:
         hits.extend(keyword_hits(text, row))
 
     pd.DataFrame(rows).sort_values(["ticker", "form"]).to_csv(
-        OUTPUT_DIR / "sec_filings_manifest.csv", index=False
+        OUTPUT_DIR / "sec_latest_filings_manifest.csv", index=False
     )
     pd.DataFrame(hits).sort_values(["ticker", "form", "keyword", "character_offset"]).to_csv(
-        OUTPUT_DIR / "sec_keyword_hits.csv", index=False
+        OUTPUT_DIR / "sec_latest_keyword_hits.csv", index=False
     )
     print(f"indexed {len(rows)} filings and {len(hits)} keyword contexts")
 

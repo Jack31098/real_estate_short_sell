@@ -1,13 +1,13 @@
 # 第四阶段：10-K / 10-Q 地理与资产质量复核
 
-数据截点：最新可得 2026 年二季度 10-Q（WAFD 的 10-K 财年截至 2025-09-30；其余 10-K 截至 2025-12-31）。金额均为百万美元。
+本次复核固定为 2026 年二季度 10-Q（WAFD 的 10-K 财年截至 2025-09-30；其余 10-K 截至 2025-12-31）。金额均为百万美元；更新下载后必须重新人工复核，不能自动延用这些数字。
 
 ## 结论先行
 
 1. **FSBW 是最纯的定性 Puget Sound 暴露，但无法定量到科技核心。** 申报文件把 Seattle–Tacoma–Bellevue MSA 列为主要市场，然而没有按县或都会区披露贷款余额。
 2. **BMRC 并不是 Silicon Valley 纯标的。** SF、San Mateo、Santa Clara 三县仅占年末 CRE 的 15.9%；Marin 与 Sonoma 才是最大的两个 CRE 县。
 3. **BCML 的地域稀释很明确。** 2026Q2 Bay Area 仅占总贷款 18.9%。
-4. **CVBF 收购 Heritage 后获得了可见的 Silicon Valley 暴露，但仍由南加州和 Central Valley 主导。** Santa Clara + San Mateo 占总贷款 13.8%、占 CRE 10.5%；CRE 从年末 $6.57bn 跃升至 $8.98bn，跨期可比性下降。
+4. **CVBF 收购 Heritage 后获得了可见的 Silicon Valley 暴露，但仍由南加州和 Central Valley 主导。** Santa Clara + San Mateo 占总贷款 13.8%、占 CRE 10.5%；跨期可比性因收购下降。
 5. **COLB 的地理披露最好，且信用信号边际变差。** Puget + Bay Area 合计占 CRE 20.9%；CRE nonaccrual 从年末 $50m 升至 $96m，office nonaccrual 约为 office 余额的 0.84%。
 6. **EWBC 与 WAFD 只能给出宽口径上限。** EWBC 的 Northern California + Washington 占 CRE 20.9%；WAFD 的 Washington 占总贷款 27.4%，两者都不能视为科技核心暴露。
 
@@ -42,10 +42,11 @@
 
 - FSBW：CRE 约占总贷款 37.8%，construction & development 占 13.9%；CRE nonaccrual 0.77%，其中 construction 约 1.93%。
 - BMRC：CRE（含 construction）约占总贷款 79.9%；总 nonaccrual 从年末 $26.9m / 1.27% 降至 $8.45m / 0.40%。
-- BCML：CRE（含 multifamily/construction）约占总贷款 83.6%；NPL 比率从 0.65% 降至 0.47%。
+- BCML：CRE（含 multifamily/construction）约占总贷款 83.6%；NPL 比率从 0.65% 降至 0.44%。
 - CVBF：CRE 占总贷款 74.8%，office 占 CRE 16.2%；2026Q2 完成 Heritage Commerce 收购，年末/二季度数字不可直接作同口径趋势。
 - COLB：office 占 CRE 13.2%；CRE nonaccrual 0.36%，较年末 0.18% 上升。
 - EWBC：office 占 CRE 10.6%；CRE nonaccrual 0.41%，高于年末约 0.31%。
+上述非应计/不良余额变化只描述两个报表时点，不推断借款人恢复偿付；出售、核销及分类变动需另行核对。
 
 ## 官方申报文件
 

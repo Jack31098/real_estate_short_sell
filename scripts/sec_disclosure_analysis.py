@@ -17,14 +17,47 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
 MANIFEST = OUTPUT_DIR / "sec_filings_manifest.csv"
+REVIEW_SOURCES = PROJECT_ROOT / "config" / "sec_review_sources.csv"
+SOURCE_KEYS = ["ticker", "form"]
+LOCKED_FIELDS = ["report_date", "accession", "document_url", "sha256"]
 
 
 def pct(numerator: float, denominator: float) -> float:
     return 100.0 * numerator / denominator
 
 
+def validated_manifest(
+    manifest_path: Path = MANIFEST,
+    review_path: Path = REVIEW_SOURCES,
+    manifest_override: pd.DataFrame | None = None,
+) -> pd.DataFrame:
+    """Refuse to attach reviewed figures to a different SEC filing snapshot."""
+    manifest = (
+        manifest_override.astype("string")
+        if manifest_override is not None
+        else pd.read_csv(manifest_path, dtype="string")
+    )
+    reviewed = pd.read_csv(review_path, dtype="string")
+    required = set(SOURCE_KEYS + LOCKED_FIELDS)
+    if not required.issubset(manifest.columns) or not required.issubset(reviewed.columns):
+        raise ValueError(f"SEC source lock requires columns: {sorted(required)}")
+    for label, frame in (("manifest", manifest), ("review lock", reviewed)):
+        if frame[SOURCE_KEYS].isna().any().any() or frame.duplicated(SOURCE_KEYS).any():
+            raise ValueError(f"SEC {label} has missing or duplicate ticker/form keys")
+        if frame[LOCKED_FIELDS].isna().any().any():
+            raise ValueError(f"SEC {label} has missing source metadata")
+    actual = manifest.set_index(SOURCE_KEYS)[LOCKED_FIELDS].sort_index()
+    expected = reviewed.set_index(SOURCE_KEYS)[LOCKED_FIELDS].sort_index()
+    if not actual.equals(expected):
+        raise ValueError(
+            "SEC filing manifest differs from reviewed accessions, dates, URLs or hashes; "
+            "review the new filing tables and update curated metrics and source lock together"
+        )
+    return manifest
+
+
 def filing_urls() -> dict[tuple[str, str], str]:
-    manifest = pd.read_csv(MANIFEST)
+    manifest = validated_manifest()
     return {
         (row.ticker, row.form): row.document_url
         for row in manifest.itertuples(index=False)
@@ -212,7 +245,7 @@ def credit_rows(urls: dict[tuple[str, str], str]) -> list[dict[str, object]]:
     return rows
 
 
-def write_report(geo: pd.DataFrame) -> None:
+def write_report(geo: pd.DataFrame, portfolio: pd.DataFrame, credit: pd.DataFrame) -> None:
     def f(value: float) -> str:
         return "—" if pd.isna(value) else f"{value:.1f}%"
 
@@ -224,19 +257,33 @@ def write_report(geo: pd.DataFrame) -> None:
         "EWBC": geo.query("ticker == 'EWBC' and geography.str.contains('CRE')", engine="python").iloc[0].exposure_pct,
         "WAFD": geo.query("ticker == 'WAFD'").iloc[0].exposure_pct,
     }
+    def portfolio_pct(ticker: str, metric: str) -> float:
+        return float(portfolio.loc[(portfolio.ticker == ticker) & (portfolio.metric == metric), "portfolio_pct"].iloc[0])
+
+    def credit_row(ticker: str, metric: str) -> pd.Series:
+        return credit.loc[(credit.ticker == ticker) & (credit.metric == metric)].iloc[0]
+
+    bcml_npl = credit_row("BCML", "Nonperforming loans")
+    cvbf_cre_pct = float(
+        geo.loc[
+            geo.ticker.eq("CVBF")
+            & geo.denominator_name.eq("commercial real estate loans"),
+            "exposure_pct",
+        ].iloc[0]
+    )
     urls = filing_urls()
     lines = [
         "# 第四阶段：10-K / 10-Q 地理与资产质量复核",
         "",
-        "数据截点：最新可得 2026 年二季度 10-Q（WAFD 的 10-K 财年截至 2025-09-30；其余 10-K 截至 2025-12-31）。金额均为百万美元。",
+        "本次复核固定为 2026 年二季度 10-Q（WAFD 的 10-K 财年截至 2025-09-30；其余 10-K 截至 2025-12-31）。金额均为百万美元；更新下载后必须重新人工复核，不能自动延用这些数字。",
         "",
         "## 结论先行",
         "",
         "1. **FSBW 是最纯的定性 Puget Sound 暴露，但无法定量到科技核心。** 申报文件把 Seattle–Tacoma–Bellevue MSA 列为主要市场，然而没有按县或都会区披露贷款余额。",
         f"2. **BMRC 并不是 Silicon Valley 纯标的。** SF、San Mateo、Santa Clara 三县仅占年末 CRE 的 {strict['BMRC']:.1f}%；Marin 与 Sonoma 才是最大的两个 CRE 县。",
         f"3. **BCML 的地域稀释很明确。** 2026Q2 Bay Area 仅占总贷款 {strict['BCML']:.1f}%。",
-        f"4. **CVBF 收购 Heritage 后获得了可见的 Silicon Valley 暴露，但仍由南加州和 Central Valley 主导。** Santa Clara + San Mateo 占总贷款 {strict['CVBF']:.1f}%、占 CRE 10.5%；CRE 从年末 $6.57bn 跃升至 $8.98bn，跨期可比性下降。",
-        f"5. **COLB 的地理披露最好，且信用信号边际变差。** Puget + Bay Area 合计占 CRE {strict['COLB']:.1f}%；CRE nonaccrual 从年末 $50m 升至 $96m，office nonaccrual 约为 office 余额的 0.84%。",
+        f"4. **CVBF 收购 Heritage 后获得了可见的 Silicon Valley 暴露，但仍由南加州和 Central Valley 主导。** Santa Clara + San Mateo 占总贷款 {strict['CVBF']:.1f}%、占 CRE {cvbf_cre_pct:.1f}%；跨期可比性因收购下降。",
+        f"5. **COLB 的地理披露最好，且信用信号边际变差。** Puget + Bay Area 合计占 CRE {strict['COLB']:.1f}%；CRE nonaccrual 从年末 ${credit_row('COLB', 'CRE nonaccrual').prior_usd_m:.0f}m 升至 ${credit_row('COLB', 'CRE nonaccrual').current_usd_m:.0f}m，office nonaccrual 约为 office 余额的 {credit_row('COLB', 'Office nonaccrual').current_pct:.2f}%。",
         f"6. **EWBC 与 WAFD 只能给出宽口径上限。** EWBC 的 Northern California + Washington 占 CRE {strict['EWBC']:.1f}%；WAFD 的 Washington 占总贷款 {strict['WAFD']:.1f}%，两者都不能视为科技核心暴露。",
         "",
         "## 候选股更新",
@@ -261,12 +308,13 @@ def write_report(geo: pd.DataFrame) -> None:
         "",
         "## 信用与组合观察",
         "",
-        "- FSBW：CRE 约占总贷款 37.8%，construction & development 占 13.9%；CRE nonaccrual 0.77%，其中 construction 约 1.93%。",
-        "- BMRC：CRE（含 construction）约占总贷款 79.9%；总 nonaccrual 从年末 $26.9m / 1.27% 降至 $8.45m / 0.40%。",
-        "- BCML：CRE（含 multifamily/construction）约占总贷款 83.6%；NPL 比率从 0.65% 降至 0.47%。",
-        "- CVBF：CRE 占总贷款 74.8%，office 占 CRE 16.2%；2026Q2 完成 Heritage Commerce 收购，年末/二季度数字不可直接作同口径趋势。",
-        "- COLB：office 占 CRE 13.2%；CRE nonaccrual 0.36%，较年末 0.18% 上升。",
-        "- EWBC：office 占 CRE 10.6%；CRE nonaccrual 0.41%，高于年末约 0.31%。",
+        f"- FSBW：CRE 约占总贷款 {portfolio_pct('FSBW', 'CRE incl. multifamily/construction'):.1f}%，construction & development 占 {portfolio_pct('FSBW', 'Construction & development'):.1f}%；CRE nonaccrual {credit_row('FSBW', 'CRE nonaccrual').current_pct:.2f}%，其中 construction 约 {credit_row('FSBW', 'Construction nonaccrual').current_pct:.2f}%。",
+        f"- BMRC：CRE（含 construction）约占总贷款 {portfolio_pct('BMRC', 'CRE incl. construction'):.1f}%；总 nonaccrual 从年末 ${credit_row('BMRC', 'Total nonaccrual loans').prior_usd_m:.1f}m / {credit_row('BMRC', 'Total nonaccrual loans').prior_pct:.2f}% 降至 ${credit_row('BMRC', 'Total nonaccrual loans').current_usd_m:.2f}m / {credit_row('BMRC', 'Total nonaccrual loans').current_pct:.2f}%。",
+        f"- BCML：CRE（含 multifamily/construction）约占总贷款 {portfolio_pct('BCML', 'CRE incl. multifamily/construction'):.1f}%；NPL 比率从 {bcml_npl.prior_pct:.2f}% 降至 {bcml_npl.current_pct:.2f}%。",
+        f"- CVBF：CRE 占总贷款 {portfolio_pct('CVBF', 'Commercial real estate'):.1f}%，office 占 CRE {portfolio_pct('CVBF', 'Office'):.1f}%；2026Q2 完成 Heritage Commerce 收购，年末/二季度数字不可直接作同口径趋势。",
+        f"- COLB：office 占 CRE {portfolio_pct('COLB', 'Office'):.1f}%；CRE nonaccrual {credit_row('COLB', 'CRE nonaccrual').current_pct:.2f}%，较年末 {credit_row('COLB', 'CRE nonaccrual').prior_pct:.2f}% 上升。",
+        f"- EWBC：office 占 CRE {portfolio_pct('EWBC', 'Office'):.1f}%；CRE nonaccrual {credit_row('EWBC', 'CRE nonaccrual').current_pct:.2f}%，高于年末约 {credit_row('EWBC', 'CRE nonaccrual').prior_pct:.2f}%。",
+        "上述非应计/不良余额变化只描述两个报表时点，不推断借款人恢复偿付；出售、核销及分类变动需另行核对。",
         "",
         "## 官方申报文件",
         "",
@@ -290,7 +338,8 @@ def write_report(geo: pd.DataFrame) -> None:
 
 
 def run() -> None:
-    urls = filing_urls()
+    manifest = validated_manifest()
+    urls = {(row.ticker, row.form): row.document_url for row in manifest.itertuples(index=False)}
     geo = pd.DataFrame(geo_rows(urls))
     portfolio = pd.DataFrame(portfolio_rows(urls))
     credit = pd.DataFrame(credit_rows(urls))
@@ -300,10 +349,18 @@ def run() -> None:
     assert portfolio.portfolio_pct.between(0, 100).all()
     assert credit.current_pct.between(0, 100).all()
 
+    source_ids = manifest[SOURCE_KEYS + ["report_date", "accession", "sha256"]]
+    for frame in (geo, portfolio, credit):
+        linked = frame.merge(source_ids, on=SOURCE_KEYS + ["report_date"], how="left", validate="many_to_one")
+        if linked["accession"].isna().any():
+            raise ValueError("Curated SEC metric has no matching reviewed filing accession")
+        frame["accession"] = linked["accession"].to_numpy()
+        frame["source_sha256"] = linked["sha256"].to_numpy()
+        frame["amount_unit"] = "USD millions"
     geo.to_csv(OUTPUT_DIR / "sec_geographic_exposure_summary.csv", index=False)
     portfolio.to_csv(OUTPUT_DIR / "sec_portfolio_metrics.csv", index=False)
     credit.to_csv(OUTPUT_DIR / "sec_credit_metrics.csv", index=False)
-    write_report(geo)
+    write_report(geo, portfolio, credit)
     print(f"wrote {len(geo)} geographic, {len(portfolio)} portfolio, and {len(credit)} credit metrics")
 
 

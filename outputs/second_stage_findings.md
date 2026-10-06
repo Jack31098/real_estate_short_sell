@@ -1,8 +1,8 @@
-# Second-stage retained residential exposure proxy
+# Second-stage residential origination-cohort balance proxy
 
 ## Headline result
 
-The retention adjustment materially reduces the first-stage origination footprint. The table below compares modeled 2025-12-31 balances in named tech-core places with bank-level tangible common equity (TCE) proxies.
+The purchaser-type screen materially reduces the first-stage origination footprint. The table below compares modeled 2025-12-31 balances in named tech-core places with bank-level tangible common equity (TCE) proxies.
 
 | Ticker | Core originations | Strict base balance | Expanded base balance | Expanded / TCE | Capital date |
 |---|---:|---:|---:|---:|---:|
@@ -15,7 +15,7 @@ The retention adjustment materially reduces the first-stage origination footprin
 | BMRC | $0 | $0 | $0 | 0.00% | 20251231 |
 | CVBF | $0 | $0 | $0 | 0.00% | 20251231 |
 
-Strict means HMDA purchaser type 0: an originated loan was not reported as sold during that reporting calendar year. Expanded adds purchaser type 8, sale to an affiliate. Neither field proves that the loan remained on the public parent’s consolidated balance sheet at 2025 year-end.
+Strict means HMDA purchaser type 0: an originated loan was not reported as sold during that reporting calendar year. Expanded adds purchaser type 8, sale to an affiliate. Type 8 does not establish that the bank subsidiary in the TCE denominator holds the loan. Neither field proves that the loan remained on a consolidated balance sheet at 2025 year-end. The observed candidate sample contains 0 type 8 loans.
 
 ## Model assumptions
 
@@ -28,6 +28,8 @@ Strict means HMDA purchaser type 0: an originated loan was not reported as sold 
 ## What this does and does not establish
 
 This is a sharper residential screening metric than raw originations, but it is still not current loan holdings. HMDA lacks stable loan identifiers across years; refinancings, subsequent sales, repurchases, participations, charge-offs, and exact origination dates are unobserved. Most importantly, CRE and construction lending are outside this residential model and require Call Report/SEC portfolio data.
+
+The proxy can overstate exposure through later sales and repeat refinancing originations, or understate it by excluding pre-2023 cohorts, purchased loans and acquired portfolios. It is not a conservative bound. Balance / TCE is not loss / TCE: losses also depend on defaults, collateral recoveries, reserves, earnings and taxes.
 
 ## Reproducible outputs
 

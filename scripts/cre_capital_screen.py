@@ -110,15 +110,24 @@ def fetch_history(refresh: bool = False) -> tuple[pd.DataFrame, dict[str, Any]]:
     data = pd.DataFrame(rows)
     if data.empty:
         raise RuntimeError("FDIC financial query returned no rows")
+    missing_columns = set(FDIC_FIELDS) - set(data.columns)
+    if missing_columns:
+        raise RuntimeError(f"FDIC financial query omitted fields: {sorted(missing_columns)}")
     for column in FDIC_FIELDS:
         if column not in {"REPDTE", "NAME"}:
-            data[column] = pd.to_numeric(data[column], errors="coerce").fillna(0.0)
+            data[column] = pd.to_numeric(data[column], errors="coerce")
+    if data[["CERT", "REPDTE"]].isna().any().any():
+        raise RuntimeError("FDIC financial query has missing bank certificate or report date")
     return data.sort_values(["CERT", "REPDTE"]), payload
 
 
 def add_metrics(data: pd.DataFrame) -> pd.DataFrame:
     df = data.copy()
     amount_columns = [column for column in FDIC_FIELDS if column not in {"CERT", "REPDTE", "NAME"}]
+    df["missing_fdic_fields"] = df[amount_columns].apply(
+        lambda row: ",".join(row.index[row.isna()]), axis=1
+    )
+    df["data_complete"] = df["missing_fdic_fields"].eq("")
     df[amount_columns] = df[amount_columns] * 1000.0
     df["tce_proxy"] = df["EQ"] - df["EQPP"] - df["INTAN"]
     df["cre_proxy"] = df["LNRECONS"] + df["LNREMULT"] + df["LNRENROW"] + df["LNRENROT"]
@@ -208,6 +217,9 @@ def build_latest_and_trends(metrics: pd.DataFrame) -> tuple[pd.DataFrame, pd.Dat
 
 def write_report(latest: pd.DataFrame, trends: pd.DataFrame) -> None:
     ranked = latest.sort_values("severe_gross_loss_to_tce", ascending=False)
+    def fmt_ratio(value: float, digits: int) -> str:
+        return "unknown" if pd.isna(value) else f"{value:.{digits}%}"
+
     lines = [
         "# Bank-wide CRE and real-estate capital screen",
         "",
@@ -216,15 +228,15 @@ def write_report(latest: pd.DataFrame, trends: pd.DataFrame) -> None:
         "This stage uses FDIC bank-level portfolio categories. It measures balance-sheet "
         "sensitivity, not tech-core geographic purity.",
         "",
-        "| Ticker | CRE proxy | CRE / TCE | Investor CRE / TCE | RE noncurrent | Severe gross loss / TCE | Report date |",
-        "|---|---:|---:|---:|---:|---:|---:|",
+        "| Ticker | CRE proxy | CRE / TCE | Investor CRE / TCE | RE noncurrent | Severe gross loss / TCE | Missing FDIC fields | Report date |",
+        "|---|---:|---:|---:|---:|---:|---|---:|",
     ]
     for _, row in ranked.iterrows():
         lines.append(
-            f"| {row['ticker']} | {pipeline.fmt_money(row['cre_proxy'])} | "
-            f"{row['cre_to_tce']:.1%} | {row['investor_cre_to_tce']:.1%} | "
-            f"{row['real_estate_noncurrent_rate']:.2%} | "
-            f"{row['severe_gross_loss_to_tce']:.1%} | {row['REPDTE']} |"
+            f"| {row['ticker']} | {'unknown' if pd.isna(row['cre_proxy']) else pipeline.fmt_money(row['cre_proxy'])} | "
+            f"{fmt_ratio(row['cre_to_tce'], 1)} | {fmt_ratio(row['investor_cre_to_tce'], 1)} | "
+            f"{fmt_ratio(row['real_estate_noncurrent_rate'], 2)} | "
+            f"{fmt_ratio(row['severe_gross_loss_to_tce'], 1)} | {row['missing_fdic_fields'] or 'none'} | {row['REPDTE']} |"
         )
 
     lines += [
@@ -232,6 +244,8 @@ def write_report(latest: pd.DataFrame, trends: pd.DataFrame) -> None:
         "CRE proxy = construction and land development + multifamily + owner-occupied "
         "nonfarm nonresidential + other nonfarm nonresidential. Investor CRE excludes the "
         "owner-occupied category. TCE is the same bank-level proxy used in stage 2.",
+        "Missing FDIC source fields remain unknown rather than being treated as zero; "
+        "affected ratios and stress results are also unknown.",
         "",
         "## Standardized stress scenarios",
         "",
