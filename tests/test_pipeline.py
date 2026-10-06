@@ -77,6 +77,8 @@ class OutputInvariantTests(unittest.TestCase):
             "Mountain View",
             "Sunnyvale",
             "Cupertino",
+            "San Jose",
+            "Santa Clara",
         }
         self.assertTrue(expected.issubset(set(self.tracts["place"])))
 

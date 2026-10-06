@@ -153,6 +153,13 @@ def load_config() -> dict[str, Any]:
     return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
 
 
+def core_threshold() -> float:
+    value = float(load_config()["core_threshold"])
+    if not 0 <= value <= 1:
+        raise ValueError("Core threshold must be between 0 and 1")
+    return value
+
+
 def ensure_dirs() -> None:
     for directory in (RAW_DIR, DERIVED_DIR, OUTPUT_DIR):
         directory.mkdir(parents=True, exist_ok=True)
@@ -389,6 +396,7 @@ def aggregate_hmda(
     files: list[tuple[int, str, Path]], tract_scores: pd.DataFrame
 ) -> pd.DataFrame:
     score_columns = tract_scores[["census_tract", "region", "place", "tech_score"]]
+    threshold = core_threshold()
     parts: list[pd.DataFrame] = []
     coverage_parts: list[pd.DataFrame] = []
     for year, region_name, path in files:
@@ -436,9 +444,9 @@ def aggregate_hmda(
             clean["positive_score"] = clean["tech_score"].clip(lower=0)
             clean["weighted_amount"] = clean["loan_amount"] * clean["positive_score"]
             clean["core_amount"] = clean["loan_amount"].where(
-                clean["tech_score"].ge(0.7), 0
+                clean["tech_score"].ge(threshold), 0
             )
-            clean["core_count"] = clean["tech_score"].ge(0.7).astype(int)
+            clean["core_count"] = clean["tech_score"].ge(threshold).astype(int)
             clean["scored_amount"] = clean["loan_amount"].where(
                 clean["tech_score"].ne(0), 0
             )

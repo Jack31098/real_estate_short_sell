@@ -121,6 +121,7 @@ def load_candidate_core_loans(
     files: list[tuple[int, str, Path]], tract_scores: pd.DataFrame
 ) -> pd.DataFrame:
     score_columns = tract_scores[["census_tract", "region", "place", "tech_score"]]
+    threshold = pipeline.core_threshold()
     known_leis = set(pipeline.CANDIDATES)
     parts: list[pd.DataFrame] = []
 
@@ -142,7 +143,7 @@ def load_candidate_core_loans(
                 continue
             clean = clean.merge(score_columns, on="census_tract", how="inner")
             clean = clean.loc[
-                clean["region"].eq(region_name) & clean["tech_score"].ge(0.7)
+                clean["region"].eq(region_name) & clean["tech_score"].ge(threshold)
             ].copy()
             if clean.empty:
                 continue
@@ -385,7 +386,7 @@ def write_report(by_region: pd.DataFrame, totals: pd.DataFrame, mix: pd.DataFram
         "",
         "- Scope is unchanged from stage 1: principal-residence, first-lien, 1–4 unit, "
         "non-commercial purchase/refinance loans whose Census tract point falls in a place "
-        "with a tech score of at least 0.7.",
+        f"with a tech score of at least {pipeline.core_threshold():g}.",
         "- Each loan is assumed to originate at the midpoint of its HMDA year. Scheduled "
         "amortization uses reported rate and term; missing/invalid values use 6.5% and 360 months.",
         "- CPR scenarios are 4%, 8% (base), and 15%. This is a sensitivity analysis, not a "

@@ -14,9 +14,9 @@ For the Bay Area candidates, residential HMDA is mostly non-diagnostic. EWBC has
 
 | Year | Region | Qualifying loans | Regional amount | Core amount | Weighted amount |
 |---:|---|---:|---:|---:|---:|
-| 2023 | Bay Area | 46,247 | $40.31B | $6.94B | $6.45B |
-| 2024 | Bay Area | 57,207 | $53.15B | $9.06B | $8.45B |
-| 2025 | Bay Area | 66,938 | $65.21B | $12.14B | $11.27B |
+| 2023 | Bay Area | 46,247 | $40.31B | $12.07B | $10.04B |
+| 2024 | Bay Area | 57,207 | $53.15B | $16.70B | $13.80B |
+| 2025 | Bay Area | 66,938 | $65.21B | $21.58B | $17.88B |
 | 2023 | Seattle/Puget Sound | 47,408 | $27.97B | $6.91B | $6.35B |
 | 2024 | Seattle/Puget Sound | 54,707 | $34.59B | $8.67B | $8.01B |
 | 2025 | Seattle/Puget Sound | 62,322 | $40.62B | $10.91B | $10.00B |
@@ -27,11 +27,11 @@ For the Bay Area candidates, residential HMDA is mostly non-diagnostic. EWBC has
 
 | Ticker | HMDA filer | Loans | Core loans | Core amount | Weighted score | Weighted market share | Coverage |
 |---|---|---:|---:|---:|---:|---:|---|
-| EWBC | East West Bank | 617 | 109 | $91.9M | 17.2% | 0.3% | Observed qualifying HMDA originations |
-| COLB | Umpqua Bank | 164 | 8 | $8.5M | 6.0% | 0.0% | Observed qualifying HMDA originations |
-| HMST | HomeStreet Bank | 7 | 1 | $1.0M | 22.3% | 0.0% | Observed qualifying HMDA originations |
+| EWBC | East West Bank | 617 | 179 | $144.4M | 24.8% | 0.3% | Observed qualifying HMDA originations |
+| COLB | Umpqua Bank | 164 | 12 | $11.4M | 7.7% | 0.0% | Observed qualifying HMDA originations |
+| WAFD | WASHINGTON FEDERAL BANK | 21 | 2 | $4.0M | 7.3% | 0.0% | Observed qualifying HMDA originations |
+| HMST | HomeStreet Bank | 7 | 3 | $2.0M | 36.8% | 0.0% | Observed qualifying HMDA originations |
 | FSBW | 1st Security Bank of Washington | 3 | 0 | $0 | 0.0% | 0.0% | Observed qualifying HMDA originations |
-| WAFD | WASHINGTON FEDERAL BANK | 21 | 0 | $0 | 0.0% | 0.0% | Observed qualifying HMDA originations |
 | BMRC | Bank of Marin | 0 | 0 | $0 | 0.0% | 0.0% | 588 originated HMDA records in selected counties, but none matched the residential screen; not evidence of zero balance-sheet exposure |
 | CVBF | Citizens Business Bank | 0 | 0 | $0 | 0.0% | 0.0% | 2 originated HMDA records in selected counties, but none matched the residential screen; not evidence of zero balance-sheet exposure |
 | BCML | United Business Bank / BayCom Corp. | 0 | 0 | $0 | 0.0% | 0.0% | No qualifying filtered HMDA originations observed; not evidence of zero balance-sheet exposure |
@@ -55,18 +55,18 @@ For the Bay Area candidates, residential HMDA is mostly non-diagnostic. EWBC has
 
 | Rank | Institution | Loans | Core amount | Weighted score | Weighted market share |
 |---:|---|---:|---:|---:|---:|
-| 1 | Wells Fargo Bank, National Association | 11,868 | $4.31B | 24.1% | 15.1% |
-| 2 | Bank of America, National Association | 9,326 | $2.77B | 21.8% | 9.8% |
-| 3 | Citibank, National Association | 6,350 | $2.04B | 21.9% | 7.1% |
-| 4 | JPMorgan Chase Bank, National Association | 6,749 | $2.00B | 22.5% | 6.6% |
-| 5 | U.S. Bank National Association | 8,956 | $1.85B | 16.6% | 6.5% |
-| 6 | HSBC BANK USA, NATIONAL ASSOCIATION | 3,176 | $1.67B | 34.0% | 6.1% |
-| 7 | BMO Bank National Association | 3,440 | $1.15B | 23.6% | 4.2% |
-| 8 | ROCKET MORTGAGE, LLC | 13,351 | $845.2M | 9.6% | 3.4% |
-| 9 | UNITED WHOLESALE MORTGAGE, LLC | 15,872 | $849.1M | 8.0% | 3.4% |
-| 10 | PNC Bank, National Association | 2,688 | $863.4M | 22.2% | 3.0% |
-| 11 | REDWOOD | 1,762 | $663.0M | 33.5% | 1.8% |
-| 12 | CROSSCOUNTRY MORTGAGE, LLC | 5,751 | $324.4M | 9.8% | 1.8% |
+| 1 | Wells Fargo Bank, National Association | 11,868 | $7.37B | 37.3% | 14.6% |
+| 2 | Bank of America, National Association | 9,326 | $5.05B | 35.4% | 10.0% |
+| 3 | Citibank, National Association | 6,350 | $3.79B | 36.2% | 7.4% |
+| 4 | U.S. Bank National Association | 8,956 | $3.70B | 29.2% | 7.2% |
+| 5 | JPMorgan Chase Bank, National Association | 6,749 | $3.08B | 32.3% | 5.9% |
+| 6 | HSBC BANK USA, NATIONAL ASSOCIATION | 3,176 | $2.78B | 50.8% | 5.7% |
+| 7 | ROCKET MORTGAGE, LLC | 13,351 | $2.18B | 19.8% | 4.4% |
+| 8 | BMO Bank National Association | 3,440 | $2.04B | 36.8% | 4.1% |
+| 9 | UNITED WHOLESALE MORTGAGE, LLC | 15,872 | $1.85B | 14.4% | 3.8% |
+| 10 | PNC Bank, National Association | 2,688 | $1.51B | 34.9% | 3.0% |
+| 11 | CROSSCOUNTRY MORTGAGE, LLC | 5,751 | $602.2M | 13.9% | 1.6% |
+| 12 | Morgan Stanley Private Bank, National Association | 1,359 | $733.0M | 29.5% | 1.4% |
 
 ### Seattle/Puget Sound
 

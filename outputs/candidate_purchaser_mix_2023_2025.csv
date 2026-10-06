@@ -1,9 +1,12 @@
 region,lei,purchaser_type,core_loan_count,core_originated_amount,purchaser_label,ticker,institution
-Bay Area,IFQSIUC9AGQV2NE8CN25,0,6,6440000.0,Not applicable / not reported sold in calendar year,COLB,Umpqua Bank
-Bay Area,IFQSIUC9AGQV2NE8CN25,1,1,1245000.0,Fannie Mae,COLB,Umpqua Bank
+Bay Area,IFQSIUC9AGQV2NE8CN25,0,9,8785000.0,Not applicable / not reported sold in calendar year,COLB,Umpqua Bank
+Bay Area,IFQSIUC9AGQV2NE8CN25,1,2,1800000.0,Fannie Mae,COLB,Umpqua Bank
 Bay Area,IFQSIUC9AGQV2NE8CN25,3,1,785000.0,Freddie Mac,COLB,Umpqua Bank
-Bay Area,F28JOQ8OBWCFUYM0UX93,0,109,91855000.0,Not applicable / not reported sold in calendar year,EWBC,East West Bank
+Bay Area,F28JOQ8OBWCFUYM0UX93,0,179,144405000.0,Not applicable / not reported sold in calendar year,EWBC,East West Bank
+Bay Area,01KWVG908KE7RKPTNP46,1,1,595000.0,Fannie Mae,HMST,HomeStreet Bank
+Bay Area,01KWVG908KE7RKPTNP46,3,1,405000.0,Freddie Mac,HMST,HomeStreet Bank
 Bay Area,01KWVG908KE7RKPTNP46,71,1,1045000.0,"Credit union, mortgage company, or finance company",HMST,HomeStreet Bank
+Bay Area,D38AC76TAMYI50NBPX33,0,2,4000000.0,Not applicable / not reported sold in calendar year,WAFD,WASHINGTON FEDERAL BANK
 Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,0,91,111835000.0,Not applicable / not reported sold in calendar year,COLB,Umpqua Bank
 Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,1,36,17870000.0,Fannie Mae,COLB,Umpqua Bank
 Seattle/Puget Sound,IFQSIUC9AGQV2NE8CN25,2,2,1110000.0,Ginnie Mae,COLB,Umpqua Bank

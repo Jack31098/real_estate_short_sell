@@ -1,4 +1,5 @@
 {
+  "core_threshold": 0.7,
   "regions": {
     "Seattle/Puget Sound": {
       "state_fips": "53",
@@ -22,6 +23,8 @@
         "Mountain View": 1.0,
         "Sunnyvale": 1.0,
         "Cupertino": 1.0,
+        "Santa Clara": 0.7,
+        "San Jose": 0.7,
         "Menlo Park": 0.9,
         "Redwood City": 0.9,
         "San Francisco": 0.7,
@@ -33,7 +36,7 @@
   },
   "notes": {
     "tract_assignment": "A tract is assigned to a place when its Census interior point falls inside that incorporated-place polygon.",
-    "score_interpretation": "Weights are hypothesis inputs from the imported conversation, not estimated causal coefficients.",
+    "score_interpretation": "Weights and the 0.7 core threshold are manually chosen scenario inputs, not estimated causal coefficients or measured borrower-income exposure. San Jose and Santa Clara were added at the inclusion boundary (0.7) on 2026-10-05; their weight is provisional and must be stress-tested against exclusion.",
     "unassigned_tracts": "Selected-county tracts outside named places receive score 0."
   }
 }

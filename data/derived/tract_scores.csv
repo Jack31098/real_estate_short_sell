@@ -1,8 +1,8 @@
 census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_score,latitude,longitude,assignment_method
 06001400100,Bay Area,06,06001,Census Tract 4001,Oakland,0653000,0.3,37.8676563,-122.2318813,tract interior point in incorporated place
-06001400200,Bay Area,06,06001,Census Tract 4002,Oakland,0653000,0.3,37.8481378,-122.2495916,tract interior point in incorporated place
+06001400200,Bay Area,06,06001,Census Tract 4002,Oakland,0653000,0.3,37.848147,-122.2495644,tract interior point in incorporated place
 06001400300,Bay Area,06,06001,Census Tract 4003,Oakland,0653000,0.3,37.8405841,-122.2544782,tract interior point in incorporated place
-06001400400,Bay Area,06,06001,Census Tract 4004,Oakland,0653000,0.3,37.848284,-122.2574447,tract interior point in incorporated place
+06001400400,Bay Area,06,06001,Census Tract 4004,Oakland,0653000,0.3,37.8482759,-122.2574336,tract interior point in incorporated place
 06001400500,Bay Area,06,06001,Census Tract 4005,Oakland,0653000,0.3,37.8485452,-122.2647353,tract interior point in incorporated place
 06001400600,Bay Area,06,06001,Census Tract 4006,Oakland,0653000,0.3,37.8419909,-122.2648882,tract interior point in incorporated place
 06001400700,Bay Area,06,06001,Census Tract 4007,Oakland,0653000,0.3,37.8417014,-122.2722628,tract interior point in incorporated place
@@ -41,10 +41,10 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06001404000,Bay Area,06,06001,Census Tract 4040,Oakland,0653000,0.3,37.8233126,-122.2536627,tract interior point in incorporated place
 06001404101,Bay Area,06,06001,Census Tract 4041.01,Oakland,0653000,0.3,37.8300877,-122.2498696,tract interior point in incorporated place
 06001404102,Bay Area,06,06001,Census Tract 4041.02,Oakland,0653000,0.3,37.8260219,-122.2510667,tract interior point in incorporated place
-06001404200,Bay Area,06,06001,Census Tract 4042,Oakland,0653000,0.3,37.8361052,-122.2344831,tract interior point in incorporated place
+06001404200,Bay Area,06,06001,Census Tract 4042,Oakland,0653000,0.3,37.8361098,-122.2344695,tract interior point in incorporated place
 06001404300,Bay Area,06,06001,Census Tract 4043,Oakland,0653000,0.3,37.844821,-122.2385523,tract interior point in incorporated place
-06001404400,Bay Area,06,06001,Census Tract 4044,Oakland,0653000,0.3,37.8462275,-122.2149841,tract interior point in incorporated place
-06001404501,Bay Area,06,06001,Census Tract 4045.01,Oakland,0653000,0.3,37.8271275,-122.2171515,tract interior point in incorporated place
+06001404400,Bay Area,06,06001,Census Tract 4044,Oakland,0653000,0.3,37.8462326,-122.2149774,tract interior point in incorporated place
+06001404501,Bay Area,06,06001,Census Tract 4045.01,Oakland,0653000,0.3,37.8271315,-122.2171622,tract interior point in incorporated place
 06001404502,Bay Area,06,06001,Census Tract 4045.02,Oakland,0653000,0.3,37.8346277,-122.2024752,tract interior point in incorporated place
 06001404600,Bay Area,06,06001,Census Tract 4046,Oakland,0653000,0.3,37.8199301,-122.1912387,tract interior point in incorporated place
 06001404700,Bay Area,06,06001,Census Tract 4047,Oakland,0653000,0.3,37.8133308,-122.2069747,tract interior point in incorporated place
@@ -124,8 +124,8 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06001421200,Bay Area,06,06001,Census Tract 4212,Berkeley,0606000,0.3,37.8962495,-122.2746943,tract interior point in incorporated place
 06001421300,Bay Area,06,06001,Census Tract 4213,Berkeley,0606000,0.3,37.8910377,-122.2812606,tract interior point in incorporated place
 06001421400,Bay Area,06,06001,Census Tract 4214,Berkeley,0606000,0.3,37.8883409,-122.270922,tract interior point in incorporated place
-06001421500,Bay Area,06,06001,Census Tract 4215,Berkeley,0606000,0.3,37.8917124,-122.2594986,tract interior point in incorporated place
-06001421600,Bay Area,06,06001,Census Tract 4216,Berkeley,0606000,0.3,37.8839086,-122.2560313,tract interior point in incorporated place
+06001421500,Bay Area,06,06001,Census Tract 4215,Berkeley,0606000,0.3,37.8917124,-122.2594988,tract interior point in incorporated place
+06001421600,Bay Area,06,06001,Census Tract 4216,Berkeley,0606000,0.3,37.883908,-122.2560319,tract interior point in incorporated place
 06001421700,Bay Area,06,06001,Census Tract 4217,Berkeley,0606000,0.3,37.8819398,-122.2701842,tract interior point in incorporated place
 06001421800,Bay Area,06,06001,Census Tract 4218,Berkeley,0606000,0.3,37.8802854,-122.2782006,tract interior point in incorporated place
 06001421900,Bay Area,06,06001,Census Tract 4219,Berkeley,0606000,0.3,37.8794472,-122.2896362,tract interior point in incorporated place
@@ -134,7 +134,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06001422200,Bay Area,06,06001,Census Tract 4222,Berkeley,0606000,0.3,37.8728828,-122.2878171,tract interior point in incorporated place
 06001422300,Bay Area,06,06001,Census Tract 4223,Berkeley,0606000,0.3,37.8740722,-122.2779151,tract interior point in incorporated place
 06001422400,Bay Area,06,06001,Census Tract 4224,Berkeley,0606000,0.3,37.8752396,-122.2695878,tract interior point in incorporated place
-06001422500,Bay Area,06,06001,Census Tract 4225,Berkeley,0606000,0.3,37.8773391,-122.2602611,tract interior point in incorporated place
+06001422500,Bay Area,06,06001,Census Tract 4225,Berkeley,0606000,0.3,37.8773363,-122.2602634,tract interior point in incorporated place
 06001422700,Bay Area,06,06001,Census Tract 4227,Berkeley,0606000,0.3,37.8679151,-122.2495095,tract interior point in incorporated place
 06001422800,Bay Area,06,06001,Census Tract 4228,Berkeley,0606000,0.3,37.8667875,-122.259979,tract interior point in incorporated place
 06001422901,Bay Area,06,06001,Census Tract 4229.01,Berkeley,0606000,0.3,37.8657427,-122.2678632,tract interior point in incorporated place
@@ -162,7 +162,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06001427100,Bay Area,06,06001,Census Tract 4271,Outside named places,,0.0,37.764909,-122.2299614,tract interior point in incorporated place
 06001427200,Bay Area,06,06001,Census Tract 4272,Outside named places,,0.0,37.780827,-122.248255,tract interior point in incorporated place
 06001427300,Bay Area,06,06001,Census Tract 4273,Outside named places,,0.0,37.7810489,-122.2662775,tract interior point in incorporated place
-06001427600,Bay Area,06,06001,Census Tract 4276,Outside named places,,0.0,37.7778323,-122.2835979,tract interior point in incorporated place
+06001427600,Bay Area,06,06001,Census Tract 4276,Outside named places,,0.0,37.7778323,-122.2835978,tract interior point in incorporated place
 06001427700,Bay Area,06,06001,Census Tract 4277,Outside named places,,0.0,37.7677097,-122.2877866,tract interior point in incorporated place
 06001427800,Bay Area,06,06001,Census Tract 4278,Outside named places,,0.0,37.7714922,-122.2690581,tract interior point in incorporated place
 06001427900,Bay Area,06,06001,Census Tract 4279,Outside named places,,0.0,37.7698045,-122.2582454,tract interior point in incorporated place
@@ -170,7 +170,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06001428100,Bay Area,06,06001,Census Tract 4281,Outside named places,,0.0,37.7589136,-122.2346068,tract interior point in incorporated place
 06001428200,Bay Area,06,06001,Census Tract 4282,Outside named places,,0.0,37.7533497,-122.2396803,tract interior point in incorporated place
 06001428301,Bay Area,06,06001,Census Tract 4283.01,Outside named places,,0.0,37.7344929,-122.2414385,tract interior point in incorporated place
-06001428302,Bay Area,06,06001,Census Tract 4283.02,Outside named places,,0.0,37.7438681,-122.2493794,tract interior point in incorporated place
+06001428302,Bay Area,06,06001,Census Tract 4283.02,Outside named places,,0.0,37.7439032,-122.2493273,tract interior point in incorporated place
 06001428400,Bay Area,06,06001,Census Tract 4284,Outside named places,,0.0,37.7564138,-122.2559068,tract interior point in incorporated place
 06001428500,Bay Area,06,06001,Census Tract 4285,Outside named places,,0.0,37.7601324,-122.2593887,tract interior point in incorporated place
 06001428600,Bay Area,06,06001,Census Tract 4286,Outside named places,,0.0,37.766273,-122.2738461,tract interior point in incorporated place
@@ -279,7 +279,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06001441401,Bay Area,06,06001,Census Tract 4414.01,Outside named places,,0.0,37.5735085,-122.0375264,tract interior point in incorporated place
 06001441402,Bay Area,06,06001,Census Tract 4414.02,Outside named places,,0.0,37.5823293,-122.0400088,tract interior point in incorporated place
 06001441501,Bay Area,06,06001,Census Tract 4415.01,Outside named places,,0.0,37.5695603,-122.0740416,tract interior point in incorporated place
-06001441503,Bay Area,06,06001,Census Tract 4415.03,Outside named places,,0.0,37.488238,-121.9728123,tract interior point in incorporated place
+06001441503,Bay Area,06,06001,Census Tract 4415.03,Outside named places,,0.0,37.488238,-121.9728118,tract interior point in incorporated place
 06001441521,Bay Area,06,06001,Census Tract 4415.21,Outside named places,,0.0,37.5730234,-122.0528477,tract interior point in incorporated place
 06001441522,Bay Area,06,06001,Census Tract 4415.22,Outside named places,,0.0,37.5846106,-122.0572653,tract interior point in incorporated place
 06001441523,Bay Area,06,06001,Census Tract 4415.23,Outside named places,,0.0,37.5647764,-122.0464882,tract interior point in incorporated place
@@ -394,7 +394,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06013303202,Bay Area,06,06013,Census Tract 3032.02,Outside named places,,0.0,37.942375,-121.7148585,tract interior point in incorporated place
 06013303204,Bay Area,06,06013,Census Tract 3032.04,Outside named places,,0.0,37.9289405,-121.7089879,tract interior point in incorporated place
 06013303206,Bay Area,06,06013,Census Tract 3032.06,Outside named places,,0.0,37.9348893,-121.756426,tract interior point in incorporated place
-06013303207,Bay Area,06,06013,Census Tract 3032.07,Outside named places,,0.0,37.9542876,-121.7620862,tract interior point in incorporated place
+06013303207,Bay Area,06,06013,Census Tract 3032.07,Outside named places,,0.0,37.9542876,-121.7620861,tract interior point in incorporated place
 06013303208,Bay Area,06,06013,Census Tract 3032.08,Outside named places,,0.0,37.9353992,-121.7306268,tract interior point in incorporated place
 06013303209,Bay Area,06,06013,Census Tract 3032.09,Outside named places,,0.0,37.9539324,-121.7331883,tract interior point in incorporated place
 06013303210,Bay Area,06,06013,Census Tract 3032.10,Outside named places,,0.0,37.9162534,-121.7224193,tract interior point in incorporated place
@@ -544,11 +544,11 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06013355113,Bay Area,06,06013,Census Tract 3551.13,Outside named places,,0.0,37.8042063,-121.9046453,tract interior point in incorporated place
 06013355115,Bay Area,06,06013,Census Tract 3551.15,Outside named places,,0.0,37.7626429,-121.9121996,tract interior point in incorporated place
 06013355118,Bay Area,06,06013,Census Tract 3551.18,Outside named places,,0.0,37.961197,-121.8103813,tract interior point in incorporated place
-06013355119,Bay Area,06,06013,Census Tract 3551.19,Outside named places,,0.0,37.9403403,-121.8011252,tract interior point in incorporated place
+06013355119,Bay Area,06,06013,Census Tract 3551.19,Outside named places,,0.0,37.9403403,-121.8011251,tract interior point in incorporated place
 06013355120,Bay Area,06,06013,Census Tract 3551.20,Outside named places,,0.0,37.9642256,-121.7886864,tract interior point in incorporated place
 06013355121,Bay Area,06,06013,Census Tract 3551.21,Outside named places,,0.0,37.78368,-121.9137603,tract interior point in incorporated place
 06013355122,Bay Area,06,06013,Census Tract 3551.22,Outside named places,,0.0,37.7932113,-121.8990398,tract interior point in incorporated place
-06013355123,Bay Area,06,06013,Census Tract 3551.23,Outside named places,,0.0,37.742379,-121.8969676,tract interior point in incorporated place
+06013355123,Bay Area,06,06013,Census Tract 3551.23,Outside named places,,0.0,37.742379,-121.8969675,tract interior point in incorporated place
 06013355124,Bay Area,06,06013,Census Tract 3551.24,Outside named places,,0.0,37.7568691,-121.896725,tract interior point in incorporated place
 06013355125,Bay Area,06,06013,Census Tract 3551.25,Outside named places,,0.0,37.7672133,-121.8990719,tract interior point in incorporated place
 06013355126,Bay Area,06,06013,Census Tract 3551.26,Outside named places,,0.0,37.7738098,-121.8797382,tract interior point in incorporated place
@@ -599,7 +599,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06013378000,Bay Area,06,06013,Census Tract 3780,Outside named places,,0.0,37.9448548,-122.4048891,tract interior point in incorporated place
 06013379000,Bay Area,06,06013,Census Tract 3790,Outside named places,,0.0,37.9283071,-122.3567296,tract interior point in incorporated place
 06013380001,Bay Area,06,06013,Census Tract 3800.01,Outside named places,,0.0,37.90785,-122.3463635,tract interior point in incorporated place
-06013380002,Bay Area,06,06013,Census Tract 3800.02,Outside named places,,0.0,37.9196248,-122.3507864,tract interior point in incorporated place
+06013380002,Bay Area,06,06013,Census Tract 3800.02,Outside named places,,0.0,37.9196248,-122.3507865,tract interior point in incorporated place
 06013381000,Bay Area,06,06013,Census Tract 3810,Outside named places,,0.0,37.9301992,-122.3350677,tract interior point in incorporated place
 06013382000,Bay Area,06,06013,Census Tract 3820,Outside named places,,0.0,37.9161083,-122.3229325,tract interior point in incorporated place
 06013383000,Bay Area,06,06013,Census Tract 3830,Outside named places,,0.0,37.9088884,-122.3116766,tract interior point in incorporated place
@@ -621,7 +621,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06013980000,Bay Area,06,06013,Census Tract 9800,Outside named places,,0.0,37.9944965,-122.3542244,tract interior point in incorporated place
 06013990000,Bay Area,06,06013,Census Tract 9900,Outside named places,,0.0,38.0258765,-122.311671,tract interior point in incorporated place
 06041101100,Bay Area,06,06041,Census Tract 1011,Outside named places,,0.0,38.1284118,-122.5334216,tract interior point in incorporated place
-06041101200,Bay Area,06,06041,Census Tract 1012,Outside named places,,0.0,38.0990077,-122.5457651,tract interior point in incorporated place
+06041101200,Bay Area,06,06041,Census Tract 1012,Outside named places,,0.0,38.0990075,-122.545749,tract interior point in incorporated place
 06041102100,Bay Area,06,06041,Census Tract 1021,Outside named places,,0.0,38.1315685,-122.5915684,tract interior point in incorporated place
 06041102202,Bay Area,06,06041,Census Tract 1022.02,Outside named places,,0.0,38.1166084,-122.5912872,tract interior point in incorporated place
 06041102203,Bay Area,06,06041,Census Tract 1022.03,Outside named places,,0.0,38.1104411,-122.5703276,tract interior point in incorporated place
@@ -629,12 +629,12 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06041103200,Bay Area,06,06041,Census Tract 1032,Outside named places,,0.0,38.098306,-122.5861375,tract interior point in incorporated place
 06041104102,Bay Area,06,06041,Census Tract 1041.02,Outside named places,,0.0,38.0879383,-122.5585807,tract interior point in incorporated place
 06041104103,Bay Area,06,06041,Census Tract 1041.03,Outside named places,,0.0,38.0844628,-122.5745218,tract interior point in incorporated place
-06041104104,Bay Area,06,06041,Census Tract 1041.04,Outside named places,,0.0,38.0739634,-122.5535492,tract interior point in incorporated place
+06041104104,Bay Area,06,06041,Census Tract 1041.04,Outside named places,,0.0,38.0739618,-122.5535431,tract interior point in incorporated place
 06041104200,Bay Area,06,06041,Census Tract 1042,Outside named places,,0.0,38.0608177,-122.5689222,tract interior point in incorporated place
 06041104300,Bay Area,06,06041,Census Tract 1043,Outside named places,,0.0,38.081771,-122.5158909,tract interior point in incorporated place
-06041105001,Bay Area,06,06041,Census Tract 1050.01,Outside named places,,0.0,38.0494844,-122.5270678,tract interior point in incorporated place
-06041105002,Bay Area,06,06041,Census Tract 1050.02,Outside named places,,0.0,38.0600545,-122.5064568,tract interior point in incorporated place
-06041106001,Bay Area,06,06041,Census Tract 1060.01,Outside named places,,0.0,38.0300902,-122.5177252,tract interior point in incorporated place
+06041105001,Bay Area,06,06041,Census Tract 1050.01,Outside named places,,0.0,38.0494562,-122.5270622,tract interior point in incorporated place
+06041105002,Bay Area,06,06041,Census Tract 1050.02,Outside named places,,0.0,38.0600556,-122.5064623,tract interior point in incorporated place
+06041106001,Bay Area,06,06041,Census Tract 1060.01,Outside named places,,0.0,38.0300931,-122.5177623,tract interior point in incorporated place
 06041106002,Bay Area,06,06041,Census Tract 1060.02,Outside named places,,0.0,38.0055375,-122.5028107,tract interior point in incorporated place
 06041107000,Bay Area,06,06041,Census Tract 1070,Outside named places,,0.0,38.0384996,-122.5839959,tract interior point in incorporated place
 06041108100,Bay Area,06,06041,Census Tract 1081,Outside named places,,0.0,38.017656,-122.5616702,tract interior point in incorporated place
@@ -723,7 +723,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06055201800,Bay Area,06,06055,Census Tract 2018,Outside named places,,0.0,38.6404729,-122.2866466,tract interior point in incorporated place
 06055201900,Bay Area,06,06055,Census Tract 2019,Outside named places,,0.0,38.6391394,-122.5283222,tract interior point in incorporated place
 06055202000,Bay Area,06,06055,Census Tract 2020,Outside named places,,0.0,38.5814083,-122.5826961,tract interior point in incorporated place
-06075010101,Bay Area,06,06075,Census Tract 101.01,San Francisco,0667000,0.7,37.8083495,-122.4097874,tract interior point in incorporated place
+06075010101,Bay Area,06,06075,Census Tract 101.01,San Francisco,0667000,0.7,37.8083499,-122.4097935,tract interior point in incorporated place
 06075010102,Bay Area,06,06075,Census Tract 101.02,San Francisco,0667000,0.7,37.80469,-122.4139437,tract interior point in incorporated place
 06075010201,Bay Area,06,06075,Census Tract 102.01,San Francisco,0667000,0.7,37.8013029,-122.4212147,tract interior point in incorporated place
 06075010202,Bay Area,06,06075,Census Tract 102.02,San Francisco,0667000,0.7,37.8106454,-122.4245951,tract interior point in incorporated place
@@ -849,14 +849,14 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06075022901,Bay Area,06,06075,Census Tract 229.01,San Francisco,0667000,0.7,37.751201,-122.4139445,tract interior point in incorporated place
 06075022902,Bay Area,06,06075,Census Tract 229.02,San Francisco,0667000,0.7,37.751344,-122.4103787,tract interior point in incorporated place
 06075022903,Bay Area,06,06075,Census Tract 229.03,San Francisco,0667000,0.7,37.7517619,-122.4062182,tract interior point in incorporated place
-06075023001,Bay Area,06,06075,Census Tract 230.01,San Francisco,0667000,0.7,37.7351925,-122.4017617,tract interior point in incorporated place
+06075023001,Bay Area,06,06075,Census Tract 230.01,San Francisco,0667000,0.7,37.7351931,-122.4017614,tract interior point in incorporated place
 06075023003,Bay Area,06,06075,Census Tract 230.03,San Francisco,0667000,0.7,37.7326749,-122.3958349,tract interior point in incorporated place
 06075023102,Bay Area,06,06075,Census Tract 231.02,San Francisco,0667000,0.7,37.7345195,-122.3845849,tract interior point in incorporated place
-06075023103,Bay Area,06,06075,Census Tract 231.03,San Francisco,0667000,0.7,37.7320226,-122.372554,tract interior point in incorporated place
+06075023103,Bay Area,06,06075,Census Tract 231.03,San Francisco,0667000,0.7,37.7320268,-122.3725647,tract interior point in incorporated place
 06075023200,Bay Area,06,06075,Census Tract 232,San Francisco,0667000,0.7,37.7277635,-122.3861501,tract interior point in incorporated place
 06075023300,Bay Area,06,06075,Census Tract 233,San Francisco,0667000,0.7,37.7254423,-122.3977657,tract interior point in incorporated place
-06075023400,Bay Area,06,06075,Census Tract 234,San Francisco,0667000,0.7,37.7215886,-122.3900583,tract interior point in incorporated place
-06075025100,Bay Area,06,06075,Census Tract 251,San Francisco,0667000,0.7,37.7439404,-122.4076933,tract interior point in incorporated place
+06075023400,Bay Area,06,06075,Census Tract 234,San Francisco,0667000,0.7,37.7215892,-122.3900597,tract interior point in incorporated place
+06075025100,Bay Area,06,06075,Census Tract 251,San Francisco,0667000,0.7,37.7439405,-122.4076933,tract interior point in incorporated place
 06075025200,Bay Area,06,06075,Census Tract 252,San Francisco,0667000,0.7,37.7437123,-122.4142166,tract interior point in incorporated place
 06075025300,Bay Area,06,06075,Census Tract 253,San Francisco,0667000,0.7,37.7438747,-122.4202434,tract interior point in incorporated place
 06075025401,Bay Area,06,06075,Census Tract 254.01,San Francisco,0667000,0.7,37.7396295,-122.4224695,tract interior point in incorporated place
@@ -865,7 +865,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06075025501,Bay Area,06,06075,Census Tract 255.01,San Francisco,0667000,0.7,37.7256849,-122.4411925,tract interior point in incorporated place
 06075025502,Bay Area,06,06075,Census Tract 255.02,San Francisco,0667000,0.7,37.7304262,-122.4333557,tract interior point in incorporated place
 06075025600,Bay Area,06,06075,Census Tract 256,San Francisco,0667000,0.7,37.7287884,-122.4223771,tract interior point in incorporated place
-06075025701,Bay Area,06,06075,Census Tract 257.01,San Francisco,0667000,0.7,37.7315824,-122.4119407,tract interior point in incorporated place
+06075025701,Bay Area,06,06075,Census Tract 257.01,San Francisco,0667000,0.7,37.7315825,-122.4119406,tract interior point in incorporated place
 06075025702,Bay Area,06,06075,Census Tract 257.02,San Francisco,0667000,0.7,37.7281305,-122.4057589,tract interior point in incorporated place
 06075025800,Bay Area,06,06075,Census Tract 258,San Francisco,0667000,0.7,37.7214949,-122.4018971,tract interior point in incorporated place
 06075025900,Bay Area,06,06075,Census Tract 259,San Francisco,0667000,0.7,37.7234533,-122.4105033,tract interior point in incorporated place
@@ -897,10 +897,10 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06075030900,Bay Area,06,06075,Census Tract 309,San Francisco,0667000,0.7,37.7282698,-122.4683645,tract interior point in incorporated place
 06075031000,Bay Area,06,06075,Census Tract 310,San Francisco,0667000,0.7,37.7286248,-122.4571615,tract interior point in incorporated place
 06075031100,Bay Area,06,06075,Census Tract 311,San Francisco,0667000,0.7,37.7296129,-122.4462246,tract interior point in incorporated place
-06075031201,Bay Area,06,06075,Census Tract 312.01,San Francisco,0667000,0.7,37.7217838,-122.4573318,tract interior point in incorporated place
+06075031201,Bay Area,06,06075,Census Tract 312.01,San Francisco,0667000,0.7,37.7217837,-122.4573318,tract interior point in incorporated place
 06075031202,Bay Area,06,06075,Census Tract 312.02,San Francisco,0667000,0.7,37.7193286,-122.4523956,tract interior point in incorporated place
-06075031301,Bay Area,06,06075,Census Tract 313.01,San Francisco,0667000,0.7,37.7193281,-122.4678661,tract interior point in incorporated place
-06075031302,Bay Area,06,06075,Census Tract 313.02,San Francisco,0667000,0.7,37.7133925,-122.4671072,tract interior point in incorporated place
+06075031301,Bay Area,06,06075,Census Tract 313.01,San Francisco,0667000,0.7,37.7193281,-122.4678662,tract interior point in incorporated place
+06075031302,Bay Area,06,06075,Census Tract 313.02,San Francisco,0667000,0.7,37.7133926,-122.4671072,tract interior point in incorporated place
 06075031401,Bay Area,06,06075,Census Tract 314.01,San Francisco,0667000,0.7,37.7128911,-122.4571078,tract interior point in incorporated place
 06075031402,Bay Area,06,06075,Census Tract 314.02,San Francisco,0667000,0.7,37.7160857,-122.4571712,tract interior point in incorporated place
 06075032601,Bay Area,06,06075,Census Tract 326.01,San Francisco,0667000,0.7,37.7624894,-122.4807987,tract interior point in incorporated place
@@ -942,12 +942,12 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06075060100,Bay Area,06,06075,Census Tract 601,San Francisco,0667000,0.7,37.806767,-122.4747108,tract interior point in incorporated place
 06075060400,Bay Area,06,06075,Census Tract 604,San Francisco,0667000,0.7,37.7219101,-122.4913026,tract interior point in incorporated place
 06075060502,Bay Area,06,06075,Census Tract 605.02,San Francisco,0667000,0.7,37.7114639,-122.4204799,tract interior point in incorporated place
-06075060701,Bay Area,06,06075,Census Tract 607.01,San Francisco,0667000,0.7,37.7743735,-122.3835948,tract interior point in incorporated place
+06075060701,Bay Area,06,06075,Census Tract 607.01,San Francisco,0667000,0.7,37.7743655,-122.3835948,tract interior point in incorporated place
 06075060702,Bay Area,06,06075,Census Tract 607.02,San Francisco,0667000,0.7,37.768521,-122.3996878,tract interior point in incorporated place
 06075060703,Bay Area,06,06075,Census Tract 607.03,San Francisco,0667000,0.7,37.7754833,-122.3951506,tract interior point in incorporated place
 06075061000,Bay Area,06,06075,Census Tract 610,San Francisco,0667000,0.7,37.7133134,-122.3849404,tract interior point in incorporated place
 06075061101,Bay Area,06,06075,Census Tract 611.01,San Francisco,0667000,0.7,37.7956249,-122.4033562,tract interior point in incorporated place
-06075061102,Bay Area,06,06075,Census Tract 611.02,San Francisco,0667000,0.7,37.7954828,-122.4073658,tract interior point in incorporated place
+06075061102,Bay Area,06,06075,Census Tract 611.02,San Francisco,0667000,0.7,37.7954827,-122.4073658,tract interior point in incorporated place
 06075061200,Bay Area,06,06075,Census Tract 612,San Francisco,0667000,0.7,37.7370495,-122.3901596,tract interior point in incorporated place
 06075061401,Bay Area,06,06075,Census Tract 614.01,San Francisco,0667000,0.7,37.7537616,-122.3999432,tract interior point in incorporated place
 06075061402,Bay Area,06,06075,Census Tract 614.02,San Francisco,0667000,0.7,37.7565832,-122.3947008,tract interior point in incorporated place
@@ -966,7 +966,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06075980600,Bay Area,06,06075,Census Tract 9806,San Francisco,0667000,0.7,37.7231655,-122.3685424,tract interior point in incorporated place
 06075980900,Bay Area,06,06075,Census Tract 9809,San Francisco,0667000,0.7,37.746286,-122.3894769,tract interior point in incorporated place
 06075990100,Bay Area,06,06075,Census Tract 9901,San Francisco,0667000,0.7,37.76216,-122.5518622,tract interior point in incorporated place
-06075990200,Bay Area,06,06075,Census Tract 9902,San Francisco,0667000,0.7,37.8046349,-122.3728662,tract interior point in incorporated place
+06075990200,Bay Area,06,06075,Census Tract 9902,San Francisco,0667000,0.7,37.8046157,-122.3728695,tract interior point in incorporated place
 06081600100,Bay Area,06,06081,Census Tract 6001,Outside named places,,0.0,37.6866578,-122.4051408,tract interior point in incorporated place
 06081600200,Bay Area,06,06081,Census Tract 6002,Outside named places,,0.0,37.7045748,-122.415878,tract interior point in incorporated place
 06081600300,Bay Area,06,06081,Census Tract 6003,Outside named places,,0.0,37.7021433,-122.4318046,tract interior point in incorporated place
@@ -982,8 +982,8 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081601000,Bay Area,06,06081,Census Tract 6010,Outside named places,,0.0,37.6727071,-122.4929607,tract interior point in incorporated place
 06081601100,Bay Area,06,06081,Census Tract 6011,Outside named places,,0.0,37.692162,-122.4894101,tract interior point in incorporated place
 06081601200,Bay Area,06,06081,Census Tract 6012,Outside named places,,0.0,37.6932893,-122.4784394,tract interior point in incorporated place
-06081601301,Bay Area,06,06081,Census Tract 6013.01,Outside named places,,0.0,37.690259,-122.4664094,tract interior point in incorporated place
-06081601302,Bay Area,06,06081,Census Tract 6013.02,Outside named places,,0.0,37.6858755,-122.4646175,tract interior point in incorporated place
+06081601301,Bay Area,06,06081,Census Tract 6013.01,Outside named places,,0.0,37.6902592,-122.4664094,tract interior point in incorporated place
+06081601302,Bay Area,06,06081,Census Tract 6013.02,Outside named places,,0.0,37.685876,-122.4646177,tract interior point in incorporated place
 06081601400,Bay Area,06,06081,Census Tract 6014,Outside named places,,0.0,37.6810989,-122.4788078,tract interior point in incorporated place
 06081601501,Bay Area,06,06081,Census Tract 6015.01,Outside named places,,0.0,37.6750754,-122.4856364,tract interior point in incorporated place
 06081601502,Bay Area,06,06081,Census Tract 6015.02,Outside named places,,0.0,37.6691797,-122.4783648,tract interior point in incorporated place
@@ -1000,7 +1000,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081602100,Bay Area,06,06081,Census Tract 6021,Outside named places,,0.0,37.6618014,-122.4064186,tract interior point in incorporated place
 06081602201,Bay Area,06,06081,Census Tract 6022.01,Outside named places,,0.0,37.6572141,-122.4228916,tract interior point in incorporated place
 06081602202,Bay Area,06,06081,Census Tract 6022.02,Outside named places,,0.0,37.6551094,-122.4115181,tract interior point in incorporated place
-06081602300,Bay Area,06,06081,Census Tract 6023,Outside named places,,0.0,37.6516256,-122.3991322,tract interior point in incorporated place
+06081602300,Bay Area,06,06081,Census Tract 6023,Outside named places,,0.0,37.6518485,-122.3971877,tract interior point in incorporated place
 06081602400,Bay Area,06,06081,Census Tract 6024,Outside named places,,0.0,37.6444886,-122.4357422,tract interior point in incorporated place
 06081602500,Bay Area,06,06081,Census Tract 6025,Outside named places,,0.0,37.6399723,-122.4505916,tract interior point in incorporated place
 06081602601,Bay Area,06,06081,Census Tract 6026.01,Outside named places,,0.0,37.6463794,-122.4568702,tract interior point in incorporated place
@@ -1010,7 +1010,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081602900,Bay Area,06,06081,Census Tract 6029,Outside named places,,0.0,37.6532841,-122.4918058,tract interior point in incorporated place
 06081603000,Bay Area,06,06081,Census Tract 6030,Outside named places,,0.0,37.6364758,-122.4859426,tract interior point in incorporated place
 06081603100,Bay Area,06,06081,Census Tract 6031,Outside named places,,0.0,37.621105,-122.4739205,tract interior point in incorporated place
-06081603200,Bay Area,06,06081,Census Tract 6032,Outside named places,,0.0,37.5928632,-122.5095111,tract interior point in incorporated place
+06081603200,Bay Area,06,06081,Census Tract 6032,Outside named places,,0.0,37.5928565,-122.5095191,tract interior point in incorporated place
 06081603300,Bay Area,06,06081,Census Tract 6033,Outside named places,,0.0,37.5808809,-122.4857578,tract interior point in incorporated place
 06081603400,Bay Area,06,06081,Census Tract 6034,Outside named places,,0.0,37.5945277,-122.4628764,tract interior point in incorporated place
 06081603700,Bay Area,06,06081,Census Tract 6037,Outside named places,,0.0,37.6326394,-122.4484921,tract interior point in incorporated place
@@ -1025,8 +1025,8 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081604400,Bay Area,06,06081,Census Tract 6044,Outside named places,,0.0,37.6044311,-122.3887434,tract interior point in incorporated place
 06081604500,Bay Area,06,06081,Census Tract 6045,Outside named places,,0.0,37.606214,-122.4100762,tract interior point in incorporated place
 06081604600,Bay Area,06,06081,Census Tract 6046,Outside named places,,0.0,37.6002716,-122.4182149,tract interior point in incorporated place
-06081604700,Bay Area,06,06081,Census Tract 6047,Outside named places,,0.0,37.5936829,-122.4066696,tract interior point in incorporated place
-06081604800,Bay Area,06,06081,Census Tract 6048,Outside named places,,0.0,37.5995339,-122.3977958,tract interior point in incorporated place
+06081604700,Bay Area,06,06081,Census Tract 6047,Outside named places,,0.0,37.5936832,-122.4066723,tract interior point in incorporated place
+06081604800,Bay Area,06,06081,Census Tract 6048,Outside named places,,0.0,37.5995316,-122.3977958,tract interior point in incorporated place
 06081604900,Bay Area,06,06081,Census Tract 6049,Outside named places,,0.0,37.5892853,-122.3981155,tract interior point in incorporated place
 06081605000,Bay Area,06,06081,Census Tract 6050,Outside named places,,0.0,37.5814599,-122.3897966,tract interior point in incorporated place
 06081605100,Bay Area,06,06081,Census Tract 6051,Outside named places,,0.0,37.5973795,-122.3682086,tract interior point in incorporated place
@@ -1089,7 +1089,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081609602,Bay Area,06,06081,Census Tract 6096.02,Outside named places,,0.0,37.488909,-122.2762011,tract interior point in incorporated place
 06081609603,Bay Area,06,06081,Census Tract 6096.03,Outside named places,,0.0,37.481517,-122.2815962,tract interior point in incorporated place
 06081609700,Bay Area,06,06081,Census Tract 6097,Redwood City,0660102,0.9,37.4677128,-122.2805671,tract interior point in incorporated place
-06081609800,Bay Area,06,06081,Census Tract 6098,Outside named places,,0.0,37.4722049,-122.253046,tract interior point in incorporated place
+06081609800,Bay Area,06,06081,Census Tract 6098,Outside named places,,0.0,37.4722061,-122.2530479,tract interior point in incorporated place
 06081609900,Bay Area,06,06081,Census Tract 6099,Redwood City,0660102,0.9,37.4800834,-122.2479926,tract interior point in incorporated place
 06081610000,Bay Area,06,06081,Census Tract 6100,Redwood City,0660102,0.9,37.4844284,-122.2412155,tract interior point in incorporated place
 06081610100,Bay Area,06,06081,Census Tract 6101,Redwood City,0660102,0.9,37.4932339,-122.2387004,tract interior point in incorporated place
@@ -1100,14 +1100,14 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081610303,Bay Area,06,06081,Census Tract 6103.03,Redwood City,0660102,0.9,37.54149,-122.2386118,tract interior point in incorporated place
 06081610304,Bay Area,06,06081,Census Tract 6103.04,Redwood City,0660102,0.9,37.5224782,-122.2557011,tract interior point in incorporated place
 06081610400,Bay Area,06,06081,Census Tract 6104,Redwood City,0660102,0.9,37.48254,-122.1915154,tract interior point in incorporated place
-06081610500,Bay Area,06,06081,Census Tract 6105,Outside named places,,0.0,37.4798388,-122.2044791,tract interior point in incorporated place
-06081610601,Bay Area,06,06081,Census Tract 6106.01,Outside named places,,0.0,37.4714067,-122.2091124,tract interior point in incorporated place
-06081610602,Bay Area,06,06081,Census Tract 6106.02,Outside named places,,0.0,37.4745729,-122.1975109,tract interior point in incorporated place
+06081610500,Bay Area,06,06081,Census Tract 6105,Outside named places,,0.0,37.479876,-122.2044112,tract interior point in incorporated place
+06081610601,Bay Area,06,06081,Census Tract 6106.01,Outside named places,,0.0,37.4714554,-122.2091351,tract interior point in incorporated place
+06081610602,Bay Area,06,06081,Census Tract 6106.02,Outside named places,,0.0,37.4745766,-122.1975375,tract interior point in incorporated place
 06081610700,Bay Area,06,06081,Census Tract 6107,Redwood City,0660102,0.9,37.4699794,-122.2192352,tract interior point in incorporated place
 06081610800,Bay Area,06,06081,Census Tract 6108,Redwood City,0660102,0.9,37.4701804,-122.2260217,tract interior point in incorporated place
 06081610901,Bay Area,06,06081,Census Tract 6109.01,Redwood City,0660102,0.9,37.4788785,-122.2342081,tract interior point in incorporated place
 06081610902,Bay Area,06,06081,Census Tract 6109.02,Redwood City,0660102,0.9,37.474582,-122.2300774,tract interior point in incorporated place
-06081611000,Bay Area,06,06081,Census Tract 6110,Redwood City,0660102,0.9,37.4663591,-122.233641,tract interior point in incorporated place
+06081611000,Bay Area,06,06081,Census Tract 6110,Redwood City,0660102,0.9,37.4663593,-122.2336412,tract interior point in incorporated place
 06081611100,Bay Area,06,06081,Census Tract 6111,Redwood City,0660102,0.9,37.4580008,-122.2524753,tract interior point in incorporated place
 06081611200,Bay Area,06,06081,Census Tract 6112,Redwood City,0660102,0.9,37.4564914,-122.2345971,tract interior point in incorporated place
 06081611300,Bay Area,06,06081,Census Tract 6113,Outside named places,,0.0,37.451725,-122.2251406,tract interior point in incorporated place
@@ -1115,7 +1115,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081611500,Bay Area,06,06081,Census Tract 6115,Outside named places,,0.0,37.4675561,-122.1850155,tract interior point in incorporated place
 06081611600,Bay Area,06,06081,Census Tract 6116,Menlo Park,0646870,0.9,37.4748009,-122.1706968,tract interior point in incorporated place
 06081611700,Bay Area,06,06081,Census Tract 6117,Menlo Park,0646870,0.9,37.4943019,-122.1502245,tract interior point in incorporated place
-06081611800,Bay Area,06,06081,Census Tract 6118,Outside named places,,0.0,37.4769001,-122.1320636,tract interior point in incorporated place
+06081611800,Bay Area,06,06081,Census Tract 6118,Outside named places,,0.0,37.4769001,-122.1320637,tract interior point in incorporated place
 06081611901,Bay Area,06,06081,Census Tract 6119.01,Outside named places,,0.0,37.4653691,-122.1352134,tract interior point in incorporated place
 06081611902,Bay Area,06,06081,Census Tract 6119.02,Outside named places,,0.0,37.4673964,-122.1248407,tract interior point in incorporated place
 06081612001,Bay Area,06,06081,Census Tract 6120.01,Outside named places,,0.0,37.4698593,-122.150592,tract interior point in incorporated place
@@ -1129,7 +1129,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081612900,Bay Area,06,06081,Census Tract 6129,Outside named places,,0.0,37.4321826,-122.2034339,tract interior point in incorporated place
 06081613000,Bay Area,06,06081,Census Tract 6130,Menlo Park,0646870,0.9,37.4229973,-122.2028024,tract interior point in incorporated place
 06081613200,Bay Area,06,06081,Census Tract 6132,Outside named places,,0.0,37.3746166,-122.2171166,tract interior point in incorporated place
-06081613300,Bay Area,06,06081,Census Tract 6133,Outside named places,,0.0,37.4406529,-122.2489961,tract interior point in incorporated place
+06081613300,Bay Area,06,06081,Census Tract 6133,Outside named places,,0.0,37.4406517,-122.2489966,tract interior point in incorporated place
 06081613400,Bay Area,06,06081,Census Tract 6134,Outside named places,,0.0,37.4229582,-122.2859491,tract interior point in incorporated place
 06081613501,Bay Area,06,06081,Census Tract 6135.01,Outside named places,,0.0,37.5392855,-122.4240902,tract interior point in incorporated place
 06081613502,Bay Area,06,06081,Census Tract 6135.02,Outside named places,,0.0,37.5208742,-122.4708427,tract interior point in incorporated place
@@ -1141,154 +1141,154 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06081614000,Bay Area,06,06081,Census Tract 6140,Outside named places,,0.0,37.6276315,-122.4598112,tract interior point in incorporated place
 06081984300,Bay Area,06,06081,Census Tract 9843,Outside named places,,0.0,37.6203823,-122.3769119,tract interior point in incorporated place
 06081990100,Bay Area,06,06081,Census Tract 9901,Outside named places,,0.0,37.6266098,-122.5248394,tract interior point in incorporated place
-06085500100,Bay Area,06,06085,Census Tract 5001,Outside named places,,0.0,37.3584847,-121.8927601,tract interior point in incorporated place
-06085500200,Bay Area,06,06085,Census Tract 5002,Outside named places,,0.0,37.3499085,-121.9021695,tract interior point in incorporated place
-06085500300,Bay Area,06,06085,Census Tract 5003,Outside named places,,0.0,37.3395959,-121.9080736,tract interior point in incorporated place
-06085500400,Bay Area,06,06085,Census Tract 5004,Outside named places,,0.0,37.3401522,-121.9220248,tract interior point in incorporated place
-06085500500,Bay Area,06,06085,Census Tract 5005,Outside named places,,0.0,37.3299565,-121.9278951,tract interior point in incorporated place
-06085500600,Bay Area,06,06085,Census Tract 5006,Outside named places,,0.0,37.3334224,-121.9145625,tract interior point in incorporated place
-06085500800,Bay Area,06,06085,Census Tract 5008,Outside named places,,0.0,37.3306153,-121.8955567,tract interior point in incorporated place
-06085500901,Bay Area,06,06085,Census Tract 5009.01,Outside named places,,0.0,37.3351801,-121.8840965,tract interior point in incorporated place
-06085500902,Bay Area,06,06085,Census Tract 5009.02,Outside named places,,0.0,37.333015,-121.8796398,tract interior point in incorporated place
-06085501000,Bay Area,06,06085,Census Tract 5010,Outside named places,,0.0,37.3416421,-121.8880715,tract interior point in incorporated place
-06085501101,Bay Area,06,06085,Census Tract 5011.01,Outside named places,,0.0,37.3480957,-121.8919669,tract interior point in incorporated place
-06085501102,Bay Area,06,06085,Census Tract 5011.02,Outside named places,,0.0,37.3540383,-121.8812234,tract interior point in incorporated place
-06085501200,Bay Area,06,06085,Census Tract 5012,Outside named places,,0.0,37.3465601,-121.8787471,tract interior point in incorporated place
-06085501300,Bay Area,06,06085,Census Tract 5013,Outside named places,,0.0,37.3387146,-121.8745424,tract interior point in incorporated place
-06085501401,Bay Area,06,06085,Census Tract 5014.01,Outside named places,,0.0,37.3514873,-121.8697601,tract interior point in incorporated place
-06085501402,Bay Area,06,06085,Census Tract 5014.02,Outside named places,,0.0,37.3453341,-121.8665169,tract interior point in incorporated place
-06085501501,Bay Area,06,06085,Census Tract 5015.01,Outside named places,,0.0,37.3416169,-121.8583144,tract interior point in incorporated place
-06085501502,Bay Area,06,06085,Census Tract 5015.02,Outside named places,,0.0,37.3374972,-121.8644026,tract interior point in incorporated place
-06085501601,Bay Area,06,06085,Census Tract 5016.01,Outside named places,,0.0,37.333456,-121.8709378,tract interior point in incorporated place
-06085501602,Bay Area,06,06085,Census Tract 5016.02,Outside named places,,0.0,37.3293246,-121.8781864,tract interior point in incorporated place
-06085501700,Bay Area,06,06085,Census Tract 5017,Outside named places,,0.0,37.3231579,-121.8864264,tract interior point in incorporated place
-06085501800,Bay Area,06,06085,Census Tract 5018,Outside named places,,0.0,37.3163695,-121.8965524,tract interior point in incorporated place
-06085501901,Bay Area,06,06085,Census Tract 5019.01,Outside named places,,0.0,37.3236809,-121.9078195,tract interior point in incorporated place
-06085501902,Bay Area,06,06085,Census Tract 5019.02,Outside named places,,0.0,37.3162127,-121.9087833,tract interior point in incorporated place
-06085502001,Bay Area,06,06085,Census Tract 5020.01,Outside named places,,0.0,37.3224577,-121.9330738,tract interior point in incorporated place
-06085502002,Bay Area,06,06085,Census Tract 5020.02,Outside named places,,0.0,37.319403,-121.9209269,tract interior point in incorporated place
-06085502101,Bay Area,06,06085,Census Tract 5021.01,Outside named places,,0.0,37.3059451,-121.9360263,tract interior point in incorporated place
-06085502103,Bay Area,06,06085,Census Tract 5021.03,Outside named places,,0.0,37.31332,-121.92366,tract interior point in incorporated place
-06085502104,Bay Area,06,06085,Census Tract 5021.04,Outside named places,,0.0,37.3061059,-121.9278721,tract interior point in incorporated place
-06085502202,Bay Area,06,06085,Census Tract 5022.02,Outside named places,,0.0,37.2980468,-121.9205873,tract interior point in incorporated place
-06085502203,Bay Area,06,06085,Census Tract 5022.03,Outside named places,,0.0,37.3063756,-121.9180681,tract interior point in incorporated place
-06085502204,Bay Area,06,06085,Census Tract 5022.04,Outside named places,,0.0,37.3013832,-121.9258424,tract interior point in incorporated place
-06085502301,Bay Area,06,06085,Census Tract 5023.01,Outside named places,,0.0,37.3010965,-121.9070616,tract interior point in incorporated place
-06085502302,Bay Area,06,06085,Census Tract 5023.02,Outside named places,,0.0,37.3083189,-121.908379,tract interior point in incorporated place
-06085502400,Bay Area,06,06085,Census Tract 5024,Outside named places,,0.0,37.3046948,-121.8926106,tract interior point in incorporated place
-06085502500,Bay Area,06,06085,Census Tract 5025,Outside named places,,0.0,37.2931927,-121.8928401,tract interior point in incorporated place
-06085502601,Bay Area,06,06085,Census Tract 5026.01,Outside named places,,0.0,37.2902315,-121.914692,tract interior point in incorporated place
+06085500100,Bay Area,06,06085,Census Tract 5001,San Jose,0668000,0.7,37.3584847,-121.8927601,tract interior point in incorporated place
+06085500200,Bay Area,06,06085,Census Tract 5002,San Jose,0668000,0.7,37.3499085,-121.9021695,tract interior point in incorporated place
+06085500300,Bay Area,06,06085,Census Tract 5003,San Jose,0668000,0.7,37.3395959,-121.9080736,tract interior point in incorporated place
+06085500400,Bay Area,06,06085,Census Tract 5004,San Jose,0668000,0.7,37.3401522,-121.9220248,tract interior point in incorporated place
+06085500500,Bay Area,06,06085,Census Tract 5005,San Jose,0668000,0.7,37.3299565,-121.9278951,tract interior point in incorporated place
+06085500600,Bay Area,06,06085,Census Tract 5006,San Jose,0668000,0.7,37.3334224,-121.9145625,tract interior point in incorporated place
+06085500800,Bay Area,06,06085,Census Tract 5008,San Jose,0668000,0.7,37.3306153,-121.8955567,tract interior point in incorporated place
+06085500901,Bay Area,06,06085,Census Tract 5009.01,San Jose,0668000,0.7,37.3351801,-121.8840965,tract interior point in incorporated place
+06085500902,Bay Area,06,06085,Census Tract 5009.02,San Jose,0668000,0.7,37.333015,-121.8796398,tract interior point in incorporated place
+06085501000,Bay Area,06,06085,Census Tract 5010,San Jose,0668000,0.7,37.3416421,-121.8880715,tract interior point in incorporated place
+06085501101,Bay Area,06,06085,Census Tract 5011.01,San Jose,0668000,0.7,37.3480957,-121.8919669,tract interior point in incorporated place
+06085501102,Bay Area,06,06085,Census Tract 5011.02,San Jose,0668000,0.7,37.3540383,-121.8812234,tract interior point in incorporated place
+06085501200,Bay Area,06,06085,Census Tract 5012,San Jose,0668000,0.7,37.3465601,-121.8787471,tract interior point in incorporated place
+06085501300,Bay Area,06,06085,Census Tract 5013,San Jose,0668000,0.7,37.3387146,-121.8745424,tract interior point in incorporated place
+06085501401,Bay Area,06,06085,Census Tract 5014.01,San Jose,0668000,0.7,37.3514873,-121.8697601,tract interior point in incorporated place
+06085501402,Bay Area,06,06085,Census Tract 5014.02,San Jose,0668000,0.7,37.3453341,-121.8665169,tract interior point in incorporated place
+06085501501,Bay Area,06,06085,Census Tract 5015.01,San Jose,0668000,0.7,37.3416169,-121.8583144,tract interior point in incorporated place
+06085501502,Bay Area,06,06085,Census Tract 5015.02,San Jose,0668000,0.7,37.3374972,-121.8644026,tract interior point in incorporated place
+06085501601,Bay Area,06,06085,Census Tract 5016.01,San Jose,0668000,0.7,37.333456,-121.8709378,tract interior point in incorporated place
+06085501602,Bay Area,06,06085,Census Tract 5016.02,San Jose,0668000,0.7,37.3293246,-121.8781864,tract interior point in incorporated place
+06085501700,Bay Area,06,06085,Census Tract 5017,San Jose,0668000,0.7,37.3231579,-121.8864264,tract interior point in incorporated place
+06085501800,Bay Area,06,06085,Census Tract 5018,San Jose,0668000,0.7,37.3163695,-121.8965524,tract interior point in incorporated place
+06085501901,Bay Area,06,06085,Census Tract 5019.01,San Jose,0668000,0.7,37.3236809,-121.9078195,tract interior point in incorporated place
+06085501902,Bay Area,06,06085,Census Tract 5019.02,San Jose,0668000,0.7,37.3162127,-121.9087833,tract interior point in incorporated place
+06085502001,Bay Area,06,06085,Census Tract 5020.01,San Jose,0668000,0.7,37.3224577,-121.9330738,tract interior point in incorporated place
+06085502002,Bay Area,06,06085,Census Tract 5020.02,San Jose,0668000,0.7,37.319403,-121.9209269,tract interior point in incorporated place
+06085502101,Bay Area,06,06085,Census Tract 5021.01,San Jose,0668000,0.7,37.3059451,-121.9360263,tract interior point in incorporated place
+06085502103,Bay Area,06,06085,Census Tract 5021.03,San Jose,0668000,0.7,37.31332,-121.92366,tract interior point in incorporated place
+06085502104,Bay Area,06,06085,Census Tract 5021.04,San Jose,0668000,0.7,37.3061059,-121.9278721,tract interior point in incorporated place
+06085502202,Bay Area,06,06085,Census Tract 5022.02,San Jose,0668000,0.7,37.2980468,-121.9205873,tract interior point in incorporated place
+06085502203,Bay Area,06,06085,Census Tract 5022.03,San Jose,0668000,0.7,37.3063756,-121.9180681,tract interior point in incorporated place
+06085502204,Bay Area,06,06085,Census Tract 5022.04,San Jose,0668000,0.7,37.3013832,-121.9258424,tract interior point in incorporated place
+06085502301,Bay Area,06,06085,Census Tract 5023.01,San Jose,0668000,0.7,37.3010965,-121.9070616,tract interior point in incorporated place
+06085502302,Bay Area,06,06085,Census Tract 5023.02,San Jose,0668000,0.7,37.3083189,-121.908379,tract interior point in incorporated place
+06085502400,Bay Area,06,06085,Census Tract 5024,San Jose,0668000,0.7,37.3046948,-121.8926106,tract interior point in incorporated place
+06085502500,Bay Area,06,06085,Census Tract 5025,San Jose,0668000,0.7,37.2931927,-121.8928401,tract interior point in incorporated place
+06085502601,Bay Area,06,06085,Census Tract 5026.01,San Jose,0668000,0.7,37.2902315,-121.914692,tract interior point in incorporated place
 06085502603,Bay Area,06,06085,Census Tract 5026.03,Outside named places,,0.0,37.2876026,-121.9272392,tract interior point in incorporated place
 06085502604,Bay Area,06,06085,Census Tract 5026.04,Outside named places,,0.0,37.2838102,-121.9372335,tract interior point in incorporated place
-06085502701,Bay Area,06,06085,Census Tract 5027.01,Outside named places,,0.0,37.2711908,-121.9382471,tract interior point in incorporated place
+06085502701,Bay Area,06,06085,Census Tract 5027.01,San Jose,0668000,0.7,37.2711908,-121.9382471,tract interior point in incorporated place
 06085502703,Bay Area,06,06085,Census Tract 5027.03,Outside named places,,0.0,37.261793,-121.945591,tract interior point in incorporated place
-06085502704,Bay Area,06,06085,Census Tract 5027.04,Outside named places,,0.0,37.2550203,-121.9400151,tract interior point in incorporated place
-06085502800,Bay Area,06,06085,Census Tract 5028,Outside named places,,0.0,37.255728,-121.9230305,tract interior point in incorporated place
-06085502901,Bay Area,06,06085,Census Tract 5029.01,Outside named places,,0.0,37.2713891,-121.9270197,tract interior point in incorporated place
-06085502902,Bay Area,06,06085,Census Tract 5029.02,Outside named places,,0.0,37.273586,-121.9156579,tract interior point in incorporated place
-06085502903,Bay Area,06,06085,Census Tract 5029.03,Outside named places,,0.0,37.2779339,-121.9050522,tract interior point in incorporated place
-06085502906,Bay Area,06,06085,Census Tract 5029.06,Outside named places,,0.0,37.2478128,-121.9014134,tract interior point in incorporated place
-06085502907,Bay Area,06,06085,Census Tract 5029.07,Outside named places,,0.0,37.2633246,-121.8972821,tract interior point in incorporated place
-06085502908,Bay Area,06,06085,Census Tract 5029.08,Outside named places,,0.0,37.2593227,-121.9087021,tract interior point in incorporated place
-06085502909,Bay Area,06,06085,Census Tract 5029.09,Outside named places,,0.0,37.2565056,-121.8874578,tract interior point in incorporated place
-06085502910,Bay Area,06,06085,Census Tract 5029.10,Outside named places,,0.0,37.2514817,-121.8840433,tract interior point in incorporated place
-06085503001,Bay Area,06,06085,Census Tract 5030.01,Outside named places,,0.0,37.2840433,-121.8919507,tract interior point in incorporated place
-06085503002,Bay Area,06,06085,Census Tract 5030.02,Outside named places,,0.0,37.276823,-121.8872996,tract interior point in incorporated place
-06085503003,Bay Area,06,06085,Census Tract 5030.03,Outside named places,,0.0,37.2674809,-121.8850395,tract interior point in incorporated place
-06085503105,Bay Area,06,06085,Census Tract 5031.05,Outside named places,,0.0,37.3261978,-121.8587581,tract interior point in incorporated place
-06085503110,Bay Area,06,06085,Census Tract 5031.10,Outside named places,,0.0,37.3330764,-121.8498294,tract interior point in incorporated place
-06085503111,Bay Area,06,06085,Census Tract 5031.11,Outside named places,,0.0,37.3225494,-121.839789,tract interior point in incorporated place
-06085503112,Bay Area,06,06085,Census Tract 5031.12,Outside named places,,0.0,37.3223269,-121.8710045,tract interior point in incorporated place
-06085503113,Bay Area,06,06085,Census Tract 5031.13,Outside named places,,0.0,37.3156874,-121.8809726,tract interior point in incorporated place
-06085503116,Bay Area,06,06085,Census Tract 5031.16,Outside named places,,0.0,37.2774484,-121.853732,tract interior point in incorporated place
-06085503117,Bay Area,06,06085,Census Tract 5031.17,Outside named places,,0.0,37.3274052,-121.8516044,tract interior point in incorporated place
-06085503118,Bay Area,06,06085,Census Tract 5031.18,Outside named places,,0.0,37.3186929,-121.8429993,tract interior point in incorporated place
-06085503121,Bay Area,06,06085,Census Tract 5031.21,Outside named places,,0.0,37.3061873,-121.8725034,tract interior point in incorporated place
-06085503122,Bay Area,06,06085,Census Tract 5031.22,Outside named places,,0.0,37.3124908,-121.8569324,tract interior point in incorporated place
-06085503123,Bay Area,06,06085,Census Tract 5031.23,Outside named places,,0.0,37.29773,-121.8778357,tract interior point in incorporated place
-06085503124,Bay Area,06,06085,Census Tract 5031.24,Outside named places,,0.0,37.2836065,-121.8718216,tract interior point in incorporated place
-06085503125,Bay Area,06,06085,Census Tract 5031.25,Outside named places,,0.0,37.2832604,-121.8775331,tract interior point in incorporated place
-06085503126,Bay Area,06,06085,Census Tract 5031.26,Outside named places,,0.0,37.2953016,-121.8591564,tract interior point in incorporated place
-06085503127,Bay Area,06,06085,Census Tract 5031.27,Outside named places,,0.0,37.2858514,-121.8568775,tract interior point in incorporated place
-06085503207,Bay Area,06,06085,Census Tract 5032.07,Outside named places,,0.0,37.2944788,-121.8154729,tract interior point in incorporated place
-06085503208,Bay Area,06,06085,Census Tract 5032.08,Outside named places,,0.0,37.2807411,-121.8160936,tract interior point in incorporated place
-06085503210,Bay Area,06,06085,Census Tract 5032.10,Outside named places,,0.0,37.2904505,-121.822862,tract interior point in incorporated place
-06085503211,Bay Area,06,06085,Census Tract 5032.11,Outside named places,,0.0,37.3118086,-121.8324347,tract interior point in incorporated place
-06085503212,Bay Area,06,06085,Census Tract 5032.12,Outside named places,,0.0,37.3046221,-121.8289144,tract interior point in incorporated place
-06085503213,Bay Area,06,06085,Census Tract 5032.13,Outside named places,,0.0,37.3016723,-121.8373674,tract interior point in incorporated place
-06085503217,Bay Area,06,06085,Census Tract 5032.17,Outside named places,,0.0,37.2867501,-121.8303183,tract interior point in incorporated place
-06085503218,Bay Area,06,06085,Census Tract 5032.18,Outside named places,,0.0,37.2804873,-121.8299569,tract interior point in incorporated place
-06085503219,Bay Area,06,06085,Census Tract 5032.19,Outside named places,,0.0,37.292524,-121.8417606,tract interior point in incorporated place
-06085503220,Bay Area,06,06085,Census Tract 5032.20,Outside named places,,0.0,37.2873934,-121.8380451,tract interior point in incorporated place
+06085502704,Bay Area,06,06085,Census Tract 5027.04,San Jose,0668000,0.7,37.2550203,-121.9400151,tract interior point in incorporated place
+06085502800,Bay Area,06,06085,Census Tract 5028,San Jose,0668000,0.7,37.255728,-121.9230305,tract interior point in incorporated place
+06085502901,Bay Area,06,06085,Census Tract 5029.01,San Jose,0668000,0.7,37.2713891,-121.9270197,tract interior point in incorporated place
+06085502902,Bay Area,06,06085,Census Tract 5029.02,San Jose,0668000,0.7,37.273586,-121.9156579,tract interior point in incorporated place
+06085502903,Bay Area,06,06085,Census Tract 5029.03,San Jose,0668000,0.7,37.2779339,-121.9050522,tract interior point in incorporated place
+06085502906,Bay Area,06,06085,Census Tract 5029.06,San Jose,0668000,0.7,37.2478128,-121.9014134,tract interior point in incorporated place
+06085502907,Bay Area,06,06085,Census Tract 5029.07,San Jose,0668000,0.7,37.2633246,-121.8972821,tract interior point in incorporated place
+06085502908,Bay Area,06,06085,Census Tract 5029.08,San Jose,0668000,0.7,37.2593227,-121.9087021,tract interior point in incorporated place
+06085502909,Bay Area,06,06085,Census Tract 5029.09,San Jose,0668000,0.7,37.2565056,-121.8874578,tract interior point in incorporated place
+06085502910,Bay Area,06,06085,Census Tract 5029.10,San Jose,0668000,0.7,37.2514817,-121.8840433,tract interior point in incorporated place
+06085503001,Bay Area,06,06085,Census Tract 5030.01,San Jose,0668000,0.7,37.2840433,-121.8919507,tract interior point in incorporated place
+06085503002,Bay Area,06,06085,Census Tract 5030.02,San Jose,0668000,0.7,37.276823,-121.8872996,tract interior point in incorporated place
+06085503003,Bay Area,06,06085,Census Tract 5030.03,San Jose,0668000,0.7,37.2674809,-121.8850395,tract interior point in incorporated place
+06085503105,Bay Area,06,06085,Census Tract 5031.05,San Jose,0668000,0.7,37.3261978,-121.8587581,tract interior point in incorporated place
+06085503110,Bay Area,06,06085,Census Tract 5031.10,San Jose,0668000,0.7,37.3330764,-121.8498294,tract interior point in incorporated place
+06085503111,Bay Area,06,06085,Census Tract 5031.11,San Jose,0668000,0.7,37.3225494,-121.839789,tract interior point in incorporated place
+06085503112,Bay Area,06,06085,Census Tract 5031.12,San Jose,0668000,0.7,37.3223269,-121.8710045,tract interior point in incorporated place
+06085503113,Bay Area,06,06085,Census Tract 5031.13,San Jose,0668000,0.7,37.3156874,-121.8809726,tract interior point in incorporated place
+06085503116,Bay Area,06,06085,Census Tract 5031.16,San Jose,0668000,0.7,37.2774484,-121.853732,tract interior point in incorporated place
+06085503117,Bay Area,06,06085,Census Tract 5031.17,San Jose,0668000,0.7,37.3274052,-121.8516044,tract interior point in incorporated place
+06085503118,Bay Area,06,06085,Census Tract 5031.18,San Jose,0668000,0.7,37.3186929,-121.8429993,tract interior point in incorporated place
+06085503121,Bay Area,06,06085,Census Tract 5031.21,San Jose,0668000,0.7,37.3061873,-121.8725034,tract interior point in incorporated place
+06085503122,Bay Area,06,06085,Census Tract 5031.22,San Jose,0668000,0.7,37.3124908,-121.8569324,tract interior point in incorporated place
+06085503123,Bay Area,06,06085,Census Tract 5031.23,San Jose,0668000,0.7,37.29773,-121.8778357,tract interior point in incorporated place
+06085503124,Bay Area,06,06085,Census Tract 5031.24,San Jose,0668000,0.7,37.2836065,-121.8718216,tract interior point in incorporated place
+06085503125,Bay Area,06,06085,Census Tract 5031.25,San Jose,0668000,0.7,37.2832604,-121.8775331,tract interior point in incorporated place
+06085503126,Bay Area,06,06085,Census Tract 5031.26,San Jose,0668000,0.7,37.2953016,-121.8591564,tract interior point in incorporated place
+06085503127,Bay Area,06,06085,Census Tract 5031.27,San Jose,0668000,0.7,37.2858514,-121.8568775,tract interior point in incorporated place
+06085503207,Bay Area,06,06085,Census Tract 5032.07,San Jose,0668000,0.7,37.2944788,-121.8154729,tract interior point in incorporated place
+06085503208,Bay Area,06,06085,Census Tract 5032.08,San Jose,0668000,0.7,37.2807411,-121.8160936,tract interior point in incorporated place
+06085503210,Bay Area,06,06085,Census Tract 5032.10,San Jose,0668000,0.7,37.2904505,-121.822862,tract interior point in incorporated place
+06085503211,Bay Area,06,06085,Census Tract 5032.11,San Jose,0668000,0.7,37.3118086,-121.8324347,tract interior point in incorporated place
+06085503212,Bay Area,06,06085,Census Tract 5032.12,San Jose,0668000,0.7,37.3046221,-121.8289144,tract interior point in incorporated place
+06085503213,Bay Area,06,06085,Census Tract 5032.13,San Jose,0668000,0.7,37.3016723,-121.8373674,tract interior point in incorporated place
+06085503217,Bay Area,06,06085,Census Tract 5032.17,San Jose,0668000,0.7,37.2867501,-121.8303183,tract interior point in incorporated place
+06085503218,Bay Area,06,06085,Census Tract 5032.18,San Jose,0668000,0.7,37.2804873,-121.8299569,tract interior point in incorporated place
+06085503219,Bay Area,06,06085,Census Tract 5032.19,San Jose,0668000,0.7,37.292524,-121.8417606,tract interior point in incorporated place
+06085503220,Bay Area,06,06085,Census Tract 5032.20,San Jose,0668000,0.7,37.2873934,-121.8380451,tract interior point in incorporated place
 06085503221,Bay Area,06,06085,Census Tract 5032.21,Outside named places,,0.0,37.3012945,-121.8501153,tract interior point in incorporated place
-06085503222,Bay Area,06,06085,Census Tract 5032.22,Outside named places,,0.0,37.2961288,-121.8451132,tract interior point in incorporated place
-06085503304,Bay Area,06,06085,Census Tract 5033.04,Outside named places,,0.0,37.3126099,-121.8212218,tract interior point in incorporated place
-06085503305,Bay Area,06,06085,Census Tract 5033.05,Outside named places,,0.0,37.3198735,-121.8146799,tract interior point in incorporated place
-06085503306,Bay Area,06,06085,Census Tract 5033.06,Outside named places,,0.0,37.3314079,-121.8221358,tract interior point in incorporated place
+06085503222,Bay Area,06,06085,Census Tract 5032.22,San Jose,0668000,0.7,37.2961288,-121.8451132,tract interior point in incorporated place
+06085503304,Bay Area,06,06085,Census Tract 5033.04,San Jose,0668000,0.7,37.3126099,-121.8212218,tract interior point in incorporated place
+06085503305,Bay Area,06,06085,Census Tract 5033.05,San Jose,0668000,0.7,37.3198735,-121.8146799,tract interior point in incorporated place
+06085503306,Bay Area,06,06085,Census Tract 5033.06,San Jose,0668000,0.7,37.3314079,-121.8221358,tract interior point in incorporated place
 06085503312,Bay Area,06,06085,Census Tract 5033.12,Outside named places,,0.0,37.3488536,-121.762946,tract interior point in incorporated place
-06085503313,Bay Area,06,06085,Census Tract 5033.13,Outside named places,,0.0,37.3312838,-121.7764695,tract interior point in incorporated place
-06085503315,Bay Area,06,06085,Census Tract 5033.15,Outside named places,,0.0,37.3184032,-121.8013312,tract interior point in incorporated place
-06085503321,Bay Area,06,06085,Census Tract 5033.21,Outside named places,,0.0,37.3320024,-121.8050953,tract interior point in incorporated place
-06085503322,Bay Area,06,06085,Census Tract 5033.22,Outside named places,,0.0,37.3413457,-121.7977324,tract interior point in incorporated place
-06085503323,Bay Area,06,06085,Census Tract 5033.23,Outside named places,,0.0,37.3336993,-121.7916431,tract interior point in incorporated place
-06085503324,Bay Area,06,06085,Census Tract 5033.24,Outside named places,,0.0,37.3276407,-121.7892747,tract interior point in incorporated place
-06085503325,Bay Area,06,06085,Census Tract 5033.25,Outside named places,,0.0,37.3206767,-121.7888418,tract interior point in incorporated place
-06085503326,Bay Area,06,06085,Census Tract 5033.26,Outside named places,,0.0,37.3249229,-121.764157,tract interior point in incorporated place
-06085503327,Bay Area,06,06085,Census Tract 5033.27,Outside named places,,0.0,37.308027,-121.7887155,tract interior point in incorporated place
-06085503329,Bay Area,06,06085,Census Tract 5033.29,Outside named places,,0.0,37.3115146,-121.7792789,tract interior point in incorporated place
+06085503313,Bay Area,06,06085,Census Tract 5033.13,San Jose,0668000,0.7,37.3312838,-121.7764695,tract interior point in incorporated place
+06085503315,Bay Area,06,06085,Census Tract 5033.15,San Jose,0668000,0.7,37.3184032,-121.8013312,tract interior point in incorporated place
+06085503321,Bay Area,06,06085,Census Tract 5033.21,San Jose,0668000,0.7,37.3320024,-121.8050953,tract interior point in incorporated place
+06085503322,Bay Area,06,06085,Census Tract 5033.22,San Jose,0668000,0.7,37.3413457,-121.7977324,tract interior point in incorporated place
+06085503323,Bay Area,06,06085,Census Tract 5033.23,San Jose,0668000,0.7,37.3336993,-121.7916431,tract interior point in incorporated place
+06085503324,Bay Area,06,06085,Census Tract 5033.24,San Jose,0668000,0.7,37.3276407,-121.7892747,tract interior point in incorporated place
+06085503325,Bay Area,06,06085,Census Tract 5033.25,San Jose,0668000,0.7,37.3206767,-121.7888418,tract interior point in incorporated place
+06085503326,Bay Area,06,06085,Census Tract 5033.26,San Jose,0668000,0.7,37.3249229,-121.764157,tract interior point in incorporated place
+06085503327,Bay Area,06,06085,Census Tract 5033.27,San Jose,0668000,0.7,37.308027,-121.7887155,tract interior point in incorporated place
+06085503329,Bay Area,06,06085,Census Tract 5033.29,San Jose,0668000,0.7,37.3115146,-121.7792789,tract interior point in incorporated place
 06085503330,Bay Area,06,06085,Census Tract 5033.30,Outside named places,,0.0,37.3089937,-121.7397926,tract interior point in incorporated place
-06085503331,Bay Area,06,06085,Census Tract 5033.31,Outside named places,,0.0,37.2948911,-121.7588008,tract interior point in incorporated place
+06085503331,Bay Area,06,06085,Census Tract 5033.31,San Jose,0668000,0.7,37.2948911,-121.7588008,tract interior point in incorporated place
 06085503332,Bay Area,06,06085,Census Tract 5033.32,Outside named places,,0.0,37.281521,-121.7383531,tract interior point in incorporated place
-06085503333,Bay Area,06,06085,Census Tract 5033.33,Outside named places,,0.0,37.301126,-121.7886395,tract interior point in incorporated place
-06085503336,Bay Area,06,06085,Census Tract 5033.36,Outside named places,,0.0,37.3067498,-121.8043765,tract interior point in incorporated place
-06085503337,Bay Area,06,06085,Census Tract 5033.37,Outside named places,,0.0,37.3010098,-121.8099934,tract interior point in incorporated place
-06085503338,Bay Area,06,06085,Census Tract 5033.38,Outside named places,,0.0,37.2767906,-121.7696638,tract interior point in incorporated place
-06085503339,Bay Area,06,06085,Census Tract 5033.39,Outside named places,,0.0,37.2849697,-121.7667846,tract interior point in incorporated place
-06085503401,Bay Area,06,06085,Census Tract 5034.01,Outside named places,,0.0,37.3330729,-121.840794,tract interior point in incorporated place
-06085503402,Bay Area,06,06085,Census Tract 5034.02,Outside named places,,0.0,37.3242017,-121.8329376,tract interior point in incorporated place
-06085503504,Bay Area,06,06085,Census Tract 5035.04,Outside named places,,0.0,37.3358272,-121.8341637,tract interior point in incorporated place
-06085503506,Bay Area,06,06085,Census Tract 5035.06,Outside named places,,0.0,37.3436482,-121.8272382,tract interior point in incorporated place
-06085503507,Bay Area,06,06085,Census Tract 5035.07,Outside named places,,0.0,37.340185,-121.8319402,tract interior point in incorporated place
-06085503508,Bay Area,06,06085,Census Tract 5035.08,Outside named places,,0.0,37.3545123,-121.81141,tract interior point in incorporated place
-06085503509,Bay Area,06,06085,Census Tract 5035.09,Outside named places,,0.0,37.3487217,-121.801472,tract interior point in incorporated place
-06085503510,Bay Area,06,06085,Census Tract 5035.10,Outside named places,,0.0,37.3494389,-121.8196391,tract interior point in incorporated place
-06085503511,Bay Area,06,06085,Census Tract 5035.11,Outside named places,,0.0,37.3426023,-121.8140638,tract interior point in incorporated place
-06085503601,Bay Area,06,06085,Census Tract 5036.01,Outside named places,,0.0,37.3583268,-121.8661802,tract interior point in incorporated place
-06085503602,Bay Area,06,06085,Census Tract 5036.02,Outside named places,,0.0,37.344543,-121.8523293,tract interior point in incorporated place
-06085503703,Bay Area,06,06085,Census Tract 5037.03,Outside named places,,0.0,37.3456372,-121.8393992,tract interior point in incorporated place
-06085503707,Bay Area,06,06085,Census Tract 5037.07,Outside named places,,0.0,37.3578973,-121.8538129,tract interior point in incorporated place
-06085503708,Bay Area,06,06085,Census Tract 5037.08,Outside named places,,0.0,37.3694488,-121.8546251,tract interior point in incorporated place
-06085503709,Bay Area,06,06085,Census Tract 5037.09,Outside named places,,0.0,37.3645486,-121.8620422,tract interior point in incorporated place
-06085503710,Bay Area,06,06085,Census Tract 5037.10,Outside named places,,0.0,37.3547002,-121.8469654,tract interior point in incorporated place
-06085503711,Bay Area,06,06085,Census Tract 5037.11,Outside named places,,0.0,37.3498677,-121.8443656,tract interior point in incorporated place
-06085503712,Bay Area,06,06085,Census Tract 5037.12,Outside named places,,0.0,37.3622865,-121.8466432,tract interior point in incorporated place
-06085503713,Bay Area,06,06085,Census Tract 5037.13,Outside named places,,0.0,37.3647252,-121.841006,tract interior point in incorporated place
-06085503802,Bay Area,06,06085,Census Tract 5038.02,Outside named places,,0.0,37.3842879,-121.8355147,tract interior point in incorporated place
-06085503803,Bay Area,06,06085,Census Tract 5038.03,Outside named places,,0.0,37.3835982,-121.8497624,tract interior point in incorporated place
-06085503804,Bay Area,06,06085,Census Tract 5038.04,Outside named places,,0.0,37.3759232,-121.8448761,tract interior point in incorporated place
+06085503333,Bay Area,06,06085,Census Tract 5033.33,San Jose,0668000,0.7,37.301126,-121.7886395,tract interior point in incorporated place
+06085503336,Bay Area,06,06085,Census Tract 5033.36,San Jose,0668000,0.7,37.3067498,-121.8043765,tract interior point in incorporated place
+06085503337,Bay Area,06,06085,Census Tract 5033.37,San Jose,0668000,0.7,37.3010098,-121.8099934,tract interior point in incorporated place
+06085503338,Bay Area,06,06085,Census Tract 5033.38,San Jose,0668000,0.7,37.2767906,-121.7696638,tract interior point in incorporated place
+06085503339,Bay Area,06,06085,Census Tract 5033.39,San Jose,0668000,0.7,37.2849697,-121.7667846,tract interior point in incorporated place
+06085503401,Bay Area,06,06085,Census Tract 5034.01,San Jose,0668000,0.7,37.3330729,-121.840794,tract interior point in incorporated place
+06085503402,Bay Area,06,06085,Census Tract 5034.02,San Jose,0668000,0.7,37.3242017,-121.8329376,tract interior point in incorporated place
+06085503504,Bay Area,06,06085,Census Tract 5035.04,San Jose,0668000,0.7,37.3358272,-121.8341637,tract interior point in incorporated place
+06085503506,Bay Area,06,06085,Census Tract 5035.06,San Jose,0668000,0.7,37.3436482,-121.8272382,tract interior point in incorporated place
+06085503507,Bay Area,06,06085,Census Tract 5035.07,San Jose,0668000,0.7,37.340185,-121.8319402,tract interior point in incorporated place
+06085503508,Bay Area,06,06085,Census Tract 5035.08,San Jose,0668000,0.7,37.3545123,-121.81141,tract interior point in incorporated place
+06085503509,Bay Area,06,06085,Census Tract 5035.09,San Jose,0668000,0.7,37.3487217,-121.801472,tract interior point in incorporated place
+06085503510,Bay Area,06,06085,Census Tract 5035.10,San Jose,0668000,0.7,37.3494389,-121.8196391,tract interior point in incorporated place
+06085503511,Bay Area,06,06085,Census Tract 5035.11,San Jose,0668000,0.7,37.3426023,-121.8140638,tract interior point in incorporated place
+06085503601,Bay Area,06,06085,Census Tract 5036.01,San Jose,0668000,0.7,37.3583268,-121.8661802,tract interior point in incorporated place
+06085503602,Bay Area,06,06085,Census Tract 5036.02,San Jose,0668000,0.7,37.344543,-121.8523293,tract interior point in incorporated place
+06085503703,Bay Area,06,06085,Census Tract 5037.03,San Jose,0668000,0.7,37.3456372,-121.8393992,tract interior point in incorporated place
+06085503707,Bay Area,06,06085,Census Tract 5037.07,San Jose,0668000,0.7,37.3578973,-121.8538129,tract interior point in incorporated place
+06085503708,Bay Area,06,06085,Census Tract 5037.08,San Jose,0668000,0.7,37.3694488,-121.8546251,tract interior point in incorporated place
+06085503709,Bay Area,06,06085,Census Tract 5037.09,San Jose,0668000,0.7,37.3645486,-121.8620422,tract interior point in incorporated place
+06085503710,Bay Area,06,06085,Census Tract 5037.10,San Jose,0668000,0.7,37.3547002,-121.8469654,tract interior point in incorporated place
+06085503711,Bay Area,06,06085,Census Tract 5037.11,San Jose,0668000,0.7,37.3498677,-121.8443656,tract interior point in incorporated place
+06085503712,Bay Area,06,06085,Census Tract 5037.12,San Jose,0668000,0.7,37.3622865,-121.8466432,tract interior point in incorporated place
+06085503713,Bay Area,06,06085,Census Tract 5037.13,San Jose,0668000,0.7,37.3647252,-121.841006,tract interior point in incorporated place
+06085503802,Bay Area,06,06085,Census Tract 5038.02,San Jose,0668000,0.7,37.3842879,-121.8355147,tract interior point in incorporated place
+06085503803,Bay Area,06,06085,Census Tract 5038.03,San Jose,0668000,0.7,37.3835982,-121.8497624,tract interior point in incorporated place
+06085503804,Bay Area,06,06085,Census Tract 5038.04,San Jose,0668000,0.7,37.3759232,-121.8448761,tract interior point in incorporated place
 06085503902,Bay Area,06,06085,Census Tract 5039.02,Outside named places,,0.0,37.3735315,-121.8283204,tract interior point in incorporated place
-06085503903,Bay Area,06,06085,Census Tract 5039.03,Outside named places,,0.0,37.3684579,-121.8355428,tract interior point in incorporated place
-06085504001,Bay Area,06,06085,Census Tract 5040.01,Outside named places,,0.0,37.358625,-121.8272151,tract interior point in incorporated place
-06085504002,Bay Area,06,06085,Census Tract 5040.02,Outside named places,,0.0,37.3546753,-121.8340275,tract interior point in incorporated place
+06085503903,Bay Area,06,06085,Census Tract 5039.03,San Jose,0668000,0.7,37.3684579,-121.8355428,tract interior point in incorporated place
+06085504001,Bay Area,06,06085,Census Tract 5040.01,San Jose,0668000,0.7,37.358625,-121.8272151,tract interior point in incorporated place
+06085504002,Bay Area,06,06085,Census Tract 5040.02,San Jose,0668000,0.7,37.3546753,-121.8340275,tract interior point in incorporated place
 06085504101,Bay Area,06,06085,Census Tract 5041.01,Outside named places,,0.0,37.3693439,-121.8203724,tract interior point in incorporated place
 06085504102,Bay Area,06,06085,Census Tract 5041.02,Outside named places,,0.0,37.3640803,-121.8149359,tract interior point in incorporated place
 06085504201,Bay Area,06,06085,Census Tract 5042.01,Outside named places,,0.0,37.3845968,-121.8211354,tract interior point in incorporated place
 06085504202,Bay Area,06,06085,Census Tract 5042.02,Outside named places,,0.0,37.3764599,-121.7923207,tract interior point in incorporated place
-06085504307,Bay Area,06,06085,Census Tract 5043.07,Outside named places,,0.0,37.3907632,-121.8525385,tract interior point in incorporated place
+06085504307,Bay Area,06,06085,Census Tract 5043.07,San Jose,0668000,0.7,37.3907632,-121.8525385,tract interior point in incorporated place
 06085504308,Bay Area,06,06085,Census Tract 5043.08,Outside named places,,0.0,37.4093718,-121.8131628,tract interior point in incorporated place
-06085504311,Bay Area,06,06085,Census Tract 5043.11,Outside named places,,0.0,37.3775246,-121.8845878,tract interior point in incorporated place
-06085504314,Bay Area,06,06085,Census Tract 5043.14,Outside named places,,0.0,37.4018243,-121.8548256,tract interior point in incorporated place
-06085504315,Bay Area,06,06085,Census Tract 5043.15,Outside named places,,0.0,37.4093269,-121.8596884,tract interior point in incorporated place
-06085504316,Bay Area,06,06085,Census Tract 5043.16,Outside named places,,0.0,37.3869267,-121.8708177,tract interior point in incorporated place
-06085504317,Bay Area,06,06085,Census Tract 5043.17,Outside named places,,0.0,37.3828815,-121.8767483,tract interior point in incorporated place
-06085504318,Bay Area,06,06085,Census Tract 5043.18,Outside named places,,0.0,37.37683,-121.8956853,tract interior point in incorporated place
-06085504319,Bay Area,06,06085,Census Tract 5043.19,Outside named places,,0.0,37.3737018,-121.8672416,tract interior point in incorporated place
-06085504320,Bay Area,06,06085,Census Tract 5043.20,Outside named places,,0.0,37.402805,-121.8713866,tract interior point in incorporated place
-06085504321,Bay Area,06,06085,Census Tract 5043.21,Outside named places,,0.0,37.3931319,-121.8651427,tract interior point in incorporated place
-06085504322,Bay Area,06,06085,Census Tract 5043.22,Outside named places,,0.0,37.3943438,-121.8929699,tract interior point in incorporated place
-06085504323,Bay Area,06,06085,Census Tract 5043.23,Outside named places,,0.0,37.3988343,-121.8810513,tract interior point in incorporated place
-06085504410,Bay Area,06,06085,Census Tract 5044.10,Outside named places,,0.0,37.4093719,-121.8788884,tract interior point in incorporated place
-06085504411,Bay Area,06,06085,Census Tract 5044.11,Outside named places,,0.0,37.4160962,-121.8648388,tract interior point in incorporated place
+06085504311,Bay Area,06,06085,Census Tract 5043.11,San Jose,0668000,0.7,37.3775246,-121.8845878,tract interior point in incorporated place
+06085504314,Bay Area,06,06085,Census Tract 5043.14,San Jose,0668000,0.7,37.4018243,-121.8548256,tract interior point in incorporated place
+06085504315,Bay Area,06,06085,Census Tract 5043.15,San Jose,0668000,0.7,37.4093269,-121.8596884,tract interior point in incorporated place
+06085504316,Bay Area,06,06085,Census Tract 5043.16,San Jose,0668000,0.7,37.3869267,-121.8708177,tract interior point in incorporated place
+06085504317,Bay Area,06,06085,Census Tract 5043.17,San Jose,0668000,0.7,37.3828815,-121.8767483,tract interior point in incorporated place
+06085504318,Bay Area,06,06085,Census Tract 5043.18,San Jose,0668000,0.7,37.37683,-121.8956853,tract interior point in incorporated place
+06085504319,Bay Area,06,06085,Census Tract 5043.19,San Jose,0668000,0.7,37.3737018,-121.8672416,tract interior point in incorporated place
+06085504320,Bay Area,06,06085,Census Tract 5043.20,San Jose,0668000,0.7,37.402805,-121.8713866,tract interior point in incorporated place
+06085504321,Bay Area,06,06085,Census Tract 5043.21,San Jose,0668000,0.7,37.3931319,-121.8651427,tract interior point in incorporated place
+06085504322,Bay Area,06,06085,Census Tract 5043.22,San Jose,0668000,0.7,37.3943438,-121.8929699,tract interior point in incorporated place
+06085504323,Bay Area,06,06085,Census Tract 5043.23,San Jose,0668000,0.7,37.3988343,-121.8810513,tract interior point in incorporated place
+06085504410,Bay Area,06,06085,Census Tract 5044.10,San Jose,0668000,0.7,37.4093719,-121.8788884,tract interior point in incorporated place
+06085504411,Bay Area,06,06085,Census Tract 5044.11,San Jose,0668000,0.7,37.4160962,-121.8648388,tract interior point in incorporated place
 06085504412,Bay Area,06,06085,Census Tract 5044.12,Outside named places,,0.0,37.4394547,-121.8817696,tract interior point in incorporated place
 06085504413,Bay Area,06,06085,Census Tract 5044.13,Outside named places,,0.0,37.4373395,-121.9046561,tract interior point in incorporated place
 06085504414,Bay Area,06,06085,Census Tract 5044.14,Outside named places,,0.0,37.4404253,-121.8966446,tract interior point in incorporated place
@@ -1306,68 +1306,68 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06085504509,Bay Area,06,06085,Census Tract 5045.09,Outside named places,,0.0,37.4219626,-121.8902998,tract interior point in incorporated place
 06085504510,Bay Area,06,06085,Census Tract 5045.10,Outside named places,,0.0,37.4209203,-121.9012805,tract interior point in incorporated place
 06085504601,Bay Area,06,06085,Census Tract 5046.01,Outside named places,,0.0,37.4428194,-122.0860254,tract interior point in incorporated place
-06085504602,Bay Area,06,06085,Census Tract 5046.02,Outside named places,,0.0,37.4496561,-121.9940084,tract interior point in incorporated place
+06085504602,Bay Area,06,06085,Census Tract 5046.02,San Jose,0668000,0.7,37.4496561,-121.9940084,tract interior point in incorporated place
 06085504700,Bay Area,06,06085,Census Tract 5047,Outside named places,,0.0,37.41628,-122.050474,tract interior point in incorporated place
 06085504802,Bay Area,06,06085,Census Tract 5048.02,Sunnyvale,0677000,1.0,37.4003903,-121.9911751,tract interior point in incorporated place
 06085504805,Bay Area,06,06085,Census Tract 5048.05,Sunnyvale,0677000,1.0,37.4031701,-122.0033067,tract interior point in incorporated place
 06085504806,Bay Area,06,06085,Census Tract 5048.06,Sunnyvale,0677000,1.0,37.3959386,-122.0017169,tract interior point in incorporated place
 06085504807,Bay Area,06,06085,Census Tract 5048.07,Sunnyvale,0677000,1.0,37.40117,-122.0157372,tract interior point in incorporated place
 06085504808,Bay Area,06,06085,Census Tract 5048.08,Sunnyvale,0677000,1.0,37.4010219,-122.02654,tract interior point in incorporated place
-06085504902,Bay Area,06,06085,Census Tract 5049.02,Outside named places,,0.0,37.39557,-121.9540658,tract interior point in incorporated place
-06085504903,Bay Area,06,06085,Census Tract 5049.03,Outside named places,,0.0,37.3973289,-121.9464072,tract interior point in incorporated place
-06085505006,Bay Area,06,06085,Census Tract 5050.06,Outside named places,,0.0,37.3935811,-121.9211348,tract interior point in incorporated place
-06085505007,Bay Area,06,06085,Census Tract 5050.07,Outside named places,,0.0,37.3851644,-121.948078,tract interior point in incorporated place
-06085505010,Bay Area,06,06085,Census Tract 5050.10,Outside named places,,0.0,37.3997722,-121.9732048,tract interior point in incorporated place
-06085505011,Bay Area,06,06085,Census Tract 5050.11,Outside named places,,0.0,37.403787,-121.9576916,tract interior point in incorporated place
-06085505012,Bay Area,06,06085,Census Tract 5050.12,Outside named places,,0.0,37.4043634,-121.946572,tract interior point in incorporated place
-06085505013,Bay Area,06,06085,Census Tract 5050.13,Outside named places,,0.0,37.4073881,-121.9391312,tract interior point in incorporated place
-06085505014,Bay Area,06,06085,Census Tract 5050.14,Outside named places,,0.0,37.4137859,-121.9573026,tract interior point in incorporated place
-06085505015,Bay Area,06,06085,Census Tract 5050.15,Outside named places,,0.0,37.4161406,-121.9408683,tract interior point in incorporated place
-06085505100,Bay Area,06,06085,Census Tract 5051,Outside named places,,0.0,37.362814,-121.9239928,tract interior point in incorporated place
-06085505202,Bay Area,06,06085,Census Tract 5052.02,Outside named places,,0.0,37.3702943,-121.9606672,tract interior point in incorporated place
-06085505203,Bay Area,06,06085,Census Tract 5052.03,Outside named places,,0.0,37.3467177,-121.9327888,tract interior point in incorporated place
-06085505301,Bay Area,06,06085,Census Tract 5053.01,Outside named places,,0.0,37.3678315,-121.9845986,tract interior point in incorporated place
-06085505302,Bay Area,06,06085,Census Tract 5053.02,Outside named places,,0.0,37.3606844,-121.9724091,tract interior point in incorporated place
-06085505303,Bay Area,06,06085,Census Tract 5053.03,Outside named places,,0.0,37.3583023,-121.9639619,tract interior point in incorporated place
-06085505304,Bay Area,06,06085,Census Tract 5053.04,Outside named places,,0.0,37.3596272,-121.98154,tract interior point in incorporated place
-06085505305,Bay Area,06,06085,Census Tract 5053.05,Outside named places,,0.0,37.3590161,-121.990586,tract interior point in incorporated place
-06085505401,Bay Area,06,06085,Census Tract 5054.01,Outside named places,,0.0,37.3490022,-121.9872253,tract interior point in incorporated place
-06085505402,Bay Area,06,06085,Census Tract 5054.02,Outside named places,,0.0,37.3461125,-121.9734997,tract interior point in incorporated place
-06085505403,Bay Area,06,06085,Census Tract 5054.03,Outside named places,,0.0,37.3418351,-121.9862214,tract interior point in incorporated place
-06085505500,Bay Area,06,06085,Census Tract 5055,Outside named places,,0.0,37.3471628,-121.9621405,tract interior point in incorporated place
-06085505600,Bay Area,06,06085,Census Tract 5056,Outside named places,,0.0,37.3512545,-121.9455635,tract interior point in incorporated place
-06085505700,Bay Area,06,06085,Census Tract 5057,Outside named places,,0.0,37.3430271,-121.9443826,tract interior point in incorporated place
-06085505800,Bay Area,06,06085,Census Tract 5058,Outside named places,,0.0,37.3315973,-121.9439802,tract interior point in incorporated place
-06085505901,Bay Area,06,06085,Census Tract 5059.01,Outside named places,,0.0,37.3273218,-121.9595385,tract interior point in incorporated place
-06085505902,Bay Area,06,06085,Census Tract 5059.02,Outside named places,,0.0,37.3344951,-121.9536944,tract interior point in incorporated place
-06085506000,Bay Area,06,06085,Census Tract 5060,Outside named places,,0.0,37.3379084,-121.9621875,tract interior point in incorporated place
-06085506101,Bay Area,06,06085,Census Tract 5061.01,Outside named places,,0.0,37.3341512,-121.9845409,tract interior point in incorporated place
-06085506102,Bay Area,06,06085,Census Tract 5061.02,Outside named places,,0.0,37.3314674,-121.9714325,tract interior point in incorporated place
-06085506103,Bay Area,06,06085,Census Tract 5061.03,Outside named places,,0.0,37.3268094,-121.9858298,tract interior point in incorporated place
-06085506202,Bay Area,06,06085,Census Tract 5062.02,Outside named places,,0.0,37.3011233,-121.9904291,tract interior point in incorporated place
-06085506203,Bay Area,06,06085,Census Tract 5062.03,Outside named places,,0.0,37.3206524,-121.98293,tract interior point in incorporated place
-06085506204,Bay Area,06,06085,Census Tract 5062.04,Outside named places,,0.0,37.3135949,-121.9863813,tract interior point in incorporated place
-06085506301,Bay Area,06,06085,Census Tract 5063.01,Outside named places,,0.0,37.3196554,-121.9615175,tract interior point in incorporated place
-06085506302,Bay Area,06,06085,Census Tract 5063.02,Outside named places,,0.0,37.3088699,-121.956866,tract interior point in incorporated place
-06085506304,Bay Area,06,06085,Census Tract 5063.04,Outside named places,,0.0,37.3122608,-121.9703576,tract interior point in incorporated place
-06085506305,Bay Area,06,06085,Census Tract 5063.05,Outside named places,,0.0,37.3045277,-121.9716433,tract interior point in incorporated place
-06085506401,Bay Area,06,06085,Census Tract 5064.01,Outside named places,,0.0,37.3163691,-121.9452259,tract interior point in incorporated place
+06085504902,Bay Area,06,06085,Census Tract 5049.02,Santa Clara,0669084,0.7,37.39557,-121.9540658,tract interior point in incorporated place
+06085504903,Bay Area,06,06085,Census Tract 5049.03,Santa Clara,0669084,0.7,37.3973289,-121.9464072,tract interior point in incorporated place
+06085505006,Bay Area,06,06085,Census Tract 5050.06,San Jose,0668000,0.7,37.3935811,-121.9211348,tract interior point in incorporated place
+06085505007,Bay Area,06,06085,Census Tract 5050.07,Santa Clara,0669084,0.7,37.3851644,-121.948078,tract interior point in incorporated place
+06085505010,Bay Area,06,06085,Census Tract 5050.10,Santa Clara,0669084,0.7,37.3997722,-121.9732048,tract interior point in incorporated place
+06085505011,Bay Area,06,06085,Census Tract 5050.11,Santa Clara,0669084,0.7,37.403787,-121.9576916,tract interior point in incorporated place
+06085505012,Bay Area,06,06085,Census Tract 5050.12,San Jose,0668000,0.7,37.4043634,-121.946572,tract interior point in incorporated place
+06085505013,Bay Area,06,06085,Census Tract 5050.13,San Jose,0668000,0.7,37.4073881,-121.9391312,tract interior point in incorporated place
+06085505014,Bay Area,06,06085,Census Tract 5050.14,San Jose,0668000,0.7,37.4137859,-121.9573026,tract interior point in incorporated place
+06085505015,Bay Area,06,06085,Census Tract 5050.15,San Jose,0668000,0.7,37.4161406,-121.9408683,tract interior point in incorporated place
+06085505100,Bay Area,06,06085,Census Tract 5051,San Jose,0668000,0.7,37.362814,-121.9239928,tract interior point in incorporated place
+06085505202,Bay Area,06,06085,Census Tract 5052.02,Santa Clara,0669084,0.7,37.3702943,-121.9606672,tract interior point in incorporated place
+06085505203,Bay Area,06,06085,Census Tract 5052.03,Santa Clara,0669084,0.7,37.3467177,-121.9327888,tract interior point in incorporated place
+06085505301,Bay Area,06,06085,Census Tract 5053.01,Santa Clara,0669084,0.7,37.3678315,-121.9845986,tract interior point in incorporated place
+06085505302,Bay Area,06,06085,Census Tract 5053.02,Santa Clara,0669084,0.7,37.3606844,-121.9724091,tract interior point in incorporated place
+06085505303,Bay Area,06,06085,Census Tract 5053.03,Santa Clara,0669084,0.7,37.3583023,-121.9639619,tract interior point in incorporated place
+06085505304,Bay Area,06,06085,Census Tract 5053.04,Santa Clara,0669084,0.7,37.3596272,-121.98154,tract interior point in incorporated place
+06085505305,Bay Area,06,06085,Census Tract 5053.05,Santa Clara,0669084,0.7,37.3590161,-121.990586,tract interior point in incorporated place
+06085505401,Bay Area,06,06085,Census Tract 5054.01,Santa Clara,0669084,0.7,37.3490022,-121.9872253,tract interior point in incorporated place
+06085505402,Bay Area,06,06085,Census Tract 5054.02,Santa Clara,0669084,0.7,37.3461125,-121.9734997,tract interior point in incorporated place
+06085505403,Bay Area,06,06085,Census Tract 5054.03,Santa Clara,0669084,0.7,37.3418351,-121.9862214,tract interior point in incorporated place
+06085505500,Bay Area,06,06085,Census Tract 5055,Santa Clara,0669084,0.7,37.3471628,-121.9621405,tract interior point in incorporated place
+06085505600,Bay Area,06,06085,Census Tract 5056,Santa Clara,0669084,0.7,37.3512545,-121.9455635,tract interior point in incorporated place
+06085505700,Bay Area,06,06085,Census Tract 5057,Santa Clara,0669084,0.7,37.3430271,-121.9443826,tract interior point in incorporated place
+06085505800,Bay Area,06,06085,Census Tract 5058,San Jose,0668000,0.7,37.3315973,-121.9439802,tract interior point in incorporated place
+06085505901,Bay Area,06,06085,Census Tract 5059.01,Santa Clara,0669084,0.7,37.3273218,-121.9595385,tract interior point in incorporated place
+06085505902,Bay Area,06,06085,Census Tract 5059.02,Santa Clara,0669084,0.7,37.3344951,-121.9536944,tract interior point in incorporated place
+06085506000,Bay Area,06,06085,Census Tract 5060,Santa Clara,0669084,0.7,37.3379084,-121.9621875,tract interior point in incorporated place
+06085506101,Bay Area,06,06085,Census Tract 5061.01,Santa Clara,0669084,0.7,37.3341512,-121.9845409,tract interior point in incorporated place
+06085506102,Bay Area,06,06085,Census Tract 5061.02,Santa Clara,0669084,0.7,37.3314674,-121.9714325,tract interior point in incorporated place
+06085506103,Bay Area,06,06085,Census Tract 5061.03,Santa Clara,0669084,0.7,37.3268094,-121.9858298,tract interior point in incorporated place
+06085506202,Bay Area,06,06085,Census Tract 5062.02,San Jose,0668000,0.7,37.3011233,-121.9904291,tract interior point in incorporated place
+06085506203,Bay Area,06,06085,Census Tract 5062.03,San Jose,0668000,0.7,37.3206524,-121.98293,tract interior point in incorporated place
+06085506204,Bay Area,06,06085,Census Tract 5062.04,San Jose,0668000,0.7,37.3135949,-121.9863813,tract interior point in incorporated place
+06085506301,Bay Area,06,06085,Census Tract 5063.01,San Jose,0668000,0.7,37.3196554,-121.9615175,tract interior point in incorporated place
+06085506302,Bay Area,06,06085,Census Tract 5063.02,San Jose,0668000,0.7,37.3088699,-121.956866,tract interior point in incorporated place
+06085506304,Bay Area,06,06085,Census Tract 5063.04,San Jose,0668000,0.7,37.3122608,-121.9703576,tract interior point in incorporated place
+06085506305,Bay Area,06,06085,Census Tract 5063.05,San Jose,0668000,0.7,37.3045277,-121.9716433,tract interior point in incorporated place
+06085506401,Bay Area,06,06085,Census Tract 5064.01,San Jose,0668000,0.7,37.3163691,-121.9452259,tract interior point in incorporated place
 06085506402,Bay Area,06,06085,Census Tract 5064.02,Outside named places,,0.0,37.3016601,-121.9450528,tract interior point in incorporated place
 06085506502,Bay Area,06,06085,Census Tract 5065.02,Outside named places,,0.0,37.2793321,-121.9460936,tract interior point in incorporated place
 06085506503,Bay Area,06,06085,Census Tract 5065.03,Outside named places,,0.0,37.2857451,-121.9547473,tract interior point in incorporated place
-06085506504,Bay Area,06,06085,Census Tract 5065.04,Outside named places,,0.0,37.2992039,-121.9521951,tract interior point in incorporated place
-06085506505,Bay Area,06,06085,Census Tract 5065.05,Outside named places,,0.0,37.2977336,-121.957282,tract interior point in incorporated place
-06085506601,Bay Area,06,06085,Census Tract 5066.01,Outside named places,,0.0,37.2928527,-121.9823802,tract interior point in incorporated place
-06085506603,Bay Area,06,06085,Census Tract 5066.03,Outside named places,,0.0,37.2822302,-121.9693427,tract interior point in incorporated place
-06085506604,Bay Area,06,06085,Census Tract 5066.04,Outside named places,,0.0,37.2808226,-121.9867096,tract interior point in incorporated place
-06085506605,Bay Area,06,06085,Census Tract 5066.05,Outside named places,,0.0,37.2974131,-121.9693967,tract interior point in incorporated place
+06085506504,Bay Area,06,06085,Census Tract 5065.04,San Jose,0668000,0.7,37.2992039,-121.9521951,tract interior point in incorporated place
+06085506505,Bay Area,06,06085,Census Tract 5065.05,San Jose,0668000,0.7,37.2977336,-121.957282,tract interior point in incorporated place
+06085506601,Bay Area,06,06085,Census Tract 5066.01,San Jose,0668000,0.7,37.2928527,-121.9823802,tract interior point in incorporated place
+06085506603,Bay Area,06,06085,Census Tract 5066.03,San Jose,0668000,0.7,37.2822302,-121.9693427,tract interior point in incorporated place
+06085506604,Bay Area,06,06085,Census Tract 5066.04,San Jose,0668000,0.7,37.2808226,-121.9867096,tract interior point in incorporated place
+06085506605,Bay Area,06,06085,Census Tract 5066.05,San Jose,0668000,0.7,37.2974131,-121.9693967,tract interior point in incorporated place
 06085506606,Bay Area,06,06085,Census Tract 5066.06,Outside named places,,0.0,37.2902566,-121.9687321,tract interior point in incorporated place
 06085506701,Bay Area,06,06085,Census Tract 5067.01,Outside named places,,0.0,37.2706528,-121.9793303,tract interior point in incorporated place
 06085506702,Bay Area,06,06085,Census Tract 5067.02,Outside named places,,0.0,37.2743294,-121.9625593,tract interior point in incorporated place
 06085506703,Bay Area,06,06085,Census Tract 5067.03,Outside named places,,0.0,37.2646993,-121.9669404,tract interior point in incorporated place
 06085506801,Bay Area,06,06085,Census Tract 5068.01,Outside named places,,0.0,37.2422641,-121.9563613,tract interior point in incorporated place
-06085506802,Bay Area,06,06085,Census Tract 5068.02,Outside named places,,0.0,37.2469476,-121.9361955,tract interior point in incorporated place
-06085506803,Bay Area,06,06085,Census Tract 5068.03,Outside named places,,0.0,37.2428218,-121.9143244,tract interior point in incorporated place
+06085506802,Bay Area,06,06085,Census Tract 5068.02,San Jose,0668000,0.7,37.2469476,-121.9361955,tract interior point in incorporated place
+06085506803,Bay Area,06,06085,Census Tract 5068.03,San Jose,0668000,0.7,37.2428218,-121.9143244,tract interior point in incorporated place
 06085506804,Bay Area,06,06085,Census Tract 5068.04,Outside named places,,0.0,37.2397512,-121.9339441,tract interior point in incorporated place
 06085506900,Bay Area,06,06085,Census Tract 5069,Outside named places,,0.0,37.2276416,-121.9321866,tract interior point in incorporated place
 06085507002,Bay Area,06,06085,Census Tract 5070.02,Outside named places,,0.0,37.2095662,-121.9492296,tract interior point in incorporated place
@@ -1391,10 +1391,10 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06085507806,Bay Area,06,06085,Census Tract 5078.06,Cupertino,0617610,1.0,37.3285223,-122.0408528,tract interior point in incorporated place
 06085507807,Bay Area,06,06085,Census Tract 5078.07,Cupertino,0617610,1.0,37.3124132,-122.0405536,tract interior point in incorporated place
 06085507808,Bay Area,06,06085,Census Tract 5078.08,Cupertino,0617610,1.0,37.3022849,-122.0379286,tract interior point in incorporated place
-06085507903,Bay Area,06,06085,Census Tract 5079.03,Outside named places,,0.0,37.3026197,-122.0102044,tract interior point in incorporated place
-06085507904,Bay Area,06,06085,Census Tract 5079.04,Outside named places,,0.0,37.3019065,-122.0019032,tract interior point in incorporated place
-06085507905,Bay Area,06,06085,Census Tract 5079.05,Outside named places,,0.0,37.3026087,-122.02812,tract interior point in incorporated place
-06085507906,Bay Area,06,06085,Census Tract 5079.06,Outside named places,,0.0,37.3019892,-122.019228,tract interior point in incorporated place
+06085507903,Bay Area,06,06085,Census Tract 5079.03,San Jose,0668000,0.7,37.3026197,-122.0102044,tract interior point in incorporated place
+06085507904,Bay Area,06,06085,Census Tract 5079.04,San Jose,0668000,0.7,37.3019065,-122.0019032,tract interior point in incorporated place
+06085507905,Bay Area,06,06085,Census Tract 5079.05,San Jose,0668000,0.7,37.3026087,-122.02812,tract interior point in incorporated place
+06085507906,Bay Area,06,06085,Census Tract 5079.06,San Jose,0668000,0.7,37.3019892,-122.019228,tract interior point in incorporated place
 06085508003,Bay Area,06,06085,Census Tract 5080.03,Cupertino,0617610,1.0,37.317103,-122.010266,tract interior point in incorporated place
 06085508004,Bay Area,06,06085,Census Tract 5080.04,Cupertino,0617610,1.0,37.3163796,-122.0012063,tract interior point in incorporated place
 06085508005,Bay Area,06,06085,Census Tract 5080.05,Cupertino,0617610,1.0,37.3169847,-122.0275787,tract interior point in incorporated place
@@ -1414,7 +1414,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06085508404,Bay Area,06,06085,Census Tract 5084.04,Sunnyvale,0677000,1.0,37.36461,-122.0416419,tract interior point in incorporated place
 06085508503,Bay Area,06,06085,Census Tract 5085.03,Sunnyvale,0677000,1.0,37.3573031,-122.0260531,tract interior point in incorporated place
 06085508505,Bay Area,06,06085,Census Tract 5085.05,Sunnyvale,0677000,1.0,37.3588628,-122.0097817,tract interior point in incorporated place
-06085508507,Bay Area,06,06085,Census Tract 5085.07,Outside named places,,0.0,37.356236,-121.9983729,tract interior point in incorporated place
+06085508507,Bay Area,06,06085,Census Tract 5085.07,Santa Clara,0669084,0.7,37.356236,-121.9983729,tract interior point in incorporated place
 06085508508,Bay Area,06,06085,Census Tract 5085.08,Sunnyvale,0677000,1.0,37.3614064,-122.0020068,tract interior point in incorporated place
 06085508509,Bay Area,06,06085,Census Tract 5085.09,Sunnyvale,0677000,1.0,37.3653324,-122.0239218,tract interior point in incorporated place
 06085508510,Bay Area,06,06085,Census Tract 5085.10,Sunnyvale,0677000,1.0,37.3603463,-122.0177173,tract interior point in incorporated place
@@ -1479,65 +1479,65 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06085511705,Bay Area,06,06085,Census Tract 5117.05,Outside named places,,0.0,37.4057029,-122.161914,tract interior point in incorporated place
 06085511707,Bay Area,06,06085,Census Tract 5117.07,Outside named places,,0.0,37.292658,-122.1190201,tract interior point in incorporated place
 06085511800,Bay Area,06,06085,Census Tract 5118,Outside named places,,0.0,37.160449,-121.9417467,tract interior point in incorporated place
-06085511905,Bay Area,06,06085,Census Tract 5119.05,Outside named places,,0.0,37.2147222,-121.8583082,tract interior point in incorporated place
-06085511907,Bay Area,06,06085,Census Tract 5119.07,Outside named places,,0.0,37.2197592,-121.8542492,tract interior point in incorporated place
-06085511910,Bay Area,06,06085,Census Tract 5119.10,Outside named places,,0.0,37.2129865,-121.8693977,tract interior point in incorporated place
+06085511905,Bay Area,06,06085,Census Tract 5119.05,San Jose,0668000,0.7,37.2147222,-121.8583082,tract interior point in incorporated place
+06085511907,Bay Area,06,06085,Census Tract 5119.07,San Jose,0668000,0.7,37.2197592,-121.8542492,tract interior point in incorporated place
+06085511910,Bay Area,06,06085,Census Tract 5119.10,San Jose,0668000,0.7,37.2129865,-121.8693977,tract interior point in incorporated place
 06085511911,Bay Area,06,06085,Census Tract 5119.11,Outside named places,,0.0,37.2009931,-121.8181173,tract interior point in incorporated place
-06085511912,Bay Area,06,06085,Census Tract 5119.12,Outside named places,,0.0,37.2057326,-121.8341741,tract interior point in incorporated place
-06085511913,Bay Area,06,06085,Census Tract 5119.13,Outside named places,,0.0,37.2275027,-121.8912184,tract interior point in incorporated place
-06085511914,Bay Area,06,06085,Census Tract 5119.14,Outside named places,,0.0,37.2305812,-121.8770809,tract interior point in incorporated place
-06085511915,Bay Area,06,06085,Census Tract 5119.15,Outside named places,,0.0,37.244753,-121.8807146,tract interior point in incorporated place
-06085511916,Bay Area,06,06085,Census Tract 5119.16,Outside named places,,0.0,37.2368478,-121.8958888,tract interior point in incorporated place
-06085511917,Bay Area,06,06085,Census Tract 5119.17,Outside named places,,0.0,37.201114,-121.8480117,tract interior point in incorporated place
+06085511912,Bay Area,06,06085,Census Tract 5119.12,San Jose,0668000,0.7,37.2057326,-121.8341741,tract interior point in incorporated place
+06085511913,Bay Area,06,06085,Census Tract 5119.13,San Jose,0668000,0.7,37.2275027,-121.8912184,tract interior point in incorporated place
+06085511914,Bay Area,06,06085,Census Tract 5119.14,San Jose,0668000,0.7,37.2305812,-121.8770809,tract interior point in incorporated place
+06085511915,Bay Area,06,06085,Census Tract 5119.15,San Jose,0668000,0.7,37.244753,-121.8807146,tract interior point in incorporated place
+06085511916,Bay Area,06,06085,Census Tract 5119.16,San Jose,0668000,0.7,37.2368478,-121.8958888,tract interior point in incorporated place
+06085511917,Bay Area,06,06085,Census Tract 5119.17,San Jose,0668000,0.7,37.201114,-121.8480117,tract interior point in incorporated place
 06085511918,Bay Area,06,06085,Census Tract 5119.18,Outside named places,,0.0,37.185742,-121.8427536,tract interior point in incorporated place
 06085512001,Bay Area,06,06085,Census Tract 5120.01,Outside named places,,0.0,37.2568596,-121.7680942,tract interior point in incorporated place
-06085512005,Bay Area,06,06085,Census Tract 5120.05,Outside named places,,0.0,37.2700187,-121.8655792,tract interior point in incorporated place
-06085512019,Bay Area,06,06085,Census Tract 5120.19,Outside named places,,0.0,37.2707459,-121.8458034,tract interior point in incorporated place
-06085512021,Bay Area,06,06085,Census Tract 5120.21,Outside named places,,0.0,37.2635211,-121.8239467,tract interior point in incorporated place
-06085512022,Bay Area,06,06085,Census Tract 5120.22,Outside named places,,0.0,37.2551956,-121.8109259,tract interior point in incorporated place
-06085512023,Bay Area,06,06085,Census Tract 5120.23,Outside named places,,0.0,37.2550468,-121.824356,tract interior point in incorporated place
-06085512024,Bay Area,06,06085,Census Tract 5120.24,Outside named places,,0.0,37.2600361,-121.8696954,tract interior point in incorporated place
-06085512025,Bay Area,06,06085,Census Tract 5120.25,Outside named places,,0.0,37.2608921,-121.8525836,tract interior point in incorporated place
-06085512026,Bay Area,06,06085,Census Tract 5120.26,Outside named places,,0.0,37.2584565,-121.8379668,tract interior point in incorporated place
-06085512027,Bay Area,06,06085,Census Tract 5120.27,Outside named places,,0.0,37.2542237,-121.8543848,tract interior point in incorporated place
-06085512029,Bay Area,06,06085,Census Tract 5120.29,Outside named places,,0.0,37.2476813,-121.8160666,tract interior point in incorporated place
-06085512030,Bay Area,06,06085,Census Tract 5120.30,Outside named places,,0.0,37.2327046,-121.8241916,tract interior point in incorporated place
-06085512031,Bay Area,06,06085,Census Tract 5120.31,Outside named places,,0.0,37.231499,-121.8102325,tract interior point in incorporated place
-06085512032,Bay Area,06,06085,Census Tract 5120.32,Outside named places,,0.0,37.232926,-121.7825093,tract interior point in incorporated place
-06085512034,Bay Area,06,06085,Census Tract 5120.34,Outside named places,,0.0,37.2293395,-121.7707429,tract interior point in incorporated place
-06085512035,Bay Area,06,06085,Census Tract 5120.35,Outside named places,,0.0,37.2236094,-121.7614495,tract interior point in incorporated place
-06085512036,Bay Area,06,06085,Census Tract 5120.36,Outside named places,,0.0,37.2401629,-121.810595,tract interior point in incorporated place
-06085512037,Bay Area,06,06085,Census Tract 5120.37,Outside named places,,0.0,37.2411911,-121.8246191,tract interior point in incorporated place
-06085512038,Bay Area,06,06085,Census Tract 5120.38,Outside named places,,0.0,37.2348353,-121.7620714,tract interior point in incorporated place
-06085512039,Bay Area,06,06085,Census Tract 5120.39,Outside named places,,0.0,37.2488508,-121.7864273,tract interior point in incorporated place
-06085512042,Bay Area,06,06085,Census Tract 5120.42,Outside named places,,0.0,37.2661049,-121.814509,tract interior point in incorporated place
-06085512043,Bay Area,06,06085,Census Tract 5120.43,Outside named places,,0.0,37.2616899,-121.8047156,tract interior point in incorporated place
-06085512045,Bay Area,06,06085,Census Tract 5120.45,Outside named places,,0.0,37.2384961,-121.8352509,tract interior point in incorporated place
-06085512047,Bay Area,06,06085,Census Tract 5120.47,Outside named places,,0.0,37.2410744,-121.8445214,tract interior point in incorporated place
-06085512052,Bay Area,06,06085,Census Tract 5120.52,Outside named places,,0.0,37.2484034,-121.8645577,tract interior point in incorporated place
-06085512053,Bay Area,06,06085,Census Tract 5120.53,Outside named places,,0.0,37.2436327,-121.853464,tract interior point in incorporated place
-06085512054,Bay Area,06,06085,Census Tract 5120.54,Outside named places,,0.0,37.2760754,-121.836858,tract interior point in incorporated place
-06085512055,Bay Area,06,06085,Census Tract 5120.55,Outside named places,,0.0,37.2697738,-121.8357569,tract interior point in incorporated place
-06085512056,Bay Area,06,06085,Census Tract 5120.56,Outside named places,,0.0,37.2721374,-121.8082789,tract interior point in incorporated place
-06085512057,Bay Area,06,06085,Census Tract 5120.57,Outside named places,,0.0,37.2737909,-121.8229031,tract interior point in incorporated place
-06085512058,Bay Area,06,06085,Census Tract 5120.58,Outside named places,,0.0,37.2469505,-121.7969833,tract interior point in incorporated place
-06085512059,Bay Area,06,06085,Census Tract 5120.59,Outside named places,,0.0,37.2337395,-121.7963166,tract interior point in incorporated place
+06085512005,Bay Area,06,06085,Census Tract 5120.05,San Jose,0668000,0.7,37.2700187,-121.8655792,tract interior point in incorporated place
+06085512019,Bay Area,06,06085,Census Tract 5120.19,San Jose,0668000,0.7,37.2707459,-121.8458034,tract interior point in incorporated place
+06085512021,Bay Area,06,06085,Census Tract 5120.21,San Jose,0668000,0.7,37.2635211,-121.8239467,tract interior point in incorporated place
+06085512022,Bay Area,06,06085,Census Tract 5120.22,San Jose,0668000,0.7,37.2551956,-121.8109259,tract interior point in incorporated place
+06085512023,Bay Area,06,06085,Census Tract 5120.23,San Jose,0668000,0.7,37.2550468,-121.824356,tract interior point in incorporated place
+06085512024,Bay Area,06,06085,Census Tract 5120.24,San Jose,0668000,0.7,37.2600361,-121.8696954,tract interior point in incorporated place
+06085512025,Bay Area,06,06085,Census Tract 5120.25,San Jose,0668000,0.7,37.2608921,-121.8525836,tract interior point in incorporated place
+06085512026,Bay Area,06,06085,Census Tract 5120.26,San Jose,0668000,0.7,37.2584565,-121.8379668,tract interior point in incorporated place
+06085512027,Bay Area,06,06085,Census Tract 5120.27,San Jose,0668000,0.7,37.2542237,-121.8543848,tract interior point in incorporated place
+06085512029,Bay Area,06,06085,Census Tract 5120.29,San Jose,0668000,0.7,37.2476813,-121.8160666,tract interior point in incorporated place
+06085512030,Bay Area,06,06085,Census Tract 5120.30,San Jose,0668000,0.7,37.2327046,-121.8241916,tract interior point in incorporated place
+06085512031,Bay Area,06,06085,Census Tract 5120.31,San Jose,0668000,0.7,37.231499,-121.8102325,tract interior point in incorporated place
+06085512032,Bay Area,06,06085,Census Tract 5120.32,San Jose,0668000,0.7,37.232926,-121.7825093,tract interior point in incorporated place
+06085512034,Bay Area,06,06085,Census Tract 5120.34,San Jose,0668000,0.7,37.2293395,-121.7707429,tract interior point in incorporated place
+06085512035,Bay Area,06,06085,Census Tract 5120.35,San Jose,0668000,0.7,37.2236094,-121.7614495,tract interior point in incorporated place
+06085512036,Bay Area,06,06085,Census Tract 5120.36,San Jose,0668000,0.7,37.2401629,-121.810595,tract interior point in incorporated place
+06085512037,Bay Area,06,06085,Census Tract 5120.37,San Jose,0668000,0.7,37.2411911,-121.8246191,tract interior point in incorporated place
+06085512038,Bay Area,06,06085,Census Tract 5120.38,San Jose,0668000,0.7,37.2348353,-121.7620714,tract interior point in incorporated place
+06085512039,Bay Area,06,06085,Census Tract 5120.39,San Jose,0668000,0.7,37.2488508,-121.7864273,tract interior point in incorporated place
+06085512042,Bay Area,06,06085,Census Tract 5120.42,San Jose,0668000,0.7,37.2661049,-121.814509,tract interior point in incorporated place
+06085512043,Bay Area,06,06085,Census Tract 5120.43,San Jose,0668000,0.7,37.2616899,-121.8047156,tract interior point in incorporated place
+06085512045,Bay Area,06,06085,Census Tract 5120.45,San Jose,0668000,0.7,37.2384961,-121.8352509,tract interior point in incorporated place
+06085512047,Bay Area,06,06085,Census Tract 5120.47,San Jose,0668000,0.7,37.2410744,-121.8445214,tract interior point in incorporated place
+06085512052,Bay Area,06,06085,Census Tract 5120.52,San Jose,0668000,0.7,37.2484034,-121.8645577,tract interior point in incorporated place
+06085512053,Bay Area,06,06085,Census Tract 5120.53,San Jose,0668000,0.7,37.2436327,-121.853464,tract interior point in incorporated place
+06085512054,Bay Area,06,06085,Census Tract 5120.54,San Jose,0668000,0.7,37.2760754,-121.836858,tract interior point in incorporated place
+06085512055,Bay Area,06,06085,Census Tract 5120.55,San Jose,0668000,0.7,37.2697738,-121.8357569,tract interior point in incorporated place
+06085512056,Bay Area,06,06085,Census Tract 5120.56,San Jose,0668000,0.7,37.2721374,-121.8082789,tract interior point in incorporated place
+06085512057,Bay Area,06,06085,Census Tract 5120.57,San Jose,0668000,0.7,37.2737909,-121.8229031,tract interior point in incorporated place
+06085512058,Bay Area,06,06085,Census Tract 5120.58,San Jose,0668000,0.7,37.2469505,-121.7969833,tract interior point in incorporated place
+06085512059,Bay Area,06,06085,Census Tract 5120.59,San Jose,0668000,0.7,37.2337395,-121.7963166,tract interior point in incorporated place
 06085512100,Bay Area,06,06085,Census Tract 5121,Outside named places,,0.0,37.1795926,-121.7294875,tract interior point in incorporated place
 06085512200,Bay Area,06,06085,Census Tract 5122,Outside named places,,0.0,37.0467866,-121.7095187,tract interior point in incorporated place
 06085512305,Bay Area,06,06085,Census Tract 5123.05,Outside named places,,0.0,37.114153,-121.6737,tract interior point in incorporated place
 06085512307,Bay Area,06,06085,Census Tract 5123.07,Outside named places,,0.0,37.0997288,-121.6367125,tract interior point in incorporated place
 06085512308,Bay Area,06,06085,Census Tract 5123.08,Outside named places,,0.0,37.1511729,-121.6268394,tract interior point in incorporated place
 06085512309,Bay Area,06,06085,Census Tract 5123.09,Outside named places,,0.0,37.1300123,-121.6087697,tract interior point in incorporated place
-06085512310,Bay Area,06,06085,Census Tract 5123.10,Outside named places,,0.0,37.1170325,-121.6337601,tract interior point in incorporated place
+06085512310,Bay Area,06,06085,Census Tract 5123.10,Outside named places,,0.0,37.1170324,-121.6337601,tract interior point in incorporated place
 06085512311,Bay Area,06,06085,Census Tract 5123.11,Outside named places,,0.0,37.1495734,-121.6601298,tract interior point in incorporated place
-06085512312,Bay Area,06,06085,Census Tract 5123.12,Outside named places,,0.0,37.1330765,-121.6430656,tract interior point in incorporated place
+06085512312,Bay Area,06,06085,Census Tract 5123.12,Outside named places,,0.0,37.1330764,-121.6430656,tract interior point in incorporated place
 06085512313,Bay Area,06,06085,Census Tract 5123.13,Outside named places,,0.0,37.1159262,-121.6532803,tract interior point in incorporated place
 06085512314,Bay Area,06,06085,Census Tract 5123.14,Outside named places,,0.0,37.1283275,-121.6632475,tract interior point in incorporated place
 06085512401,Bay Area,06,06085,Census Tract 5124.01,Outside named places,,0.0,37.0604098,-121.6025818,tract interior point in incorporated place
 06085512402,Bay Area,06,06085,Census Tract 5124.02,Outside named places,,0.0,37.0947506,-121.5672177,tract interior point in incorporated place
 06085512505,Bay Area,06,06085,Census Tract 5125.05,Outside named places,,0.0,37.0245729,-121.5925004,tract interior point in incorporated place
-06085512509,Bay Area,06,06085,Census Tract 5125.09,Outside named places,,0.0,36.9879101,-121.5714927,tract interior point in incorporated place
-06085512510,Bay Area,06,06085,Census Tract 5125.10,Outside named places,,0.0,36.9775587,-121.5863518,tract interior point in incorporated place
+06085512509,Bay Area,06,06085,Census Tract 5125.09,Outside named places,,0.0,36.9879163,-121.5715156,tract interior point in incorporated place
+06085512510,Bay Area,06,06085,Census Tract 5125.10,Outside named places,,0.0,36.9775543,-121.5863515,tract interior point in incorporated place
 06085512511,Bay Area,06,06085,Census Tract 5125.11,Outside named places,,0.0,37.0076293,-121.5810721,tract interior point in incorporated place
 06085512512,Bay Area,06,06085,Census Tract 5125.12,Outside named places,,0.0,37.0008369,-121.5756972,tract interior point in incorporated place
 06085512513,Bay Area,06,06085,Census Tract 5125.13,Outside named places,,0.0,37.0257555,-121.580832,tract interior point in incorporated place
@@ -1597,10 +1597,10 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06095252311,Bay Area,06,06095,Census Tract 2523.11,Outside named places,,0.0,38.2949139,-122.0506429,tract interior point in incorporated place
 06095252312,Bay Area,06,06095,Census Tract 2523.12,Outside named places,,0.0,38.2753544,-122.0561706,tract interior point in incorporated place
 06095252313,Bay Area,06,06095,Census Tract 2523.13,Outside named places,,0.0,38.300551,-122.027337,tract interior point in incorporated place
-06095252314,Bay Area,06,06095,Census Tract 2523.14,Outside named places,,0.0,38.2770036,-122.0358467,tract interior point in incorporated place
+06095252314,Bay Area,06,06095,Census Tract 2523.14,Outside named places,,0.0,38.2770446,-122.0358165,tract interior point in incorporated place
 06095252315,Bay Area,06,06095,Census Tract 2523.15,Outside named places,,0.0,38.2840121,-122.0150107,tract interior point in incorporated place
 06095252316,Bay Area,06,06095,Census Tract 2523.16,Outside named places,,0.0,38.2762632,-122.0156731,tract interior point in incorporated place
-06095252317,Bay Area,06,06095,Census Tract 2523.17,Outside named places,,0.0,38.288819,-121.9770476,tract interior point in incorporated place
+06095252317,Bay Area,06,06095,Census Tract 2523.17,Outside named places,,0.0,38.2917061,-121.971705,tract interior point in incorporated place
 06095252401,Bay Area,06,06095,Census Tract 2524.01,Outside named places,,0.0,38.2534089,-122.0580589,tract interior point in incorporated place
 06095252402,Bay Area,06,06095,Census Tract 2524.02,Outside named places,,0.0,38.2205759,-122.0685278,tract interior point in incorporated place
 06095252501,Bay Area,06,06095,Census Tract 2525.01,Outside named places,,0.0,38.255026,-122.0412873,tract interior point in incorporated place
@@ -1620,10 +1620,10 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06095252707,Bay Area,06,06095,Census Tract 2527.07,Outside named places,,0.0,38.2599906,-122.0011886,tract interior point in incorporated place
 06095252801,Bay Area,06,06095,Census Tract 2528.01,Outside named places,,0.0,38.2790208,-121.9458892,tract interior point in incorporated place
 06095252802,Bay Area,06,06095,Census Tract 2528.02,Outside named places,,0.0,38.2715195,-121.9462484,tract interior point in incorporated place
-06095252903,Bay Area,06,06095,Census Tract 2529.03,Outside named places,,0.0,38.4377715,-122.0314619,tract interior point in incorporated place
+06095252903,Bay Area,06,06095,Census Tract 2529.03,Outside named places,,0.0,38.4382394,-122.0343538,tract interior point in incorporated place
 06095252904,Bay Area,06,06095,Census Tract 2529.04,Outside named places,,0.0,38.4043799,-121.9310345,tract interior point in incorporated place
 06095252908,Bay Area,06,06095,Census Tract 2529.08,Outside named places,,0.0,38.342431,-121.9569363,tract interior point in incorporated place
-06095252909,Bay Area,06,06095,Census Tract 2529.09,Outside named places,,0.0,38.3444649,-121.9205462,tract interior point in incorporated place
+06095252909,Bay Area,06,06095,Census Tract 2529.09,Outside named places,,0.0,38.3449258,-121.9203767,tract interior point in incorporated place
 06095252910,Bay Area,06,06095,Census Tract 2529.10,Outside named places,,0.0,38.3401253,-121.9444368,tract interior point in incorporated place
 06095252911,Bay Area,06,06095,Census Tract 2529.11,Outside named places,,0.0,38.3695164,-121.9443944,tract interior point in incorporated place
 06095252912,Bay Area,06,06095,Census Tract 2529.12,Outside named places,,0.0,38.3572492,-121.944357,tract interior point in incorporated place
@@ -1635,7 +1635,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06095253105,Bay Area,06,06095,Census Tract 2531.05,Outside named places,,0.0,38.3539119,-121.9670998,tract interior point in incorporated place
 06095253106,Bay Area,06,06095,Census Tract 2531.06,Outside named places,,0.0,38.3417498,-121.9660442,tract interior point in incorporated place
 06095253107,Bay Area,06,06095,Census Tract 2531.07,Outside named places,,0.0,38.3420882,-121.9790499,tract interior point in incorporated place
-06095253108,Bay Area,06,06095,Census Tract 2531.08,Outside named places,,0.0,38.3285918,-122.0011338,tract interior point in incorporated place
+06095253108,Bay Area,06,06095,Census Tract 2531.08,Outside named places,,0.0,38.3286051,-122.0012041,tract interior point in incorporated place
 06095253201,Bay Area,06,06095,Census Tract 2532.01,Outside named places,,0.0,38.3703098,-122.011505,tract interior point in incorporated place
 06095253203,Bay Area,06,06095,Census Tract 2532.03,Outside named places,,0.0,38.3622131,-121.996768,tract interior point in incorporated place
 06095253205,Bay Area,06,06095,Census Tract 2532.05,Outside named places,,0.0,38.3724624,-121.9717511,tract interior point in incorporated place
@@ -1643,12 +1643,12 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06095253207,Bay Area,06,06095,Census Tract 2532.07,Outside named places,,0.0,38.37916,-121.988909,tract interior point in incorporated place
 06095253208,Bay Area,06,06095,Census Tract 2532.08,Outside named places,,0.0,38.3772973,-121.9802182,tract interior point in incorporated place
 06095253300,Bay Area,06,06095,Census Tract 2533,Outside named places,,0.0,38.4198882,-121.7998024,tract interior point in incorporated place
-06095253402,Bay Area,06,06095,Census Tract 2534.02,Outside named places,,0.0,38.4389844,-121.8179254,tract interior point in incorporated place
-06095253403,Bay Area,06,06095,Census Tract 2534.03,Outside named places,,0.0,38.4410051,-121.8456708,tract interior point in incorporated place
+06095253402,Bay Area,06,06095,Census Tract 2534.02,Outside named places,,0.0,38.4390017,-121.8179317,tract interior point in incorporated place
+06095253403,Bay Area,06,06095,Census Tract 2534.03,Outside named places,,0.0,38.4377064,-121.8475707,tract interior point in incorporated place
 06095253404,Bay Area,06,06095,Census Tract 2534.04,Outside named places,,0.0,38.4601521,-121.8307255,tract interior point in incorporated place
 06095253501,Bay Area,06,06095,Census Tract 2535.01,Outside named places,,0.0,38.2466064,-121.7607697,tract interior point in incorporated place
 06095253502,Bay Area,06,06095,Census Tract 2535.02,Outside named places,,0.0,38.1311499,-121.8217361,tract interior point in incorporated place
-06095980000,Bay Area,06,06095,Census Tract 9800,Outside named places,,0.0,38.2544515,-121.9456515,tract interior point in incorporated place
+06095980000,Bay Area,06,06095,Census Tract 9800,Outside named places,,0.0,38.2545543,-121.9456581,tract interior point in incorporated place
 06097150100,Bay Area,06,06097,Census Tract 1501,Outside named places,,0.0,38.1981906,-122.4133842,tract interior point in incorporated place
 06097150203,Bay Area,06,06097,Census Tract 1502.03,Outside named places,,0.0,38.2775429,-122.4621651,tract interior point in incorporated place
 06097150204,Bay Area,06,06097,Census Tract 1502.04,Outside named places,,0.0,38.2867706,-122.4510104,tract interior point in incorporated place
@@ -1668,7 +1668,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06097150610,Bay Area,06,06097,Census Tract 1506.10,Outside named places,,0.0,38.2654848,-122.6401778,tract interior point in incorporated place
 06097150611,Bay Area,06,06097,Census Tract 1506.11,Outside named places,,0.0,38.2329343,-122.579047,tract interior point in incorporated place
 06097150612,Bay Area,06,06097,Census Tract 1506.12,Outside named places,,0.0,38.2116884,-122.5343549,tract interior point in incorporated place
-06097150701,Bay Area,06,06097,Census Tract 1507.01,Outside named places,,0.0,38.2336159,-122.6301845,tract interior point in incorporated place
+06097150701,Bay Area,06,06097,Census Tract 1507.01,Outside named places,,0.0,38.2337041,-122.6302963,tract interior point in incorporated place
 06097150702,Bay Area,06,06097,Census Tract 1507.02,Outside named places,,0.0,38.201075,-122.6258587,tract interior point in incorporated place
 06097150800,Bay Area,06,06097,Census Tract 1508,Outside named places,,0.0,38.2087678,-122.6647282,tract interior point in incorporated place
 06097150901,Bay Area,06,06097,Census Tract 1509.01,Outside named places,,0.0,38.2475852,-122.6439087,tract interior point in incorporated place
@@ -1715,7 +1715,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06097152601,Bay Area,06,06097,Census Tract 1526.01,Outside named places,,0.0,38.5058699,-122.6643077,tract interior point in incorporated place
 06097152602,Bay Area,06,06097,Census Tract 1526.02,Outside named places,,0.0,38.5333374,-122.6225737,tract interior point in incorporated place
 06097152701,Bay Area,06,06097,Census Tract 1527.01,Outside named places,,0.0,38.5289963,-122.7468369,tract interior point in incorporated place
-06097152702,Bay Area,06,06097,Census Tract 1527.02,Outside named places,,0.0,38.5043498,-122.7912191,tract interior point in incorporated place
+06097152702,Bay Area,06,06097,Census Tract 1527.02,Outside named places,,0.0,38.5043514,-122.7912202,tract interior point in incorporated place
 06097152801,Bay Area,06,06097,Census Tract 1528.01,Outside named places,,0.0,38.482824,-122.7503028,tract interior point in incorporated place
 06097152803,Bay Area,06,06097,Census Tract 1528.03,Outside named places,,0.0,38.4655202,-122.7382164,tract interior point in incorporated place
 06097152804,Bay Area,06,06097,Census Tract 1528.04,Outside named places,,0.0,38.4641357,-122.7310534,tract interior point in incorporated place
@@ -1731,7 +1731,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06097153102,Bay Area,06,06097,Census Tract 1531.02,Outside named places,,0.0,38.4201079,-122.7216605,tract interior point in incorporated place
 06097153103,Bay Area,06,06097,Census Tract 1531.03,Outside named places,,0.0,38.4198166,-122.7341732,tract interior point in incorporated place
 06097153104,Bay Area,06,06097,Census Tract 1531.04,Outside named places,,0.0,38.4288774,-122.7274638,tract interior point in incorporated place
-06097153201,Bay Area,06,06097,Census Tract 1532.01,Outside named places,,0.0,38.4078526,-122.7283931,tract interior point in incorporated place
+06097153201,Bay Area,06,06097,Census Tract 1532.01,Outside named places,,0.0,38.4078526,-122.728393,tract interior point in incorporated place
 06097153202,Bay Area,06,06097,Census Tract 1532.02,Outside named places,,0.0,38.3820955,-122.7284091,tract interior point in incorporated place
 06097153301,Bay Area,06,06097,Census Tract 1533.01,Outside named places,,0.0,38.3918573,-122.7695059,tract interior point in incorporated place
 06097153302,Bay Area,06,06097,Census Tract 1533.02,Outside named places,,0.0,38.4136158,-122.7542692,tract interior point in incorporated place
@@ -1756,7 +1756,7 @@ census_tract,region,state_fips,county_fips,tract_name,place,place_geoid,tech_sco
 06097153808,Bay Area,06,06097,Census Tract 1538.08,Outside named places,,0.0,38.5426788,-122.8080843,tract interior point in incorporated place
 06097153809,Bay Area,06,06097,Census Tract 1538.09,Outside named places,,0.0,38.5331527,-122.7812918,tract interior point in incorporated place
 06097153810,Bay Area,06,06097,Census Tract 1538.10,Outside named places,,0.0,38.5252871,-122.8554323,tract interior point in incorporated place
-06097153811,Bay Area,06,06097,Census Tract 1538.11,Outside named places,,0.0,38.5278326,-122.821957,tract interior point in incorporated place
+06097153811,Bay Area,06,06097,Census Tract 1538.11,Outside named places,,0.0,38.5278331,-122.8219606,tract interior point in incorporated place
 06097153902,Bay Area,06,06097,Census Tract 1539.02,Outside named places,,0.0,38.6120817,-122.8671471,tract interior point in incorporated place
 06097153903,Bay Area,06,06097,Census Tract 1539.03,Outside named places,,0.0,38.6190156,-122.8569212,tract interior point in incorporated place
 06097153904,Bay Area,06,06097,Census Tract 1539.04,Outside named places,,0.0,38.5845228,-122.8226027,tract interior point in incorporated place

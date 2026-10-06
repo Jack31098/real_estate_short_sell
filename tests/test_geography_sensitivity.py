@@ -38,6 +38,17 @@ class GeographySensitivityTests(unittest.TestCase):
         self.assertGreater(baseline.loc["FSBW", "core_origination_amount"], baseline.loc["WAFD", "core_origination_amount"])
         self.assertLess(narrow.loc["FSBW", "core_origination_amount"], narrow.loc["WAFD", "core_origination_amount"])
 
+    def test_new_city_scenario_matches_city_level_originations(self):
+        scenarios = pd.read_csv(PROJECT_ROOT / "outputs" / "residential_geography_sensitivity.csv")
+        places = pd.read_csv(PROJECT_ROOT / "outputs" / "candidate_originations_by_place_2023_2025.csv")
+        added = places.loc[places.place.isin(["San Jose", "Santa Clara"])].groupby("ticker")["originated_amount"].sum()
+        bay = scenarios.loc[scenarios.region.eq("Bay Area")]
+        current = bay.loc[bay.scenario.eq("baseline_t0.7")].set_index("ticker")
+        legacy = bay.loc[bay.scenario.eq("legacy_exclude_new_cities")].set_index("ticker")
+        change = current.core_origination_amount - legacy.core_origination_amount
+        for ticker, amount in added.items():
+            self.assertAlmostEqual(change.loc[ticker], amount)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -7,10 +7,10 @@ The purchaser-type screen materially reduces the first-stage origination footpri
 | Ticker | Core originations | Strict base balance | Expanded base balance | Expanded / TCE | Capital date |
 |---|---:|---:|---:|---:|---:|
 | FSBW | $275.1M | $81.4M | $81.4M | 24.92% | 20251231 |
-| HMST | $196.0M | $68.9M | $68.9M | 13.06% | 20250630 |
-| WAFD | $157.8M | $130.0M | $130.0M | 4.98% | 20251231 |
-| COLB | $181.3M | $102.9M | $102.9M | 1.76% | 20251231 |
-| EWBC | $143.1M | $124.7M | $124.7M | 1.62% | 20251231 |
+| HMST | $197.0M | $68.9M | $68.9M | 13.06% | 20250630 |
+| WAFD | $161.8M | $133.5M | $133.5M | 5.11% | 20251231 |
+| EWBC | $195.6M | $170.6M | $170.6M | 2.22% | 20251231 |
+| COLB | $184.2M | $104.7M | $104.7M | 1.79% | 20251231 |
 | BCML | $0 | $0 | $0 | 0.00% | 20251231 |
 | BMRC | $0 | $0 | $0 | 0.00% | 20251231 |
 | CVBF | $0 | $0 | $0 | 0.00% | 20251231 |

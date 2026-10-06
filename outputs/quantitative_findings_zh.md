@@ -2,7 +2,7 @@
 
 生成日期：2026-09-01
 
-**2026-10-05 复核注记：** 本文是旧口径的阶段性结论。新增的 `residential_geography_sensitivity.csv` 显示，FSBW 在原始 0.7 核心区阈值下的 Puget Sound 候选住宅发放额领先 WAFD，但阈值改为 0.9 或排除 Seattle 市后，WAFD 领先。故下述 FSBW 排序依赖地理定义，不能直接读作预期损失或最佳做空标的。原始数据口径和历史结论保留以便追溯。
+**2026-10-05 更新：本文正文保留 2026-09-01 的旧城市名单与旧数字，仅供追溯，已非当前分析结果。** 新版地理映射纳入 San Jose 与 Santa Clara 市；2023–2025 年 HMDA 与住宅余额代理已重新计算。请以 `first_stage_findings.md`、`second_stage_findings.md`、`residential_geography_sensitivity.csv` 和 `candidate_originations_by_place_2023_2025.csv` 为准。城市权重与 0.7 阈值仍是人工情景，不能读作实测劳动收入暴露、预期损失或最佳做空标的。Puget Sound 的 FSBW/WAFD 原排序在阈值收紧到 0.9 或排除 Seattle 市时反转。
 
 ## 结论先行
 

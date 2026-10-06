@@ -47,6 +47,10 @@ The residential `core_share_of_regional` field is core-place originations divide
 by the same lender's qualifying originations in the **selected counties**; it is
 not a share of the lender's entire loan book. The place scores are scenario inputs
 for residential locations, not measured worker-income or office-tenant exposure.
+San Jose and Santa Clara city are now mapped from Census TIGERweb and provisionally
+assigned 0.7, the inclusion boundary. Their assignment and the threshold remain
+manual hypotheses. The sensitivity output includes a legacy scenario excluding
+both cities; neither scenario estimates borrower employment or default risk.
 
 ## Run
 
@@ -71,9 +75,10 @@ written under `outputs/`.
 or unmatched census tracts before geographic aggregation.
 Run `python scripts/geography_sensitivity.py` after the first stage to compare
 candidate residential origination rankings at alternative thresholds and with
-Seattle or San Francisco city removed. The current scenarios cannot assess
-San Jose, Santa Clara city, or other omitted places without expanding the
-geographic configuration and rebuilding tract scores.
+Seattle or San Francisco city removed, and with San Jose and Santa Clara city
+excluded as in the earlier place list. `candidate_originations_by_place_2023_2025.csv`
+shows the observed candidate originations assigned to each named city. Other
+omitted places still require expanding the configuration and rebuilding tracts.
 
 The main stage-2 interpretation is in `outputs/second_stage_findings.md`.
 
