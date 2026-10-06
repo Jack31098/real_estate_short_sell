@@ -24,7 +24,7 @@ Code, tests, configuration, stage reports, CSV/JSON analytical outputs, the trac
 ## Resume on another computer
 
 ```powershell
-git clone <remote-repository-url>
+git clone https://github.com/Jack31098/real_estate_short_sell.git
 cd real_estate_short_sell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
