@@ -1,0 +1,103 @@
+{
+  "end_date": "2026-10-06",
+  "intraday_excluded": true,
+  "return_convention": "Yahoo adjusted close: split and dividend adjusted; reconstructed vintage",
+  "maximum_daily_adjusted_vs_cash_dividend_difference": 0.0010757998522235024,
+  "dividend_convention_note": "Vendor adjusted-close factors and adding a cash dividend at closing price have different reinvestment conventions; differences retained, not forced to zero. No second split adjustment applied.",
+  "independent_endpoint_check": [
+    {
+      "ticker": "WAFD",
+      "date": "2026-08-31",
+      "yahoo_close": 35.7599983215332,
+      "independent_close": 35.76,
+      "match_to_cent": true,
+      "source_sha256": "dcf47cd43693083c0e80a5fc069a9c86af9cde0b480dfec24f597ef61ed5e044"
+    },
+    {
+      "ticker": "WAFD",
+      "date": "2026-09-04",
+      "yahoo_close": 36.29999923706055,
+      "independent_close": 36.3,
+      "match_to_cent": true,
+      "source_sha256": "dcf47cd43693083c0e80a5fc069a9c86af9cde0b480dfec24f597ef61ed5e044"
+    },
+    {
+      "ticker": "WAFD",
+      "date": "2026-09-08",
+      "yahoo_close": 34.279998779296875,
+      "independent_close": 34.28,
+      "match_to_cent": true,
+      "source_sha256": "dcf47cd43693083c0e80a5fc069a9c86af9cde0b480dfec24f597ef61ed5e044"
+    },
+    {
+      "ticker": "WAFD",
+      "date": "2026-09-30",
+      "yahoo_close": 29.93000030517578,
+      "independent_close": 29.93,
+      "match_to_cent": true,
+      "source_sha256": "dcf47cd43693083c0e80a5fc069a9c86af9cde0b480dfec24f597ef61ed5e044"
+    },
+    {
+      "ticker": "WAFD",
+      "date": "2026-10-06",
+      "yahoo_close": 29.920000076293945,
+      "independent_close": 29.92,
+      "match_to_cent": true,
+      "source_sha256": "dcf47cd43693083c0e80a5fc069a9c86af9cde0b480dfec24f597ef61ed5e044"
+    },
+    {
+      "ticker": "COLB",
+      "date": "2026-08-31",
+      "yahoo_close": 29.639999389648438,
+      "independent_close": 29.64,
+      "match_to_cent": true,
+      "source_sha256": "0acb40ee403553cde06688f72b867721e9849c7bf6777e983b0383e7d8ad82fc"
+    },
+    {
+      "ticker": "COLB",
+      "date": "2026-09-04",
+      "yahoo_close": 30.799999237060547,
+      "independent_close": 30.8,
+      "match_to_cent": true,
+      "source_sha256": "0acb40ee403553cde06688f72b867721e9849c7bf6777e983b0383e7d8ad82fc"
+    },
+    {
+      "ticker": "COLB",
+      "date": "2026-09-08",
+      "yahoo_close": 30.270000457763672,
+      "independent_close": 30.27,
+      "match_to_cent": true,
+      "source_sha256": "0acb40ee403553cde06688f72b867721e9849c7bf6777e983b0383e7d8ad82fc"
+    },
+    {
+      "ticker": "COLB",
+      "date": "2026-09-30",
+      "yahoo_close": 28.600000381469727,
+      "independent_close": 28.6,
+      "match_to_cent": true,
+      "source_sha256": "0acb40ee403553cde06688f72b867721e9849c7bf6777e983b0383e7d8ad82fc"
+    },
+    {
+      "ticker": "COLB",
+      "date": "2026-10-06",
+      "yahoo_close": 28.889999389648438,
+      "independent_close": 28.89,
+      "match_to_cent": true,
+      "source_sha256": "0acb40ee403553cde06688f72b867721e9849c7bf6777e983b0383e7d8ad82fc"
+    }
+  ],
+  "rate_forward_filled_sessions": [
+    "2024-10-14",
+    "2024-11-11",
+    "2025-10-13",
+    "2025-11-11"
+  ],
+  "not_point_in_time_archive": true,
+  "factors": [
+    "KRE total return",
+    "SPY total return",
+    "2Y yield change percentage points",
+    "10Y yield change percentage points"
+  ],
+  "sources_snapshot_retrieved_now": true
+}

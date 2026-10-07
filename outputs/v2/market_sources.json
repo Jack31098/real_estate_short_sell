@@ -1,0 +1,117 @@
+[
+  {
+    "ticker": "WAFD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WAFD?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "resolved_url": "https://query1.finance.yahoo.com/v8/finance/chart/WAFD?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "sha256": "d1530f19f6149a8d5417d5247034852e1b53919df4c9e07b8a1e05a846323afc",
+    "bytes": 76820,
+    "content_type": "application/json;charset=utf-8",
+    "retrieved_at": "2026-10-07T15:19:17.992775+00:00",
+    "raw_path": "data/raw/v2/d1530f19f6149a8d5417d5247034852e1b53919df4c9e07b8a1e05a846323afc.json"
+  },
+  {
+    "ticker": "COLB",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COLB?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "resolved_url": "https://query1.finance.yahoo.com/v8/finance/chart/COLB?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "sha256": "18c37477249a435de1958a8e2e5cfd68e25bfebd54f9c87f9544c4be1becf651",
+    "bytes": 77582,
+    "content_type": "application/json;charset=utf-8",
+    "retrieved_at": "2026-10-07T15:19:18.442792+00:00",
+    "raw_path": "data/raw/v2/18c37477249a435de1958a8e2e5cfd68e25bfebd54f9c87f9544c4be1becf651.json"
+  },
+  {
+    "ticker": "HPP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPP?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "resolved_url": "https://query1.finance.yahoo.com/v8/finance/chart/HPP?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "sha256": "f5bf385e8dd544b45f7196d57daca15b633d93e9995d983fc9875e7b7520fe7e",
+    "bytes": 76078,
+    "content_type": "application/json;charset=utf-8",
+    "retrieved_at": "2026-10-07T15:19:18.892844+00:00",
+    "raw_path": "data/raw/v2/f5bf385e8dd544b45f7196d57daca15b633d93e9995d983fc9875e7b7520fe7e.json"
+  },
+  {
+    "ticker": "KRC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRC?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "resolved_url": "https://query1.finance.yahoo.com/v8/finance/chart/KRC?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "sha256": "ff63ff6f44fe23c350c52789206c384fe3a6aa024b0a32242ef77e1e6867edcb",
+    "bytes": 76321,
+    "content_type": "application/json;charset=utf-8",
+    "retrieved_at": "2026-10-07T15:19:19.392896+00:00",
+    "raw_path": "data/raw/v2/ff63ff6f44fe23c350c52789206c384fe3a6aa024b0a32242ef77e1e6867edcb.json"
+  },
+  {
+    "ticker": "KRE",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRE?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "resolved_url": "https://query1.finance.yahoo.com/v8/finance/chart/KRE?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "sha256": "b946fb0f088a230d10f1d865b93570b485771320517a4c44880c3e6d6a81c18b",
+    "bytes": 76537,
+    "content_type": "application/json;charset=utf-8",
+    "retrieved_at": "2026-10-07T15:19:19.758807+00:00",
+    "raw_path": "data/raw/v2/b946fb0f088a230d10f1d865b93570b485771320517a4c44880c3e6d6a81c18b.json"
+  },
+  {
+    "ticker": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "resolved_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1704067200&period2=1791331200&interval=1d&events=div%2Csplits",
+    "sha256": "4197ffad676e444993c7f77980cbfa71baa21df88550cdda6b86f8664ed976f4",
+    "bytes": 75744,
+    "content_type": "application/json;charset=utf-8",
+    "retrieved_at": "2026-10-07T15:19:20.226130+00:00",
+    "raw_path": "data/raw/v2/4197ffad676e444993c7f77980cbfa71baa21df88550cdda6b86f8664ed976f4.json"
+  },
+  {
+    "series": "Treasury par yield curve 2Y/10Y",
+    "year": 2024,
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2024/all?_format=csv&field_tdr_date_value=2024&page=&type=daily_treasury_yield_curve",
+    "resolved_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2024/all?_format=csv&field_tdr_date_value=2024&page=&type=daily_treasury_yield_curve",
+    "sha256": "6775840b76cd7fd41121f61d6f6c60184eca6b2ba49954ec7372c463cbeef34d",
+    "bytes": 19098,
+    "content_type": "text/csv; charset=UTF-8",
+    "retrieved_at": "2026-10-07T15:31:40.327008+00:00",
+    "raw_path": "data/raw/v2/6775840b76cd7fd41121f61d6f6c60184eca6b2ba49954ec7372c463cbeef34d.html"
+  },
+  {
+    "series": "Treasury par yield curve 2Y/10Y",
+    "year": 2025,
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2025/all?_format=csv&field_tdr_date_value=2025&page=&type=daily_treasury_yield_curve",
+    "resolved_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2025/all?_format=csv&field_tdr_date_value=2025&page=&type=daily_treasury_yield_curve",
+    "sha256": "cf2fa3da7f160384b63d2ead698532b1d76cd9f789ce4911e2304db85b14e6d5",
+    "bytes": 20155,
+    "content_type": "text/csv; charset=UTF-8",
+    "retrieved_at": "2026-10-07T15:31:58.005902+00:00",
+    "raw_path": "data/raw/v2/cf2fa3da7f160384b63d2ead698532b1d76cd9f789ce4911e2304db85b14e6d5.html"
+  },
+  {
+    "series": "Treasury par yield curve 2Y/10Y",
+    "year": 2026,
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?_format=csv&field_tdr_date_value=2026&page=&type=daily_treasury_yield_curve",
+    "resolved_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?_format=csv&field_tdr_date_value=2026&page=&type=daily_treasury_yield_curve",
+    "sha256": "3e21746899096b3d4615672cf9f0cce3049f59df4904437bf70397c633607c2b",
+    "bytes": 15662,
+    "content_type": "text/csv; charset=UTF-8",
+    "retrieved_at": "2026-10-07T15:32:17.824875+00:00",
+    "raw_path": "data/raw/v2/3e21746899096b3d4615672cf9f0cce3049f59df4904437bf70397c633607c2b.html"
+  },
+  {
+    "series": "WAFD independent historical close",
+    "vendor": "StockAnalysis / S&P Global",
+    "url": "https://stockanalysis.com/stocks/wafd/history/",
+    "resolved_url": "https://stockanalysis.com/stocks/wafd/history/",
+    "sha256": "dcf47cd43693083c0e80a5fc069a9c86af9cde0b480dfec24f597ef61ed5e044",
+    "bytes": 109374,
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-07T15:21:27.304134+00:00",
+    "raw_path": "data/raw/v2/dcf47cd43693083c0e80a5fc069a9c86af9cde0b480dfec24f597ef61ed5e044.html"
+  },
+  {
+    "series": "COLB independent historical close",
+    "vendor": "StockAnalysis / S&P Global",
+    "url": "https://stockanalysis.com/stocks/colb/history/",
+    "resolved_url": "https://stockanalysis.com/stocks/colb/history/",
+    "sha256": "0acb40ee403553cde06688f72b867721e9849c7bf6777e983b0383e7d8ad82fc",
+    "bytes": 111398,
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-07T15:21:27.698735+00:00",
+    "raw_path": "data/raw/v2/0acb40ee403553cde06688f72b867721e9849c7bf6777e983b0383e7d8ad82fc.html"
+  }
+]

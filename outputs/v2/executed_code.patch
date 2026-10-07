@@ -1,0 +1,36 @@
+diff --git a/requirements.txt b/requirements.txt
+index 08f4382..66b0eca 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1,4 +1,6 @@
+ pandas>=2.0
+ numpy>=1.24
+ lxml>=4.9
++pypdf>=5.0
++tzdata>=2024.1
+ 
+diff --git a/scripts/office_intersection_bounds.py b/scripts/office_intersection_bounds.py
+index 6a8f946..24bf071 100644
+--- a/scripts/office_intersection_bounds.py
++++ b/scripts/office_intersection_bounds.py
+@@ -1,8 +1,10 @@
+ #!/usr/bin/env python3
+ """Bound regional office CRE from reported geographic and property-type margins.
+ 
+-No joint geography-by-property table is available. The independence estimate is
+-an explicit scenario, not an observed loan balance.
++Legacy margins-only bounds. COLB's Q2 earnings deck separately discloses office
++geography; its scope reconciliation is in outputs/v2/scope_reconciliation.json.
++These incomplete-source bounds are not the best available regional disclosure.
++The independence estimate is an explicit scenario, not an observed loan balance.
+ """
+ 
+ from __future__ import annotations
+@@ -63,6 +65,7 @@ def run() -> pd.DataFrame:
+             "observed_regional_office_usd_m": pd.NA,
+             "assumption": "Independence scenario assumes geography and property type are independent; not observed",
+             "geography_precision": location.precision,
++            "source_coverage_status": "legacy margins only; see V2 office geography and scope audit" if ticker == "COLB" else "legacy margins only; full joint disclosure review pending",
+         })
+     result = pd.DataFrame(rows)
+     result.to_csv(OUTPUT / "office_intersection_bounds.csv", index=False)

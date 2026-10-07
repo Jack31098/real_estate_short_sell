@@ -1,0 +1,21 @@
+entity_id,metric,value,missing_reason,status
+WAFD,brokered_deposits,,Not yet extracted/reviewed; not zero.,unreviewed
+WAFD,uninsured_deposits,,Only uninsured AND uncollateralized intersection reviewed.,unreviewed
+WAFD,fhlb_borrowings,,Deck debt percentage is rounded; exact dollar balance not reconciled.,unreviewed
+WAFD,wholesale_funding,,No harmonized scope including all components yet.,unreviewed
+WAFD,deposit_beta,,Matched policy-rate regime and quarterly deposit-cost series not yet reviewed.,unreviewed
+WAFD,loan_beta,,Contractual floors/reset lags not yet extracted.,unreviewed
+WAFD,loan_floor_share,,Not yet reviewed.,unreviewed
+WAFD,refi_wall_2027,,Maturity OR repricing table cannot identify contractual 2027 maturity.,unreviewed
+COLB,fhlb_borrowings,,Facility utilization is not a verified borrowing balance.,unreviewed
+COLB,wholesale_funding,,"Borrowings, repo, junior and brokered deposits retained separately pending common definition.",unreviewed
+COLB,deposit_beta,,Matched policy-rate regime not yet reviewed; Treasury yields are not the policy rate.,unreviewed
+COLB,loan_beta,,Loan yield change is not contractual loan beta.,unreviewed
+COLB,loan_floor_share,,Not yet reviewed.,unreviewed
+COLB,criticized_to_net_loans,,Bank-wide criticized series not yet reconciled; office classifications are separate.,unreviewed
+COLB,refi_wall_2027,,Office maturity percentage available; denominator dollars not reconciled.,unreviewed
+OFFICE_MARKET,direct_vacancy,,"Report provides total vacancy and direct availability, not direct vacancy.",unreviewed
+OFFICE_MARKET,effective_rent,,Market survey not yet ingested; owner rent is a different sample.,unreviewed
+OFFICE_MARKET,free_rent,,No market concession series reviewed.,unreviewed
+OFFICE_MARKET,ti_allowance,,Owner TI/LC is not market allowance.,unreviewed
+OFFICE_MARKET,lease_term,,Owner lease terms do not represent the market.,unreviewed

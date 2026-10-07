@@ -1,5 +1,6 @@
 data/raw/
 data/derived/sec_text/
+data/derived/v2_text/
 outputs/*.png
 __pycache__/
 *.pyc

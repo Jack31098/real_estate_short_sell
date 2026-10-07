@@ -1,0 +1,207 @@
+[
+  {
+    "key": "wafd_2026q2_release",
+    "ticker": "WAFD",
+    "cik": 936528,
+    "published_at": "2026-07-16",
+    "period_end": "2026-06-30",
+    "document_type": "IR earnings release",
+    "url": "https://www.wafdbank.com/documents/financial-news/2026/wafd-bank-press-release-20260716.pdf"
+  },
+  {
+    "key": "colb_2026q2_release",
+    "ticker": "COLB",
+    "cik": 887343,
+    "accession": "0000887343-26-000165",
+    "published_at": "2026-07-23",
+    "period_end": "2026-06-30",
+    "document_type": "EX-99.1",
+    "url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2026/q2/earnings-result/COLB-2026-Q2-Earnings-Release.pdf",
+    "sec_url": "https://www.sec.gov/Archives/edgar/data/887343/000088734326000165/colb-20260630ex991earnings.htm"
+  },
+  {
+    "key": "colb_2026q2_deck",
+    "ticker": "COLB",
+    "cik": 887343,
+    "accession": "0000887343-26-000165",
+    "published_at": "2026-07-23",
+    "period_end": "2026-06-30",
+    "document_type": "EX-99.2",
+    "url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2026/q2/presentation/COLB-Q2-2026-Earnings-Presentation-FINAL.pdf",
+    "sec_url": "https://www.sec.gov/Archives/edgar/data/887343/000088734326000165/colb2026q2earningspresen.htm"
+  },
+  {
+    "key": "wafd_everbank_announcement",
+    "ticker": "WAFD",
+    "published_at": "2026-09-07",
+    "period_end": null,
+    "document_type": "IR merger announcement",
+    "url": "https://www.everbank.com/about/news/09-07-26/everbank-wafd-announce-strategic-merger"
+  },
+  {
+    "key": "wafd_2026q2_deck",
+    "ticker": "WAFD",
+    "cik": 936528,
+    "accession": "0000936528-26-000058",
+    "published_at": "2026-07-27",
+    "period_end": "2026-06-30",
+    "document_type": "Investor presentation",
+    "url": "https://www.wafdbank.com/documents/financial-news/2026/wafd-bank-investor-presentation-20260727.pdf",
+    "sec_url": "https://www.sec.gov/Archives/edgar/data/936528/000093652826000058/wafdinvestorpresentation.htm"
+  },
+  {
+    "key": "wafd_2026q2_10q",
+    "ticker": "WAFD",
+    "cik": 936528,
+    "accession": "0000936528-26-000061",
+    "published_at": "2026-08-04",
+    "period_end": "2026-06-30",
+    "document_type": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/936528/000093652826000061/wfsl-20260630.htm",
+    "import_path": "data\\raw\\sec\\WAFD_10Q_2026-06-30.html",
+    "expected_sha256": "829dcbf1abb25c7debad27c5be6d5c55f0960a50d58f64ea0dfa6182de7c7d3d"
+  },
+  {
+    "key": "colb_2026q2_10q",
+    "ticker": "COLB",
+    "cik": 887343,
+    "accession": "0000887343-26-000170",
+    "published_at": "2026-08-04",
+    "period_end": "2026-06-30",
+    "document_type": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/887343/000088734326000170/colb-20260630.htm",
+    "import_path": "data\\raw\\sec\\COLB_10Q_2026-06-30.html",
+    "expected_sha256": "7cb3b9e0243e9b005961a0ef6a6d5a82096c06b2df05baf547824e6492be3ad4"
+  },
+  {
+    "key": "hpp_2026q2_supplement",
+    "ticker": "HPP",
+    "cik": 1482512,
+    "accession": "0001482512-26-000064",
+    "published_at": "2026-08-05",
+    "period_end": "2026-06-30",
+    "document_type": "EX-99.2",
+    "url": "https://s22.q4cdn.com/675150095/files/doc_financials/2026/q2/HPP-Q2-2026-Supplemental-compressed.pdf",
+    "sec_url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000064/q22026ex992.htm"
+  },
+  {
+    "key": "hpp_2026q2_release",
+    "ticker": "HPP",
+    "cik": 1482512,
+    "accession": "0001482512-26-000064",
+    "published_at": "2026-08-05",
+    "period_end": "2026-06-30",
+    "document_type": "EX-99.1",
+    "url": "https://s22.q4cdn.com/675150095/files/doc_financials/2026/q2/HPP-Q2-2026-Press-Release.pdf",
+    "sec_url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000064/q22026ex991.htm"
+  },
+  {
+    "key": "krc_2026q2_supplement",
+    "ticker": "KRC",
+    "cik": 1025996,
+    "accession": "0001628280-26-049820",
+    "published_at": "2026-07-27",
+    "period_end": "2026-06-30",
+    "document_type": "EX-99.1",
+    "url": "https://s28.q4cdn.com/274719349/files/doc_earnings/2026/q2/supplemental-info/KRC-2Q26-Supplemental.pdf",
+    "sec_url": "https://www.sec.gov/Archives/edgar/data/1025996/000162828026049820/exhibit991.htm"
+  },
+  {
+    "key": "wafd_2026q1_release",
+    "ticker": "WAFD",
+    "published_at": "2026-04-16",
+    "period_end": "2026-03-31",
+    "document_type": "IR earnings release",
+    "url": "https://www.wafdbank.com/documents/financial-news/2026/wafd-bank-press-release-20260416.pdf"
+  },
+  {
+    "key": "wafd_2025q4_release",
+    "ticker": "WAFD",
+    "published_at": "2026-01-15",
+    "period_end": "2025-12-31",
+    "document_type": "IR earnings release",
+    "url": "https://www.wafdbank.com/documents/financial-news/2026/wafd-bank-press-release-20260115.pdf"
+  },
+  {
+    "key": "wafd_merger_deck",
+    "ticker": "WAFD",
+    "published_at": "2026-09-07",
+    "period_end": null,
+    "document_type": "IR merger presentation",
+    "url": "https://www.wafdbank.com/documents/financial-news/2026/wafd-bank-investor-presentation-20260907.pdf"
+  },
+  {
+    "key": "colb_2026q1_release",
+    "ticker": "COLB",
+    "published_at": "2026-04-23",
+    "period_end": "2026-03-31",
+    "document_type": "IR earnings release",
+    "url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2026/q1/earnings-result/COLB-2026-Q1-Earnings-Release.pdf"
+  },
+  {
+    "key": "colb_2025q4_release",
+    "ticker": "COLB",
+    "published_at": "2026-01-22",
+    "period_end": "2025-12-31",
+    "document_type": "IR earnings release",
+    "url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2025/q4/earnings-result/COLB-2025-Q4-Earnings-Release.pdf"
+  },
+  {
+    "key": "colb_2026q1_deck",
+    "ticker": "COLB",
+    "published_at": "2026-04-23",
+    "period_end": "2026-03-31",
+    "document_type": "IR investor presentation",
+    "url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2026/q1/presentation/COLB-Q1-2026-Earnings-Presentation-FINAL.pdf"
+  },
+  {
+    "key": "colb_2025q4_deck",
+    "ticker": "COLB",
+    "published_at": "2026-01-22",
+    "period_end": "2025-12-31",
+    "document_type": "IR investor presentation",
+    "url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2025/q4/presentation/COLB-Q4-2025-Earnings-Presentation-FINAL.pdf"
+  },
+  {
+    "key": "cbre_puget_2026q2",
+    "ticker": "OFFICE_MARKET",
+    "published_at": "2026-07-09",
+    "period_end": "2026-06-30",
+    "document_type": "CBRE Office Figures",
+    "url": "https://mktgdocs.cbre.com/2299/b346f05b-bd14-4be0-95a9-ffaffd372608-1115704912/Puget_Sound_Office_Figures_Q2_.pdf",
+    "geography": "Puget Sound"
+  },
+  {
+    "key": "cbre_sf_2026q2",
+    "ticker": "OFFICE_MARKET",
+    "published_at": "2026-07-10",
+    "period_end": "2026-06-30",
+    "document_type": "CBRE Office Figures",
+    "url": "https://mktgdocs.cbre.com/2299/50a218ac-8f81-41a5-8af8-727183977dd4-763747920/San_Francisco_Office_Figures_Q.pdf",
+    "geography": "San Francisco"
+  },
+  {
+    "key": "hpp_hollywood_extension",
+    "ticker": "HPP",
+    "published_at": "2026-09-11",
+    "period_end": null,
+    "document_type": "IR corporate event",
+    "url": "https://s22.q4cdn.com/675150095/files/content_files/HMP-Loan-Extension-PR-091026-FINAL.pdf"
+  },
+  {
+    "key": "hpp_howard_sale",
+    "ticker": "HPP",
+    "published_at": "2026-09-25",
+    "period_end": null,
+    "document_type": "IR corporate event",
+    "url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/875-and-899-Howard-Sale-PR-092426-FINAL-003.pdf"
+  },
+  {
+    "key": "hpp_tender",
+    "ticker": "HPP",
+    "published_at": "2026-10-05",
+    "period_end": null,
+    "document_type": "IR corporate event",
+    "url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/10/HPP-Tender-PR-FINAL.pdf"
+  }
+]

@@ -1,0 +1,487 @@
+{
+  "cash.v1": {
+    "metric": "cash",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "loans_net.v1": {
+    "metric": "loans_net",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "acl_including_unfunded.v1": {
+    "metric": "acl_including_unfunded",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "afs_fair_value.v1": {
+    "metric": "afs_fair_value",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "htm_amortized_cost.v1": {
+    "metric": "htm_amortized_cost",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "assets.v1": {
+    "metric": "assets",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "deposits.v1": {
+    "metric": "deposits",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "borrowings_including_junior.v1": {
+    "metric": "borrowings_including_junior",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nim_gaap.v1": {
+    "metric": "nim_gaap",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nonaccrual_to_net_loans.v1": {
+    "metric": "nonaccrual_to_net_loans",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "delinquencies_to_net_loans.v1": {
+    "metric": "delinquencies_to_net_loans",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "criticized_to_net_loans.v1": {
+    "metric": "criticized_to_net_loans",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "classified_to_net_loans.v1": {
+    "metric": "classified_to_net_loans",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "tbv_per_share.v1": {
+    "metric": "tbv_per_share",
+    "unit": "USD_per_share",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nii.v1": {
+    "metric": "nii",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "provision_total.v1": {
+    "metric": "provision_total",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "noninterest_income.v1": {
+    "metric": "noninterest_income",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "noninterest_expense.v1": {
+    "metric": "noninterest_expense",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "pretax_income.v1": {
+    "metric": "pretax_income",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "deposit_interest_expense.v1": {
+    "metric": "deposit_interest_expense",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "borrowing_interest_expense.v1": {
+    "metric": "borrowing_interest_expense",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nib_deposits.v1": {
+    "metric": "nib_deposits",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "uninsured_and_uncollateralized_deposits.v1": {
+    "metric": "uninsured_and_uncollateralized_deposits",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "uninsured_and_uncollateralized_pct.v1": {
+    "metric": "uninsured_and_uncollateralized_pct",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "borrowings_effective_maturity_within_3m.v1": {
+    "metric": "borrowings_effective_maturity_within_3m",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nonaccrual_loans.v1": {
+    "metric": "nonaccrual_loans",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "net_chargeoffs.v1": {
+    "metric": "net_chargeoffs",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "acl_loans.v1": {
+    "metric": "acl_loans",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "loans_amortized_cost.v1": {
+    "metric": "loans_amortized_cost",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nii_shock_plus_100bp.v1": {
+    "metric": "nii_shock_plus_100bp",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nii_shock_minus_100bp.v1": {
+    "metric": "nii_shock_minus_100bp",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "aoci.v1": {
+    "metric": "aoci",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "securities_duration.v1": {
+    "metric": "securities_duration",
+    "unit": "years",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "cash_due_from_banks.v1": {
+    "metric": "cash_due_from_banks",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "interest_bearing_cash.v1": {
+    "metric": "interest_bearing_cash",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "loans_gross_net_fees.v1": {
+    "metric": "loans_gross_net_fees",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "borrowings_excluding_junior.v1": {
+    "metric": "borrowings_excluding_junior",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "repo_funding.v1": {
+    "metric": "repo_funding",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "junior_fair_value.v1": {
+    "metric": "junior_fair_value",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "junior_other_amortized_cost.v1": {
+    "metric": "junior_other_amortized_cost",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nim_tax_equivalent.v1": {
+    "metric": "nim_tax_equivalent",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "cost_ib_deposits.v1": {
+    "metric": "cost_ib_deposits",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "cost_total_deposits.v1": {
+    "metric": "cost_total_deposits",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "loan_yield.v1": {
+    "metric": "loan_yield",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "merger_expense.v1": {
+    "metric": "merger_expense",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "past_due_90plus_accruing.v1": {
+    "metric": "past_due_90plus_accruing",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nonperforming_loans.v1": {
+    "metric": "nonperforming_loans",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "past_due_31_89.v1": {
+    "metric": "past_due_31_89",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nonperforming_to_gross_loans.v1": {
+    "metric": "nonperforming_to_gross_loans",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "nonaccrual_to_gross_loans.v1": {
+    "metric": "nonaccrual_to_gross_loans",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "brokered_deposits.v1": {
+    "metric": "brokered_deposits",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "uninsured_deposits.v1": {
+    "metric": "uninsured_deposits",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "afs_duration.v1": {
+    "metric": "afs_duration",
+    "unit": "years",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_nonaccrual.v1": {
+    "metric": "office_nonaccrual",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_classified.v1": {
+    "metric": "office_classified",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_geography_pct.v1": {
+    "metric": "office_geography_pct",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_contractual_maturity_2027_pct.v1": {
+    "metric": "office_contractual_maturity_2027_pct",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_repricing_2027_pct.v1": {
+    "metric": "office_repricing_2027_pct",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "fhlb_line_utilized.v1": {
+    "metric": "fhlb_line_utilized",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "potential_liquidity.v1": {
+    "metric": "potential_liquidity",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_occupied_pct.v1": {
+    "metric": "office_occupied_pct",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_leased_pct.v1": {
+    "metric": "office_leased_pct",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_square_feet.v1": {
+    "metric": "office_square_feet",
+    "unit": "sqft",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_owner_share_abr.v1": {
+    "metric": "office_owner_share_abr",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "new_cash_rent.v1": {
+    "metric": "new_cash_rent",
+    "unit": "USD_sqft_year",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "renewal_cash_rent.v1": {
+    "metric": "renewal_cash_rent",
+    "unit": "USD_sqft_year",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "new_net_effective_rent.v1": {
+    "metric": "new_net_effective_rent",
+    "unit": "USD_sqft_year",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "renewal_net_effective_rent.v1": {
+    "metric": "renewal_net_effective_rent",
+    "unit": "USD_sqft_year",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "new_ti_lc.v1": {
+    "metric": "new_ti_lc",
+    "unit": "USD_sqft",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "renewal_ti_lc.v1": {
+    "metric": "renewal_ti_lc",
+    "unit": "USD_sqft",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "new_lease_term.v1": {
+    "metric": "new_lease_term",
+    "unit": "months",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "renewal_lease_term.v1": {
+    "metric": "renewal_lease_term",
+    "unit": "months",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "same_space_cash_rent_change.v1": {
+    "metric": "same_space_cash_rent_change",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "lease_expiration_2027_abr.v1": {
+    "metric": "lease_expiration_2027_abr",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "lease_expiration_2027_abr_pct.v1": {
+    "metric": "lease_expiration_2027_abr_pct",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "owner_share_debt.v1": {
+    "metric": "owner_share_debt",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "debt_weighted_maturity.v1": {
+    "metric": "debt_weighted_maturity",
+    "unit": "years",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "secured_maturity_2026.v1": {
+    "metric": "secured_maturity_2026",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "secured_maturity_2027.v1": {
+    "metric": "secured_maturity_2027",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "unsecured_maturity_2027.v1": {
+    "metric": "unsecured_maturity_2027",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "noi_reported.v1": {
+    "metric": "noi_reported",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "debt_maturity_2026.v1": {
+    "metric": "debt_maturity_2026",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "debt_maturity_2027.v1": {
+    "metric": "debt_maturity_2027",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "new_lease_square_feet.v1": {
+    "metric": "new_lease_square_feet",
+    "unit": "sqft",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "renewal_lease_square_feet.v1": {
+    "metric": "renewal_lease_square_feet",
+    "unit": "sqft",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "second_gen_ti_lc.v1": {
+    "metric": "second_gen_ti_lc",
+    "unit": "USD_sqft",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "second_gen_lease_term.v1": {
+    "metric": "second_gen_lease_term",
+    "unit": "months",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "cash_rent_change_all_signed.v1": {
+    "metric": "cash_rent_change_all_signed",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "cash_rent_change_vacant_le_12m.v1": {
+    "metric": "cash_rent_change_vacant_le_12m",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "total_vacancy.v1": {
+    "metric": "total_vacancy",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "total_availability.v1": {
+    "metric": "total_availability",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "direct_availability.v1": {
+    "metric": "direct_availability",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "sublease_availability.v1": {
+    "metric": "sublease_availability",
+    "unit": "percent",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "direct_asking_rent.v1": {
+    "metric": "direct_asking_rent",
+    "unit": "USD_sqft_year",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "net_absorption.v1": {
+    "metric": "net_absorption",
+    "unit": "sqft",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "office_balance_10q.v1": {
+    "metric": "office_balance_10q",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  },
+  "ppnr_gaap_basis.v1": {
+    "metric": "ppnr_gaap_basis",
+    "unit": "USD_million",
+    "definition": "Source table label with mandatory denominator/scope/notes on each observation; amounts normalized without imputing missing values."
+  }
+}

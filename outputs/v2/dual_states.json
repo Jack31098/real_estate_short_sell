@@ -1,0 +1,330 @@
+[
+  {
+    "entity_id": "WAFD",
+    "as_of": "2026-09-01T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_741e7afd216f384d2e419c22",
+        "obs_1f5645602a8c067049f005cf",
+        "obs_509b2cd90b4ad24049ca5c97",
+        "obs_129232413ed66f9577bc28e0",
+        "obs_4203d37838d74b758711d393",
+        "obs_ccfb0a50a6a4972048bcf78a",
+        "obs_c526df4c0ac2215ab4c30f7a",
+        "obs_e45d875d06b7b861d0c34fd2",
+        "obs_721b542e122851988f4bd887",
+        "obs_2cb26fe2bcfb12c110758be9",
+        "obs_b3215a6baab8574e6ddba934",
+        "obs_5b3d0cd233c27499a442457e",
+        "obs_cd3d5fca1e7bb425cb91c35e",
+        "obs_ba05717be8378dd15ca9d366",
+        "obs_d88c3f05e8f81ac0af68f9c2"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  },
+  {
+    "entity_id": "COLB",
+    "as_of": "2026-09-01T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_0ea89fd75725cfc02a9ee40d",
+        "obs_19803a3ef06b9eb1d4ab1fe6",
+        "obs_3dd97462567e7a7b7ddb8298",
+        "obs_17dceb1c72e650d606c700f0",
+        "obs_ed4f3031d612ef7f40bedcd4",
+        "obs_db5dba4b55f0665a54003a15",
+        "obs_5a7904e11ed2b7d32b5e44fb",
+        "obs_8e9af21a22681d48365e03fa",
+        "obs_560997a49d2d1f87112d1077",
+        "obs_54388777b419462daa9d2e97",
+        "obs_ca657000236d8f2c38c9e3fc",
+        "obs_38bb6dabcf9d6af6654832b0",
+        "obs_4b1811040442541bc37765d6",
+        "obs_ebbb7a206a07f74204a64610",
+        "obs_0cbfae398ac44c515075ea39",
+        "obs_0b837a20afbef85d55993577",
+        "obs_ce48aaa716f7cf80116fe33e",
+        "obs_7e2c397d0ea4643aa0816ffc",
+        "obs_f6d8566c2fa2d2d2d62aa010",
+        "obs_4052873b4767b177b11edfe9",
+        "obs_ed37f04cc156603fbba8e3a5",
+        "obs_9d5a4ae93b349797ce1643e1",
+        "obs_db267cad117b4ab1cb7aaf97",
+        "obs_deb7c96aaee27a576d5faecb",
+        "obs_cb218fad3a38d007e9f49309",
+        "obs_b88b47eb3c35c84df6a2224b",
+        "obs_8ea43fca752dcecee6fd3978"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  },
+  {
+    "entity_id": "WAFD",
+    "as_of": "2026-09-08T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_741e7afd216f384d2e419c22",
+        "obs_1f5645602a8c067049f005cf",
+        "obs_509b2cd90b4ad24049ca5c97",
+        "obs_129232413ed66f9577bc28e0",
+        "obs_4203d37838d74b758711d393",
+        "obs_ccfb0a50a6a4972048bcf78a",
+        "obs_c526df4c0ac2215ab4c30f7a",
+        "obs_e45d875d06b7b861d0c34fd2",
+        "obs_721b542e122851988f4bd887",
+        "obs_2cb26fe2bcfb12c110758be9",
+        "obs_b3215a6baab8574e6ddba934",
+        "obs_5b3d0cd233c27499a442457e",
+        "obs_cd3d5fca1e7bb425cb91c35e",
+        "obs_ba05717be8378dd15ca9d366",
+        "obs_d88c3f05e8f81ac0af68f9c2"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  },
+  {
+    "entity_id": "COLB",
+    "as_of": "2026-09-08T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_0ea89fd75725cfc02a9ee40d",
+        "obs_19803a3ef06b9eb1d4ab1fe6",
+        "obs_3dd97462567e7a7b7ddb8298",
+        "obs_17dceb1c72e650d606c700f0",
+        "obs_ed4f3031d612ef7f40bedcd4",
+        "obs_db5dba4b55f0665a54003a15",
+        "obs_5a7904e11ed2b7d32b5e44fb",
+        "obs_8e9af21a22681d48365e03fa",
+        "obs_560997a49d2d1f87112d1077",
+        "obs_54388777b419462daa9d2e97",
+        "obs_ca657000236d8f2c38c9e3fc",
+        "obs_38bb6dabcf9d6af6654832b0",
+        "obs_4b1811040442541bc37765d6",
+        "obs_ebbb7a206a07f74204a64610",
+        "obs_0cbfae398ac44c515075ea39",
+        "obs_0b837a20afbef85d55993577",
+        "obs_ce48aaa716f7cf80116fe33e",
+        "obs_7e2c397d0ea4643aa0816ffc",
+        "obs_f6d8566c2fa2d2d2d62aa010",
+        "obs_4052873b4767b177b11edfe9",
+        "obs_ed37f04cc156603fbba8e3a5",
+        "obs_9d5a4ae93b349797ce1643e1",
+        "obs_db267cad117b4ab1cb7aaf97",
+        "obs_deb7c96aaee27a576d5faecb",
+        "obs_cb218fad3a38d007e9f49309",
+        "obs_b88b47eb3c35c84df6a2224b",
+        "obs_8ea43fca752dcecee6fd3978"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  },
+  {
+    "entity_id": "WAFD",
+    "as_of": "2026-09-30T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_741e7afd216f384d2e419c22",
+        "obs_1f5645602a8c067049f005cf",
+        "obs_509b2cd90b4ad24049ca5c97",
+        "obs_129232413ed66f9577bc28e0",
+        "obs_4203d37838d74b758711d393",
+        "obs_ccfb0a50a6a4972048bcf78a",
+        "obs_c526df4c0ac2215ab4c30f7a",
+        "obs_e45d875d06b7b861d0c34fd2",
+        "obs_721b542e122851988f4bd887",
+        "obs_2cb26fe2bcfb12c110758be9",
+        "obs_b3215a6baab8574e6ddba934",
+        "obs_5b3d0cd233c27499a442457e",
+        "obs_cd3d5fca1e7bb425cb91c35e",
+        "obs_ba05717be8378dd15ca9d366",
+        "obs_d88c3f05e8f81ac0af68f9c2"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  },
+  {
+    "entity_id": "COLB",
+    "as_of": "2026-09-30T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_0ea89fd75725cfc02a9ee40d",
+        "obs_19803a3ef06b9eb1d4ab1fe6",
+        "obs_3dd97462567e7a7b7ddb8298",
+        "obs_17dceb1c72e650d606c700f0",
+        "obs_ed4f3031d612ef7f40bedcd4",
+        "obs_db5dba4b55f0665a54003a15",
+        "obs_5a7904e11ed2b7d32b5e44fb",
+        "obs_8e9af21a22681d48365e03fa",
+        "obs_560997a49d2d1f87112d1077",
+        "obs_54388777b419462daa9d2e97",
+        "obs_ca657000236d8f2c38c9e3fc",
+        "obs_38bb6dabcf9d6af6654832b0",
+        "obs_4b1811040442541bc37765d6",
+        "obs_ebbb7a206a07f74204a64610",
+        "obs_0cbfae398ac44c515075ea39",
+        "obs_0b837a20afbef85d55993577",
+        "obs_ce48aaa716f7cf80116fe33e",
+        "obs_7e2c397d0ea4643aa0816ffc",
+        "obs_f6d8566c2fa2d2d2d62aa010",
+        "obs_4052873b4767b177b11edfe9",
+        "obs_ed37f04cc156603fbba8e3a5",
+        "obs_9d5a4ae93b349797ce1643e1",
+        "obs_db267cad117b4ab1cb7aaf97",
+        "obs_deb7c96aaee27a576d5faecb",
+        "obs_cb218fad3a38d007e9f49309",
+        "obs_b88b47eb3c35c84df6a2224b",
+        "obs_8ea43fca752dcecee6fd3978"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  },
+  {
+    "entity_id": "WAFD",
+    "as_of": "2026-10-06T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_741e7afd216f384d2e419c22",
+        "obs_1f5645602a8c067049f005cf",
+        "obs_509b2cd90b4ad24049ca5c97",
+        "obs_129232413ed66f9577bc28e0",
+        "obs_4203d37838d74b758711d393",
+        "obs_ccfb0a50a6a4972048bcf78a",
+        "obs_c526df4c0ac2215ab4c30f7a",
+        "obs_e45d875d06b7b861d0c34fd2",
+        "obs_721b542e122851988f4bd887",
+        "obs_2cb26fe2bcfb12c110758be9",
+        "obs_b3215a6baab8574e6ddba934",
+        "obs_5b3d0cd233c27499a442457e",
+        "obs_cd3d5fca1e7bb425cb91c35e",
+        "obs_ba05717be8378dd15ca9d366",
+        "obs_d88c3f05e8f81ac0af68f9c2"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  },
+  {
+    "entity_id": "COLB",
+    "as_of": "2026-10-06T23:59:59+00:00",
+    "LiquidityStress": {
+      "value": null,
+      "status": "unknown",
+      "reason": "Property transaction/pending/inventory/DOM series not ingested; deposit liquidity is separate."
+    },
+    "CreditStress": {
+      "value": null,
+      "status": "observed_vector_no_composite",
+      "input_observation_ids": [
+        "obs_0ea89fd75725cfc02a9ee40d",
+        "obs_19803a3ef06b9eb1d4ab1fe6",
+        "obs_3dd97462567e7a7b7ddb8298",
+        "obs_17dceb1c72e650d606c700f0",
+        "obs_ed4f3031d612ef7f40bedcd4",
+        "obs_db5dba4b55f0665a54003a15",
+        "obs_5a7904e11ed2b7d32b5e44fb",
+        "obs_8e9af21a22681d48365e03fa",
+        "obs_560997a49d2d1f87112d1077",
+        "obs_54388777b419462daa9d2e97",
+        "obs_ca657000236d8f2c38c9e3fc",
+        "obs_38bb6dabcf9d6af6654832b0",
+        "obs_4b1811040442541bc37765d6",
+        "obs_ebbb7a206a07f74204a64610",
+        "obs_0cbfae398ac44c515075ea39",
+        "obs_0b837a20afbef85d55993577",
+        "obs_ce48aaa716f7cf80116fe33e",
+        "obs_7e2c397d0ea4643aa0816ffc",
+        "obs_f6d8566c2fa2d2d2d62aa010",
+        "obs_4052873b4767b177b11edfe9",
+        "obs_ed37f04cc156603fbba8e3a5",
+        "obs_9d5a4ae93b349797ce1643e1",
+        "obs_db267cad117b4ab1cb7aaf97",
+        "obs_deb7c96aaee27a576d5faecb",
+        "obs_cb218fad3a38d007e9f49309",
+        "obs_b88b47eb3c35c84df6a2224b",
+        "obs_8ea43fca752dcecee6fd3978"
+      ],
+      "note": "Overlapping classifications are not a Markov chain or summable totals."
+    },
+    "funding_panel": "bank_funding_earnings_quarterly.csv",
+    "joint_score": null,
+    "lag_correlation": null,
+    "lag_test_status": "insufficient longitudinal property series; not tested"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "entity_id": "COLB",
+    "period_end": "2026-06-30",
+    "numerator_scope": {
+      "entity": "COLB",
+      "period_end": "2026-06-30",
+      "geography": "Puget Sound",
+      "portfolio": "office deck",
+      "occupancy": "all",
+      "measurement": "stock",
+      "basis": "excludes purchase accounting adjustments/deferred fees; reconciliation pending",
+      "netting": "reported",
+      "ownership": "consolidated"
+    },
+    "denominator_scope": {
+      "entity": "COLB",
+      "period_end": "2026-06-30",
+      "geography": "all",
+      "portfolio": "office 10-Q",
+      "occupancy": "all",
+      "measurement": "stock",
+      "basis": "10-Q loan carrying basis",
+      "netting": "reported",
+      "ownership": "consolidated"
+    },
+    "scope_match": "approximate",
+    "evidence": "Deck excludes purchase accounting adjustments/deferred fees; reconciliation to 10-Q $3,559m not completed.",
+    "proposed_operation": "office geography percentages times 10-Q office carrying balance",
+    "result_USD_million": null,
+    "gate_result": "blocked",
+    "gate_reason": "Arithmetic requires verified exact scope match",
+    "input_observation_ids": [
+      "obs_4bcc5681c0ae9ce4d024c47c",
+      "obs_1566b554bddb4570ec2c166f"
+    ],
+    "source_keys": [
+      "colb_2026q2_deck",
+      "colb_2026q2_10q"
+    ]
+  }
+]

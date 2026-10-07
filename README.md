@@ -8,13 +8,39 @@ most principal-residence mortgages in named tech-core places.
 For the current project state and instructions for continuing on another computer,
 see [HANDOFF.md](HANDOFF.md).
 
-The 2026-10-07 methodology review and proposed next implementation are in
-[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md), revision V2.1. It specifies
-credit and funding/rate panels, separate property-liquidity and credit states,
-matched controls, office leasing signals, and a four-layer comparison in the first
-report. Metric, assumption and code versions plus an exact-scope arithmetic gate
-are part of the data contract. This remains a plan; the existing reports still
-represent the static screening implementation.
+## V2 first execution — 2026-10-07
+
+Read [the new Chinese report](outputs/v2/research_report_zh.md) first. It contains
+WAFD/COLB three-quarter credit and funding panels, September price/event replay,
+four historical information cutoffs, HPP/KRC owner leasing and maturity pilots,
+and CBRE Puget Sound/San Francisco office market data. North San Jose and Santa
+Clara are separately visible in HPP's owner portfolio.
+
+WAFD's September price return is -16.30%; September 4–30 is -17.55%. These are
+different windows. Event residuals are descriptive and do not establish that
+credit, the merger, or AI caused the full decline. Property LiquidityStress remains
+unknown, credit is an observed vector, and no joint score is produced.
+
+```powershell
+python scripts/research_sources.py
+python scripts/market_replay.py --end 2026-10-06
+python scripts/research_v2.py
+python -m unittest discover -s tests
+```
+
+`reviewed_v2_facts.py` contains human-reviewed cells; source locks, dates,
+definitions and scopes are validated by code. This is not automatic SEC semantic
+extraction. [Coverage](outputs/v2/required_field_coverage.csv) distinguishes missing
+quarterly fields from zeros. Only verified exact scopes allow cross-record
+arithmetic; COLB deck geography × 10-Q balance is blocked pending reconciliation.
+
+[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md), V2.1, remains the execution
+roadmap. Batches 1–2 have a working initial slice, not complete acceptance:
+2024-onward filing backfill, validated matched controls, property-liquidity data,
+and complete owner/loan mapping remain pending. The control registry is openly
+retrospective, registered after the September outcome. Raw sources are ignored;
+tracked outputs can be read immediately after cloning. Rebuilding requires the
+locked source bytes; SEC direct downloads returned HTTP 403 in this environment.
 
 ## First-stage scope
 

@@ -1,0 +1,90 @@
+{
+  "wafd_2026q2_release": {
+    "sha256": "5d285d3fbdef414f833415aefc027932c3cde821d9d833d0b92b970f52c40cd5",
+    "source_id": "src_3d1fb233d362d51f86e3167e"
+  },
+  "wafd_everbank_announcement": {
+    "sha256": "8d099a1621a33b7fd5f04a92cc5e80c1618cb07b2d36b34da6e48301684d9865",
+    "source_id": "src_fa3ec696341ba95555b860b5"
+  },
+  "colb_2026q2_release": {
+    "sha256": "f8941ed9ca8a9a773bffdd5be1a6ec734a30e8418ae8f941dddea37a563813f3",
+    "source_id": "src_4f22b2562f7211bdfae678f1"
+  },
+  "colb_2026q2_deck": {
+    "sha256": "24c8527af2c5125e2dbf31eae9101925395c0d7e5589dcbf28188d3a8e158445",
+    "source_id": "src_467aafec62d0e508954950c2"
+  },
+  "wafd_2026q2_deck": {
+    "sha256": "467daf983088d7cc3c4e158be84ec957d5ec4d51c4687dd361878476941075e5",
+    "source_id": "src_3b5e880177201c0bc3e4d312"
+  },
+  "wafd_2026q2_10q": {
+    "sha256": "829dcbf1abb25c7debad27c5be6d5c55f0960a50d58f64ea0dfa6182de7c7d3d",
+    "source_id": "src_344108356c06e3ca35f4323f"
+  },
+  "colb_2026q2_10q": {
+    "sha256": "7cb3b9e0243e9b005961a0ef6a6d5a82096c06b2df05baf547824e6492be3ad4",
+    "source_id": "src_fed451f5f829c2b695229eee"
+  },
+  "hpp_2026q2_supplement": {
+    "sha256": "04a79d4d8c49e242dfac10e8c1797d9268a8620ec5ba1f5dfea01326050750e3",
+    "source_id": "src_a0fa8950f1099ee51325f88f"
+  },
+  "hpp_2026q2_release": {
+    "sha256": "a966bff5d061d9605406a40c584bd0dd12d4a12b7802bf785d63c851afa382eb",
+    "source_id": "src_37304c489258e3908cc98a01"
+  },
+  "krc_2026q2_supplement": {
+    "sha256": "d932ce0673cbf00e2c16f6cef7d1afc5030bd89de5cc9e0f2321c9ae09ab4664",
+    "source_id": "src_87f66d2187d6b639ef929fc1"
+  },
+  "wafd_2026q1_release": {
+    "sha256": "255e74218697e72ec3b786ac0d6f78cafddd6de2b2ad671fb31a00cbbb7378f9",
+    "source_id": "src_9744eda490f926cc3aeb7790"
+  },
+  "wafd_2025q4_release": {
+    "sha256": "87ec3be1b89559cf523119b6e7059bc4a467c5d0cc50eec38cc25f86e12550c9",
+    "source_id": "src_5cb43d4802f57041c0f7ff4a"
+  },
+  "wafd_merger_deck": {
+    "sha256": "c63b20283bd340f7d4eb177cf024092764201fea18503a46c82c1cb7f05c0d3d",
+    "source_id": "src_ea488fdfcd6ae2c9f631f430"
+  },
+  "colb_2026q1_release": {
+    "sha256": "f473d904badc24746768f2d209b965ae7b216b565797bc0c9469d9e67a6e4e32",
+    "source_id": "src_03604d8756846f718f7276ae"
+  },
+  "colb_2025q4_release": {
+    "sha256": "6ff8a094247884aca681ff6e7a7379bf7a807662372f7bb0b6600148ad964118",
+    "source_id": "src_480cfe7924927dac72467f06"
+  },
+  "colb_2026q1_deck": {
+    "sha256": "8151f0c35bd1e099e16d03545f4bab9e4dcbdec6ee6cc5578cf8c4401c64f02b",
+    "source_id": "src_c97292e966d6f66f2efdce99"
+  },
+  "colb_2025q4_deck": {
+    "sha256": "8b813e9f9fa1488faab9b8fdd1f324010353e8bc9b903f01a38cc3ceff21ffc8",
+    "source_id": "src_e741b5ff7da1a7ceb9d664d2"
+  },
+  "cbre_puget_2026q2": {
+    "sha256": "f5237416de04c1780762d67b54e56e3b03607ae3c0c4a762466bfea50c672aaa",
+    "source_id": "src_549c77d956348cf756becc71"
+  },
+  "cbre_sf_2026q2": {
+    "sha256": "aa9285736fce8df3f4c0fe5ff9beb651682dc776b2753ba975a7d91c49707617",
+    "source_id": "src_0c665f52e487609016a2e5a6"
+  },
+  "hpp_hollywood_extension": {
+    "sha256": "eba6f9f3bc3b67a4f79d81b799f18979481b98f329bd1868859ae4a1087d81f3",
+    "source_id": "src_a2334269ead0d3e2f84df788"
+  },
+  "hpp_howard_sale": {
+    "sha256": "ed4e025e444b022754cf9ab4358af9bcac212482329c9e618f1e6c3461e842d6",
+    "source_id": "src_8c471fea4f83ffd23e729527"
+  },
+  "hpp_tender": {
+    "sha256": "36d86c76586741b78b0a889005c12a590fc6e1a68c8d0261e9c6e451679933ea",
+    "source_id": "src_bdd9350500d9e81c34049de7"
+  }
+}

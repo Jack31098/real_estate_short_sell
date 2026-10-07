@@ -2,6 +2,56 @@
 
 Updated: 2026-10-07 (America/Los_Angeles)
 
+## Latest execution: V2 first slice
+
+Start with `outputs/v2/research_report_zh.md`. The first V2 pipeline has actually
+run: 22 source documents; three consecutive WAFD/COLB quarters; six daily market
+series; pre-event 252/126-session factor regressions; four dated four-layer
+comparisons; HPP/KRC owner leasing/debt baselines; and CBRE Puget/San Francisco
+office market pilots. HPP North San Jose and Santa Clara are separate rows.
+
+Verified price returns: WAFD September -16.30%, September 4–30 -17.55%; COLB
+September -3.51%. WAFD's September 8 daily factor residual is about -4.52pp
+(252-session fit), a descriptive residual rather than causal attribution.
+Historical September 1 snapshots exclude the September 7 merger announcement.
+HPP September extension/sales and October tender are separate dated events;
+the June debt/lease schedules are explicitly historical, not a current net wall.
+
+Rebuild V2 after installing requirements (includes pypdf and Windows tzdata):
+
+```powershell
+python scripts/research_sources.py
+python scripts/market_replay.py --end 2026-10-06
+python scripts/research_v2.py
+python -m unittest discover -s tests
+```
+
+`reviewed_v2_facts.py` stores human-reviewed source cells. `v2_review_locks.json`
+pins bytes and document identities. A replaced/missing locked source fails closed;
+do not automatically update locks to make a test pass. The raw cache is ignored,
+while all reports, tables, source manifests and code/configuration are tracked.
+Old SEC cache retrieval timestamps are unknown, explicitly null. SEC direct
+downloads currently return 403; issuer IR supplied the key releases/decks. Another
+computer can read outputs immediately; a full source rebuild still depends on
+access to the locked SEC documents. Do not claim an unavailable raw archive was
+transferred by Git. `run_manifest.json` and `code_manifest.json` identify the
+executed source tree, market input hashes, package versions and observation IDs.
+
+**Acceptance still pending:** full 2024-onward filing backfill; matched control
+feature/tech-exposure verification; all funding/loan-floor fields; property
+transaction/DOM/employment histories; complete owner/tenant/loan mapping; refi,
+collateral and capital bridge. The control registry is a retrospective screening
+queue, not valid matched controls. Property LiquidityStress remains null; credit
+is a separate observed vector without a composite score. Old manual city weights
+remain sensitivity assumptions and are not used as validated AI exposure.
+
+Next concrete work: finish the control feature audit using pre-cutoff official
+data; add property transaction histories; fill quarterly funding coverage gaps;
+reconcile COLB office deck versus 10-Q denominators; update HPP net debt/2027 rent
+exposure for completed sales and extension (do not count an announced tender as
+settled). Keep supportive and contrary evidence together. The remaining plan is
+in `IMPLEMENTATION_PLAN.md`; do not mark batches 1–2 complete yet.
+
 ## Purpose and current state
 
 This is a research screen for the hypothesis that a decline in high-wage tech employment could pressure Seattle/Puget Sound and Bay Area housing and commercial real estate, then affect regional banks. It is **not** a current loan-level exposure database or a trading recommendation.
@@ -46,7 +96,7 @@ python scripts/office_intersection_bounds.py
 
 The downloads may take time and official endpoints can change or rate-limit. `pipeline.py` downloads the six HMDA county/year files. The SEC screen downloads current latest filings to separate `sec_latest_*` discovery files, leaving the reviewed 2026 Q2 snapshot unchanged. `sec_disclosure_analysis.py` contains hand-reviewed figures tied to the 2025 10-K/2026 Q2 10-Q snapshot; **do not treat its output as refreshed merely because the SEC screen downloaded newer filings**. Re-review the filing tables and update that script, the reviewed manifest, and the source lock before regenerating the stage-4 conclusions for a new quarter.
 
-Stage 4 checks `config/sec_review_sources.csv` against the reviewed manifest and fails if the accession, report date, URL or SHA-256 changes. It does not yet index exact source-table locations for every metric. The test command above collects all 37 tests as of this handoff update.
+Stage 4 checks `config/sec_review_sources.csv` against the reviewed manifest and fails if the accession, report date, URL or SHA-256 changes. Legacy stage 4 does not index exact source-table locations for every metric; V2 adds PDF pages/table identifiers. The test command now collects 55 tests, including the new V2 contract, scope and date/market leakage tests.
 
 The geography coverage outputs under `outputs/` report selected mortgages excluded for invalid or unmatched census tracts by year, region and lender. The core-place weights are assumptions about residential originations only. `core_share_of_regional` uses a selected-county denominator, not the bank's whole balance sheet.
 
@@ -56,9 +106,9 @@ On 2026-10-05, San Jose and Santa Clara city were added to `config/tech_core_pla
 
 ## Open questions and next work
 
-The new execution order, data contracts and acceptance criteria are in [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md). It is a proposed implementation plan, not a completed new analysis. Start with WAFD/COLB source backfill, quarterly credit and the September 2026 market/event replay, plus an HPP/KRC office-owner pilot. The reported approximately 17% WAFD decline has not yet been reproduced against a specified return window. WAFD's officially announced September 7 EverBank transaction must enter the event timeline; the announcement was not known at the September 1 historical cutoff.
+The execution order, data contracts and acceptance criteria are in [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md). The first working slice and reproduced WAFD windows are summarized above; full batch acceptance and the later refi/capital/AI models remain pending.
 
-The final review is incorporated as V2.1 (`2026-10-07-r2`). Funding/rate analysis now has equal priority with credit. First reports must show separate LiquidityStress/CreditStress states and four layers: observed changes, leading risk indicators, future exposures, and evidence of market pricing. Add lower-tech-exposure matched controls selected using pre-shock information, plus office sublease/effective-rent/concession data. All observations carry metric-definition, assumption-set and transform-code versions; cross-record multiplication/division requires verified exact scope matching. The two state series are separate outputs, not an assumption of statistical independence. BXP/FSBW are business references, not automatically valid AI control groups. These are implementation requirements; the new panels, report format and validation gates have not yet been built.
+V2.1 (`2026-10-07-r2`) requires funding/rates alongside credit. Initial panels, the four-layer report and the exact-scope gate are implemented. Dual states are separate outputs, not statistical independence: property liquidity still lacks the data needed for a state estimate. Sublease market data and owner effective rents are ingested, while market concessions and valid matched controls remain missing. BXP/FSBW are business references, not automatically AI controls.
 
 - Establish quarterly credit and funding/earnings panels, distinguishing acquisition effects from organic changes and keeping improvement and deterioration evidence together. WAFD's July 16 earnings release reports criticized/net loans rising from 4.24% to 4.93% between March and June 2026 despite classified/net loans moving from 2.60% to 2.59%.
 - Seek more precise collateral geography or loan-level evidence for FSBW; its public disclosure identifies a primary market but does not quantify tech-core loans.

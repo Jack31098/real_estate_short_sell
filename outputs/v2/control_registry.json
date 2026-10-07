@@ -1,0 +1,88 @@
+{
+  "registry_version": "2026-10-07.v1",
+  "registered_at": "2026-10-07",
+  "retrospective_design": true,
+  "warning": "Registered after observing WAFD September decline; not a prospectively frozen September experiment. Candidate names are a screening queue, not validated low-tech controls.",
+  "feature_cutoff": "2026-08-31",
+  "selection_must_not_use": [
+    "post-cutoff returns",
+    "post-cutoff credit migration",
+    "outcome-based exclusion"
+  ],
+  "bank_match_features": [
+    "log assets",
+    "CRE/office/residential loan shares",
+    "capital",
+    "uninsured/NIB/brokered deposits",
+    "securities duration",
+    "fixed/floating loans",
+    "pre-cutoff credit trend",
+    "acquisition flags"
+  ],
+  "tech_exposure_definition": "Pre-cutoff published county QCEW/ACS industry and occupation shares; fixed versioned NAICS/SOC list. Later LODES commuting mapping. No city-name scores.",
+  "matching_method": "Standardize only pre-cutoff features in eligible pool, check overlap and missingness, then nearest-neighbor distance; no weights fitted to September returns. Reject estimates without common support and pre-trend checks.",
+  "bank_candidates": [
+    {
+      "ticker": "OZK",
+      "status": "screening_queue",
+      "reason": "Review CRE mix and geographic dispersion; specialized construction lending may prevent common support.",
+      "verified_low_tech": null
+    },
+    {
+      "ticker": "FNB",
+      "status": "screening_queue",
+      "reason": "Review loan/funding mix and asset scale; require actual county employment mapping.",
+      "verified_low_tech": null
+    },
+    {
+      "ticker": "UBSI",
+      "status": "screening_queue",
+      "reason": "Review acquisition effects, residential/CRE mix and rates; require actual employment mapping.",
+      "verified_low_tech": null
+    },
+    {
+      "ticker": "ONB",
+      "status": "screening_queue",
+      "reason": "Review asset size, CRE and acquisition discontinuities before eligibility.",
+      "verified_low_tech": null
+    }
+  ],
+  "metro_candidates": [
+    {
+      "metro": "Cincinnati",
+      "status": "screening_queue",
+      "verified_low_tech": null
+    },
+    {
+      "metro": "Columbus",
+      "status": "screening_queue",
+      "verified_low_tech": null
+    },
+    {
+      "metro": "Kansas City",
+      "status": "screening_queue",
+      "verified_low_tech": null
+    },
+    {
+      "metro": "St. Louis",
+      "status": "screening_queue",
+      "verified_low_tech": null
+    }
+  ],
+  "metro_match_features": [
+    "pre-cutoff employment trend",
+    "office class/age",
+    "vacancy and absorption",
+    "supply pipeline",
+    "rent trend",
+    "housing trend",
+    "interest-rate sensitivity"
+  ],
+  "business_references_not_matched_controls": [
+    "FSBW",
+    "BXP"
+  ],
+  "validated_matches": [],
+  "basic_feature_review_status": "pending; batch 2 acceptance not yet complete",
+  "ai_specific_effect": null
+}

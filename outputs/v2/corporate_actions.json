@@ -1,0 +1,410 @@
+[
+  {
+    "ticker": "WAFD",
+    "date": "2024-02-22",
+    "type": "dividends",
+    "amount": 0.26,
+    "event_timestamp": 1708612200
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2024-05-23",
+    "type": "dividends",
+    "amount": 0.26,
+    "event_timestamp": 1716471000
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2024-08-23",
+    "type": "dividends",
+    "amount": 0.26,
+    "event_timestamp": 1724419800
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2024-11-22",
+    "type": "dividends",
+    "amount": 0.26,
+    "event_timestamp": 1732285800
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2025-02-21",
+    "type": "dividends",
+    "amount": 0.27,
+    "event_timestamp": 1740148200
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2025-05-23",
+    "type": "dividends",
+    "amount": 0.27,
+    "event_timestamp": 1748007000
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2025-08-22",
+    "type": "dividends",
+    "amount": 0.27,
+    "event_timestamp": 1755869400
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2025-11-21",
+    "type": "dividends",
+    "amount": 0.27,
+    "event_timestamp": 1763735400
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2026-02-13",
+    "type": "dividends",
+    "amount": 0.27,
+    "event_timestamp": 1770993000
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2026-05-22",
+    "type": "dividends",
+    "amount": 0.27,
+    "event_timestamp": 1779456600
+  },
+  {
+    "ticker": "WAFD",
+    "date": "2026-08-21",
+    "type": "dividends",
+    "amount": 0.27,
+    "event_timestamp": 1787319000
+  },
+  {
+    "ticker": "COLB",
+    "date": "2024-02-22",
+    "type": "dividends",
+    "amount": 0.36,
+    "event_timestamp": 1708612200
+  },
+  {
+    "ticker": "COLB",
+    "date": "2024-05-23",
+    "type": "dividends",
+    "amount": 0.36,
+    "event_timestamp": 1716471000
+  },
+  {
+    "ticker": "COLB",
+    "date": "2024-08-23",
+    "type": "dividends",
+    "amount": 0.36,
+    "event_timestamp": 1724419800
+  },
+  {
+    "ticker": "COLB",
+    "date": "2024-11-29",
+    "type": "dividends",
+    "amount": 0.36,
+    "event_timestamp": 1732890600
+  },
+  {
+    "ticker": "COLB",
+    "date": "2025-02-28",
+    "type": "dividends",
+    "amount": 0.36,
+    "event_timestamp": 1740753000
+  },
+  {
+    "ticker": "COLB",
+    "date": "2025-05-30",
+    "type": "dividends",
+    "amount": 0.36,
+    "event_timestamp": 1748611800
+  },
+  {
+    "ticker": "COLB",
+    "date": "2025-08-29",
+    "type": "dividends",
+    "amount": 0.36,
+    "event_timestamp": 1756474200
+  },
+  {
+    "ticker": "COLB",
+    "date": "2025-11-28",
+    "type": "dividends",
+    "amount": 0.37,
+    "event_timestamp": 1764340200
+  },
+  {
+    "ticker": "COLB",
+    "date": "2026-02-27",
+    "type": "dividends",
+    "amount": 0.37,
+    "event_timestamp": 1772202600
+  },
+  {
+    "ticker": "COLB",
+    "date": "2026-05-29",
+    "type": "dividends",
+    "amount": 0.37,
+    "event_timestamp": 1780061400
+  },
+  {
+    "ticker": "COLB",
+    "date": "2026-08-28",
+    "type": "dividends",
+    "amount": 0.37,
+    "event_timestamp": 1787923800
+  },
+  {
+    "ticker": "HPP",
+    "date": "2024-03-15",
+    "type": "dividends",
+    "amount": 0.35,
+    "event_timestamp": 1710509400
+  },
+  {
+    "ticker": "HPP",
+    "date": "2024-06-17",
+    "type": "dividends",
+    "amount": 0.35,
+    "event_timestamp": 1718631000
+  },
+  {
+    "ticker": "HPP",
+    "date": "2025-12-02",
+    "type": "splits",
+    "numerator": 1.0,
+    "denominator": 7.0,
+    "splitRatio": "1:7",
+    "event_timestamp": 1764685800
+  },
+  {
+    "ticker": "KRC",
+    "date": "2024-03-27",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1711546200
+  },
+  {
+    "ticker": "KRC",
+    "date": "2024-06-28",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1719581400
+  },
+  {
+    "ticker": "KRC",
+    "date": "2024-09-30",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1727703000
+  },
+  {
+    "ticker": "KRC",
+    "date": "2024-12-31",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1735655400
+  },
+  {
+    "ticker": "KRC",
+    "date": "2025-03-31",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1743427800
+  },
+  {
+    "ticker": "KRC",
+    "date": "2025-06-30",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1751290200
+  },
+  {
+    "ticker": "KRC",
+    "date": "2025-09-30",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1759239000
+  },
+  {
+    "ticker": "KRC",
+    "date": "2025-12-31",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1767191400
+  },
+  {
+    "ticker": "KRC",
+    "date": "2026-03-31",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1774963800
+  },
+  {
+    "ticker": "KRC",
+    "date": "2026-06-30",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1782826200
+  },
+  {
+    "ticker": "KRC",
+    "date": "2026-09-30",
+    "type": "dividends",
+    "amount": 0.54,
+    "event_timestamp": 1790775000
+  },
+  {
+    "ticker": "KRE",
+    "date": "2024-03-18",
+    "type": "dividends",
+    "amount": 0.379,
+    "event_timestamp": 1710768600
+  },
+  {
+    "ticker": "KRE",
+    "date": "2024-06-24",
+    "type": "dividends",
+    "amount": 0.392,
+    "event_timestamp": 1719235800
+  },
+  {
+    "ticker": "KRE",
+    "date": "2024-09-23",
+    "type": "dividends",
+    "amount": 0.382,
+    "event_timestamp": 1727098200
+  },
+  {
+    "ticker": "KRE",
+    "date": "2024-12-23",
+    "type": "dividends",
+    "amount": 0.412,
+    "event_timestamp": 1734964200
+  },
+  {
+    "ticker": "KRE",
+    "date": "2025-03-24",
+    "type": "dividends",
+    "amount": 0.378,
+    "event_timestamp": 1742823000
+  },
+  {
+    "ticker": "KRE",
+    "date": "2025-06-23",
+    "type": "dividends",
+    "amount": 0.391,
+    "event_timestamp": 1750685400
+  },
+  {
+    "ticker": "KRE",
+    "date": "2025-09-22",
+    "type": "dividends",
+    "amount": 0.4,
+    "event_timestamp": 1758547800
+  },
+  {
+    "ticker": "KRE",
+    "date": "2025-12-22",
+    "type": "dividends",
+    "amount": 0.418,
+    "event_timestamp": 1766413800
+  },
+  {
+    "ticker": "KRE",
+    "date": "2026-03-23",
+    "type": "dividends",
+    "amount": 0.364,
+    "event_timestamp": 1774272600
+  },
+  {
+    "ticker": "KRE",
+    "date": "2026-06-22",
+    "type": "dividends",
+    "amount": 0.417,
+    "event_timestamp": 1782135000
+  },
+  {
+    "ticker": "KRE",
+    "date": "2026-09-21",
+    "type": "dividends",
+    "amount": 0.412,
+    "event_timestamp": 1789997400
+  },
+  {
+    "ticker": "SPY",
+    "date": "2024-03-15",
+    "type": "dividends",
+    "amount": 1.595,
+    "event_timestamp": 1710509400
+  },
+  {
+    "ticker": "SPY",
+    "date": "2024-06-21",
+    "type": "dividends",
+    "amount": 1.759,
+    "event_timestamp": 1718976600
+  },
+  {
+    "ticker": "SPY",
+    "date": "2024-09-20",
+    "type": "dividends",
+    "amount": 1.746,
+    "event_timestamp": 1726839000
+  },
+  {
+    "ticker": "SPY",
+    "date": "2024-12-20",
+    "type": "dividends",
+    "amount": 1.966,
+    "event_timestamp": 1734705000
+  },
+  {
+    "ticker": "SPY",
+    "date": "2025-03-21",
+    "type": "dividends",
+    "amount": 1.696,
+    "event_timestamp": 1742563800
+  },
+  {
+    "ticker": "SPY",
+    "date": "2025-06-20",
+    "type": "dividends",
+    "amount": 1.761,
+    "event_timestamp": 1750426200
+  },
+  {
+    "ticker": "SPY",
+    "date": "2025-09-19",
+    "type": "dividends",
+    "amount": 1.831,
+    "event_timestamp": 1758288600
+  },
+  {
+    "ticker": "SPY",
+    "date": "2025-12-19",
+    "type": "dividends",
+    "amount": 1.993,
+    "event_timestamp": 1766154600
+  },
+  {
+    "ticker": "SPY",
+    "date": "2026-03-20",
+    "type": "dividends",
+    "amount": 1.797,
+    "event_timestamp": 1774013400
+  },
+  {
+    "ticker": "SPY",
+    "date": "2026-06-18",
+    "type": "dividends",
+    "amount": 1.904,
+    "event_timestamp": 1781789400
+  },
+  {
+    "ticker": "SPY",
+    "date": "2026-09-18",
+    "type": "dividends",
+    "amount": 1.889,
+    "event_timestamp": 1789738200
+  }
+]

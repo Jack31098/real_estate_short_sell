@@ -1,0 +1,139 @@
+entity_id,period_end,required_field,reported_metric,status,value,unit,missing_reason,observation_ids
+WAFD,2026-06-30,uninsured_deposits,uninsured_deposits,missing,,,Only uninsured AND uncollateralized intersection reviewed.,[]
+WAFD,2026-06-30,nib_deposits,nib_deposits,reviewed,2646.6150000000002,USD_million,,"[""obs_f6e5f660ae41b3ac3f974cf8""]"
+WAFD,2026-06-30,deposits,deposits,reviewed,20932.075,USD_million,,"[""obs_9d66fbe057c7d76d68476ea4""]"
+WAFD,2026-06-30,brokered_deposits,brokered_deposits,missing,,,Not yet extracted/reviewed; not zero.,[]
+WAFD,2026-06-30,fhlb_borrowings,fhlb_borrowings,missing,,,Deck debt percentage is rounded; exact dollar balance not reconciled.,[]
+WAFD,2026-06-30,wholesale_funding,wholesale_funding,missing,,,No harmonized scope including all components yet.,[]
+WAFD,2026-06-30,cash,cash,reviewed,676.467,USD_million,,"[""obs_0488fb396dc889fb928db9b9""]"
+WAFD,2026-06-30,liquidity_capacity,liquidity_capacity,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+WAFD,2026-06-30,afs_fair_value,afs_fair_value,reviewed,4190.263,USD_million,,"[""obs_b1473a09973044268ab014f2""]"
+WAFD,2026-06-30,htm_amortized_cost,htm_amortized_cost,reviewed,858.261,USD_million,,"[""obs_d74eebea12b248ce80e8879d""]"
+WAFD,2026-06-30,aoci,aoci,reviewed,48.087,USD_million,,"[""obs_4f41feca6a97ab86140fa7ec""]"
+WAFD,2026-06-30,securities_duration,securities_duration,reviewed,3.1,years,,"[""obs_2bf6c2bd8961f45f77c6e369""]"
+WAFD,2026-06-30,loan_beta,loan_beta,missing,,,Contractual floors/reset lags not yet extracted.,[]
+WAFD,2026-06-30,loan_floor_share,loan_floor_share,missing,,,Not yet reviewed.,[]
+WAFD,2026-06-30,deposit_beta,deposit_beta,missing,,,Matched policy-rate regime and quarterly deposit-cost series not yet reviewed.,[]
+WAFD,2026-06-30,nim,nim_gaap,reviewed,2.81,percent,,"[""obs_18563f82447a88dfafac5f4a""]"
+WAFD,2026-06-30,noninterest_expense,noninterest_expense,reviewed,110.334,USD_million,,"[""obs_fe630e86a03749a40ef294f4""]"
+WAFD,2026-06-30,ppnr_gaap_basis,ppnr_gaap_basis,reviewed,95.349,USD_million,,"[""obs_2266113110e43294dd74ecab""]"
+WAFD,2026-06-30,nonaccrual_loans,nonaccrual_loans,reviewed,127.569,USD_million,,"[""obs_2cb26fe2bcfb12c110758be9""]"
+WAFD,2026-06-30,net_chargeoffs,net_chargeoffs,reviewed,1.619,USD_million,,"[""obs_cd3d5fca1e7bb425cb91c35e""]"
+WAFD,2026-06-30,criticized,criticized_to_net_loans,reviewed,4.93,percent,,"[""obs_129232413ed66f9577bc28e0""]"
+WAFD,2026-06-30,classified,classified_to_net_loans,reviewed,2.59,percent,,"[""obs_c526df4c0ac2215ab4c30f7a""]"
+WAFD,2026-06-30,refi_wall_2027,refi_wall_2027,missing,,,Maturity OR repricing table cannot identify contractual 2027 maturity.,[]
+WAFD,2026-03-31,uninsured_deposits,uninsured_deposits,missing,,,Only uninsured AND uncollateralized intersection reviewed.,[]
+WAFD,2026-03-31,nib_deposits,nib_deposits,reviewed,2577.976,USD_million,,"[""obs_599c33082e3761ffddefeb41""]"
+WAFD,2026-03-31,deposits,deposits,reviewed,21124.151,USD_million,,"[""obs_5f12dabde2336a891ac1dca5""]"
+WAFD,2026-03-31,brokered_deposits,brokered_deposits,missing,,,Not yet extracted/reviewed; not zero.,[]
+WAFD,2026-03-31,fhlb_borrowings,fhlb_borrowings,missing,,,Deck debt percentage is rounded; exact dollar balance not reconciled.,[]
+WAFD,2026-03-31,wholesale_funding,wholesale_funding,missing,,,No harmonized scope including all components yet.,[]
+WAFD,2026-03-31,cash,cash,reviewed,669.799,USD_million,,"[""obs_58060e18cd2fa7e812f64997""]"
+WAFD,2026-03-31,liquidity_capacity,liquidity_capacity,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+WAFD,2026-03-31,afs_fair_value,afs_fair_value,reviewed,4352.258,USD_million,,"[""obs_f706a8af8b02a2dd158895f0""]"
+WAFD,2026-03-31,htm_amortized_cost,htm_amortized_cost,reviewed,745.727,USD_million,,"[""obs_b37f806ee44e0cdb977d79c1""]"
+WAFD,2026-03-31,aoci,aoci,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+WAFD,2026-03-31,securities_duration,securities_duration,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+WAFD,2026-03-31,loan_beta,loan_beta,missing,,,Contractual floors/reset lags not yet extracted.,[]
+WAFD,2026-03-31,loan_floor_share,loan_floor_share,missing,,,Not yet reviewed.,[]
+WAFD,2026-03-31,deposit_beta,deposit_beta,missing,,,Matched policy-rate regime and quarterly deposit-cost series not yet reviewed.,[]
+WAFD,2026-03-31,nim,nim_gaap,reviewed,2.81,percent,,"[""obs_0918c509b47fb51e316eed2f""]"
+WAFD,2026-03-31,noninterest_expense,noninterest_expense,reviewed,109.857,USD_million,,"[""obs_85bae6a695d13602a4db4e91""]"
+WAFD,2026-03-31,ppnr_gaap_basis,ppnr_gaap_basis,reviewed,87.806,USD_million,,"[""obs_676b0678cd3642a8e18f0845""]"
+WAFD,2026-03-31,nonaccrual_loans,nonaccrual_loans,reviewed,123.85900000000001,USD_million,,"[""obs_b3215a6baab8574e6ddba934""]"
+WAFD,2026-03-31,net_chargeoffs,net_chargeoffs,reviewed,0.589,USD_million,,"[""obs_ba05717be8378dd15ca9d366""]"
+WAFD,2026-03-31,criticized,criticized_to_net_loans,reviewed,4.24,percent,,"[""obs_4203d37838d74b758711d393""]"
+WAFD,2026-03-31,classified,classified_to_net_loans,reviewed,2.6,percent,,"[""obs_e45d875d06b7b861d0c34fd2""]"
+WAFD,2026-03-31,refi_wall_2027,refi_wall_2027,missing,,,Maturity OR repricing table cannot identify contractual 2027 maturity.,[]
+WAFD,2025-12-31,uninsured_deposits,uninsured_deposits,missing,,,Only uninsured AND uncollateralized intersection reviewed.,[]
+WAFD,2025-12-31,nib_deposits,nib_deposits,reviewed,2692.68,USD_million,,"[""obs_fc90380b4d70f17b151b774c""]"
+WAFD,2025-12-31,deposits,deposits,reviewed,21416.97,USD_million,,"[""obs_3388747213bfe3293c3d9f8d""]"
+WAFD,2025-12-31,brokered_deposits,brokered_deposits,missing,,,Not yet extracted/reviewed; not zero.,[]
+WAFD,2025-12-31,fhlb_borrowings,fhlb_borrowings,missing,,,Deck debt percentage is rounded; exact dollar balance not reconciled.,[]
+WAFD,2025-12-31,wholesale_funding,wholesale_funding,missing,,,No harmonized scope including all components yet.,[]
+WAFD,2025-12-31,cash,cash,reviewed,734.915,USD_million,,"[""obs_1ca273d52fbfb7b97b672b6f""]"
+WAFD,2025-12-31,liquidity_capacity,liquidity_capacity,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+WAFD,2025-12-31,afs_fair_value,afs_fair_value,reviewed,4142.285,USD_million,,"[""obs_4525f3f1442678e25d58d65e""]"
+WAFD,2025-12-31,htm_amortized_cost,htm_amortized_cost,reviewed,764.794,USD_million,,"[""obs_db4cb156bff1c8ba28af8128""]"
+WAFD,2025-12-31,aoci,aoci,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+WAFD,2025-12-31,securities_duration,securities_duration,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+WAFD,2025-12-31,loan_beta,loan_beta,missing,,,Contractual floors/reset lags not yet extracted.,[]
+WAFD,2025-12-31,loan_floor_share,loan_floor_share,missing,,,Not yet reviewed.,[]
+WAFD,2025-12-31,deposit_beta,deposit_beta,missing,,,Matched policy-rate regime and quarterly deposit-cost series not yet reviewed.,[]
+WAFD,2025-12-31,nim,nim_gaap,reviewed,2.7,percent,,"[""obs_ca9f6b0a7cb42d41697f8476""]"
+WAFD,2025-12-31,noninterest_expense,noninterest_expense,reviewed,105.721,USD_million,,"[""obs_4d28b817e6880afbf036f342""]"
+WAFD,2025-12-31,ppnr_gaap_basis,ppnr_gaap_basis,reviewed,85.801,USD_million,,"[""obs_492a69405d9c860641a6758a""]"
+WAFD,2025-12-31,nonaccrual_loans,nonaccrual_loans,reviewed,191.348,USD_million,,"[""obs_5b3d0cd233c27499a442457e""]"
+WAFD,2025-12-31,net_chargeoffs,net_chargeoffs,reviewed,3.681,USD_million,,"[""obs_d88c3f05e8f81ac0af68f9c2""]"
+WAFD,2025-12-31,criticized,criticized_to_net_loans,reviewed,4.6,percent,,"[""obs_ccfb0a50a6a4972048bcf78a""]"
+WAFD,2025-12-31,classified,classified_to_net_loans,reviewed,2.94,percent,,"[""obs_721b542e122851988f4bd887""]"
+WAFD,2025-12-31,refi_wall_2027,refi_wall_2027,missing,,,Maturity OR repricing table cannot identify contractual 2027 maturity.,[]
+COLB,2026-06-30,uninsured_deposits,uninsured_deposits,reviewed,20600.0,USD_million,,"[""obs_5be0a17142122df91ed2f8dd""]"
+COLB,2026-06-30,nib_deposits,nib_deposits,reviewed,17218.0,USD_million,,"[""obs_7d7d191697542cb93d6d2020""]"
+COLB,2026-06-30,deposits,deposits,reviewed,52056.0,USD_million,,"[""obs_17cd1efce36722ec8a439e05""]"
+COLB,2026-06-30,brokered_deposits,brokered_deposits,reviewed,978.0,USD_million,,"[""obs_91674e16417c835716d1f5d9""]"
+COLB,2026-06-30,fhlb_borrowings,fhlb_borrowings,missing,,,Facility utilization is not a verified borrowing balance.,[]
+COLB,2026-06-30,wholesale_funding,wholesale_funding,missing,,,"Borrowings, repo, junior and brokered deposits retained separately pending common definition.",[]
+COLB,2026-06-30,cash,cash,reviewed,1769.0,USD_million,,"[""obs_e37df01b75e9906b3c256c01""]"
+COLB,2026-06-30,liquidity_capacity,potential_liquidity,reviewed,25648.0,USD_million,,"[""obs_bb7f8515750fee550e8faf5e""]"
+COLB,2026-06-30,afs_fair_value,afs_fair_value,reviewed,11131.0,USD_million,,"[""obs_d5fe362635a5018aa01029bb""]"
+COLB,2026-06-30,htm_amortized_cost,htm_amortized_cost,reviewed,17.0,USD_million,,"[""obs_5327e118dc9a39ffb350aeac""]"
+COLB,2026-06-30,aoci,aoci,reviewed,-310.0,USD_million,,"[""obs_86046facce397b0603dd3943""]"
+COLB,2026-06-30,securities_duration,afs_duration,reviewed,5.0,years,,"[""obs_de27b4bf440246eeaf68946d""]"
+COLB,2026-06-30,loan_beta,loan_beta,missing,,,Loan yield change is not contractual loan beta.,[]
+COLB,2026-06-30,loan_floor_share,loan_floor_share,missing,,,Not yet reviewed.,[]
+COLB,2026-06-30,deposit_beta,deposit_beta,missing,,,Matched policy-rate regime not yet reviewed; Treasury yields are not the policy rate.,[]
+COLB,2026-06-30,nim,nim_tax_equivalent,reviewed,3.93,percent,,"[""obs_97b7eaf5bffbd45bd7a6bcef""]"
+COLB,2026-06-30,noninterest_expense,noninterest_expense,reviewed,375.0,USD_million,,"[""obs_5fb4ca4c9164ad9ecf12da7f""]"
+COLB,2026-06-30,ppnr_gaap_basis,ppnr_gaap_basis,reviewed,302.0,USD_million,,"[""obs_94047bcc6ecdedc208b9b637""]"
+COLB,2026-06-30,nonaccrual_loans,nonaccrual_loans,reviewed,180.0,USD_million,,"[""obs_0ea89fd75725cfc02a9ee40d""]"
+COLB,2026-06-30,net_chargeoffs,net_chargeoffs,reviewed,30.0,USD_million,,"[""obs_f6d8566c2fa2d2d2d62aa010""]"
+COLB,2026-06-30,criticized,criticized,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2026-06-30,classified,classified,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2026-06-30,refi_wall_2027,refi_wall_2027,missing,,,Office maturity percentage available; denominator dollars not reconciled.,[]
+COLB,2026-03-31,uninsured_deposits,uninsured_deposits,reviewed,20900.0,USD_million,,"[""obs_2f164c6aa83fd62ff69e91a5""]"
+COLB,2026-03-31,nib_deposits,nib_deposits,reviewed,17635.0,USD_million,,"[""obs_d70ebf60959c136ca0f72125""]"
+COLB,2026-03-31,deposits,deposits,reviewed,53489.0,USD_million,,"[""obs_f793786494917eccb69c8ac6""]"
+COLB,2026-03-31,brokered_deposits,brokered_deposits,reviewed,1595.0,USD_million,,"[""obs_9071362c57624aff88cbaa1f""]"
+COLB,2026-03-31,fhlb_borrowings,fhlb_borrowings,missing,,,Facility utilization is not a verified borrowing balance.,[]
+COLB,2026-03-31,wholesale_funding,wholesale_funding,missing,,,"Borrowings, repo, junior and brokered deposits retained separately pending common definition.",[]
+COLB,2026-03-31,cash,cash,reviewed,2099.0,USD_million,,"[""obs_e7ffb33c217b0380da209677""]"
+COLB,2026-03-31,liquidity_capacity,potential_liquidity,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2026-03-31,afs_fair_value,afs_fair_value,reviewed,10915.0,USD_million,,"[""obs_4384b60f1fadc598702d7c16""]"
+COLB,2026-03-31,htm_amortized_cost,htm_amortized_cost,reviewed,18.0,USD_million,,"[""obs_92bbdca770d9f603e01adce9""]"
+COLB,2026-03-31,aoci,aoci,reviewed,-291.0,USD_million,,"[""obs_864f0329f84f268f4708eb10""]"
+COLB,2026-03-31,securities_duration,afs_duration,reviewed,5.1,years,,"[""obs_4f5acba7bf95b7c67b3fcf13""]"
+COLB,2026-03-31,loan_beta,loan_beta,missing,,,Loan yield change is not contractual loan beta.,[]
+COLB,2026-03-31,loan_floor_share,loan_floor_share,missing,,,Not yet reviewed.,[]
+COLB,2026-03-31,deposit_beta,deposit_beta,missing,,,Matched policy-rate regime not yet reviewed; Treasury yields are not the policy rate.,[]
+COLB,2026-03-31,nim,nim_tax_equivalent,reviewed,3.96,percent,,"[""obs_7cbb6f4aec87ed9064dc6d95""]"
+COLB,2026-03-31,noninterest_expense,noninterest_expense,reviewed,394.0,USD_million,,"[""obs_c3478debea45859716a026a9""]"
+COLB,2026-03-31,ppnr_gaap_basis,ppnr_gaap_basis,reviewed,283.0,USD_million,,"[""obs_b88b34ebd5b7a6076c4fe292""]"
+COLB,2026-03-31,nonaccrual_loans,nonaccrual_loans,reviewed,187.0,USD_million,,"[""obs_19803a3ef06b9eb1d4ab1fe6""]"
+COLB,2026-03-31,net_chargeoffs,net_chargeoffs,reviewed,35.0,USD_million,,"[""obs_4052873b4767b177b11edfe9""]"
+COLB,2026-03-31,criticized,criticized,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2026-03-31,classified,classified,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2026-03-31,refi_wall_2027,refi_wall_2027,missing,,,Office maturity percentage available; denominator dollars not reconciled.,[]
+COLB,2025-12-31,uninsured_deposits,uninsured_deposits,reviewed,19800.0,USD_million,,"[""obs_8bdd558432426ccd62f4449a""]"
+COLB,2025-12-31,nib_deposits,nib_deposits,reviewed,17419.0,USD_million,,"[""obs_6b92ee029afe99f21b409f10""]"
+COLB,2025-12-31,deposits,deposits,reviewed,54211.0,USD_million,,"[""obs_97fb5540396600cebaba8f5d""]"
+COLB,2025-12-31,brokered_deposits,brokered_deposits,reviewed,2355.0,USD_million,,"[""obs_d39bc6f9696bf63b8389f5c6""]"
+COLB,2025-12-31,fhlb_borrowings,fhlb_borrowings,missing,,,Facility utilization is not a verified borrowing balance.,[]
+COLB,2025-12-31,wholesale_funding,wholesale_funding,missing,,,"Borrowings, repo, junior and brokered deposits retained separately pending common definition.",[]
+COLB,2025-12-31,cash,cash,reviewed,2380.0,USD_million,,"[""obs_9cb45c8aac21715aa76e2bd5""]"
+COLB,2025-12-31,liquidity_capacity,potential_liquidity,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2025-12-31,afs_fair_value,afs_fair_value,reviewed,11112.0,USD_million,,"[""obs_6601eb7285e714d430d6fa46""]"
+COLB,2025-12-31,htm_amortized_cost,htm_amortized_cost,reviewed,18.0,USD_million,,"[""obs_8dc6b9b741a940440772a3d8""]"
+COLB,2025-12-31,aoci,aoci,reviewed,-233.0,USD_million,,"[""obs_f0a4993ca7c65dc741202204""]"
+COLB,2025-12-31,securities_duration,afs_duration,reviewed,5.2,years,,"[""obs_4f308461fd5f8bd11da64c6a""]"
+COLB,2025-12-31,loan_beta,loan_beta,missing,,,Loan yield change is not contractual loan beta.,[]
+COLB,2025-12-31,loan_floor_share,loan_floor_share,missing,,,Not yet reviewed.,[]
+COLB,2025-12-31,deposit_beta,deposit_beta,missing,,,Matched policy-rate regime not yet reviewed; Treasury yields are not the policy rate.,[]
+COLB,2025-12-31,nim,nim_tax_equivalent,reviewed,4.06,percent,,"[""obs_bd9a697746acdcb8447c5878""]"
+COLB,2025-12-31,noninterest_expense,noninterest_expense,reviewed,412.0,USD_million,,"[""obs_6bd5b2494716e43e351fbbe4""]"
+COLB,2025-12-31,ppnr_gaap_basis,ppnr_gaap_basis,reviewed,305.0,USD_million,,"[""obs_1931c779a4468e4e1fe5d6ee""]"
+COLB,2025-12-31,nonaccrual_loans,nonaccrual_loans,reviewed,116.0,USD_million,,"[""obs_3dd97462567e7a7b7ddb8298""]"
+COLB,2025-12-31,net_chargeoffs,net_chargeoffs,reviewed,30.0,USD_million,,"[""obs_ed37f04cc156603fbba8e3a5""]"
+COLB,2025-12-31,criticized,criticized,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2025-12-31,classified,classified,missing,,,Not yet extracted/reconciled for this quarter; not zero.,[]
+COLB,2025-12-31,refi_wall_2027,refi_wall_2027,missing,,,Office maturity percentage available; denominator dollars not reconciled.,[]

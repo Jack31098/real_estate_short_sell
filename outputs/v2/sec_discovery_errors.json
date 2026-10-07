@@ -1,0 +1,10 @@
+[
+  {
+    "ticker": "WAFD",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "ticker": "COLB",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
