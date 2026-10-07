@@ -96,7 +96,7 @@ python scripts/office_intersection_bounds.py
 
 The downloads may take time and official endpoints can change or rate-limit. `pipeline.py` downloads the six HMDA county/year files. The SEC screen downloads current latest filings to separate `sec_latest_*` discovery files, leaving the reviewed 2026 Q2 snapshot unchanged. `sec_disclosure_analysis.py` contains hand-reviewed figures tied to the 2025 10-K/2026 Q2 10-Q snapshot; **do not treat its output as refreshed merely because the SEC screen downloaded newer filings**. Re-review the filing tables and update that script, the reviewed manifest, and the source lock before regenerating the stage-4 conclusions for a new quarter.
 
-Stage 4 checks `config/sec_review_sources.csv` against the reviewed manifest and fails if the accession, report date, URL or SHA-256 changes. Legacy stage 4 does not index exact source-table locations for every metric; V2 adds PDF pages/table identifiers. The test command now collects 55 tests, including the new V2 contract, scope and date/market leakage tests.
+Stage 4 checks `config/sec_review_sources.csv` against the reviewed manifest and fails if the accession, report date, URL or SHA-256 changes. Legacy stage 4 does not index exact source-table locations for every metric; V2 adds PDF pages/table identifiers. The test command now collects 56 tests, including the new V2 contract, scope and date/market leakage tests.
 
 The geography coverage outputs under `outputs/` report selected mortgages excluded for invalid or unmatched census tracts by year, region and lender. The core-place weights are assumptions about residential originations only. `core_share_of_regional` uses a selected-county denominator, not the bank's whole balance sheet.
 

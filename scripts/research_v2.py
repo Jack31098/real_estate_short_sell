@@ -151,9 +151,14 @@ def build_observations(version):
     combined={r['observation_id']:r for r in previous}
     combined.update({r['observation_id']:r for r in rows})
     write_json(path,list(combined.values()))
-    write_json(OUT/'metric_definitions.json',definitions)
+    definition_path=OUT/'metric_definitions.json'
+    old_definitions=read_json(definition_path) if definition_path.exists() else {}
+    for key,value in definitions.items():
+        if key in old_definitions and old_definitions[key]!=value:
+            raise ValueError('Metric definition changed without a version bump: '+key)
+    write_json(definition_path,{**old_definitions,**definitions})
     write_table('coverage_gaps.csv',coverage)
-    return rows,coverage
+    return list(combined.values()),coverage
 
 
 def scope_audit(rows):

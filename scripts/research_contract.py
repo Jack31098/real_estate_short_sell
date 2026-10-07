@@ -82,6 +82,8 @@ def as_of(rows, cutoff):
             continue
         key = (r['entity_id'],r['period_end'],r['metric'],json.dumps(r['scope'],sort_keys=True),r['metric_definition_version'])
         old = selected.get(key)
+        if old is not None and instant(r['available_at'])==instant(old['available_at']) and r.get('value')!=old.get('value'):
+            raise ValueError('Conflicting revisions with the same availability; resolve revision time before selection')
         if old is None or (instant(r['available_at']),r['observation_id']) > (instant(old['available_at']),old['observation_id']):
             selected[key]=r
     return list(selected.values())

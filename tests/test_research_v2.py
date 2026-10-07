@@ -29,6 +29,13 @@ class EvidenceTests(unittest.TestCase):
         self.assertEqual(as_of([r],'2026-09-01T07:59:59Z'),[])
         self.assertEqual(as_of([r],'2026-09-01T08:00:00Z'),[r])
 
+    def test_conflicting_same_date_revision_needs_resolution(self):
+        a=dict(observation_id='old',entity_id='B',period_end='2026-06-30',metric='npl',scope={},
+               metric_definition_version='npl.v1',available_at='2026-07-25T12:00:00Z',value=1)
+        b={**a,'observation_id':'new','value':2}
+        with self.assertRaisesRegex(ValueError,'Conflicting revisions'):
+            as_of([a,b],'2026-09-01T00:00:00Z')
+
     def test_date_only_and_exact_publication_time(self):
         self.assertEqual(available_date('2026-09-07'),'2026-09-08T12:00:00+00:00')
         self.assertEqual(available_date('2026-09-07T10:00:00-07:00'),'2026-09-07T17:00:00+00:00')
