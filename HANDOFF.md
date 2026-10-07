@@ -1,6 +1,6 @@
 # Project handoff
 
-Updated: 2026-10-05 (America/Los_Angeles)
+Updated: 2026-10-07 (America/Los_Angeles)
 
 ## Purpose and current state
 
@@ -56,13 +56,15 @@ On 2026-10-05, San Jose and Santa Clara city were added to `config/tech_core_pla
 
 ## Open questions and next work
 
-- Establish quarterly monitoring for FSBW, COLB, and CVBF, distinguishing acquisition effects from organic credit deterioration.
+The new execution order, data contracts and acceptance criteria are in [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md). It is a proposed implementation plan, not a completed new analysis. Start with WAFD/COLB source backfill, quarterly credit and the September 2026 market/event replay, plus an HPP/KRC office-owner pilot. The reported approximately 17% WAFD decline has not yet been reproduced against a specified return window. WAFD's officially announced September 7 EverBank transaction must enter the event timeline; the announcement was not known at the September 1 historical cutoff.
+
+- Establish quarterly credit and funding/earnings panels, distinguishing acquisition effects from organic changes and keeping improvement and deterioration evidence together. WAFD's July 16 earnings release reports criticized/net loans rising from 4.24% to 4.93% between March and June 2026 despite classified/net loans moving from 2.60% to 2.59%.
 - Seek more precise collateral geography or loan-level evidence for FSBW; its public disclosure identifies a primary market but does not quantify tech-core loans.
 - Keep HMDA origination share separate from retained, current balance-sheet exposure. Current retained-loan figures are sensitivity proxies.
 - Recheck property-type mix, maturities, collateral values, nonaccruals, reserves, and capital with the latest filings before extending the short thesis.
 - Add effective-dated LEI/FDIC certificate/parent and acquisition mappings before presenting a pro forma current-group ranking; current screens are historical entity observations.
 - Build a separate office-property branch with property ownership shares, lease expirations, tenant mix, debt, lender, and scenario valuation. Marginal CRE-by-region and office-by-property totals do not identify their intersection.
-- `outputs/office_intersection_bounds.csv` now gives mathematical bounds and an independence-assumption scenario for COLB, CVBF, and EWBC. COLB's regional office balance is still unobserved: its Puget + Bay Area CRE is $5.635bn, bank-wide office CRE is $3.559bn, and bank-wide CRE is $27.009bn; the intersection can range from $0 to $3.559bn. The $0.743bn independence scenario is not an observation.
+- `outputs/office_intersection_bounds.csv` gives mathematical bounds using only the currently ingested margins. The 2026-10-07 source review identified COLB's Q2 earnings presentation, slide 26, reporting office geography (Puget Sound 15%, Bay Area 4%). The previous claim that the intersection is wholly unavailable was too broad. Reconcile the deck's office portfolio basis with the 10-Q before publishing a derived regional dollar amount; the existing $0–3.559bn bound and $0.743bn independence scenario are incomplete-source results, not the best available disclosure. See the V2 plan for the original document and the reconciliation gate.
 - Add a credit-loss-to-capital bridge that treats allowances, ongoing earnings, tax and regulatory capital consistently; the existing standardized CRE haircuts are comparative scenarios, not AI-loss forecasts.
 
 See `README.md` for methodology, limitations, and official source links.

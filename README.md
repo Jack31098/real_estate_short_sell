@@ -8,6 +8,11 @@ most principal-residence mortgages in named tech-core places.
 For the current project state and instructions for continuing on another computer,
 see [HANDOFF.md](HANDOFF.md).
 
+The 2026-10-07 methodology review and proposed next implementation are in
+[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md). V2 adds dated credit, leasing,
+refinancing, event and pricing analysis. It is a plan; the existing reports still
+represent the static screening implementation.
+
 ## First-stage scope
 
 - Years: 2023–2025 HMDA snapshot data.
@@ -106,7 +111,10 @@ cause stage 4 to stop until the tables and reviewed source lock are updated.
 `python scripts/office_intersection_bounds.py` uses the reviewed regional CRE
 and bank-wide office CRE margins to report mathematical lower/upper bounds and
 an explicitly assumed independence scenario. Its intersection column remains
-unobserved. It does not estimate tenant or lease exposure.
+unobserved in the sources currently ingested. COLB's Q2 2026 earnings presentation
+has since been identified as a source of direct office-by-region percentages;
+reconciling its portfolio basis and importing those observations is first-priority
+work in the V2 plan. The current script does not estimate tenant or lease exposure.
 
 ## Official sources
 
