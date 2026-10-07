@@ -1,16 +1,16 @@
 {
-  "git_commit": "9491fe5e7f31717dc64759272319e51683bb808d",
-  "transform_code_version": "9491fe5e7f31717dc64759272319e51683bb808d+tree.f3c55c4a81547502",
-  "source_tree_sha256": "f3c55c4a8154750267486ff1f4e3bd0e6b71c6cd38ee1f00cac3cca16e955a00",
+  "git_commit": "74cfb73600d343e5b6adbdff7af447cd57cbfee0",
+  "transform_code_version": "74cfb73600d343e5b6adbdff7af447cd57cbfee0+tree.52a2b8b7c2c0727f",
+  "source_tree_sha256": "52a2b8b7c2c0727f995beba0852d157ed6747b10056a35035c161e370deb9cf3",
   "files": {
     "scripts/cre_capital_screen.py": "8bb9333605d5412397c6a42e3d02ede3c14ebb7ae5f30133fce95ee7bf2a2cd8",
     "scripts/geography_sensitivity.py": "74b83bc958048aa018df64176c370348b4c5d7efde485d0c840c35749dcc4261",
     "scripts/market_replay.py": "1b62dd6aa372f43fc5844db0a3b5c1f33f052df20b567831e03e27d77e0b8860",
     "scripts/office_intersection_bounds.py": "f304dadd28ef8ab877f81c27c96368f4c481400a00d1f563050749c866f1e5a2",
     "scripts/pipeline.py": "d80329810544bf8710e9a4880e0bf2fdfa0b16f0004631260a3fbae71442fef3",
-    "scripts/research_contract.py": "06a066f49f1a94afcb66d72916d3c2ed2b517006740916e3b9af245aad9117e2",
+    "scripts/research_contract.py": "f5bdee0164778dd57853a8f647c80eaf4efa1e56cdff0dbcf2073b8d9d9d94cb",
     "scripts/research_sources.py": "78554593f114c88600de87b81a3e28a4bb49be95d1a28bcf3d88f21256819e58",
-    "scripts/research_v2.py": "5a3e51b262e86c9c842fe8bcf3095c481bc689ab2e5d6a53bb40aa0b75fe032c",
+    "scripts/research_v2.py": "1eea0058a5439de8e855cafaabc4d98eca2696db3fe9ef86f05afaada962e463",
     "scripts/research_v2_report.py": "1425ff389ee5ecaafe43fb889fe9f864b9ad04325557eba121b96fe603a5db85",
     "scripts/retained_exposure.py": "99cce5cdb29e34a3fe8df36c40e296d0fb65d8358ade20a522722ff0889f7723",
     "scripts/reviewed_v2_facts.py": "904679cd8cdcb60333e9f237cee3fadad0de47536ab8bceae9366af239a8ce5c",
@@ -26,11 +26,11 @@
     "tests/test_geography_sensitivity.py": "92b4fd3096582bbf7da0a11b0abc004259a567195e2a3437720038b2859a95da",
     "tests/test_office_intersection_bounds.py": "30453f50c0b81f865d28e3a425b0983408d6bff427f7e313d282314ff27b55da",
     "tests/test_pipeline.py": "98d61699f20dccb3a691791dfd35de58bbc3d190301a2e5cc95f1a453f8dc652",
-    "tests/test_research_v2.py": "2a07e6be1f8aee1ca0e86a57c2dd9156a3ee2cd3bc196efbfa318815b6735e89",
+    "tests/test_research_v2.py": "0f03797b60e882bea9fd79270f6130f9c8d9842d7615f38f4ce7d44f0b753df3",
     "tests/test_retained_exposure.py": "fe6ba702a8a5f75b8be2539cc1e74931aece21cf37efc642059102bfd1181a1b",
     "tests/test_sec_disclosure_analysis.py": "bbfcf630daa805d7e76439512121b8819894d0819fabdceb3b71a2efbbc0d39c",
     "requirements.txt": "a283ecca98de882a671d8fe28f07db3e68a257a9cbf4719e464bda02a1e9d5fb"
   },
-  "patch_sha256": "483b7d112aadcff64ba5b166fa673147091dcb0cc05beb30510c30defa0b68a0",
+  "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "note": "Exact source hashes include untracked files; commit these files to preserve execution tree."
 }

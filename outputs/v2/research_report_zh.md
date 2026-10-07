@@ -188,7 +188,7 @@ CBRE 的两个市场当季净吸纳都为正，旧的线性需求崩塌叙事需
 
 ## 9. 复现与审计
 
-- 执行ID：`run_b32908a13f6b812bcb8ec3f2`；代码版本：`9491fe5e7f31717dc64759272319e51683bb808d+tree.f3c55c4a81547502`。
+- 执行ID：`run_12c7f4519544a545fe4f4eaa`；代码版本：`74cfb73600d343e5b6adbdff7af447cd57cbfee0+tree.52a2b8b7c2c0727f`。
 - `python scripts/research_sources.py` 下载文档；`python scripts/market_replay.py --end 2026-10-06` 重建行情；`python scripts/research_v2.py` 校验并生成本报告。
 - 数值录入仍需人工读表；脚本验证哈希、页码、数字存在、单位/版本、截点与计算边界，不声称已全自动理解SEC。图中地理/到期数值经视觉核对。
 - 首轮文件、字节哈希和原始URL见 source_manifest；旧SEC缓存的原下载时间未知，明确为null。每项 derived 指标有输入ID；源文件变更必须重新核查锁，不能刷新下载后沿用旧解读。
