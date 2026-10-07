@@ -9,8 +9,11 @@ For the current project state and instructions for continuing on another compute
 see [HANDOFF.md](HANDOFF.md).
 
 The 2026-10-07 methodology review and proposed next implementation are in
-[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md). V2 adds dated credit, leasing,
-refinancing, event and pricing analysis. It is a plan; the existing reports still
+[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md), revision V2.1. It specifies
+credit and funding/rate panels, separate property-liquidity and credit states,
+matched controls, office leasing signals, and a four-layer comparison in the first
+report. Metric, assumption and code versions plus an exact-scope arithmetic gate
+are part of the data contract. This remains a plan; the existing reports still
 represent the static screening implementation.
 
 ## First-stage scope
