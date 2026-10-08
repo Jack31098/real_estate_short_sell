@@ -2,7 +2,77 @@
 
 Updated: 2026-10-07 (America/Los_Angeles)
 
-## Latest execution: V2 first slice
+## Latest execution: four research priorities
+
+Start with `outputs/v2/core_path_report_zh.md`. The framework remains V2.1;
+the execution order changed to targeted history + property liquidity/price +
+COLB refinance scenarios + HPP known-event bridge. Do not make complete document
+backfill or matched controls a prerequisite. Do not start LODES/HMDA/bulk CMBS yet.
+
+Actually run in this pass:
+
+- 40 original-quarter documents, 538 bank observations, 2024Q1–2026Q2.
+  `core_history.py` extracts current columns only; `core_filing_history.py`
+  sums COLB rating rows with whole-portfolio reconciliations and verified filing
+  dates. COLB 2025Q3 filed November 6 (signature November 5 is not publication).
+- Six counties × 32 months of Redfin series, FHFA metro repeat-sales and NWMLS
+  September King tables. Separate LiquidityStress and CollateralStress vectors,
+  no weighted city score. Santa Clara, San Jose and Pierce explicitly covered.
+- 576 COLB hypothetical refinance cases. Every output is scenario, not loss.
+  Average all-office LTV 57%, nonowner DSCR 1.76 and 2027 maturity9% do not describe
+  an observed joint cohort; do not multiply the latter by the $3.559bn filing book.
+- HPP ownership-share June debt + executed Hollywood extension: 2027 $1,033.962m
+  versus $503.195m at June. Gross JV loan remains $1.1bn. Announced tender reduces
+  observed debt by zero; gross sales are not assumed to repay debt. Identified
+  Glu/875 Howard sale adjusts June2027 current ABR $66.100m to $60.462m, but the
+  complete current rent roll and post-June net debt still need reconciliation.
+- KRE-only / KRE+rates / legacy KRE+SPY+rates regressions, 126/252 pre-event days.
+  Matched ex-target basket deliberately missing until matched controls exist.
+- Five rendered/inspected PNG figures and 63 passing tests.
+
+Main inference: observed residential exit stress and conditional 2027 refinance
+fragility are real research findings; an unpriced bank-loss thesis is unproven.
+HPP rollover first, COLB cohort next, WAFD funding/merger as a separate question;
+KRC remains comparative evidence. Preserve SF residential strength and CBRE
+positive office absorption as counterevidence.
+
+### Reproduce this pass on another computer
+
+```powershell
+python -m pip install -r requirements.txt
+python scripts/core_path.py --from-panels
+python -m unittest discover -s tests
+```
+
+This uses tracked extracted panels for scenarios, events, figures and the report.
+It does NOT re-download or re-extract the ignored original source archive. The
+original observations keep their historical execution versions. For a raw-cache
+rebuild, run `python scripts/core_path_sources.py`, restore the property downloads
+identified in `outputs/v2/*_source.json`, and run `python scripts/core_path.py`.
+The pipeline checks raw hashes against the pinned metadata. Bank mirror PDFs
+were fetched through official IR. The older baseline HPP source metadata and
+market panels are tracked and remain available to the new pass.
+
+Redfin download route: https://www.redfin.com/news/data-center/downloads/;
+Housing Market Tracker -> All Metrics (14), Monthly, Counties, All Counties,
+Jan2024–Aug2026; separately Price Drops with the same date/geography filters.
+Original filenames are `redfin_housing_market_monthly_all_counties_2024_Jan_to_2026_Aug.csv`
+and `redfin_price_drops_monthly_all_counties_2024_Jan_to_2026_Aug.csv`. Copy matching
+bytes to the content-addressed `raw_path` in each metadata file. Later downloads
+may be revised: preserve a new vintage, do not silently replace the old hash.
+FHFA and NWMLS URLs are in their metadata files. Property observations use
+retrieval time as availability; no September historical-as-of claim is allowed.
+Unlabelled Redfin columns retain an explicit seasonal-adjustment uncertainty;
+headlines use same-month YoY and the vendor's raw levels, not an inferred MoM signal.
+
+Unfinished target data: WAFD first six quarters' classified (only substandard in
+the original releases; SEC direct requests still403), complete bank funding/floor
+fields, COLB 2027 loan-cohort joint features, HPP actual tender settlement/funding,
+remaining sold leases and current cash/debt reconciliation. Original-quarter
+core series do not make all V2 batches complete. Next obtain these decisive cells,
+then match low-tech controls; no new framework is needed.
+
+## Archived earlier execution: V2 first slice
 
 Start with `outputs/v2/research_report_zh.md`. The first V2 pipeline has actually
 run: 22 source documents; three consecutive WAFD/COLB quarters; six daily market
@@ -45,12 +115,9 @@ queue, not valid matched controls. Property LiquidityStress remains null; credit
 is a separate observed vector without a composite score. Old manual city weights
 remain sensitivity assumptions and are not used as validated AI exposure.
 
-Next concrete work: finish the control feature audit using pre-cutoff official
-data; add property transaction histories; fill quarterly funding coverage gaps;
-reconcile COLB office deck versus 10-Q denominators; update HPP net debt/2027 rent
-exposure for completed sales and extension (do not count an announced tender as
-settled). Keep supportive and contrary evidence together. The remaining plan is
-in `IMPLEMENTATION_PLAN.md`; do not mark batches 1–2 complete yet.
+The first slice's work order has been superseded by the latest execution above.
+Keep supportive and contrary evidence together. Remaining acceptance requirements
+are in `IMPLEMENTATION_PLAN.md`; do not mark batches 1–2 complete yet.
 
 ## Purpose and current state
 

@@ -133,7 +133,7 @@ def deposit_beta(cost_start,cost_end,rate_start,rate_end,min_policy_change_pp=0.
     return (cost_end-cost_start)/(rate_end-rate_start)
 
 
-def code_manifest():
+def code_manifest(prefix=''):
     """Hash executable inputs, including untracked files; never hash outputs into themselves."""
     head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
     patch=subprocess.check_output(['git','diff','HEAD','--','scripts','config','tests','requirements.txt'],cwd=ROOT)
@@ -146,8 +146,8 @@ def code_manifest():
     treehash=digest(json.dumps(files,sort_keys=True).encode())
     version=head + '+tree.' + treehash[:16]
     OUT.mkdir(parents=True,exist_ok=True)
-    (OUT/'executed_code.patch').write_bytes(patch)
-    write_json(OUT/'code_manifest.json',{'git_commit':head,'transform_code_version':version,
+    (OUT/(prefix+'executed_code.patch')).write_bytes(patch)
+    write_json(OUT/(prefix+'code_manifest.json'),{'git_commit':head,'transform_code_version':version,
                'source_tree_sha256':treehash,'files':files,'patch_sha256':digest(patch),
                'note':'Exact source hashes include untracked files; commit these files to preserve execution tree.'})
     return version

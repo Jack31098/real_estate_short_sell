@@ -2,7 +2,13 @@
 
 日期：2026-10-07（America/Los_Angeles）。计划版本：`2026-10-07-r2`。状态：执行中，已完成第一、二批的首个可运行切片；完整批次尚未验收。新版结果见 [首轮执行报告](outputs/v2/research_report_zh.md)，准确执行代码与输入哈希见 `outputs/v2/run_manifest.json`、`code_manifest.json`。旧静态计算基线为 `e15ea64`。
 
-### 2026-10-07 执行进展
+### 2026-10-07 执行顺序更新（框架不变）
+
+专家通过 0942e3c 后，critical path 改为：目标信用/资金历史 + Property Liquidity/Price + COLB 2027 RefiGap + HPP current known-event debt/lease bridge。**所有历史文件完整回填不再作为进入第三/第四批的 blocker；对照组匹配在核心面板之后。暂不启动 LODES、HMDA vulnerability 或 CMBS 大规模解析。**
+
+这一轮已执行并形成 [新报告](outputs/v2/core_path_report_zh.md)：40 份目标原文、538 个银行观测、十个季度核心历史；六县 32 个月住宅原序列及 FHFA/NWMLS 对照；576 个 COLB 归一化再融资情景；HPP 已执行展期/出售与 announced tender 的债务及租约桥接；回归规格敏感性。原始 WAFD classified 早期缺口、property 历史 vintage、HPP 不完整当前余额、matched basket 缺失均明确保留。该切片不代表完整批次验收或已经识别未定价损失。
+
+### 2026-10-07 较早首轮切片记录（保留历史状态）
 
 - 已运行：22份原始文档的来源清单与哈希锁、WAFD/COLB三季信用及资金面板、六个代码的日行情、252/126日前事件回归、四个历史截点与四层表。
 - 已运行：HPP/KRC租赁及历史到期试点、HPP North San Jose/Santa Clara分区、两份CBRE市场的转租/空置/吸纳/挂牌租金；后续展期、资产出售、债券要约按披露日期入库。

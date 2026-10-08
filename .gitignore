@@ -1,4 +1,5 @@
 data/raw/
+data/runtime/
 data/derived/sec_text/
 data/derived/v2_text/
 outputs/*.png

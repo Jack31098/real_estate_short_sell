@@ -8,7 +8,42 @@ most principal-residence mortgages in named tech-core places.
 For the current project state and instructions for continuing on another computer,
 see [HANDOFF.md](HANDOFF.md).
 
-## V2 first execution — 2026-10-07
+## Latest: critical-path research — 2026-10-07
+
+Start with [the executed research report](outputs/v2/core_path_report_zh.md).
+The four priorities now have outputs: WAFD/COLB ten-quarter core history from
+40 documents (538 observations), 32 months of six-county residential liquidity
+and price data, 576 normalized COLB refinance scenarios, and an HPP June-anchor
+bridge for completed extensions/sales and the still-announced tender.
+
+King County September pending/closed sales fell 16.69%/12.19% YoY while overall
+median price was flat; condos were weaker. Santa Clara and San Jose are covered.
+COLB's illustrative gap reaches 11.1% of principal under NOI -10%, cap +100bp,
+7% refinancing, initial LTV57%/cap6.5%, new maxLTV65%/minDSCR1.25/25yr amortization.
+This is borrower funding need, not bank loss. HPP's known-event 2027 maturity
+schedule rises from $503.2m to $1,034.0m on its ownership-share/net-debt basis.
+Neither result establishes that future credit loss is mispriced.
+
+```powershell
+python -m pip install -r requirements.txt
+python scripts/core_path.py --from-panels
+python -m unittest discover -s tests
+```
+
+`--from-panels` works from the tracked extracted data on another computer. To
+re-extract from the local raw cache use `python scripts/core_path.py`; official
+bank release/deck/filing downloads are in `scripts/core_path_sources.py`.
+Redfin downloads and their exact hashes are documented in HANDOFF. Raw files
+are ignored and are not transferred by Git. The report includes five PNG figures;
+`core_run_manifest.json` and `core_code_manifest.json` identify the execution.
+
+Material gaps remain explicit: WAFD early classified is not relabelled from
+substandard; property history is a current revised vintage; HPP is not a complete
+October balance sheet/lease roll; no validated matched peer basket exists.
+Full document backfill and controls matching no longer block this critical path.
+LODES, HMDA vulnerability and bulk CMBS work remain deferred.
+
+## Archived V2 first slice — earlier on 2026-10-07
 
 Read [the new Chinese report](outputs/v2/research_report_zh.md) first. It contains
 WAFD/COLB three-quarter credit and funding panels, September price/event replay,
@@ -18,8 +53,8 @@ Clara are separately visible in HPP's owner portfolio.
 
 WAFD's September price return is -16.30%; September 4–30 is -17.55%. These are
 different windows. Event residuals are descriptive and do not establish that
-credit, the merger, or AI caused the full decline. Property LiquidityStress remains
-unknown, credit is an observed vector, and no joint score is produced.
+credit, the merger, or AI caused the full decline. Property LiquidityStress was
+unknown in that first snapshot; the new report supplies the raw vector.
 
 ```powershell
 python scripts/research_sources.py
@@ -36,8 +71,8 @@ arithmetic; COLB deck geography × 10-Q balance is blocked pending reconciliatio
 
 [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md), V2.1, remains the execution
 roadmap. Batches 1–2 have a working initial slice, not complete acceptance:
-2024-onward filing backfill, validated matched controls, property-liquidity data,
-and complete owner/loan mapping remain pending. The control registry is openly
+full filing backfill, validated matched controls, and complete owner/loan mapping
+remain pending. The control registry is openly
 retrospective, registered after the September outcome. Raw sources are ignored;
 tracked outputs can be read immediately after cloning. Rebuilding requires the
 locked source bytes; SEC direct downloads returned HTTP 403 in this environment.

@@ -1,0 +1,15 @@
+{
+  "assumption_set_id": "hpp-june-anchor-known-events@1",
+  "as_of": "2026-10-07T23:59:59-07:00",
+  "baseline_date": "2026-06-30",
+  "unit": "USD_million",
+  "debt_basis": "HPP ownership share incl unconsolidated JVs, net of acquired CMBS loan; includes scheduled amortization; NOT GAAP consolidated debt",
+  "maturity_baseline": {"2026":535.767,"2027":503.195,"2028":503.247,"2029":510.0,"2030":778.833},
+  "maturity_source": {"key":"hpp_2026q2_supplement","page":14},
+  "hollywood": {"gross_principal":1100.0,"ownership":0.51,"hpp_acquired_debt_offset":30.233,"new_due":"2027-11-09","reserve_at_JV":20.0,"completion_announced_date":"2026-09-11","key":"hpp_hollywood_extension","baseline_page":13},
+  "sale": {"completed_date":"2026-09-25","howard_gross_proceeds":65.5,"q3_gross_dispositions":90.5,"observed_debt_repayment":null,"key":"hpp_howard_sale"},
+  "tender": {"announced_date":"2026-10-05","expiration":"2026-10-09T17:00:00-04:00","expected_settlement":"2026-10-14","status":"announced","principal_2027_target":100.0,"principal_2028_target":100.0,"price_2027_per_100":98.0,"price_2028_per_100":99.125,"funding":"cash and/or revolver","key":"hpp_tender"},
+  "revolver": {"undrawn_june":795.3,"commitment_expiring_2026":333.3,"principal_june":0,"source_page":13},
+  "lease": {"2027_current_ABR_june":66.099838,"2027_ABR_at_expiration_june":67.336165,"2027_current_ABR_identified_sold_glu":5.637567,"glu_area_sf":61381,"glu_expiry":"2027-11-30","total_source_page":22,"glu_source_page":19,"glu_property_mapping_page":24,"note":"Same current ABR and HPP share basis. Deduct Glu Mobile at sold 875 Howard; other sold leases, subsequent renewals, new leases, rent steps and terminations not fully reconciled. This is an identified-sale adjustment, NOT a complete current lease roll."},
+  "current_balance_note": "Known-event pro forma on June balances, not an observed October balance sheet. Post-June amortization, borrowings, cash flows and FX not reconciled. Sales proceeds do not automatically repay debt; announced tenders are not deducted."
+}

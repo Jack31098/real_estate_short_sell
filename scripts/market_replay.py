@@ -56,8 +56,10 @@ def window_return(frame, start, end):
             'total_return_pct':float((b.adjusted_close / a.adjusted_close - 1) * 100)}
 
 
-def factor_fit(data, ticker, event_date, end, window=252):
-    factors = ['KRE','SPY','d2y','d10y']
+def factor_fit(data, ticker, event_date, end, window=252, factors=None):
+    factors = ['KRE','SPY','d2y','d10y'] if factors is None else list(factors)
+    if ticker in factors:
+        raise ValueError('Target cannot be its own factor')
     complete = data[[ticker,*factors]].dropna()
     train = complete.loc[complete.index < event_date].tail(window)
     test = complete.loc[(complete.index >= event_date) & (complete.index <= end)]
@@ -87,7 +89,9 @@ def factor_fit(data, ticker, event_date, end, window=252):
             'actual_total_return_pct':float((np.prod(1+test[ticker])-1)*100),
             'model_cumulative_return_pct':float((np.prod(1+prediction)-1)*100),
             'inference':'descriptive; iid prediction interval; not causal attribution',
-            'condition_number':float(np.linalg.cond(x))}
+            'condition_number':float(np.linalg.cond(x)),
+            'standardized_condition_number':float(np.linalg.cond(np.column_stack([
+                np.ones(len(train)),(train[factors]-train[factors].mean())/train[factors].std(ddof=0)])))}
 
 
 def run(end='2026-10-06', refresh=False):

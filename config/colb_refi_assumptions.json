@@ -1,0 +1,20 @@
+{
+  "assumption_set_id": "colb-office-normalized-refi@1",
+  "principal": 100.0,
+  "ltv_anchor": 0.57,
+  "nonowner_dscr_reference": 1.76,
+  "maturity_2027_share_reference_pct": 9.0,
+  "baseline_cap_rates": [0.055, 0.065, 0.075],
+  "noi_changes": [0.0, -0.1, -0.2, -0.3],
+  "cap_rate_changes_bps": [0, 100, 200],
+  "refinance_rates": [0.06, 0.07, 0.08, 0.09],
+  "maximum_ltv": [0.6, 0.65],
+  "minimum_dscr": 1.25,
+  "amortization_years": [25, 0],
+  "fees": 0,
+  "principal_amortization_before_rollover": 0,
+  "scope_match": "incompatible",
+  "scope_note": "57% is all-office average LTV; 1.76 is non-owner office average DSCR; neither describes the 2027 maturity cohort. Combining them describes a hypothetical loan, not an observed borrower. No multiplication of 9% by the differently scoped $3.559bn filing office balance.",
+  "noi_note": "NOI0 = principal / assumed LTV * assumed cap rate. DSCR 1.76 only provides an illustrative current debt-service reference; it does not determine refinancing capacity. Averaged ratios cannot identify aggregate loan-level gaps.",
+  "cost_note": "Zero transaction costs and unchanged principal are simplifying assumptions, not a bound on actual borrower cash need. Gap is borrower equity injection, asset sale, extension or other funding required; it is not bank credit loss or expected loss."
+}
