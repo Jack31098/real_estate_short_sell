@@ -1,0 +1,24 @@
+{
+  "LiquidityStress": "raw vector available; no composite or hand-labelled city score",
+  "CollateralStress": "residential raw price and repeat-sale vector; office collateral prices not observed here",
+  "coverage": [
+    "King County, WA",
+    "Snohomish County, WA",
+    "Pierce County, WA",
+    "Santa Clara County, CA",
+    "San Francisco County, CA",
+    "San Mateo County, CA"
+  ],
+  "redfin_months_per_county": {
+    "King County, WA": 32,
+    "Pierce County, WA": 32,
+    "San Francisco County, CA": 32,
+    "San Mateo County, CA": 32,
+    "Santa Clara County, CA": 32,
+    "Snohomish County, WA": 32
+  },
+  "historical_PIT_supported": false,
+  "note": "Download vintage is October 7 Pacific. Cannot reconstruct September investor information from these revised property histories.",
+  "county_sales_deed_records": "not yet ingested; NWMLS is MLS closed transactions, not the county recorder",
+  "transform_code_version": "aef4a56a6829d5420685a4d498058e83ccc08e12+tree.4e67479291c8900b"
+}

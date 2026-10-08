@@ -1,0 +1,13 @@
+ticker,training_sessions,event_start,event_end,min,max,matched_peer_specification,range_scope
+COLB,126,2026-09-08,2026-09-08,-0.2580479991432499,-0.167493875097449,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+COLB,126,2026-09-08,2026-09-10,-0.20596853817000338,-0.05035603525773798,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+COLB,126,2026-09-08,2026-09-30,1.0544563324493552,1.8265288084729652,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+COLB,252,2026-09-08,2026-09-08,-0.31395174482520827,-0.2450896215970463,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+COLB,252,2026-09-08,2026-09-10,-0.34628810281154093,0.12207778599566174,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+COLB,252,2026-09-08,2026-09-30,0.762036190876683,1.7176109999796463,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+WAFD,126,2026-09-08,2026-09-08,-4.439346797296228,-4.431944239634182,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+WAFD,126,2026-09-08,2026-09-10,-4.505144324860775,-4.404071516515609,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+WAFD,126,2026-09-08,2026-09-30,-13.05268657656193,-12.717652548618677,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+WAFD,252,2026-09-08,2026-09-08,-4.518583416691061,-4.479733793503446,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+WAFD,252,2026-09-08,2026-09-10,-4.479359944142945,-4.254717893565716,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"
+WAFD,252,2026-09-08,2026-09-30,-12.942497643960364,-11.945265145070804,not computed: no matched ex-target peer basket yet,"three available specifications, not all requested specifications"

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.redfin.com/news/data-center/downloads/",
+  "retrieved_at": "2026-10-08T02:53:14.762452+00:00",
+  "source_updated_date": "2026-10-07",
+  "sha256": "3ecca45b61746c8450e677d3ad575417521efd9d341fc1a43a3c345608a77278",
+  "raw_path": "data/raw/v2/3ecca45b61746c8450e677d3ad575417521efd9d341fc1a43a3c345608a77278.csv",
+  "download_selection": "Monthly; all counties; Jan2024-Aug2026; all available metrics; None trends",
+  "vintage_note": "Current revised vintage; original historical publication dates unknown; available_at=retrieved_at."
+}

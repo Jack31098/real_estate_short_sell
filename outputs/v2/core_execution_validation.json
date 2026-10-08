@@ -1,0 +1,19 @@
+{
+  "transform_code_version": "aef4a56a6829d5420685a4d498058e83ccc08e12+tree.4e67479291c8900b",
+  "raw_rebuild_completed": true,
+  "portable_panel_replay_completed": true,
+  "panel_replay_preserved_original_observations": true,
+  "unittest_count": 63,
+  "unittest_result": "passed",
+  "raw_rebuild_command": "python scripts/core_path.py",
+  "portable_command": "python scripts/core_path.py --from-panels",
+  "source_tree_matches_manifest": true,
+  "figures_visually_inspected": 5,
+  "critical_HPP_PDF_pages_visually_inspected": [
+    13,
+    14,
+    19,
+    22
+  ],
+  "remaining_gaps": "See core_path_report_zh.md and core_history_gaps.json"
+}

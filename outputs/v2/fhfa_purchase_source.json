@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fhfa.gov/hpi/download/quarterly_datasets/hpi_po_metro.txt",
+  "resolved_url": "https://www.fhfa.gov/hpi/download/quarterly_datasets/hpi_po_metro.txt",
+  "sha256": "d664a8e2e92f64aa17201b3bdd84d0ab4d1a4d00e9c6c15d5b34fb400c10d842",
+  "bytes": 828224,
+  "content_type": "text/plain; charset=utf-8",
+  "retrieved_at": "2026-10-08T02:30:43.756281+00:00",
+  "raw_path": "data/raw/v2/d664a8e2e92f64aa17201b3bdd84d0ab4d1a4d00e9c6c15d5b34fb400c10d842.html"
+}

@@ -1,0 +1,27 @@
+{
+  "transform_code_version": "aef4a56a6829d5420685a4d498058e83ccc08e12+tree.4e67479291c8900b",
+  "executed_at": "2026-10-08T03:14:24.074803+00:00",
+  "data_as_of": "2026-10-07 America/Los_Angeles",
+  "mode": "tracked extracted panels",
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "source_document_count": 40,
+  "bank_observations": 538,
+  "input_hashes": {
+    "core_history_observations.json": "de91c7ac526681a6665add34584610ae668d88a0b97d73bdca554b9292ba6134",
+    "core_source_manifest.json": "d87cca14b6c671189a40c4f0442cf531e140001d08c421c2290daa4d9b3ff65c",
+    "property_redfin_selected.csv": "d8bebd81f7977f39a51891384b46525021c98b6564c7d25e501f387699953708",
+    "property_monthly_long.csv": "d6126ff2a8645de37da96ae74d7edbcf8ae1af7ee32f2a16daa8763063cff208",
+    "property_hpi_quarterly.csv": "fa89f6f759a9ddc282230ec26db6e14adb9c05249fed68203523f253ca66fd4e",
+    "property_nwmls_september.csv": "649161051c647d42b14903ec9c3e088a912aa037318fcc775a5f29e5aadfd824",
+    "market_daily.csv": "ce18a90599385327da76e5752978f54b715850977324e0e4284138f0c6b46892",
+    "treasury_daily.csv": "f54d3b00701de34fedfddd51e8bfffd52e116d45bb15cd7042fa4942d8ca2863",
+    "source_manifest.json": "30afd61aaf51dba765418e38768b1c22d64b801bc04ae1c8c680210b3194c317"
+  },
+  "property_vintage": "October 7 current revised snapshot; not a historical point-in-time archive",
+  "coverage_notes": [
+    "WAFD early substandard is not relabelled classified.",
+    "HPP is a June-anchor known-event bridge, not an observed October balance sheet.",
+    "No validated matched peer basket; no causal AI attribution or dollar credit-loss estimate."
+  ]
+}

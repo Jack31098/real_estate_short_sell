@@ -1,0 +1,11 @@
+{
+  "url": "https://www.nwmls.com/home-inventory-reaches-highest-level-since-2014-expanding-buyer-choices/",
+  "resolved_url": "https://www.nwmls.com/home-inventory-reaches-highest-level-since-2014-expanding-buyer-choices/",
+  "sha256": "af3f5610e41b20b1c00e23838a735b5eca868cb690eea8ea83c6d5a3a446cda7",
+  "bytes": 109889,
+  "content_type": "text/html; charset=UTF-8",
+  "retrieved_at": "2026-10-08T02:30:45.485953+00:00",
+  "raw_path": "data/raw/v2/af3f5610e41b20b1c00e23838a735b5eca868cb690eea8ea83c6d5a3a446cda7.html",
+  "text_path": "data/derived/v2_text/af3f5610e41b20b1c00e23838a735b5eca868cb690eea8ea83c6d5a3a446cda7.txt",
+  "extraction_status": "html_text_and_alt"
+}

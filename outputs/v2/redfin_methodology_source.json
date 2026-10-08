@@ -1,0 +1,11 @@
+{
+  "url": "https://www.redfin.com/news/data-center/methodology/",
+  "resolved_url": "https://www.redfin.com/news/data-center/methodology/",
+  "sha256": "0167186bb18533dd628a983f13da33a2fed125e4ed012d3dd2d27587ed7f7411",
+  "bytes": 360532,
+  "content_type": "text/html; charset=UTF-8",
+  "retrieved_at": "2026-10-08T02:33:35.394478+00:00",
+  "raw_path": "data/raw/v2/0167186bb18533dd628a983f13da33a2fed125e4ed012d3dd2d27587ed7f7411.html",
+  "text_path": "data/derived/v2_text/0167186bb18533dd628a983f13da33a2fed125e4ed012d3dd2d27587ed7f7411.txt",
+  "extraction_status": "html_text_and_alt"
+}

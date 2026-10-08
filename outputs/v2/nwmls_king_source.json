@@ -1,0 +1,11 @@
+{
+  "url": "https://www.nwmls.com/wp-content/uploads/2026/10/Breakouts_King.pdf",
+  "resolved_url": "https://www.nwmls.com/wp-content/uploads/2026/10/Breakouts_King.pdf",
+  "sha256": "c63933349e8ce5824e2b84068b7fd1d0bf5e61526cfa3ee986ed49fa005e9ecd",
+  "bytes": 142949,
+  "content_type": "application/pdf",
+  "retrieved_at": "2026-10-08T02:30:44.161009+00:00",
+  "raw_path": "data/raw/v2/c63933349e8ce5824e2b84068b7fd1d0bf5e61526cfa3ee986ed49fa005e9ecd.pdf",
+  "text_path": "data/derived/v2_text/c63933349e8ce5824e2b84068b7fd1d0bf5e61526cfa3ee986ed49fa005e9ecd.txt",
+  "extraction_status": "pdf_text"
+}

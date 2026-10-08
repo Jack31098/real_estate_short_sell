@@ -1,0 +1,9 @@
+{
+  "url": "https://www.redfin.com/news/data-center/downloads/",
+  "retrieved_at": "2026-10-08T02:32:34.244035+00:00",
+  "source_updated_date": "2026-10-07",
+  "sha256": "abc3dc123f3c08e35bb651b8edb3d0f84fe0596eca745bbf59a522a19a0a1b0c",
+  "raw_path": "data/raw/v2/abc3dc123f3c08e35bb651b8edb3d0f84fe0596eca745bbf59a522a19a0a1b0c.csv",
+  "download_selection": "Housing Market Tracker; monthly; all 14 metrics; counties in top 50 metros; Jan2024-Aug2026; None trends",
+  "vintage_note": "Current revised vintage; original historical publication dates unknown; available_at=retrieved_at."
+}

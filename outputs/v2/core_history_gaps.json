@@ -1,0 +1,86 @@
+[
+  {
+    "ticker": "WAFD",
+    "period_end": "2024-03-31",
+    "metric": "classified_to_net_loans_pct",
+    "reason": "Row absent: ^Total adversely classified loans to net loans\\s+ / None",
+    "source_id": "src_a312b9209ac0494d741e669f"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2024-03-31",
+    "metric": "past_due_to_net_loans_pct",
+    "reason": "Row absent: ^Delinquencies to net loans\\s+ / None",
+    "source_id": "src_a312b9209ac0494d741e669f"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2024-06-30",
+    "metric": "classified_to_net_loans_pct",
+    "reason": "Row absent: ^Total adversely classified loans to net loans\\s+ / None",
+    "source_id": "src_4880721d5371670453db0339"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2024-06-30",
+    "metric": "past_due_to_net_loans_pct",
+    "reason": "Row absent: ^Delinquencies to net loans\\s+ / None",
+    "source_id": "src_4880721d5371670453db0339"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2024-09-30",
+    "metric": "classified_to_net_loans_pct",
+    "reason": "Row absent: ^Total adversely classified loans to net loans\\s+ / None",
+    "source_id": "src_1cd11fc9e626e982aa11f4ff"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2024-12-31",
+    "metric": "classified_to_net_loans_pct",
+    "reason": "Row absent: ^Total adversely classified loans to net loans\\s+ / None",
+    "source_id": "src_92a1ff0f56bfe7b156fe795b"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2025-03-31",
+    "metric": "classified_to_net_loans_pct",
+    "reason": "Row absent: ^Total adversely classified loans to net loans\\s+ / None",
+    "source_id": "src_a2b355c7f5b2001abf045ec5"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2025-06-30",
+    "metric": "classified_to_net_loans_pct",
+    "reason": "Row absent: ^Total adversely classified loans to net loans\\s+ / None",
+    "source_id": "src_a49b962ed7eb95025e0c03da"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2025-09-30",
+    "metric": "substandard_to_net_loans_pct",
+    "reason": "Row absent: ^Substandard loans to net loans\\s+ / None",
+    "source_id": "src_89626e95906bf2d5ba60d890"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2025-12-31",
+    "metric": "substandard_to_net_loans_pct",
+    "reason": "Row absent: ^Substandard loans to net loans\\s+ / None",
+    "source_id": "src_5cb43d4802f57041c0f7ff4a"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2026-03-31",
+    "metric": "substandard_to_net_loans_pct",
+    "reason": "Row absent: ^Substandard loans to net loans\\s+ / None",
+    "source_id": "src_9744eda490f926cc3aeb7790"
+  },
+  {
+    "ticker": "WAFD",
+    "period_end": "2026-06-30",
+    "metric": "substandard_to_net_loans_pct",
+    "reason": "Row absent: ^Substandard loans to net loans\\s+ / None",
+    "source_id": "src_7f56935dfa06cc4367381dc5"
+  }
+]

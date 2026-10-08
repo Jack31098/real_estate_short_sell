@@ -1,0 +1,232 @@
+{
+  "criticized_to_net_loans_pct@core-1": {
+    "metric": "criticized_to_net_loans_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "substandard_to_net_loans_pct@core-1": {
+    "metric": "substandard_to_net_loans_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nonaccrual_to_net_loans_pct@core-1": {
+    "metric": "nonaccrual_to_net_loans_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "acl_total@core-1": {
+    "metric": "acl_total",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "borrowings_including_subordinated@core-1": {
+    "metric": "borrowings_including_subordinated",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "loans_net@core-1": {
+    "metric": "loans_net",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "deposits@core-1": {
+    "metric": "deposits",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nim_gaap_pct@core-1": {
+    "metric": "nim_gaap_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "pretax_income@core-1": {
+    "metric": "pretax_income",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "provision@core-1": {
+    "metric": "provision",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nonaccrual@core-1": {
+    "metric": "nonaccrual",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nco@core-1": {
+    "metric": "nco",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nib_deposits@core-1": {
+    "metric": "nib_deposits",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "uninsured_uncollateralized_deposits@core-1": {
+    "metric": "uninsured_uncollateralized_deposits",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "afs@core-1": {
+    "metric": "afs",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "htm@core-1": {
+    "metric": "htm",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "cash@core-1": {
+    "metric": "cash",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "past_due_amortized@core-1": {
+    "metric": "past_due_amortized",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "past_due_to_amortized_loans_pct@core-1": {
+    "metric": "past_due_to_amortized_loans_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "ppnr_gaap@core-1": {
+    "metric": "ppnr_gaap",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "past_due_to_net_loans_pct@core-1": {
+    "metric": "past_due_to_net_loans_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "classified_to_net_loans_pct@core-1": {
+    "metric": "classified_to_net_loans_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "borrowings_ex_subordinated@core-1": {
+    "metric": "borrowings_ex_subordinated",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "loans_gross@core-1": {
+    "metric": "loans_gross",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "aoci@core-1": {
+    "metric": "aoci",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "npl@core-1": {
+    "metric": "npl",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "past_due_31_89@core-1": {
+    "metric": "past_due_31_89",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "past_due_90_accruing@core-1": {
+    "metric": "past_due_90_accruing",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "acl_loans@core-1": {
+    "metric": "acl_loans",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nii@core-1": {
+    "metric": "nii",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nie@core-1": {
+    "metric": "nie",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "nim_te_pct@core-1": {
+    "metric": "nim_te_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "office_ltv_pct@core-1": {
+    "metric": "office_ltv_pct",
+    "unit": "percent",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "office_nonowner_dscr@core-1": {
+    "metric": "office_nonowner_dscr",
+    "unit": "multiple",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "office_nonaccrual@core-1": {
+    "metric": "office_nonaccrual",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "office_special_mention@core-1": {
+    "metric": "office_special_mention",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "office_classified@core-1": {
+    "metric": "office_classified",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "office_past_due_30_89@core-1": {
+    "metric": "office_past_due_30_89",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "rating_special_mention@core-1": {
+    "metric": "rating_special_mention",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "rating_substandard@core-1": {
+    "metric": "rating_substandard",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "rating_doubtful@core-1": {
+    "metric": "rating_doubtful",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "rating_loss@core-1": {
+    "metric": "rating_loss",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "classified_amortized@core-1": {
+    "metric": "classified_amortized",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "criticized_amortized@core-1": {
+    "metric": "criticized_amortized",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "brokered_deposits@core-1": {
+    "metric": "brokered_deposits",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  },
+  "uninsured_deposits@core-1": {
+    "metric": "uninsured_deposits",
+    "unit": "USD_million",
+    "definition": "See source_row, notes and input_observation_ids in core_history_observations.json."
+  }
+}

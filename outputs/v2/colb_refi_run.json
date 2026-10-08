@@ -1,0 +1,133 @@
+{
+  "assumptions": {
+    "assumption_set_id": "colb-office-normalized-refi@1",
+    "principal": 100.0,
+    "ltv_anchor": 0.57,
+    "nonowner_dscr_reference": 1.76,
+    "maturity_2027_share_reference_pct": 9.0,
+    "baseline_cap_rates": [
+      0.055,
+      0.065,
+      0.075
+    ],
+    "noi_changes": [
+      0.0,
+      -0.1,
+      -0.2,
+      -0.3
+    ],
+    "cap_rate_changes_bps": [
+      0,
+      100,
+      200
+    ],
+    "refinance_rates": [
+      0.06,
+      0.07,
+      0.08,
+      0.09
+    ],
+    "maximum_ltv": [
+      0.6,
+      0.65
+    ],
+    "minimum_dscr": 1.25,
+    "amortization_years": [
+      25,
+      0
+    ],
+    "fees": 0,
+    "principal_amortization_before_rollover": 0,
+    "scope_match": "incompatible",
+    "scope_note": "57% is all-office average LTV; 1.76 is non-owner office average DSCR; neither describes the 2027 maturity cohort. Combining them describes a hypothetical loan, not an observed borrower. No multiplication of 9% by the differently scoped $3.559bn filing office balance.",
+    "noi_note": "NOI0 = principal / assumed LTV * assumed cap rate. DSCR 1.76 only provides an illustrative current debt-service reference; it does not determine refinancing capacity. Averaged ratios cannot identify aggregate loan-level gaps.",
+    "cost_note": "Zero transaction costs and unchanged principal are simplifying assumptions, not a bound on actual borrower cash need. Gap is borrower equity injection, asset sale, extension or other funding required; it is not bank credit loss or expected loss."
+  },
+  "reference_observations": [
+    {
+      "observation_id": "core_91b5066f446edff27455cc21",
+      "entity_id": "COLB",
+      "entity_scope": "consolidated",
+      "period_end": "2026-06-30",
+      "fiscal_label": "2026-06-30 calendar quarter",
+      "published_at": "2026-07-23",
+      "available_at": "2026-07-24T12:00:00+00:00",
+      "retrieved_at": "2026-10-07T15:16:52.327494+00:00",
+      "source_id": "src_d1822be7a549abb92dc309ed",
+      "source_sha256": "24c8527af2c5125e2dbf31eae9101925395c0d7e5589dcbf28188d3a8e158445",
+      "source_url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2026/q2/presentation/COLB-Q2-2026-Earnings-Presentation-FINAL.pdf",
+      "page_or_table": "PDF page 26",
+      "metric": "office_ltv_pct",
+      "value": 57.0,
+      "unit": "percent",
+      "denominator": "see metric and source row",
+      "portfolio_scope": "office",
+      "geography": "all",
+      "status": "observed",
+      "missing_reason": null,
+      "metric_definition_version": "office_ltv_pct@core-1",
+      "assumption_set_id": null,
+      "transform_code_version": "aef4a56a6829d5420685a4d498058e83ccc08e12+tree.4e67479291c8900b",
+      "scope": {
+        "entity": "COLB",
+        "period_end": "2026-06-30",
+        "geography": "all",
+        "portfolio": "office",
+        "occupancy": "all",
+        "measurement": "stock",
+        "basis": "reported",
+        "netting": "reported",
+        "ownership": "consolidated"
+      },
+      "source_row": "Average LTV 57% ■ Our office portfolio is 47% owner",
+      "notes": "DSCR is non-owner occupied; LTV and credit balances are all-office. Not matched 2027 maturity cohort.",
+      "input_observation_ids": [],
+      "comparability_segment": "post_PPBI_2025-08-31"
+    },
+    {
+      "observation_id": "core_9681538c828f8a010da4bb82",
+      "entity_id": "COLB",
+      "entity_scope": "consolidated",
+      "period_end": "2026-06-30",
+      "fiscal_label": "2026-06-30 calendar quarter",
+      "published_at": "2026-07-23",
+      "available_at": "2026-07-24T12:00:00+00:00",
+      "retrieved_at": "2026-10-07T15:16:52.327494+00:00",
+      "source_id": "src_d1822be7a549abb92dc309ed",
+      "source_sha256": "24c8527af2c5125e2dbf31eae9101925395c0d7e5589dcbf28188d3a8e158445",
+      "source_url": "https://s26.q4cdn.com/577104185/files/doc_earnings/2026/q2/presentation/COLB-Q2-2026-Earnings-Presentation-FINAL.pdf",
+      "page_or_table": "PDF page 26",
+      "metric": "office_nonowner_dscr",
+      "value": 1.76,
+      "unit": "multiple",
+      "denominator": "see metric and source row",
+      "portfolio_scope": "office",
+      "geography": "all",
+      "status": "observed",
+      "missing_reason": null,
+      "metric_definition_version": "office_nonowner_dscr@core-1",
+      "assumption_set_id": null,
+      "transform_code_version": "aef4a56a6829d5420685a4d498058e83ccc08e12+tree.4e67479291c8900b",
+      "scope": {
+        "entity": "COLB",
+        "period_end": "2026-06-30",
+        "geography": "all",
+        "portfolio": "office",
+        "occupancy": "all",
+        "measurement": "stock",
+        "basis": "reported",
+        "netting": "reported",
+        "ownership": "consolidated"
+      },
+      "source_row": "DSC (non-owner occupied) 1.76x occupied, 50% non-owner occupied, and",
+      "notes": "DSCR is non-owner occupied; LTV and credit balances are all-office. Not matched 2027 maturity cohort.",
+      "input_observation_ids": [],
+      "comparability_segment": "post_PPBI_2025-08-31"
+    }
+  ],
+  "grid_cells": 576,
+  "transform_code_version": "aef4a56a6829d5420685a4d498058e83ccc08e12+tree.4e67479291c8900b",
+  "not_loss_estimate": true,
+  "actual_2027_cohort_gap": null,
+  "reason": "Missing joint distribution of 2027 office loan LTV, NOI, debt service and borrower resources"
+}

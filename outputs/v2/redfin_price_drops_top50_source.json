@@ -1,0 +1,9 @@
+{
+  "url": "https://www.redfin.com/news/data-center/downloads/",
+  "retrieved_at": "2026-10-08T02:32:34.244035+00:00",
+  "source_updated_date": "2026-10-07",
+  "sha256": "7dd3fe732db90be2bddf1ccbb22169f0a36a1d8a952092fbb2a6a5bb99e35f0c",
+  "raw_path": "data/raw/v2/7dd3fe732db90be2bddf1ccbb22169f0a36a1d8a952092fbb2a6a5bb99e35f0c.csv",
+  "download_selection": "Price Drops; monthly; counties in top 50 metros; Jan2024-Aug2026; None trends",
+  "vintage_note": "Current revised vintage; original historical publication dates unknown; available_at=retrieved_at."
+}

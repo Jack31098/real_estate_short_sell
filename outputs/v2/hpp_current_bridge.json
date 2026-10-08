@@ -1,0 +1,152 @@
+{
+  "facts": {
+    "assumption_set_id": "hpp-june-anchor-known-events@1",
+    "as_of": "2026-10-07T23:59:59-07:00",
+    "baseline_date": "2026-06-30",
+    "unit": "USD_million",
+    "debt_basis": "HPP ownership share incl unconsolidated JVs, net of acquired CMBS loan; includes scheduled amortization; NOT GAAP consolidated debt",
+    "maturity_baseline": {
+      "2026": 535.767,
+      "2027": 503.195,
+      "2028": 503.247,
+      "2029": 510.0,
+      "2030": 778.833
+    },
+    "maturity_source": {
+      "key": "hpp_2026q2_supplement",
+      "page": 14
+    },
+    "hollywood": {
+      "gross_principal": 1100.0,
+      "ownership": 0.51,
+      "hpp_acquired_debt_offset": 30.233,
+      "new_due": "2027-11-09",
+      "reserve_at_JV": 20.0,
+      "completion_announced_date": "2026-09-11",
+      "key": "hpp_hollywood_extension",
+      "baseline_page": 13
+    },
+    "sale": {
+      "completed_date": "2026-09-25",
+      "howard_gross_proceeds": 65.5,
+      "q3_gross_dispositions": 90.5,
+      "observed_debt_repayment": null,
+      "key": "hpp_howard_sale"
+    },
+    "tender": {
+      "announced_date": "2026-10-05",
+      "expiration": "2026-10-09T17:00:00-04:00",
+      "expected_settlement": "2026-10-14",
+      "status": "announced",
+      "principal_2027_target": 100.0,
+      "principal_2028_target": 100.0,
+      "price_2027_per_100": 98.0,
+      "price_2028_per_100": 99.125,
+      "funding": "cash and/or revolver",
+      "key": "hpp_tender"
+    },
+    "revolver": {
+      "undrawn_june": 795.3,
+      "commitment_expiring_2026": 333.3,
+      "principal_june": 0,
+      "source_page": 13
+    },
+    "lease": {
+      "2027_current_ABR_june": 66.099838,
+      "2027_ABR_at_expiration_june": 67.336165,
+      "2027_current_ABR_identified_sold_glu": 5.637567,
+      "glu_area_sf": 61381,
+      "glu_expiry": "2027-11-30",
+      "total_source_page": 22,
+      "glu_source_page": 19,
+      "glu_property_mapping_page": 24,
+      "note": "Same current ABR and HPP share basis. Deduct Glu Mobile at sold 875 Howard; other sold leases, subsequent renewals, new leases, rent steps and terminations not fully reconciled. This is an identified-sale adjustment, NOT a complete current lease roll."
+    },
+    "current_balance_note": "Known-event pro forma on June balances, not an observed October balance sheet. Post-June amortization, borrowings, cash flows and FX not reconciled. Sales proceeds do not automatically repay debt; announced tenders are not deducted."
+  },
+  "hollywood_hpp_net_shift": 530.767,
+  "total_hpp_share_debt_june": 2831.042,
+  "maturity_2027_known_events": 1033.962,
+  "lease_2027_identified_sale_adjusted_current_ABR": 60.46227100000001,
+  "lease_scope_match": "exact",
+  "lease_scope_evidence": "Both cells: June current ABR, HPP ownership share; Glu Mobile expires 2027 at disposed 875 Howard.",
+  "remaining_lease_roll_is_complete": false,
+  "tender_completed_principal_reduction": 0,
+  "tender_full_acceptance_cash_scenario": 197.125,
+  "tender_scenario_note": "Conditional $197.125m purchase cash, before accrued interest/fees; may use revolver, so not an automatic $200m net-debt reduction.",
+  "sources": [
+    {
+      "key": "hpp_2026q2_supplement",
+      "ticker": "HPP",
+      "cik": 1482512,
+      "accession": "0001482512-26-000064",
+      "published_at": "2026-08-05",
+      "period_end": "2026-06-30",
+      "document_type": "EX-99.2",
+      "url": "https://s22.q4cdn.com/675150095/files/doc_financials/2026/q2/HPP-Q2-2026-Supplemental-compressed.pdf",
+      "sec_url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000064/q22026ex992.htm",
+      "resolved_url": "https://s22.q4cdn.com/675150095/files/doc_financials/2026/q2/HPP-Q2-2026-Supplemental-compressed.pdf",
+      "sha256": "04a79d4d8c49e242dfac10e8c1797d9268a8620ec5ba1f5dfea01326050750e3",
+      "bytes": 382423,
+      "content_type": "application/pdf",
+      "retrieved_at": "2026-10-07T15:16:56.184210+00:00",
+      "raw_path": "data/raw/v2/04a79d4d8c49e242dfac10e8c1797d9268a8620ec5ba1f5dfea01326050750e3.pdf",
+      "text_path": "data/derived/v2_text/04a79d4d8c49e242dfac10e8c1797d9268a8620ec5ba1f5dfea01326050750e3.txt",
+      "extraction_status": "pdf_text",
+      "source_id": "src_a0fa8950f1099ee51325f88f"
+    },
+    {
+      "key": "hpp_hollywood_extension",
+      "ticker": "HPP",
+      "published_at": "2026-09-11",
+      "period_end": null,
+      "document_type": "IR corporate event",
+      "url": "https://s22.q4cdn.com/675150095/files/content_files/HMP-Loan-Extension-PR-091026-FINAL.pdf",
+      "resolved_url": "https://s22.q4cdn.com/675150095/files/content_files/HMP-Loan-Extension-PR-091026-FINAL.pdf",
+      "sha256": "eba6f9f3bc3b67a4f79d81b799f18979481b98f329bd1868859ae4a1087d81f3",
+      "bytes": 155164,
+      "content_type": "application/pdf",
+      "retrieved_at": "2026-10-07T15:41:45.937244+00:00",
+      "raw_path": "data/raw/v2/eba6f9f3bc3b67a4f79d81b799f18979481b98f329bd1868859ae4a1087d81f3.pdf",
+      "text_path": "data/derived/v2_text/eba6f9f3bc3b67a4f79d81b799f18979481b98f329bd1868859ae4a1087d81f3.txt",
+      "extraction_status": "pdf_text",
+      "source_id": "src_a2334269ead0d3e2f84df788"
+    },
+    {
+      "key": "hpp_howard_sale",
+      "ticker": "HPP",
+      "published_at": "2026-09-25",
+      "period_end": null,
+      "document_type": "IR corporate event",
+      "url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/875-and-899-Howard-Sale-PR-092426-FINAL-003.pdf",
+      "resolved_url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/875-and-899-Howard-Sale-PR-092426-FINAL-003.pdf",
+      "sha256": "ed4e025e444b022754cf9ab4358af9bcac212482329c9e618f1e6c3461e842d6",
+      "bytes": 147445,
+      "content_type": "application/pdf",
+      "retrieved_at": "2026-10-07T15:41:47.175933+00:00",
+      "raw_path": "data/raw/v2/ed4e025e444b022754cf9ab4358af9bcac212482329c9e618f1e6c3461e842d6.pdf",
+      "text_path": "data/derived/v2_text/ed4e025e444b022754cf9ab4358af9bcac212482329c9e618f1e6c3461e842d6.txt",
+      "extraction_status": "pdf_text",
+      "source_id": "src_8c471fea4f83ffd23e729527"
+    },
+    {
+      "key": "hpp_tender",
+      "ticker": "HPP",
+      "published_at": "2026-10-05",
+      "period_end": null,
+      "document_type": "IR corporate event",
+      "url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/10/HPP-Tender-PR-FINAL.pdf",
+      "resolved_url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/10/HPP-Tender-PR-FINAL.pdf",
+      "sha256": "36d86c76586741b78b0a889005c12a590fc6e1a68c8d0261e9c6e451679933ea",
+      "bytes": 164544,
+      "content_type": "application/pdf",
+      "retrieved_at": "2026-10-07T15:41:47.571180+00:00",
+      "raw_path": "data/raw/v2/36d86c76586741b78b0a889005c12a590fc6e1a68c8d0261e9c6e451679933ea.pdf",
+      "text_path": "data/derived/v2_text/36d86c76586741b78b0a889005c12a590fc6e1a68c8d0261e9c6e451679933ea.txt",
+      "extraction_status": "pdf_text",
+      "source_id": "src_bdd9350500d9e81c34049de7"
+    }
+  ],
+  "transform_code_version": "aef4a56a6829d5420685a4d498058e83ccc08e12+tree.4e67479291c8900b",
+  "metric_definition_version": "HPP-known-event-bridge@1"
+}

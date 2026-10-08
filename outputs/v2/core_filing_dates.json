@@ -1,0 +1,92 @@
+[
+  {
+    "period_end": "2024-03-31",
+    "published_at": "2024-05-07",
+    "filing_id": 17518711,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2024-06-30",
+    "published_at": "2024-08-06",
+    "filing_id": 17735591,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2024-09-30",
+    "published_at": "2024-11-05",
+    "filing_id": 17943480,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2024-12-31",
+    "published_at": "2025-02-25",
+    "filing_id": 18220609,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2025-03-31",
+    "published_at": "2025-05-06",
+    "filing_id": 18439293,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2025-06-30",
+    "published_at": "2025-08-06",
+    "filing_id": 18671198,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2025-09-30",
+    "published_at": "2025-11-06",
+    "filing_id": 18897295,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2025-12-31",
+    "published_at": "2026-02-26",
+    "filing_id": 19191691,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2026-03-31",
+    "published_at": "2026-05-05",
+    "filing_id": 19412677,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  },
+  {
+    "period_end": "2026-06-30",
+    "published_at": "2026-08-04",
+    "filing_id": 19664788,
+    "funding_extracted": [
+      "brokered_deposits",
+      "uninsured_deposits"
+    ]
+  }
+]
