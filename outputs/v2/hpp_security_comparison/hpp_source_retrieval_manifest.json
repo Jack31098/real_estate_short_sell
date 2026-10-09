@@ -1,0 +1,49 @@
+[
+  {
+    "key": "q2_supplement",
+    "url": "https://s22.q4cdn.com/675150095/files/doc_financials/2026/q2/HPP-Q2-2026-Supplemental-compressed.pdf",
+    "resolved_url": "https://s22.q4cdn.com/675150095/files/doc_financials/2026/q2/HPP-Q2-2026-Supplemental-compressed.pdf",
+    "retrieved_at": "2026-10-09T18:17:52.899125+00:00",
+    "sha256": "04a79d4d8c49e242dfac10e8c1797d9268a8620ec5ba1f5dfea01326050750e3",
+    "bytes": 382423
+  },
+  {
+    "key": "q2_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000064/q22026ex991.htm",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "preferred_articles",
+    "url": "https://www.sec.gov/Archives/edgar/data/1482512/000119312521331299/d221141dex31.htm",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "preferred_prices",
+    "url": "https://chartexchange.com/symbol/nyse-hpp%2Fpc/historical/",
+    "resolved_url": "https://chartexchange.com/symbol/nyse-hpp%2Fpc/historical/",
+    "retrieved_at": "2026-10-09T18:17:55.125312+00:00",
+    "sha256": "f999397d10488fd0652bd5d719dcbfbd0ad3effb1911bcb96adb4be41b1e0c89",
+    "bytes": 329356
+  },
+  {
+    "key": "preferred_prices_quiver",
+    "url": "https://www.quiverquant.com/stock/HPP-C/historical-prices/",
+    "resolved_url": "https://www.quiverquant.com/stock/HPP-C/historical-prices/",
+    "retrieved_at": "2026-10-09T18:17:56.544995+00:00",
+    "sha256": "8510d5dc14c56b7d5dac82c26bc935ac2ab97654c79773d2229dd51777ff0093",
+    "bytes": 2107931
+  },
+  {
+    "key": "common_prices",
+    "url": "https://stockanalysis.com/stocks/hpp/history/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "tender",
+    "url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/10/HPP-Tender-PR-FINAL.pdf",
+    "resolved_url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/10/HPP-Tender-PR-FINAL.pdf",
+    "retrieved_at": "2026-10-09T18:17:56.861063+00:00",
+    "sha256": "36d86c76586741b78b0a889005c12a590fc6e1a68c8d0261e9c6e451679933ea",
+    "bytes": 164544
+  }
+]

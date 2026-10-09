@@ -1,8 +1,73 @@
 # Project handoff
 
-Updated: 2026-10-07 (America/Los_Angeles)
+Updated: 2026-10-09 (America/Los_Angeles)
 
-## Latest execution: four research priorities
+## Latest execution: HPP common versus callable Series C (2026-10-09)
+
+Start with `outputs/v2/hpp_security_comparison/hpp_security_comparison.html`.
+This advances the HPP priority within V2.1; it does not replace the earlier
+credit/property execution or claim a completed property NAV/capital-structure model.
+
+- Verified the issuer's Series C cumulative, perpetual terms: $25 liquidation
+  preference, $1.1875 annual dividend, optional ordinary call from November 16,
+  2026. First call date is not mandatory redemption or maturity.
+- Same-date October 8 closes: HPP $11.88, Series C $14.46. Preferred close/8100
+  volume confirmed in two downloaded vendors. Intraday October 9 quotes and stale
+  search-cache prices are excluded. Borrow inventory, fee and bid/ask remain unknown.
+- Executed 456 short-cost scenarios, yield repricing and conditional liquidation
+  allocations. No probabilities, expected return, absolute NAV or joint terminal
+  economic-state mapping were estimated. D/y applies only to uninterrupted
+  no-call perpetuities. Suspended-dividend terminal quotes are exogenous; arrears
+  are recorded, not erased. Returns use equal initial notional, not margin capital.
+- One-year illustration: common $8 exit/3% fee gives 29.7% net. Preferred 12%
+  required yield/5% fee/full dividends gives 18.4%; 16% gives 35.5%. Matching the
+  common scenario requires preferred below $8.26 (~14.38% uninterrupted yield).
+  These are conditional examples, not evidence the preferred is mispriced.
+- Re-downloaded Q2 supplemental and tender PDFs: hashes match the prior archive;
+  visually reviewed pages 8/12/13/15. Kept consolidated versus ownership-share
+  debt/NOI/cash distinct. Absolute per-share NAV remains gated on current common,
+  OP unit/award dilution and the parent-level claims/property map.
+- Reproduced the old core path from tracked panels in an isolated local clone;
+  all 63 prior tests passed. New 13 financial/gating tests also passed, total 76.
+  HTML desktop/mobile and controls were verified; Canvas source type-check passed.
+- Tender is still unverified/unsettled for this research snapshot: observed debt
+  reduction remains zero. $98/$99.125 are issuer tender offers, NOT observed bond
+  trading prices. Cash/revolver funding of full targets reduces net debt only by
+  the $2.875m purchase discount before accrued interest/fees, not $200m.
+
+Reproduce this slice: `python scripts/hpp_security_comparison.py` followed by
+`python -m unittest discover -s tests`. Config and source references are in
+`config/hpp_security_inputs.json`; source byte metadata and all analytical results
+are under `outputs/v2/hpp_security_comparison/`. A fresh portable replay of the older
+core pass remains `python scripts/core_path.py --from-panels` (on Windows use Python
+UTF-8 mode, e.g. `python -X utf8 ...`). Older tracked observations/reports were not
+overwritten by this slice.
+
+Next: obtain tender acceptance/settlement and cash/revolver changes, rebuild the
+post-disposition lease/NOI/cash bridge, and constrain 2027-2030 TI/LC, refinance,
+dilution and liquidation scenarios jointly. Broker locate/fees are needed only
+for an executable short comparison; public-source research can continue now.
+
+## Remote continuation package (2026-10-09)
+
+This delivery includes the comparison script, locked input configuration, 13 new
+unit tests, full scenario outputs, source retrieval/validation manifests, and
+standalone HTML/Canvas reports. The run manifest records the execution base
+`5a92ea869d04adef86b76e340649a38cb049597c`; it is provenance for the analysis,
+not the eventual delivery commit. Prior tracked research snapshots are preserved.
+
+Raw downloaded documents remain ignored under `data/raw/` and are not included
+in the remote delivery. Source URLs, retrieval metadata and document hashes are
+included so a fresh checkout can retrieve and verify them. The comparison itself
+runs from the tracked configuration without those raw caches. Historical pricing
+and findings are an October 8/9 snapshot; refresh evidence before trading use.
+
+Continue first with tender settlement evidence and the post-disposition cash/NOI
+bridge described above. No additional user input is required for public-source
+research. Actual broker locate availability and fees are required before calling
+any modeled short scenario executable.
+
+## Previous execution: four research priorities (2026-10-07)
 
 Start with `outputs/v2/core_path_report_zh.md`. The framework remains V2.1;
 the execution order changed to targeted history + property liquidity/price +

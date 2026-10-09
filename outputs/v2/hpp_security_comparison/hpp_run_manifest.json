@@ -1,0 +1,13 @@
+{
+  "executed_at": "2026-10-09T18:35:13.604854+00:00",
+  "model_version": "HPP-security-comparison@1",
+  "git_base": "5a92ea869d04adef86b76e340649a38cb049597c",
+  "config_sha256": "63c2b584b9ef2d6743214cf6c6d70b571750e24a07618653c1d6e231291eac4a",
+  "model_sha256": "9185036f7f41e299f440386958912ea25749752968b950a5c27d27e3f0620690",
+  "input_price_date": "2026-10-08",
+  "research_date": "2026-10-09",
+  "scenario_count": 456,
+  "expected_return_computed": false,
+  "absolute_nav_computed": false,
+  "broker_executable_comparison": false
+}

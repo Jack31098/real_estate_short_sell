@@ -2,6 +2,12 @@
 
 日期：2026-10-07（America/Los_Angeles）。计划版本：`2026-10-07-r2`。状态：执行中，已完成第一、二批的首个可运行切片；完整批次尚未验收。新版结果见 [首轮执行报告](outputs/v2/research_report_zh.md)，准确执行代码与输入哈希见 `outputs/v2/run_manifest.json`、`code_manifest.json`。旧静态计算基线为 `e15ea64`。
 
+### 2026-10-09 HPP 证券比较首轮执行
+
+已核对 Series C 永续累计优先股条款与 10 月 8 日同日价格；新增 456 个借券、持仓期限、现金股息情景及独立清算分配模型。已有核心面板复现与 63 项旧测试通过，新增 13 项测试通过。交互结果见 `outputs/v2/hpp_security_comparison/hpp_security_comparison.html`。
+
+目前不能确认优先股的可实现空头收益比普通股更大。持续派息、优先股年借券费 5%、普通股年费 3% 的一年情景中，普通股退出 $8 对应净收益 29.7%；优先股需要低于 $8.26 才能匹配。退出价与要求收益率尚未由同一经济情景联合约束，不给出预期收益或绝对 NAV。停息时累计欠息不消失，D/y 不用于停息估值。债券回购报价不作为债券市场成交价；实际结算前不扣减观察债务。下一步继续按 HPP 当前现金/债务/租约核对、2027–2030 融资与 TI/LC 资本结构桥推进，无需先完成大规模控制组或 CMBS 回填。
+
 ### 2026-10-07 执行顺序更新（框架不变）
 
 专家通过 0942e3c 后，critical path 改为：目标信用/资金历史 + Property Liquidity/Price + COLB 2027 RefiGap + HPP current known-event debt/lease bridge。**所有历史文件完整回填不再作为进入第三/第四批的 blocker；对照组匹配在核心面板之后。暂不启动 LODES、HMDA vulnerability 或 CMBS 大规模解析。**

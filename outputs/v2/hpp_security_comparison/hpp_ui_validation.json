@@ -1,0 +1,11 @@
+{
+  "desktop_rendered": true,
+  "mobile_rendered": true,
+  "no_mobile_overflow": true,
+  "interactive_examples_verified": [
+    "12% yield:18.4% net",
+    "16% yield:35.5% net",
+    "common $8:29.7% net"
+  ],
+  "browser_errors": []
+}

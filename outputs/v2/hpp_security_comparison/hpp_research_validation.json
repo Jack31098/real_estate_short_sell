@@ -1,0 +1,16 @@
+{
+  "old_panel_replay_completed": true,
+  "old_tests_passed": 63,
+  "new_tests_passed": 13,
+  "total_tests_passed": 76,
+  "typescript_check": "passed against official cursor/canvas declarations",
+  "html_ui_validation": "hpp_ui_validation.json",
+  "pdf_pages_visually_verified": [
+    8,
+    12,
+    13,
+    15
+  ],
+  "raw_q2_and_tender_match_pinned_hashes": true,
+  "absolute_NAV_or_expected_returns_claimed": false
+}
