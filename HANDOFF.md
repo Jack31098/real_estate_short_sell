@@ -2,7 +2,56 @@
 
 Updated: 2026-10-09 (America/Los_Angeles)
 
-## Latest execution: HPP common versus callable Series C (2026-10-09)
+## Latest execution: HPP cash/covenant evidence audit (2026-10-09)
+
+User reprioritized: freeze the existing 456 security-return scenarios. First close
+cash/debt/lease/NOI and contractual constraints; then use one 2027-2030 economic
+state for common value and preferred cash dividends/arrears/recovery plus reverse
+NAV; third obtain actual broker execution evidence. Missing locate quotes do not
+block the first two public-source workstreams. No executable returns are claimed.
+
+Start with `outputs/v2/hpp_liquidity_audit/hpp_liquidity_audit.html` and
+`cash_covenant_audit_zh.md`. This is a Priority 1 evidence slice, not a closed
+October balance sheet, complete funding-gap model or calibrated joint NAV.
+
+- Cutoff: October 9, 12:10:59 PDT / 15:10:59 EDT, before scheduled tender expiry.
+  Tender accepted amounts, settlement and cash/revolver split remain unknown;
+  verified completed reduction is zero, not a forecast of zero final acceptance.
+- Located Sep 10, 2025 Fifth Modification Exhibit A; read contract definitions and
+  visually checked redline pages/images 165-166, and Q2 supplemental page 15.
+  FCC is trailing 12 months, contract Adjusted EBITDA/Fixed Charges, with the Q2
+  pro-forma denominator window tied to 2025 Projections. Filled compliance
+  certificate and those projections were not obtained. The 1.6x display is rounded.
+  6.25% numerator sensitivity at fixed denominator is NOT a NOI default threshold.
+- Liquidity >=125m applies when revolving COMMITMENTS >600m. Issuer press-release
+  borrowings wording conflicts with signed contract/8-K; use contract. June cash
+  80.760m plus unused 795.250m gives 876.010m from precise components; not current
+  spendable cash. No-default/pro-forma conditions restrict draws. Commitments fall
+  by 333.250m on Dec 21, 2026; 2027 remaining 462m. Extended base maturity Dec 2028;
+  Dec 2029 requires two conditional six-month options. Unencumbered NOI coverage
+  minimum steps from 1.75x back to 2.0x after 2026.
+- Financial covenants fall under 11.1(b)(i); do not import (b)(ii)'s general 30-day
+  cure. No automatic equity cure verified. Any EOD restricts upstream distributions
+  under 10.1(i); lender remedies/waiver are conditional, not observed default.
+- Gross Q3 sales 90.5m, but net proceeds, actual repayment and disposed NOI remain
+  unreconciled. ABR removed for Glu 5.637567m is not NOI. Hollywood JV reserve 20m
+  and excess-cash sweep matter for upstream liquidity; actual HPP cash contribution
+  unknown. Known-event 2027 HPP-share maturity 1033.962m is not a matched funding gap.
+- Found pre-funded warrants: 10.223269m in Q2 EPS footnote. Listed common alone is
+  insufficient; Q2 weighted-average common/OP units 65.684497m is not current fully
+  diluted units. Reconcile OP/awards/JV/parent claims before per-share reverse NAV.
+- Added a stdlib-only audit with unknown-cash and basis-match gates, 10 financial
+  tests (86 total passed), source references, cutoff, input/code hashes, and standalone HTML/Canvas. HTML controls/console/layout and Canvas types checked.
+  Direct source-download 403 attempts are recorded; web reads have no invented raw
+  hash. Existing PDF hashes retained. Previous 456 scenarios and old outputs unchanged.
+
+Reproduce: `python scripts/hpp_liquidity_audit.py`; `python -m unittest discover -s tests`.
+Next: tender results/actual Oct 14 settlement, public lease/property debt/TI-LC and
+unit/claim mapping, then Q3 results scheduled Nov 5. Do not wait for broker data to
+continue those. Do not add subjective price/yield targets or probabilities.
+No automation or broker transaction was created.
+
+## Previous execution: HPP common versus callable Series C (2026-10-09)
 
 Start with `outputs/v2/hpp_security_comparison/hpp_security_comparison.html`.
 This advances the HPP priority within V2.1; it does not replace the earlier

@@ -1,0 +1,16 @@
+{
+  "full_repository_unittest_count": 86,
+  "full_repository_unittest_result": "passed",
+  "new_financial_and_gate_test_count": 10,
+  "canvas_typescript_check": "passed using installed cursor/canvas declarations",
+  "html_baseline_headroom_display": "6.2500%",
+  "html_denominator_plus_5pct_headroom_display": "1.5625%",
+  "html_console_errors": [],
+  "html_horizontal_overflow": false,
+  "source_links_https": true,
+  "old_return_grid_expanded": false,
+  "current_cash_verified": false,
+  "actual_2027_funding_gap_verified": false,
+  "joint_nav_calibrated": false,
+  "executable_return_verified": false
+}

@@ -1,0 +1,8 @@
+{
+  "executed_at": "2026-10-09T19:18:29.814727+00:00",
+  "research_cutoff": "2026-10-09T19:10:59+00:00",
+  "config_sha256": "684822e95c5ddeca1f05bfab801e557acfdf69cf89b28030f4c99b70d846d7ac",
+  "script_sha256": "7b5113f548393e24947bad7328f48e434f322fa8d3a6b26592c1d85b05c48612",
+  "assumption_set_id": "hpp-liquidity-covenant-audit-2026-10-09@1",
+  "expanded_security_return_grid": false
+}

@@ -1,0 +1,204 @@
+{
+  "research_cutoff": "2026-10-09T19:10:59+00:00",
+  "assumption_set_id": "hpp-liquidity-covenant-audit-2026-10-09@1",
+  "scope": "Priority 1 evidence audit; no new security-return grid or calibrated joint NAV",
+  "coverage": {
+    "displayed_ratio": 1.6,
+    "minimum": 1.5,
+    "numerator_drop_to_equality_if_denominator_unchanged": 0.0625,
+    "denominator_rise_to_equality_if_numerator_unchanged": 0.06666666666666665,
+    "numerator_drop_to_equality_if_denominator_rises_5pct": 0.015624999999999889,
+    "nearest_0_1_rounding_illustration": {
+      "assumption_verified": false,
+      "ratio_interval": "[1.55, 1.65)",
+      "numerator_drop_interval": [
+        0.032258064516129115,
+        0.09090909090909083
+      ],
+      "upper_endpoint_excluded": true
+    },
+    "actual_unrounded_headroom": null,
+    "noi_drop_threshold": null,
+    "status": "arithmetic_sensitivity_not_covenant_certificate",
+    "definition": {
+      "executed_date": "2025-09-10",
+      "filed_date": "2025-09-16",
+      "source": "fifth_amendment",
+      "fixed_charge_section": "Exhibit A, Section 10.1(c), printed page 135 / image 165",
+      "window": "Immediately preceding consecutive 12 months, tested each fiscal quarter end",
+      "basis": "100% of consolidated affiliates plus contract Ownership Share of unconsolidated affiliates; not the HPP ownership-share metric",
+      "numerator": "Contract EBITDA less contract Capital Reserves; separate from supplemental cash adjusted EBITDAre",
+      "fixed_charges": "Contract Interest Expense + scheduled principal excluding maturity balloons/bullets + qualifying preferred dividends paid or accrued; definitions and intercompany exclusions apply",
+      "capital_reserves_per_sf_year": {
+        "office_and_other": 0.25,
+        "studio": 0.4
+      },
+      "special_pro_forma_denominator": "Quarter ending June 30, 2025 or consecutive 12-month period immediately following June 30, 2025: per 2025 Projections delivered to agent",
+      "2025_projections_or_filled_compliance_certificate_obtained": false,
+      "liquidity_section": "Section 10.1(f) and definition Liquidity; draw condition Section 6.2(e)",
+      "liquidity_trigger": "Revolving COMMITMENTS > 600, not borrowings > 600",
+      "liquidity_minimum": 125.0,
+      "liquidity_trigger_commitments": 600.0,
+      "liquidity_definition": "Consolidated unrestricted cash and cash equivalents + unused revolving commitments",
+      "draw_conditions_verified": "Section 6.2: no Default/Event of Default, representations true, Section 2.16 limits, and pro forma minimum liquidity when commitments > 600",
+      "unencumbered_noi_minimum_through_2026": 1.75,
+      "unencumbered_noi_minimum_after_2026": 2.0,
+      "financial_default_section": "Article X breach is within Section 11.1(b)(i); 30-day period in (b)(ii) does not apply automatically to it",
+      "automatic_equity_cure_verified": false,
+      "remedies": "Section 11.2(a)(ii) lender-directed acceleration/termination for other EOD; Section 11.7 discretionary rescission after remedy/waiver; Section 13.7 written consent",
+      "distribution_section": "Section 10.1(i): any EOD restricts upstream distributions to REIT/tax minimum; additional subsidiary restrictions for payment/insolvency EOD or acceleration",
+      "source_conflict": "Issuer Sep 16 press release says borrowings > 600; signed contract and 8-K say commitments > 600. Contract governs this audit."
+    }
+  },
+  "june_liquidity_constraint_only": {
+    "liquidity": 876.01,
+    "applicable_floor": 125.0,
+    "maximum_net_cash_spend_under_this_constraint": 751.01,
+    "shortfall_to_floor": 0.0,
+    "certified_drawable_capacity": null
+  },
+  "2027_facility_rolloff": {
+    "committed_reduction": 333.25,
+    "remaining_commitments": 462.0,
+    "extended_base_maturity": "2028-12-31",
+    "extended_optional_maturity": "2029-12-31",
+    "extended_maturity_is_conditional": true,
+    "june_cash_plus_2027_commitments_static": 542.76,
+    "static_capacity_status": "not_current_cash_not_2027_forecast"
+  },
+  "sale_bridge": {
+    "completed_gross_sales": 90.5,
+    "current_cash": null,
+    "net_sale_proceeds": null,
+    "debt_repayment": null,
+    "disposed_noi": null,
+    "status": "gross_sale_evidence_only",
+    "identified_2027_current_abr_removed": 5.637567,
+    "june_2027_abr_less_identified_sold_lease": 60.46227100000001,
+    "complete_current_lease_roll": false,
+    "abr_is_noi": false
+  },
+  "current_cash_reconciliation": {
+    "current_cash": null,
+    "missing": [
+      "debt_principal_repayments",
+      "jv_distributions_or_contributions",
+      "net_sale_proceeds",
+      "operating_cash_net_of_interest",
+      "preferred_cash_dividends",
+      "reserves_fx_and_other",
+      "revolver_net_draws",
+      "ti_lc_and_capex"
+    ],
+    "status": "unreconciled"
+  },
+  "hollywood": {
+    "id": "hollywood",
+    "executed_date": "2026-09-09",
+    "gross_loan": 1100.0,
+    "hpp_share_net_shift": 530.767,
+    "new_due": "2027-11-09",
+    "jv_leasing_capital_reserve": 20.0,
+    "hpp_unrestricted_cash_used_for_reserve": null,
+    "excess_cash_sweep": true,
+    "source": "hollywood_extension",
+    "locator": "Item 8.01; reserve funding source/HPP cash draw not specified"
+  },
+  "tender": {
+    "id": "tender",
+    "announced_date": "2026-10-05",
+    "expiration": "2026-10-09T17:00:00-04:00",
+    "expected_settlement": "2026-10-14",
+    "status_at_cutoff": "announced_before_expiration",
+    "target_2027": 100.0,
+    "target_2028": 100.0,
+    "accepted_2027": null,
+    "accepted_2028": null,
+    "settled_principal": null,
+    "cash_funding": null,
+    "revolver_funding": null,
+    "cash_before_interest_fees_full_targets": 197.125,
+    "source": "tender",
+    "locator": "Page 1; cash on hand and/or revolver; allocation/proration may change mix",
+    "verified_completed_principal_reduction": 0.0,
+    "observed_net_debt_change": null,
+    "conditional_full_targets_net_debt_change_before_interest_fees": -2.875,
+    "cash_plus_unused_consumption_if_full_targets": 197.125,
+    "conditional_status": "only_if_full_targets_settle_no_reallocation"
+  },
+  "maturity_2027_known_event_hpp_share": 1033.962,
+  "actual_2027_funding_gap": null,
+  "equity_denominator_evidence": {
+    "listed_common_june": 54.26753,
+    "listed_common_august_3": 54.268741,
+    "prefunded_warrants_in_q2_eps_million": 10.223269,
+    "q2_weighted_average_common_and_op_units_million": 65.684497,
+    "q2_preferred_series_a_units": 111777,
+    "series_a_liquidation_claim": 2.794425,
+    "series_c_liquidation_claim": 425.0,
+    "current_fully_diluted_denominator_verified": false,
+    "source": "q2_10q",
+    "locator": "Cover; Note 15 EPS footnotes; Note 16. Weighted average units are not a current point-in-time denominator."
+  },
+  "joint_nav_calibrated": false,
+  "executable_return_verified": false,
+  "next_public_disclosure": {
+    "q3_results_scheduled": "2026-11-05",
+    "source": "q3_release_schedule",
+    "no_automation_created": true
+  },
+  "sources": [
+    {
+      "id": "fifth_amendment",
+      "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251225000139/hpp-fifthamendmenttocred.htm",
+      "access": "Web tool text; redline images 165 and 166 visually inspected via browser. Direct download 403; no raw-byte hash claimed."
+    },
+    {
+      "id": "amendment_8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251225000139/hpp-20250910.htm",
+      "access": "Web tool read"
+    },
+    {
+      "id": "amendment_press_release",
+      "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/press-release-details/2025/Hudson-Pacific-Completes-Credit-Facility-Amendment-and-Extension/default.aspx",
+      "access": "Web tool read; minimum-liquidity trigger conflicts with contract"
+    },
+    {
+      "id": "q2_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000069/hpp-20260630.htm",
+      "access": "Web tool read; direct download 403"
+    },
+    {
+      "id": "q2_supplement",
+      "url": "https://s22.q4cdn.com/675150095/files/doc_financials/2026/q2/HPP-Q2-2026-Supplemental-compressed.pdf",
+      "sha256": "04a79d4d8c49e242dfac10e8c1797d9268a8620ec5ba1f5dfea01326050750e3",
+      "access": "Existing downloaded PDF, page 15 visually inspected again"
+    },
+    {
+      "id": "howard_sale",
+      "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/press-release-details/2026/Hudson-Pacific-Sells-875-and-899-Howard-in-San-Francisco/default.aspx",
+      "access": "Web tool read; direct download 403"
+    },
+    {
+      "id": "hollywood_extension",
+      "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000073/hpp-20260909.htm",
+      "access": "Web tool read"
+    },
+    {
+      "id": "tender",
+      "url": "https://s22.q4cdn.com/675150095/files/doc_news/2026/10/HPP-Tender-PR-FINAL.pdf",
+      "sha256": "36d86c76586741b78b0a889005c12a590fc6e1a68c8d0261e9c6e451679933ea",
+      "access": "Existing downloaded PDF/text"
+    },
+    {
+      "id": "q3_release_schedule",
+      "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/press-release-details/2026/Hudson-Pacific-Properties-Announces-Date-for-Third-Quarter-Earnings-Release-and-Conference-Call/default.aspx",
+      "access": "Web tool read; direct download 403"
+    },
+    {
+      "id": "latest_releases_checked",
+      "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/default.aspx",
+      "access": "Web tool read Oct 9; latest listed event Oct 5; not a guarantee no later publication"
+    }
+  ]
+}

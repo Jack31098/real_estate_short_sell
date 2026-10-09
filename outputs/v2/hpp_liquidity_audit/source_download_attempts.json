@@ -1,0 +1,50 @@
+[
+  {
+    "key": "fifth_amendment",
+    "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251225000139/hpp-fifthamendmenttocred.htm",
+    "retrieved_at": "2026-10-09T19:06:04.956949+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "financial_covenants",
+    "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251225000139/hpp-fifthamendmenttocred165.jpg",
+    "retrieved_at": "2026-10-09T19:06:04.956949+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "default_clauses",
+    "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251225000139/hpp-fifthamendmenttocred171.jpg",
+    "retrieved_at": "2026-10-09T19:06:04.957950+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "q2_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1482512/000148251226000069/hpp-20260630.htm",
+    "retrieved_at": "2026-10-09T19:06:04.957950+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "howard_sale",
+    "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/press-release-details/2026/Hudson-Pacific-Sells-875-and-899-Howard-in-San-Francisco/default.aspx",
+    "retrieved_at": "2026-10-09T19:06:05.183456+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "q3_release_schedule",
+    "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/press-release-details/2026/Hudson-Pacific-Properties-Announces-Date-for-Third-Quarter-Earnings-Release-and-Conference-Call/default.aspx",
+    "retrieved_at": "2026-10-09T19:06:05.200180+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "latest_releases",
+    "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/default.aspx",
+    "retrieved_at": "2026-10-09T19:06:05.218836+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "sec_filings",
+    "url": "https://investors.hudsonpacificproperties.com/investor-resources/sec-filings/default.aspx",
+    "retrieved_at": "2026-10-09T19:06:05.244527+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
